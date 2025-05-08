@@ -1,0 +1,154 @@
+% ================================================================================
+% Pastikan isi semua data pada file "properti_dokumen.tex" di folder "konfigurasi"
+% ================================================================================
+
+
+% Memanggil Package MathFmipaUnmul yang telah dibuat
+\documentclass{konfigurasi/MathFmipaUnmul}
+
+% Memasukkan properti data dari file lain yang telah dikonfigurasi
+\input{konfigurasi/properti_dokumen}
+\input{hyphenation/hyphenation}
+\addbibresource{daftar_pustaka/daftar_pustaka.bib}
+
+% ========================================================================
+%                            KERANGKA DOKUMEN
+% ========================================================================
+\begin{document}
+
+% -------------------------- Bagian Awal ---------------------------------
+
+% => Halaman Sampul Luar
+\input{perangkat_skripsi/01_Sampul_Luar}
+
+% Pemberian nomor halaman i sesi ini dimulai dari halaman ini
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+% => Halaman Sampul Dalam
+\input{perangkat_skripsi/02_Sampul_Dalam.tex}
+
+% Pengaturan format otomatis untuk susunan lembar pernyataan, pengesahan, dll mengikuti value \tahap
+\ifthenelse{\equal{\tahap}{semhas}}{
+  % => Lembar pengesahan
+  \input{perangkat_skripsi/04_Hal_Pengesahan}
+
+  % => Abstrak
+  \input{badan_skripsi/00_Abstrak}
+
+  % => Abstract
+  \input{badan_skripsi/00_Abstract}
+}{
+  \ifthenelse{\equal{\tahap}{pendadaran}}{
+    % => Lembar pengesahan
+    \input{perangkat_skripsi/04_Hal_Pengesahan}
+
+    % => Abstrak
+    \input{badan_skripsi/00_Abstrak}
+
+    % => Abstract
+    \input{badan_skripsi/00_Abstract}
+  }{
+    \ifthenelse{\equal{\tahap}{pengesahan}}{
+      % => Lembar pernyataan
+      \input{perangkat_skripsi/03_Hal_Pernyataan}
+
+      % => Lembar pengesahan
+      \input{perangkat_skripsi/04_Hal_Pengesahan}
+
+      % => Lembar Kelulusan
+      \input{perangkat_skripsi/05_Hal_Kelulusan}
+
+      % => Lembar publikasi
+      \input{perangkat_skripsi/06_Hal_Publikasi}
+
+      % => Abstrak
+      \input{badan_skripsi/00_Abstrak}
+
+      % => Abstract
+      \input{badan_skripsi/00_Abstract}
+    }
+  }
+}
+
+% => Halaman prakata
+\input{perangkat_skripsi/07_Hal_Prakata}
+
+% => Daftar isi
+% Memasukkan "DAFTAR ISI" ke dalam daftar isi
+\addChapter{DAFTAR ISI}
+\tableofcontents
+\pagebreak
+
+% => Daftar Gambar
+% Memasukkan "DAFTAR GAMBAR" ke dalam daftar isi
+\addChapter{DAFTAR GAMBAR}
+\listoffigures
+\pagebreak
+
+% => Daftar Tabel
+% Memasukkan "DAFTAR TABEL" ke dalam daftar isi
+\addChapter{DAFTAR TABEL}
+\listoftables
+\pagebreak
+
+% => Daftar Lampiran
+% Memasukkan "DAFTAR LAMPIRAN" ke dalam daftar isi
+% \addChapter{DAFTAR LAMPIRAN}
+% \listofappendices
+% \pagebreak
+
+% => Daftar Simbol
+\addChapter{DAFTAR SIMBOL}
+\input{perangkat_skripsi/08_Daftar_Simbol}
+% ------------------------------------------------------------------------
+
+% ------------------------- Bagian Inti Naskah ---------------------------
+
+% Pemberian nomor halaman 1 sesi ini dimulai dari halaman ini
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% => Bab 1
+\input{badan_skripsi/01_Bab_1}
+
+% => Bab 2
+\input{badan_skripsi/02_Bab_2}
+
+% => Bab 3
+\input{badan_skripsi/03_Bab_3}
+
+% Pengaturan otomatis untuk memunculkan Bab 4 dan 5 sesuai value \tahap 
+\ifthenelse{\equal{\tahap}{sempro}}{
+
+}{
+  % => Bab 4
+  \input{badan_skripsi/04_Bab_4}
+
+  % => Bab 5
+  \input{badan_skripsi/05_Bab_5}
+}
+% ------------------------------------------------------------------------
+
+% ------------------------------- Bagian Akhir ---------------------------
+
+% => Daftar Pustaka
+\input{perangkat_skripsi/09_Daftar_Pustaka}
+
+% Pengaturan otomatis untuk memunculkan lampiran dan riwayat hidup sesuai value \tahap
+\ifthenelse{\equal{\tahap}{sempro}}{
+
+}{
+  % => Lampiran
+  \input{lampiran/01_lampiran}
+
+  % => Riwayat Hidup
+  \input{perangkat_skripsi/10_Riwayat_Hidup}
+}
+% -----------------------------------------------------------------------
+
+\end{document}
+
+% =========================================================================
+%                             AKHIR DOKUMEN
+% =========================================================================

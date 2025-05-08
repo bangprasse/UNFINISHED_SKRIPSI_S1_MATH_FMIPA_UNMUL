@@ -1,0 +1,158 @@
+% Mengubah pengaturan nomor halaman untuk sesi BAB
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{\thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+
+% Memberikan label pada BAB ini
+\renewcommand{\thechapter}{\Roman{chapter}}
+\chapter{PENDAHULUAN}\label{babSatu}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\vspace{8mm}
+
+% Mengatur jarak spasi baris
+\setstretch{1.4}
+
+% Subbab
+\section{Latar Belakang}
+\vspace{-4mm}
+{\frenchspacing
+    % TOPIK = Penjadwalan Produksi Film
+    Syuting atau kegiatan pengambilan gambar dalam proses produksi film, sering kali memiliki susunan urutan adegan-adegan (\textit{scenes}) yang tidak diambil secara terurut seperti
+    urutan saat film tersebut ditayangkan \mycite{Qin:2016}.
+    Salah satu faktor utama yang dipertimbangkan dalam pemilihan urutan \textit{scenes} adalah lokasi dan biaya.
+    Besar biaya transportasi yang dikeluarkan berbanding lurus dengan semakin banyak \textit{scenes} dengan lokasi syuting yang berbeda.
+    % Semakin banyak \textit{scene} dengan lokasi syuting yang berbeda,
+    % maka biaya transportasi untuk berpindah-pindah antar lokasi syuting semakin membesar.
+    Jumlah biaya transportasi yang bertambah perlu diwaspadai agar tidak menyebabkan permasalahan pada biaya operasional produksi film.
+
+    % MASALAH = Pemilihan Urutan Scene Syuting
+    Tahap produksi sebuah film merupakan proses eksekusi semua hal yang telah dipersiapkan pada tahap pra-produksi, termasuk kegiatan syuting untuk setiap \textit{scene} \mycite{Haren:2015}.
+    Pelaksanaan tahap produksi mengharuskan seluruh kru dan pemain (\textit{talent}) produksi film berpindah-pindah lokasi sesuai lokasi syuting \textit{scene}.
+    Akibatnya terdapat biaya tambahan berupa biaya transportasi yang dikeluarkan saat melakukan perpindahan lokasi syuting.
+    Oleh karena itu, pemilihan urutan \textit{scene} syuting mempertimbangkan faktor lokasi dengan memilih total biaya pelaksanaan syuting dan biaya perpindahan antar lokasi \textit{scene} yang minimum.
+    Permasalahan pemilihan urutan \textit{scene} dapat dipandang sebagai permasalahan rute terpendek dengan pengoptimalan biaya perpindahan lokasi \textit{scene} sebagai objek bahasan.
+    Matematika diskret dapat diterapkan terhadap optimasi biaya dalam permasalahan rute terpendek \mycite{Qin:2016}.
+
+    % RANCANGAN SOLUSI
+    % - Matematika diskret
+    Matematika diskret merupakan salah satu cabang matematika dengan ruang lingkup kajian berupa objek-objek permasalahan secara diskret \mycite{Nasir:2022}.
+    Suatu objek dapat dikatakan objek secara diskret jika objek tersebut terdiri dari sejumlah berhingga anggota dan tiap anggotanya berbeda atau tidak terhubung.
+    Salah satu penerapan dari matematika diskret adalah sistem penyimpanan informasi pada komputer digital yang disimpan dalam bentuk diskret.
+    Cakupan dalam matematika diskret mempelajari diantaranya himpunan, relasi dan fungsi, induksi matematika, kombinatorial, dan teori graf \mycite{Yurinanda:2023}.
+
+    % - Teori Graf
+    Teori graf termasuk ke dalam cakupan matematika diskret. Konsep teori graf pertama kali diperkenalkan oleh Leonhard Euler saat memodelkan solusi
+    untuk melewati ketujuh jembatan K$\ddot{o}$nigsberg di Rusia dengan masing-masing jembatan hanya boleh dilewati tepat satu kali dan kembali ke tempat semula perjalanan dimulai.
+    Sebuah graf $G$ merupakan pasangan terurut himpunan berhingga yang tidak kosong dari simpul (\textit{vertices}) dan himpunan pasangan dari simpul-simpul secara tidak terurut.
+    Implementasi teori graf sering digunakan untuk memecahkan permasalahan optimasi, seperti optimasi pencarian rute terpendek pada konsep \textit{traveling salesman problem} (TSP) \mycite{Setiawati:2023}.
+
+    % = Optimasi
+    Optimasi atau optimalisasi merupakan suatu prinsip pencarian solusi layak yang bersifat tepat, efektif, dan efisien (optimum) \mycite{Atiqoh:2020}.
+    Pengertian ptimasi juga dapat diartikan sebagai tindakan tersistematis yang memaksimalkan sumber daya yang tersedia dengan tujuan menemukan solusi optimal.
+    Penerapan optimasi sering diterapkan dalam banyak permasalahan yang memiliki keterbatasan sumber daya, seperti permasalahan pencarian rute terpendek pada konsep \textit{traveling salesman problem} (TSP).
+
+    % - Travelinging Salesman Problem (TSP)
+    \textit{Traveling Salesman Problem} (TSP) merupakan konsep rute terpendek pada seorang penjual (\textit{salesman}) yang harus mengunjungi semua kota dan harus kembali ke kota awal serta satu kota hanya boleh dikunjungi satu kali \mycite{Rahimi:2023}.
+    Permasalahan optimasi TSP termasuk ke dalam persoalan optimasi kombinatorial dengan memanfaatkan graf sebagai representasi dari model permasalahan.
+    Representasi masalah TSP umumnya dimodelkan ke dalam graf dengan simpul (\textit{vertices}) sebagai lokasi dan sisi (\textit{edge}) sebagai bobot atau biaya yang akan dioptimalkan.
+    Permasalan TSP dapat diselesaikan menggunakan penerapan algoritma \textit{Particle Swarm Optimization} (PSO).
+
+    % - Algoritma Particle Swarm Optimization
+    \textit{Particle Swarm Optimization} (PSO) merupakan algoritma optimasi stokasi terinspirasi dari perilaku sosial burung atau ikan yang berkelompok dalam mencari makan \mycite{Azhari:2018}.
+    Algoritma \textit{Particle Swarm Optimization} (PSO) ini termasuk ke dalam algoritma heuristik berbasis populasi.
+    Pencarian solusi optimal menggunakan perilaku partikel dalam populasi itu sendiri.
+    Setiap partikel berperilaku sebagai pencari lingkungan dengan kecerdasan untuk saling berkontribusi dan berkomunikasi dalam mencari letak objek bahasan.
+
+    % GAP PENELITIAN
+    Penelitian sebelumnya tentang algoritma \textit{Particle Swarm Optimization} (PSO) telah dilakukan oleh beberapa peneliti terdahulu, antara lain \textcite{Azhari:2018} dalam penelitian yang membahas tentang penentuan rute penjemputan angkutan sekolah di MI Salafiyah Kasim.
+    Dengan 2 kloter pengantaran, 150 partikel, 35 iterasi, dan 5 kali percobaan yang dihitung menghasilkan 3 percobaan dengan rute yang lebih optimal dari rute aktual.
+    \textcite{Natalia:2019} dalam penelitian yang membahas tentang penentuan jarak penjemputan penumpang optimal di CV. Eira Saudara.
+    Dengan 8 titik lokasi penjemputan dan 90 partikel yang dihitung menghasilkan rute optimal dengan total jarak 59,2 Km.
+    \textcite{Dalyono:2017} dalam penelitian yang membahas tentang penentuan rute kunjungan tempat pariwisata di Kota Bandung.
+    Dengan 2 set lokasi pariwasata dihitung dengan 2 kali pengujian, yaitu pengujian pertama dilakukan dengan mengubah 5 parameter pada set pertama dan pengujian kedua membandingkan waktu tempuh luaran antara algoritma \textit{Particle Swarm Optimization} (PSO) dan algoritma \textit{Artificial Immune System} (AIS).
+
+    % KEBARUAN 
+    Pada penelitian ini, permasalahan pemilihan urutan \textit{scene} syuting dapat dipandang ke dalam permasalahan optimasi dengan konsep TSP.
+    Sehingga penulis akan menggunakan algoritma \textit{Particle Swarm Optimization} (PSO) untuk mencari solusi dalam pemilihan urutan \textit{scene} syuting yang optimal pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+    Film "Ketika Adzan Sudah Tidak Lagi Berkumandang" merupakan film berkategori film layar lebar dengan genre horor.
+    Film ini diproduksi oleh komunitas East Borneo Film (EBF).
+    Proses produksi film ini menggunakan tiga lokasi utama yang berbeda, yaitu Waduk Tenggarong, Desa Loa Raya, dan Desa Kedang Ipil.
+    Setiap lokasi utama terdapat beberapa titik lokasi yang menjadi lokasi syuting \textit{scene} yang berbeda.
+    Hal ini memerlukan strategi dalam pemilihan urutan \textit{scene} syuting guna menjaga peningkatan biaya transportasi agar biaya produksi tetap minimum.
+
+    % KESIMPULAN SOLUSI 
+    Berdasarkan uraian di atas, penulis akan membahas mengenai masalah pemilihan urutan \textit{scene} syuting dengan menggunakan algoritma \textit{Particle Swarm Optimization} (PSO) dengan judul
+    "\judul".
+}
+\vspace{-4mm}
+
+% Subbab
+\section{Batasan Masalah}
+\vspace{-4mm}
+{\frenchspacing
+    Batasan masalah yang digunakan pada penelitian ini untuk mencapai tujuan yang diharapkan adalah:
+
+    \begin{enumerate}[left = 0em, align = left, nolistsep]
+        \item Data yang digunakan adalah data dari \textit{Master Breakdown} film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+        \item Data lokasi yang digunakan adalah data lokasi syuting dari setiap \textit{scene}.
+        \item Asumsi yang digunakan antara lain:
+              \begin{enumerate}[align = left, label=(\alph*), nolistsep]
+                  \item biaya perpindahan antar setiap \textit{scene} merupakan total biaya transportasi ditambahkan biaya talent yang bermain pada \textit{scene} tujuan,
+                  \item biaya transportasi merupakan jumlah konsumsi bahan bakar dalam Rupiah,
+                  \item kendaraan berjumlah tiga, yaitu satu kendaraan untuk seluruh pemain (\textit{talent}) dan dua kendaraan untuk perlengkapan produksi,
+                  \item harga bahan bakar yang digunakan adalah harga bahan bakar jenis Pertalite per bulan Juni 2024, yaitu seharga Rp. $10.000,-$.
+              \end{enumerate}
+        \item Graf yang digunakan dalam penelitian ini adalah graf tak berarah.
+    \end{enumerate}
+}
+\vspace{-4mm}
+
+
+% Subbab
+\section{Rumusan Masalah}
+\vspace{-4mm}
+{\frenchspacing
+    Berdasarkan latar belakang yang telah diuraikan, rumusan masalah pada penelitian ini adalah:
+
+    \begin{enumerate}[left = 0em, align = left, nolistsep]
+        \item Bagaimana model graf \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang"?
+        \item Bagaimana penerapan algoritma \textit{Particle Swarm Optimization} (PSO) untuk optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang"?
+        \item Bagaimana hasil optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" menggunakan algoritma \textit{particle swarm optimization} (PSO)?
+    \end{enumerate}
+}
+\vspace{-4mm}
+
+% Subbab
+\section{Tujuan Penelitian}
+\vspace{-4mm}
+{\frenchspacing
+    Berdasarkan rumusan masalah yang telah diuraikan, maka tujuan yang diharapkan dapat dicapai pada penelitian ini adalah:
+
+    \begin{enumerate}[left = 0em, align = left, nolistsep]
+        \item Mengetahui model graf \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+        \item Mengetahui penerapan algoritma \textit{Particle Swarm Optimization} (PSO) untuk optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+        \item Mengetahui hasil optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" menggunakan algoritma \textit{particle swarm optimization} (PSO).
+    \end{enumerate}
+}
+\vspace{-3mm}
+
+% Subbab
+\section{Manfaat Penelitian}
+\vspace{-4mm}
+{\frenchspacing
+    Manfaat yang diharapkan pada penelitian ini adalah:
+
+    \begin{enumerate}[left = 0em, align = left, nolistsep]
+        \item Bagi penulis dan pembaca, dapat memberikan pemahaman lebih luas mengenai penerapan algoritma \textit{Particle Swarm Optimization} (PSO).
+        \item Bagi universitas, dapat memberikan kontribusi pengembangan ilmu pengetahuan serta dapat menjadi bahan referensi bagi mahasiswa lain.
+        \item Bagi pihak terkait, dapat memberikan pemahaman mengenai penerapan algoritma \textit{Particle Swarm Optimization} (PSO) dan dapat digunakan untuk membantu pemilihan urutan \textit{scene} syuting film yang akan mendatang.
+    \end{enumerate}
+}
+\vspace{-3mm}
+
+% Memotong halaman
+\pagebreak

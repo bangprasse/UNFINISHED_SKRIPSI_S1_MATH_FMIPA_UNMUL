@@ -1,0 +1,151 @@
+% Memberikan label pada BAB ini
+\renewcommand{\thechapter}{\Roman{chapter}}
+\chapter{METODE PENELITIAN}\label{babTiga}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\vspace{8mm}
+
+% SubBab
+\section{Waktu dan Tempat Penelitian}
+\vspace{-4mm}
+{\frenchspacing
+    Penelitian ini dilaksanakan pada bulan Maret 2025 sampai Mei 2025.
+    Pengambilan data dilakukan pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+    Pengolahan data dalam penelitian ini dilakukan di Laboratorium Matematika Dasar dan Laboratorium Matematika Komputasi yang terletak di
+    Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Mulawarman, Samarinda, Kalimantan Timur.
+}
+\vspace{-10mm}
+
+% SubBab
+\section{Variabel Penelitian}
+\vspace{-4mm}
+{\frenchspacing
+    Variabel yang digunakan dalam penelitian ini adalah lokasi syuting setiap \textit{scene} dan biaya perpindahan antar setiap \textit{scene} pada film
+    "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+    Penelitian ini memfokuskan pada pemilihan urutan syuting \textit{scene} dengan konsep \textit{traveling salesman problem} menggunakan algoritma \textit{particle swarm optimization} sehingga tahap syuting setiap \textit{scene} berjalan lebih efektif dan efisien.
+    Variabel yang digunakan dapat dilihat pada tabel berikut:
+
+    \begin{table}
+        \centering
+        \caption{Variabel Penelitian}
+        \label{tab: variabel penelitian}
+        \begin{tabular}{|l|l|l|}
+            \hline
+            \multicolumn{1}{|c|}{\textbf{Variabel}} & \multicolumn{1}{c|}{\textbf{Keterangan}}   & \multicolumn{1}{c|}{\textbf{Satuan}} \\ \hline
+            $v_{i}$                                 & Titik atau lokasi ke-$i$                   & -                                    \\ \hline
+            $v_{i}v_{j}$                            & Biaya antara titik ke-$i$ dan titik ke-$j$ & Rupiah (Rp)                          \\ \hline
+        \end{tabular}
+    \end{table}
+}
+\vspace{-3mm}
+
+% SubBab
+\section{Teknik Pengumpulan Data}
+\vspace{-4mm}
+{\frenchspacing
+    Teknik pengumpulan data yang digunakan dalam penelitian ini adalah menggunakan data sekunder.
+    Data sekunder yang diambil dari \textit{Master Breakdown} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" terdiri dari lokasi syuting setiap \textit{scene}, pemain (\textit{talent}) di setiap \textit{scene},
+    dan biaya setiap pemain (\textit{talent}).
+    Sedangkan data sekunder yang diambil dari aplikasi Google Maps adalah jarak dari lokasi syuting setiap \textit{scene}.
+}
+\vspace{-3mm}
+
+% SubBab
+\section{Populasi dan Sampel Penelitian}
+\vspace{-4mm}
+{\frenchspacing
+    Populasi pada penelitian ini adalah rute dan biaya perpindahan antar setiap \textit{scene} pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+    Sampel yang digunakan pada penelitian ini sama dengan populasi penelitian, yaitu seluruh rute dan biaya perpindahan antar setiap \textit{scene} pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+}
+\vspace{-3mm}
+
+% SubBab
+\section{Teknik Sampling}
+\vspace{-4mm}
+{\frenchspacing
+    Teknik sampling yang digunakan dalam penelitian ini adalah teknik \textit{purposive sampling}.
+    Teknik \textit{purposive sampling} merupakan teknik penentuan sampel dengan mempertimbangankan maksud dan tujuan tertentu karena sampel tersebut memiliki informasi yang diperlukan \mycite{Amin:2023}.
+    Pada penelitian ini sampel yang digunakan sama dengan populasi karena bertujuan untuk mengambil seluruh data pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+}
+\vspace{-3mm}
+
+% SubBab
+\section{Teknik Analisis Data}
+\vspace{-4mm}
+{\frenchspacing
+    Teknik analisis data pada penelitian ini menggunakan konsep \textit{traveling salesman problem} dengan metode algoritma \textit{particle swarm optimization}.
+    Adapun tahapan yang digunakan sebagai berikut:
+
+    \begin{enumerate}[align=left, left=0mm, nolistsep]
+        \item Mengumpulkan dan mempersiapkan data, dengan tahapan sebagai berikut: \par \nobreak
+              \begin{enumerate}[label=(\alph*), align=left, left=0mm, nolistsep]
+                  \item Mengumpulkan data lokasi syuting setiap \textit{scene}, pemain (\textit{talent}) di setiap \textit{scene}, biaya pemain (\textit{talent}) di setiap \textit{scene}, dan jarak antar lokasi syuting setiap \textit{scene}.
+                  \item Menghitung biaya perpindahan antar setiap \textit{scene}.
+              \end{enumerate}
+        \item Studi Literatur \par \nobreak
+              Studi literatur dilakukan untuk mendapatkan informasi dari buku-buku dan catatan penelitian terdahulu mengenai konsep \textit{traveling salesman problem} dengan metode algoritma \textit{particle swarm optimization}.
+              Informasi tersebut akan menjadi pendukung dari ide dalam penyelesaian masalah.
+        \item Merumuskan masalah dan variabel penelitian
+        \item Melakukan tahap inisialisasi, dengan tahapan sebagai berikut: \par \nobreak
+              \begin{enumerate}[label=(\alph*), align=left, left=0mm, nolistsep]
+                  \item Menentukan jumlah iterasi maksimum $(n)$.
+                  \item Menentukan ukuran \textit{swarm} $(N)$ dan dimensi partikel $(d)$.
+                  \item Menentukan \textit{learning rates} ($c_{1}$ dan $c_{2}$).
+                  \item Menentukan batas atas $(X_{max})$ dan batas bawah $(X_{min})$ dari posisi partikel.
+                  \item Menentukan \textit{velocity} maksimum $(V_{max})$.
+                  \item Membangkitkan \textit{velocity} awal $(\textbf{\textit{V}}_{j}^{(0)})$ sejumlah $N$ partikel.
+                  \item Membangkitkan posisi awal $(\textbf{\textit{X}}_{j}^{(0)})$ sejumlah $N$ partikel.
+                  \item Mengevaluasi hasil rute setiap partikel.
+                  \item Mengevaluasi nilai fungsi \textit{fitness} setiap partikel.
+                  \item Menentukan $P_{best,j}^{(0)}$ setiap partikel dan $G_{best}^{(0)}$.
+              \end{enumerate}
+        \item Melakukan tahap perulangan, dengan tahapan sebagai berikut: \par \nobreak
+              \begin{enumerate}[label=(\alph*), align=left, left=0mm, nolistsep]
+                  \item Membangkitkan \textit{inertia weight} $(\omega^{(i)})$.
+                  \item Membangkitkan $r_{1}^{(i)}$ dan $r_{2}^{(i)}$.
+                  \item Memperbarui \textit{velocity} setiap partikel.
+                  \item Memperbarui posisi setiap partikel.
+                  \item Mengevaluasi hasil rute setiap partikel.
+                  \item Mengevaluasi nilai fungsi \textit{fitness} setiap partikel.
+                  \item Menentukan $P_{best}^{(i)}$ setiap partikel dan $G_{best}^{(i)}$.
+                  \item Mengevaluasi kriteria pemberhentian.
+              \end{enumerate}
+        \item Menarik kesimpulan urutan syuting \textit{scene} menggunakan hasil rute terbaik dari $G_{best}$.
+    \end{enumerate}
+
+}
+\vspace{-3mm}
+
+\pagebreak
+% SubBab
+\section{Kerangka Penelitian}
+\vspace{-4mm}
+{\frenchspacing
+    Kerangka dari penelitian ini disajikan dalam \textit{flowchart} sebagai berikut:
+
+    \begin{figure}
+        \centering
+        \begin{tikzpicture}[node distance = 2.5cm]
+            \node (start) [startstop] {Mulai};
+            \node (input1) [inout, below of = start] {Data};
+            \node (proc1) [process, below of = input1] {Studi Literatur};
+            \node (proc2) [process, below of = proc1] {Merumuskan Masalah};
+            \node (proc3) [process, below of = proc2] {Membuat Model Matematika \textit{Traveling Salesman Problem}};
+            \node (proc4) [process, below of = proc3] {Menyelesaikan Model Matematika \textit{Traveling Salesman Problem} \\ dengan Algoritma \textit{Particle Swarm Optimization}};
+            \node (output1) [inout, below of = proc4] {Memperoleh Urutan Syuting \textit{Scene} Optimal \\ Berdasarkan Hasil Rute Terbaik};
+            \node (stop) [startstop, below of = output1] {Selesai};
+
+            \draw [arrow] (start) -- (input1);
+            \draw [arrow] (input1) -- (proc1);
+            \draw [arrow] (proc1) -- (proc2);
+            \draw [arrow] (proc2) -- (proc3);
+            \draw [arrow] (proc3) -- (proc4);
+            \draw [arrow] (proc4) -- (output1);
+            \draw [arrow] (output1) -- (stop);
+
+        \end{tikzpicture}
+        \vspace{5mm}
+        \caption{\textit{Flowchart} Kerangka Penelitian}
+        \label{gam: Kerangka Penelitian}
+    \end{figure}
+}
+\vspace{-3mm}

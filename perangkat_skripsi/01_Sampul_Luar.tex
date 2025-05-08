@@ -1,0 +1,32 @@
+% Pengaturan posisi nomor halaman untuk sampul luar
+\thispagestyle{empty}
+
+% Pengaturan margin untuk halaman sampul luar
+\newgeometry{left = 3cm, top = 3cm, right = 3cm, bottom = 3cm}
+
+\frenchspacing
+\begin{center}
+    % Judul Tulisan
+    \tb{\Judul \\ (\subjudul)}
+    \vfill
+
+    % Tipe Naskah
+    \tb{\large\Tipe}
+    \vfill
+
+    % Logo Universitas Mulawarman
+    \includegraphics[width = 3.45cm]{gambar/logo.png}
+    \vfill
+
+    % Identitas Mahasiswa Penulis
+    \tb{\mahasiswa \\ NIM. \nim}
+    \vfill
+
+    % Informasi Institut
+    \tb{\Prodi \\ \Jurusan \\ \Fakultas \\ \Institut \\ \Kota \\ \tahun}
+\end{center}
+
+\pagebreak
+
+% Mengembalikan margin seperti sebelumnya
+\restoregeometry
