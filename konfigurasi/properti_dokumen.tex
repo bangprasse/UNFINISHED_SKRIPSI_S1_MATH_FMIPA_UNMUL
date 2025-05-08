@@ -1,0 +1,85 @@
+% ========================================================================
+%                 ------ INPUT DATA PROPERTI DOKUMEN  ------
+% ========================================================================
+
+% Masukkan tahap naskah, pilih salah satu : {sempro/semhas/pendadaran/pengesahan}
+% Pastikan ditulis dengan huruf kecil
+\var{\tahap}{semhas}
+
+% Variabel tipe naskah
+% Nilai akan menyesuaikan dengan input \tahap di atas secara otomatis
+\ifthenelse{\equal{\tahap}{sempro}}{
+    \var{\tipe}{Proposal Skripsi}
+    \Var{\Tipe}{Proposal Skripsi}
+}{
+    \ifthenelse{\equal{\tahap}{semhas}}{
+        \var{\tipe}{Draf Skripsi}
+        \Var{\Tipe}{Draf Skripsi}
+    }{
+        \ifthenelse{\equal{\tahap}{pendadaran}}{
+            \var{\tipe}{Draf Skripsi}
+            \Var{\Tipe}{Draf Skripsi}
+        }{
+            % Todo for "pengesahan"
+            \var{\tipe}{Skripsi}
+            \Var{\Tipe}{Skripsi}
+        }
+    }
+}
+
+% Masukkan judul dalam bahasa Indonesia di sini
+\Var{\Judul}{Optimalisasi Pemilihan Urutan Syuting \textit{Scene} Film \\ Menggunakan Algoritma \textit{Particle Swarm Optimization}}
+\var{\subjudul}{Studi Kasus: Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
+\var{\judul}{Optimalisasi Pemilihan Urutan Syuting \textit{Scene} Film Menggunakan Algoritma \textit{Particle Swarm Optimization} (\subjudul)}
+
+% Masukkan data diri mahasiswa di sini
+\var{\mahasiswa}{Langgeng Prassadewo Sukma Adi Winoto Basla}
+\var{\nim}{1807065014}
+\var{\email}{langgengprassadewo@gmail.com}
+\var{\kontak}{082238691473}
+
+% Masukkan hari dan tanggal ujian
+\var{\hari}{Jumat}
+\var{\tanggalujian}{07 Maret 2025}
+
+% Masukkan tanggal penelitian
+\var{\tanggalpenelitian}{07 Maret 2025}
+
+% Variabel data pembimbing naskah ini
+\var{\pembimbinga}{Wasono, S.Si., M.Si.}
+\var{\nipa}{NIP. 19810712 202321 1 011}
+\var{\pembimbingb}{Fidia Deny Tisna Amijaya, S.Si., M.Si.}
+\var{\nipb}{NIP. 19880201 201504 1 033}
+
+% Variabel data penguji naskah ini
+\var{\pengujia}{Dr. Syaripuddin, S.Si., M.Si.}
+\var{\nippa}{19740112 200012 1 002}
+\var{\pengujib}{Andri Azmul Fauzi, S.Si., M.Si.}
+\var{\nippb}{19920608 202321 1 023}
+
+
+% Varianel data pejabat jurusan dan prodi
+\var{\kajur}{Dr. Syaripuddin, M.Si.}
+\var{\jabatankajur}{Ketua \jurusan, \fakultas, \institut, \kota}
+\var{\korprodi}{Qonita Qurrota A\'yun, S.Si., M.Sc.}
+\var{\jabatankorprodi}{Koordinator \prodi, \fakultas, \institut, \kota}
+
+
+% Variabel data perguruan tinggi dan fakultas
+\var{\dekan}{Dr. Dra. Hj. Ratna Kusuma, M.Si.}
+\var{\nipdekan}{19630416 198903 2 002}
+\var{\kota}{Samarinda}
+\Var{\Kota}{Samarinda}
+\var{\tahun}{2025}
+\var{\tingkat}{Sarjana}
+\var{\institut}{Universitas Mulawarman}
+\Var{\Institut}{UNIVERSITAS MULAWARMAN}
+\var{\fakultas}{Fakultas Matematika dan Ilmu Pengetahuan Alam}
+\Var{\Fakultas}{FAKULTAS MATEMATIKA DAN ILMU PENGETAHUAN ALAM}
+\var{\jurusan}{Jurusan Matematika}
+\Var{\Jurusan}{JURUSAN MATEMATIKA}
+\var{\prodi}{Program Studi S1 Matematika}
+\Var{\Prodi}{PROGRAM STUDI S1 MATEMATIKA}
+\var{\strata}{Sarjana Matematika}
+\Var{\Strata}{SARJANA MATEMATIKA}
+\var{\prasyarat}{Diajukan Sebagai Persyaratan Memperoleh Gelar \strata~pada \prodi,~\jurusan,~\institut}

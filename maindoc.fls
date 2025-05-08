@@ -1,0 +1,724 @@
+PWD d:\projek mamas\Langgeng Template Skripsi
+INPUT C:\Users\HP\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT d:\projek mamas\Langgeng Template Skripsi\maindoc.tex
+OUTPUT maindoc.log
+INPUT .\konfigurasi\MathFmipaUnmul.cls
+INPUT konfigurasi\MathFmipaUnmul.cls
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\book.cls
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\book.cls
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\bk12.clo
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\bk12.clo
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\bk12.clo
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\eso-pic\showframe.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\eso-pic\showframe.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\algorithms\algorithm.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\algorithms\algorithm.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\float\float.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\float\float.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\ifthen.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\ifthen.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\xspace.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\xspace.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\multicol.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\multicol.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\array.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\array.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\psnfss\times.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\psnfss\times.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mfirstuc\mfirstuc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mfirstuc\mfirstuc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\calc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\calc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\nicematrix\nicematrix.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\nicematrix\nicematrix.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\trig.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\trig.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfint.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\color.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\enumerate.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\enumerate.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\changepage\changepage.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\changepage\changepage.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplots.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplotscore.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\libs\pgfplotslibrary.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructure.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructureext.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsarray.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsmatrix.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\numtable\pgfplotstableshared.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsdeque.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.data.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.verb.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\libs\pgflibrarypgfplots.surfshading.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\util\pgfplotscolormap.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\util\pgfplotscolor.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplotsstackedplots.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplotsplothandlers.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplothandler.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplotimage.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplots.scaling.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplotscoordprocessing.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplots.errorbars.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplots.markers.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplotsticks.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\pgfplots.paths.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\bm.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\bm.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\matlab-prettifier\matlab-prettifier.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\matlab-prettifier\matlab-prettifier.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\textcomp.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\textcomp.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\listings\listings.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\listings\listings.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\listings\listings.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\listings\listings.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\listings\listings.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\inputenc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\inputenc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\ncctools\nccmath.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\ncctools\nccmath.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\soul\soul.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\soul\soul.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\soul\soul-ori.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\soul\soul-ori.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\jknappen\ec\ectt1000.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mdframed\mdframed.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mdframed\mdframed.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\zref\zref-abspage.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\zref\zref-abspage.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\zref\zref-base.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\zref\zref-base.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\needspace\needspace.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\needspace\needspace.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mdframed\md-frame-0.mdf
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mdframed\md-frame-0.mdf
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mdframed\md-frame-0.mdf
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\url\url.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\url\url.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\logreq\logreq.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\logreq\logreq.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\logreq\logreq.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\apa.dbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\apa.dbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\apa.dbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\apa.bbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\apa.bbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\apa.bbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\apa.cbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\apa.cbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\apa.cbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\caption\caption.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\caption\caption.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\caption\caption3.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\caption\caption3.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xifthen\xifthen.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xifthen\xifthen.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\ifmtarg\ifmtarg.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\ifmtarg\ifmtarg.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\textcase\textcase.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\textcase\textcase.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\titlesec\titletoc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\titlesec\titletoc.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tocloft\tocloft.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tocloft\tocloft.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarymatrix.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarymatrix.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT .\konfigurasi\properti_dokumen.tex
+INPUT .\konfigurasi\properti_dokumen.tex
+INPUT .\konfigurasi\properti_dokumen.tex
+INPUT .\konfigurasi\properti_dokumen.tex
+INPUT konfigurasi\properti_dokumen.tex
+INPUT .\hyphenation\hyphenation.tex
+INPUT .\hyphenation\hyphenation.tex
+INPUT .\hyphenation\hyphenation.tex
+INPUT .\hyphenation\hyphenation.tex
+INPUT hyphenation\hyphenation.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT .\maindoc.aux
+INPUT .\maindoc.aux
+INPUT maindoc.aux
+OUTPUT maindoc.aux
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT .\maindoc.out
+INPUT .\maindoc.out
+INPUT maindoc.out
+INPUT maindoc.out
+OUTPUT maindoc.pdf
+INPUT .\maindoc.out
+INPUT .\maindoc.out
+OUTPUT maindoc.out
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\english-apa.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\english-apa.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\english-apa.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\american-apa.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\american-apa.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex-apa\american-apa.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\lbx\american.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\lbx\american.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\lbx\american.lbx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+OUTPUT maindoc.bcf
+INPUT maindoc.bbl
+INPUT .\maindoc.bbl
+INPUT .\maindoc.bbl
+INPUT .\maindoc.bbl
+INPUT maindoc.bbl
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
+INPUT .\perangkat_skripsi\01_Sampul_Luar.tex
+INPUT .\perangkat_skripsi\01_Sampul_Luar.tex
+INPUT .\perangkat_skripsi\01_Sampul_Luar.tex
+INPUT .\perangkat_skripsi\01_Sampul_Luar.tex
+INPUT perangkat_skripsi\01_Sampul_Luar.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT .\gambar\logo.png
+INPUT .\gambar\logo.png
+INPUT .\gambar\logo.png
+INPUT .\gambar\logo.png
+INPUT .\gambar\logo.png
+INPUT .\gambar\logo.png
+INPUT .\gambar\logo.png
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\HP\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT .\perangkat_skripsi\02_Sampul_Dalam.tex
+INPUT .\perangkat_skripsi\02_Sampul_Dalam.tex
+INPUT perangkat_skripsi\02_Sampul_Dalam.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT .\perangkat_skripsi\04_Hal_Pengesahan.tex
+INPUT .\perangkat_skripsi\04_Hal_Pengesahan.tex
+INPUT .\perangkat_skripsi\04_Hal_Pengesahan.tex
+INPUT .\perangkat_skripsi\04_Hal_Pengesahan.tex
+INPUT perangkat_skripsi\04_Hal_Pengesahan.tex
+INPUT .\badan_skripsi\00_Abstrak.tex
+INPUT .\badan_skripsi\00_Abstrak.tex
+INPUT .\badan_skripsi\00_Abstrak.tex
+INPUT .\badan_skripsi\00_Abstrak.tex
+INPUT badan_skripsi\00_Abstrak.tex
+INPUT .\badan_skripsi\00_Abstract.tex
+INPUT .\badan_skripsi\00_Abstract.tex
+INPUT .\badan_skripsi\00_Abstract.tex
+INPUT .\badan_skripsi\00_Abstract.tex
+INPUT badan_skripsi\00_Abstract.tex
+INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
+INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
+INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
+INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
+INPUT perangkat_skripsi\07_Hal_Prakata.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT .\maindoc.toc
+INPUT .\maindoc.toc
+INPUT maindoc.toc
+OUTPUT maindoc.toc
+INPUT .\maindoc.lof
+INPUT .\maindoc.lof
+INPUT maindoc.lof
+OUTPUT maindoc.lof
+INPUT .\maindoc.lot
+INPUT .\maindoc.lot
+INPUT maindoc.lot
+OUTPUT maindoc.lot
+INPUT .\perangkat_skripsi\08_Daftar_Simbol.tex
+INPUT .\perangkat_skripsi\08_Daftar_Simbol.tex
+INPUT .\perangkat_skripsi\08_Daftar_Simbol.tex
+INPUT .\perangkat_skripsi\08_Daftar_Simbol.tex
+INPUT perangkat_skripsi\08_Daftar_Simbol.tex
+INPUT .\badan_skripsi\01_Bab_1.tex
+INPUT .\badan_skripsi\01_Bab_1.tex
+INPUT .\badan_skripsi\01_Bab_1.tex
+INPUT .\badan_skripsi\01_Bab_1.tex
+INPUT badan_skripsi\01_Bab_1.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT .\badan_skripsi\02_Bab_2.tex
+INPUT .\badan_skripsi\02_Bab_2.tex
+INPUT .\badan_skripsi\02_Bab_2.tex
+INPUT .\badan_skripsi\02_Bab_2.tex
+INPUT badan_skripsi\02_Bab_2.tex
+INPUT .\gambar\Graf Konigsberg.png
+INPUT .\gambar\Graf Konigsberg.png
+INPUT .\gambar\Graf Konigsberg.png
+INPUT .\gambar\Graf Konigsberg.png
+INPUT .\gambar\Graf Konigsberg.png
+INPUT .\gambar\Graf Konigsberg.png
+INPUT .\gambar\Graf Konigsberg.png
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT .\badan_skripsi\03_Bab_3.tex
+INPUT .\badan_skripsi\03_Bab_3.tex
+INPUT .\badan_skripsi\03_Bab_3.tex
+INPUT .\badan_skripsi\03_Bab_3.tex
+INPUT badan_skripsi\03_Bab_3.tex
+INPUT .\badan_skripsi\04_Bab_4.tex
+INPUT .\badan_skripsi\04_Bab_4.tex
+INPUT .\badan_skripsi\04_Bab_4.tex
+INPUT .\badan_skripsi\04_Bab_4.tex
+INPUT badan_skripsi\04_Bab_4.tex
+INPUT .\badan_skripsi\05_Bab_5.tex
+INPUT .\badan_skripsi\05_Bab_5.tex
+INPUT .\badan_skripsi\05_Bab_5.tex
+INPUT .\badan_skripsi\05_Bab_5.tex
+INPUT badan_skripsi\05_Bab_5.tex
+INPUT .\perangkat_skripsi\09_Daftar_Pustaka.tex
+INPUT .\perangkat_skripsi\09_Daftar_Pustaka.tex
+INPUT .\perangkat_skripsi\09_Daftar_Pustaka.tex
+INPUT .\perangkat_skripsi\09_Daftar_Pustaka.tex
+INPUT perangkat_skripsi\09_Daftar_Pustaka.tex
+INPUT .\lampiran\01_lampiran.tex
+INPUT .\lampiran\01_lampiran.tex
+INPUT .\lampiran\01_lampiran.tex
+INPUT .\lampiran\01_lampiran.tex
+INPUT lampiran\01_lampiran.tex
+INPUT .\perangkat_skripsi\10_Riwayat_Hidup.tex
+INPUT .\perangkat_skripsi\10_Riwayat_Hidup.tex
+INPUT .\perangkat_skripsi\10_Riwayat_Hidup.tex
+INPUT .\perangkat_skripsi\10_Riwayat_Hidup.tex
+INPUT perangkat_skripsi\10_Riwayat_Hidup.tex
+INPUT maindoc.aux
+INPUT .\maindoc.out
+INPUT .\maindoc.out
+INPUT maindoc.run.xml
+OUTPUT maindoc.run.xml
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\urw\times\utmri8a.pfb

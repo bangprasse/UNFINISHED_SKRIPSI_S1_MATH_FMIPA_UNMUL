@@ -1,0 +1,2773 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{Akhirina:2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=37a8dd156132ca2b8353cd151be39be9}{%
+           family={Akhirina},
+           familyi={A\bibinitperiod},
+           given={Tri\bibnamedelima Yani},
+           giveni={T\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=af354147003882a260f6c4a440d223c3}{%
+           family={Afrizal},
+           familyi={A\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \strng{fullhash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \strng{bibnamehash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \strng{authorbibnamehash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \strng{authornamehash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \strng{authorfullhash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Satuan Tulisan Riset dan Inovasi Teknologi}
+      \field{title}{{Pendekatan Matriks Ketetanggaan Berbobot Untuk Solusi \textit{Minimum Spanning Tree} (MST)}}
+      \field{volume}{4(3)}
+      \field{year}{2020}
+      \field{pages}{280\bibrangedash 287}
+      \range{pages}{8}
+    \endentry
+    \entry{Akpudo:2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6631afbcc7bf5e387a199c41486602a5}{%
+           family={Akpudo},
+           familyi={A\bibinitperiod},
+           given={Ugochukwu\bibnamedelima Ejike},
+           giveni={U\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=5b6ddd54ceee960e13810ce507ac5175}{%
+           family={{Jang-Wook}},
+           familyi={J\bibinitperiod},
+           given={Hur},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e502dfe463e4d4099c154c62485987a}
+      \strng{fullhash}{5e502dfe463e4d4099c154c62485987a}
+      \strng{bibnamehash}{5e502dfe463e4d4099c154c62485987a}
+      \strng{authorbibnamehash}{5e502dfe463e4d4099c154c62485987a}
+      \strng{authornamehash}{5e502dfe463e4d4099c154c62485987a}
+      \strng{authorfullhash}{5e502dfe463e4d4099c154c62485987a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{{A Multi-Domain Diagnotics Approach for Solenoid Pumps Based on Discriminative Features}}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{175020\bibrangedash 175034}
+      \range{pages}{15}
+    \endentry
+    \entry{Amin:2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=767218542879ec25a56fa3b372daaada}{%
+           family={Amin},
+           familyi={A\bibinitperiod},
+           given={Nur\bibnamedelima Fadilah.},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=323dfe6589b587e0c631153c5b47797f}{%
+           family={Garancang.},
+           familyi={G\bibinitperiod},
+           given={Sabaruddin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=687d2bc4b1c0c434fcb75f14528ff786}{%
+           family={Abunawas},
+           familyi={A\bibinitperiod},
+           given={Kamaluddin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{86a3d3032cf11703c7fcd37f03c9ab51}
+      \strng{fullhash}{080ed174036579dee87f513f1b5efc1f}
+      \strng{bibnamehash}{080ed174036579dee87f513f1b5efc1f}
+      \strng{authorbibnamehash}{080ed174036579dee87f513f1b5efc1f}
+      \strng{authornamehash}{86a3d3032cf11703c7fcd37f03c9ab51}
+      \strng{authorfullhash}{080ed174036579dee87f513f1b5efc1f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Kajian Islam Kontemporer (Jurnal PILAR)}
+      \field{title}{Konsep Umum Populasi dan Sampel Dalam Penelitian}
+      \field{volume}{14(1)}
+      \field{year}{2023}
+      \field{pages}{15\bibrangedash 31}
+      \range{pages}{17}
+    \endentry
+    \entry{Anwar:2024}{book}{}
+      \name{author}{10}{}{%
+        {{hash=3bd2e23bec3eab2299b9d4930339bd69}{%
+           family={Anwar},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=380805b52a24de142f8e69638549b9a5}{%
+           family={Pratamaningtyas.},
+           familyi={P\bibinitperiod},
+           given={Susanti},
+           giveni={S\bibinitperiod}}}%
+        {{hash=264910e59a637e223062fca1f10fc79d}{%
+           family={Rosita.},
+           familyi={R\bibinitperiod}}}%
+        {{hash=6dfa0a282f0b65f6f4b85f6959580beb}{%
+           family={Deni.},
+           familyi={D\bibinitperiod},
+           given={Asep},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dca933e57ce0386e4e5861fa34fb098e}{%
+           family={Lusono.},
+           familyi={L\bibinitperiod},
+           given={Akhir},
+           giveni={A\bibinitperiod}}}%
+        {{hash=367816d68d5b047a923102324d147a82}{%
+           family={Hermayanti.},
+           familyi={H\bibinitperiod}}}%
+        {{hash=2819cc1d596e3a002341d126764ed5fd}{%
+           family={Ulfa.},
+           familyi={U\bibinitperiod},
+           given={Adilla\bibnamedelima Kustya},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=0c66f8d32b28a5ba866c6804af91dbf5}{%
+           family={Wibowo.},
+           familyi={W\bibinitperiod},
+           given={Mochammad\bibnamedelimb Eric\bibnamedelima Suryakencana},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=1e3576ac52153aa6e373da484baabe5f}{%
+           family={Fatmawati.},
+           familyi={F\bibinitperiod},
+           given={Elia\bibnamedelima Resha},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=41a247096e89e009d32bd7ffb77982f9}{%
+           family={Chasanah},
+           familyi={C\bibinitperiod},
+           given={Amalia\bibnamedelima Nur},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Yayasan Cendikia Mulia Mandiri}%
+      }
+      \strng{namehash}{038059690d8d94f535cc5445de669fad}
+      \strng{fullhash}{1c451382cb2c08718cad14c81cda0f29}
+      \strng{bibnamehash}{1c451382cb2c08718cad14c81cda0f29}
+      \strng{authorbibnamehash}{1c451382cb2c08718cad14c81cda0f29}
+      \strng{authornamehash}{038059690d8d94f535cc5445de669fad}
+      \strng{authorfullhash}{1c451382cb2c08718cad14c81cda0f29}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pengambilan Keputusan}
+      \field{year}{2024}
+    \endentry
+    \entry{Atiqoh:2020}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8c0db18f70f925abf77bd954724a1844}{%
+           family={Atiqoh},
+           familyi={A\bibinitperiod},
+           given={Ayu\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {UIN Sunan Ampel Surabaya}%
+      }
+      \strng{namehash}{8c0db18f70f925abf77bd954724a1844}
+      \strng{fullhash}{8c0db18f70f925abf77bd954724a1844}
+      \strng{bibnamehash}{8c0db18f70f925abf77bd954724a1844}
+      \strng{authorbibnamehash}{8c0db18f70f925abf77bd954724a1844}
+      \strng{authornamehash}{8c0db18f70f925abf77bd954724a1844}
+      \strng{authorfullhash}{8c0db18f70f925abf77bd954724a1844}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analisis Inertia Weight Pada Algoritma Particle Swarm Optimization (PSO) Untuk Optimalisasi dan Pemodelan Sistem Terhadap Persoalan Vehicle Routing Problem With Time Window (VRPTW) (Skripsi)}
+      \field{year}{2020}
+    \endentry
+    \entry{Azhari:2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4a60b11c4d2eae2b0c46a0e99c6399a3}{%
+           family={Azhari},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi Khusnul.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=5bb11aca0a0e22359bdcd12a86049f85}{%
+           family={Cholissodin},
+           familyi={C\bibinitperiod},
+           given={Imam},
+           giveni={I\bibinitperiod}}}%
+        {{hash=33ce89c3175441b45bf903fda3db7a8d}{%
+           family={Bachtiar.},
+           familyi={B\bibinitperiod},
+           given={Fitra\bibnamedelima Abdurrachman},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{391ec7c5a0611ae967fd4f7715455c57}
+      \strng{fullhash}{e6ceaa95d267357c5c385bbb02d5cc26}
+      \strng{bibnamehash}{e6ceaa95d267357c5c385bbb02d5cc26}
+      \strng{authorbibnamehash}{e6ceaa95d267357c5c385bbb02d5cc26}
+      \strng{authornamehash}{391ec7c5a0611ae967fd4f7715455c57}
+      \strng{authorfullhash}{e6ceaa95d267357c5c385bbb02d5cc26}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer}
+      \field{title}{Optimasi \textit{Travel Salesman Problem} Pada Angkutan Sekolah Dengan Algoritma \textit{Particle Swarm Optimization}}
+      \field{volume}{2(11)}
+      \field{year}{2018}
+      \field{pages}{5691\bibrangedash 5699}
+      \range{pages}{9}
+    \endentry
+    \entry{Chafi:2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1db0e642f6985f78c282878a3e3ffe26}{%
+           family={Chafi},
+           familyi={C\bibinitperiod},
+           given={Zahra\bibnamedelima Shafiel.},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9627485e4ed2bc60cb1ec747885c84a7}{%
+           family={Afrakhte.},
+           familyi={A\bibinitperiod},
+           given={Hossein},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \strng{fullhash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \strng{bibnamehash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \strng{authorbibnamehash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \strng{authornamehash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \strng{authorfullhash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Problems in Engineering}
+      \field{title}{\textit{Short-Term Load Forecasting Using Neutral Network and Particle Swarm Optimization} (PSO) \textit{Algorithm}}
+      \field{volume}{2021(1)}
+      \field{year}{2021}
+      \field{pages}{5598267}
+      \range{pages}{1}
+    \endentry
+    \entry{Chen:2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fa3e6d3e56e160717c55aea3b3fe4412}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fenxiao.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0a4a5ca7f89aa3ce0e33225fd89ff98b}{%
+           family={Wang.},
+           familyi={W\bibinitperiod},
+           given={Yun-Cheng},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=dc58cd6a24a023ce7177d8f199d47875}{%
+           family={Wang.},
+           familyi={W\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a268d8a3418cee783d92a85798bcfae9}{%
+           family={{C.-C. Jay Kuo}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dd21fbdcead33613a76e69007ce7b18}
+      \strng{fullhash}{02963a249ca6d980c3a6c8bcc9b33e13}
+      \strng{bibnamehash}{02963a249ca6d980c3a6c8bcc9b33e13}
+      \strng{authorbibnamehash}{02963a249ca6d980c3a6c8bcc9b33e13}
+      \strng{authornamehash}{8dd21fbdcead33613a76e69007ce7b18}
+      \strng{authorfullhash}{02963a249ca6d980c3a6c8bcc9b33e13}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{APSIPA Transactions on Signal and Information Processing}
+      \field{title}{\textit{Graph Representation Learning: a Survey}}
+      \field{volume}{9(e15)}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 21}
+      \range{pages}{21}
+    \endentry
+    \entry{Dalyono:2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0f7877059bf21813b25fa2f07aad78f5}{%
+           family={Dalyono},
+           familyi={D\bibinitperiod},
+           given={Yodie\bibnamedelima P.},
+           giveni={Y\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=9ae52cc2d6228a8eb0efb3d9a16c75e1}{%
+           family={Herdiani},
+           familyi={H\bibinitperiod},
+           given={Anisa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=de317b94a0a132bd14673af924c0e8d8}{%
+           family={Rohmawati.},
+           familyi={R\bibinitperiod},
+           given={Aniq\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e9220f209cbb4bc2e5fe2ef390effb7}
+      \strng{fullhash}{ba9a5746170afd5e4933975fa9d8356e}
+      \strng{bibnamehash}{ba9a5746170afd5e4933975fa9d8356e}
+      \strng{authorbibnamehash}{ba9a5746170afd5e4933975fa9d8356e}
+      \strng{authornamehash}{3e9220f209cbb4bc2e5fe2ef390effb7}
+      \strng{authorfullhash}{ba9a5746170afd5e4933975fa9d8356e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{eProcidings of Engineering}
+      \field{title}{Penentuan Rute Pariwisata Kota Bandung Menggunakan Algoritma \textit{Particle Swarm Optimization}}
+      \field{volume}{4(3)}
+      \field{year}{2017}
+      \field{pages}{4811\bibrangedash 4817}
+      \range{pages}{7}
+    \endentry
+    \entry{Darmawan:2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f42e844ec60e521612a8854d8ab3581c}{%
+           family={Darmawan},
+           familyi={D\bibinitperiod},
+           given={Rizqi.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2b3275f929db5d542ce30e27a413242e}{%
+           family={Indra.},
+           familyi={I\bibinitperiod}}}%
+        {{hash=5c2ef776ffed5456de7e3bbc10f8adcd}{%
+           family={Surahmat},
+           familyi={S\bibinitperiod},
+           given={Asep},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c1a124c81bb5a1c433ec2f869bc841e}
+      \strng{fullhash}{a7a297b205cf0d1509f5d36723fc9638}
+      \strng{bibnamehash}{a7a297b205cf0d1509f5d36723fc9638}
+      \strng{authorbibnamehash}{a7a297b205cf0d1509f5d36723fc9638}
+      \strng{authornamehash}{4c1a124c81bb5a1c433ec2f869bc841e}
+      \strng{authorfullhash}{a7a297b205cf0d1509f5d36723fc9638}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Kajian Ilmiah}
+      \field{title}{Optimalisasi \textit{Support Vector Machine} (SVM) Berbasis \textit{Particle Swarm Optimization} (PSO) Pada Analisis Sentimen Terhadap \textit{Official Account} Ruang Guru di Twitter}
+      \field{volume}{22(2)}
+      \field{year}{2022}
+      \field{pages}{143\bibrangedash 152s}
+      \range{pages}{-1}
+    \endentry
+    \entry{Riri:2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a4aa0bec266ab3aa6b975fced65d513a}{%
+           family={Devita},
+           familyi={D\bibinitperiod},
+           given={Riri\bibnamedelima Nada.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=ff09fc77a056a7d0920b955671c2d290}{%
+           family={Wibawa},
+           familyi={W\bibinitperiod},
+           given={Aji\bibnamedelima Prasetya},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \strng{fullhash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \strng{bibnamehash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \strng{authorbibnamehash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \strng{authornamehash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \strng{authorfullhash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sains, Aplikasi, Komputasi dan Teknologi Informasi (SAKTI)}
+      \field{title}{Teknik-teknik Optimasi \textit{Knapsack Problem}}
+      \field{volume}{2(1)}
+      \field{year}{2020}
+      \field{pages}{35\bibrangedash 40}
+      \range{pages}{6}
+    \endentry
+    \entry{Eltamaly:2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d962037fec2163d0c68444e803a6e730}{%
+           family={Eltamaly},
+           familyi={E\bibinitperiod},
+           given={Ali\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d962037fec2163d0c68444e803a6e730}
+      \strng{fullhash}{d962037fec2163d0c68444e803a6e730}
+      \strng{bibnamehash}{d962037fec2163d0c68444e803a6e730}
+      \strng{authorbibnamehash}{d962037fec2163d0c68444e803a6e730}
+      \strng{authornamehash}{d962037fec2163d0c68444e803a6e730}
+      \strng{authorfullhash}{d962037fec2163d0c68444e803a6e730}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{title}{\textit{A Novel Strategy for Optimal PSO Control Parameters Determination for PV Energy Systems}}
+      \field{volume}{13(2)}
+      \field{year}{2021}
+      \field{pages}{1008}
+      \range{pages}{1}
+    \endentry
+    \entry{Gad:2022}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8b8d1cdc53ddb2ef70743c435bc97f12}{%
+           family={Gad},
+           familyi={G\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \strng{fullhash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \strng{bibnamehash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \strng{authorbibnamehash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \strng{authornamehash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \strng{authorfullhash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Achives of Computational Methods in Engineering}
+      \field{title}{\textit{Particle Swarm Optimization Algorithm and Its Applications: A Systematic Review}}
+      \field{volume}{29}
+      \field{year}{2022}
+      \field{pages}{2531\bibrangedash 2561}
+      \range{pages}{31}
+    \endentry
+    \entry{Haren:2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e36d8df181405c5bc715392117b99c53}{%
+           family={Haren},
+           familyi={H\bibinitperiod},
+           given={Salma\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e36d8df181405c5bc715392117b99c53}
+      \strng{fullhash}{e36d8df181405c5bc715392117b99c53}
+      \strng{bibnamehash}{e36d8df181405c5bc715392117b99c53}
+      \strng{authorbibnamehash}{e36d8df181405c5bc715392117b99c53}
+      \strng{authornamehash}{e36d8df181405c5bc715392117b99c53}
+      \strng{authorfullhash}{e36d8df181405c5bc715392117b99c53}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Audiens}
+      \field{title}{Model Manajemen Produksi Film Pendek Cerita Masa Tua}
+      \field{volume}{1(1)}
+      \field{year}{2020}
+      \field{pages}{107\bibrangedash 112}
+      \range{pages}{6}
+    \endentry
+    \entry{Meetu:2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=82512d6d2787d4db681983c223574dd8}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Meetu.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a47d10ecd7caf97024659ca8f1ec081a}{%
+           family={Vibha},
+           familyi={V\bibinitperiod},
+           given={Saihjpal.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=598b05263f999c2b3d37b2b3e3ac6012}{%
+           family={Narinder},
+           familyi={N\bibinitperiod},
+           given={Singh.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=806191dd7e1290d00e108ebfe402679b}{%
+           family={Satya},
+           familyi={S\bibinitperiod},
+           given={Bir\bibnamedelima Singh.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{773bb9d538612820b4078d878bf45933}
+      \strng{fullhash}{ec8034fe4f09042b442f4cce74a8cc43}
+      \strng{bibnamehash}{ec8034fe4f09042b442f4cce74a8cc43}
+      \strng{authorbibnamehash}{ec8034fe4f09042b442f4cce74a8cc43}
+      \strng{authornamehash}{773bb9d538612820b4078d878bf45933}
+      \strng{authorfullhash}{ec8034fe4f09042b442f4cce74a8cc43}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Science}
+      \field{title}{\textit{An Overview of Variants and Advancements of PSO Algorithm}}
+      \field{volume}{12(17)}
+      \field{year}{2022}
+      \field{pages}{8392}
+      \range{pages}{1}
+    \endentry
+    \entry{Jek:2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f197218c0d5acc08b001fb364be438c7}{%
+           family={Jek},
+           familyi={J\bibinitperiod},
+           given={Jong},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f197218c0d5acc08b001fb364be438c7}
+      \strng{fullhash}{f197218c0d5acc08b001fb364be438c7}
+      \strng{bibnamehash}{f197218c0d5acc08b001fb364be438c7}
+      \strng{authorbibnamehash}{f197218c0d5acc08b001fb364be438c7}
+      \strng{authornamehash}{f197218c0d5acc08b001fb364be438c7}
+      \strng{authorfullhash}{f197218c0d5acc08b001fb364be438c7}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Matematika Diskrit dan Aplikasinya Pada Ilmu Komputer}
+      \field{year}{2016}
+    \endentry
+    \entry{Kumar:2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ae1ce0993102cca66d9c4a7dd55fa002}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Rajiv.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9243e87493108be9bf3c7e130c7c2b64}{%
+           family={Memoria},
+           familyi={M\bibinitperiod},
+           given={Minakshi},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \strng{fullhash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \strng{bibnamehash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \strng{authorbibnamehash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \strng{authornamehash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \strng{authorfullhash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal on Emerging Technologies (IJET)}
+      \field{title}{\textit{A Review of Memetic Algorithm and its Application in Traveling Salesman Problem}}
+      \field{volume}{11(2)}
+      \field{year}{2020}
+      \field{pages}{1110\bibrangedash 1115}
+      \range{pages}{6}
+    \endentry
+    \entry{Kusrahman:2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=287b7946ee40e767e6156dc3db05a6d4}{%
+           family={Kusrahman},
+           familyi={K\bibinitperiod},
+           given={Nanda\bibnamedelima Yopan.},
+           giveni={N\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=18b43ac9357940f2ee3ee5274b134902}{%
+           family={Purnamasari.},
+           familyi={P\bibinitperiod},
+           given={Ika},
+           giveni={I\bibinitperiod}}}%
+        {{hash=0ed01d17c37fa26d7023b9cb6fb62196}{%
+           family={Amijaya},
+           familyi={A\bibinitperiod},
+           given={Fidia\bibnamedelimb Deny\bibnamedelima Tisna},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{59dec0fbf5991ea5c63e597473a36669}
+      \strng{fullhash}{1974452a23f766251b3218090efd6bd1}
+      \strng{bibnamehash}{1974452a23f766251b3218090efd6bd1}
+      \strng{authorbibnamehash}{1974452a23f766251b3218090efd6bd1}
+      \strng{authornamehash}{59dec0fbf5991ea5c63e597473a36669}
+      \strng{authorfullhash}{1974452a23f766251b3218090efd6bd1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal EKSPONENSIAL}
+      \field{title}{Optimasi \textit{Self-Organizing Map} Menggunakan \textit{Particle Swarm Optimization} Untuk Mengelompokkan Desa/Kelurahan Tertinggal Di Kabupaten Kutai Kertanegara Provinsi Kalimantan Timur (Studi Kasus: Data Potensi Desa Tahun 2018)}
+      \field{volume}{11(2)}
+      \field{year}{2020}
+      \field{pages}{139\bibrangedash 144}
+      \range{pages}{6}
+    \endentry
+    \entry{Levin:2021}{book}{}
+      \name{author}{1}{}{%
+        {{hash=902f4d627498372858aaaf35c5ce01c4}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{902f4d627498372858aaaf35c5ce01c4}
+      \strng{fullhash}{902f4d627498372858aaaf35c5ce01c4}
+      \strng{bibnamehash}{902f4d627498372858aaaf35c5ce01c4}
+      \strng{authorbibnamehash}{902f4d627498372858aaaf35c5ce01c4}
+      \strng{authornamehash}{902f4d627498372858aaaf35c5ce01c4}
+      \strng{authorfullhash}{902f4d627498372858aaaf35c5ce01c4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Discrete Mathematics: An Open Introduction}
+      \field{year}{2021}
+    \endentry
+    \entry{Muhammad:2023}{book}{}
+      \name{author}{3}{}{%
+        {{hash=0b25313888c462091a67dbacb78d39f3}{%
+           family={Muhammad.},
+           familyi={M\bibinitperiod}}}%
+        {{hash=c562ba7a0d401e53da2d3baa8120895e}{%
+           family={Febrianty.},
+           familyi={F\bibinitperiod}}}%
+        {{hash=a0d9b0b7c0e98851f0c8e1b179e55fbb}{%
+           family={Sentanu},
+           familyi={S\bibinitperiod},
+           given={I\bibnamedelima Gede\bibnamedelimb Eko\bibnamedelimb Putra\bibnamedelima Sri},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Perkumpulan Rumah Cemerlang Indonesia}%
+      }
+      \strng{namehash}{785a1ef533b8f88384f5f33efeefc2b2}
+      \strng{fullhash}{657f636710fd45cc12b01f65d7c1dbef}
+      \strng{bibnamehash}{657f636710fd45cc12b01f65d7c1dbef}
+      \strng{authorbibnamehash}{657f636710fd45cc12b01f65d7c1dbef}
+      \strng{authornamehash}{785a1ef533b8f88384f5f33efeefc2b2}
+      \strng{authorfullhash}{657f636710fd45cc12b01f65d7c1dbef}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Manajemen Pengambilan Keputusan}
+      \field{year}{2023}
+    \endentry
+    \entry{Muhardeny:2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3fa6f5fcdb46b65f1c427a93e89a756e}{%
+           family={Muhardeny},
+           familyi={M\bibinitperiod},
+           given={Muhammad.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8a12a2a6de6191f3f42e4743adca98c8}{%
+           family={Irfani.},
+           familyi={I\bibinitperiod},
+           given={Muhammad\bibnamedelima Haviz},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d6fcf0ecb3604047b734bc41cb0ec105}{%
+           family={Alie},
+           familyi={A\bibinitperiod},
+           given={Juhaini},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c00a6795731ea69dee04d15512d50323}
+      \strng{fullhash}{3cd444561be7ec1981429c108a114b51}
+      \strng{bibnamehash}{3cd444561be7ec1981429c108a114b51}
+      \strng{authorbibnamehash}{3cd444561be7ec1981429c108a114b51}
+      \strng{authornamehash}{c00a6795731ea69dee04d15512d50323}
+      \strng{authorfullhash}{3cd444561be7ec1981429c108a114b51}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal Software Engineering and Computational Intelligence (JSECI)}
+      \field{title}{Penjadwalan Mata Pelajaran Menggunakan Algoritma \textit{Particle Swarm Optimization} (PSO) Pada SMPIT Mufidatul Ilmi}
+      \field{volume}{1(1)}
+      \field{year}{2023}
+      \field{pages}{51\bibrangedash 63}
+      \range{pages}{13}
+    \endentry
+    \entry{Nasir:2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=51b767bd99bc0a4155c0bbd0efe82f3a}{%
+           family={Nasir},
+           familyi={N\bibinitperiod},
+           given={A.\bibnamedelimi Muhajir.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f440eb72ee199663cdf171f579985e4b}{%
+           family={Faisal},
+           familyi={F\bibinitperiod}}}%
+        {{hash=0af6b34286096caf9ccac631cb4fca26}{%
+           family={Setiawan},
+           familyi={S\bibinitperiod},
+           given={Dedy},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{de427b1b6c0e6b4c6180f5e1072399a6}
+      \strng{fullhash}{1dafcb51764495b4a3c4097788969173}
+      \strng{bibnamehash}{1dafcb51764495b4a3c4097788969173}
+      \strng{authorbibnamehash}{1dafcb51764495b4a3c4097788969173}
+      \strng{authornamehash}{de427b1b6c0e6b4c6180f5e1072399a6}
+      \strng{authorfullhash}{1dafcb51764495b4a3c4097788969173}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Penelitian Matematika dan Pendidikan Matematika (PROXIMAL)}
+      \field{title}{Optimalisasi Penjadwalan Mata Kuliah Menggunakan Teori Pewarnaan Graf}
+      \field{volume}{5(1)}
+      \field{year}{2022}
+      \field{pages}{57\bibrangedash 69}
+      \range{pages}{13}
+    \endentry
+    \entry{Natalia:2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a652e14b098387c244df43c081676a60}{%
+           family={Natalia},
+           familyi={N\bibinitperiod},
+           given={Desy.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=481adb8215864315255ab0e8b16317db}{%
+           family={Yundari},
+           familyi={Y\bibinitperiod}}}%
+        {{hash=7118b52b10030e915e742ec7aae9e929}{%
+           family={Yudhi.},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c512427610e465b25b3e0e6bcc4b3c9}
+      \strng{fullhash}{492a1a93e9267c704f85c4964461e7f3}
+      \strng{bibnamehash}{492a1a93e9267c704f85c4964461e7f3}
+      \strng{authorbibnamehash}{492a1a93e9267c704f85c4964461e7f3}
+      \strng{authornamehash}{5c512427610e465b25b3e0e6bcc4b3c9}
+      \strng{authorfullhash}{492a1a93e9267c704f85c4964461e7f3}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Buletin Ilmiah Math, Stat, dan Terapannya (BIMASTER)}
+      \field{title}{Optimasi Jarak Penjemputan Penumpang CV. Eira Saudara Menggunakan Metode \textit{Particle Swarm Optimization}}
+      \field{volume}{8(3)}
+      \field{year}{2019}
+      \field{pages}{531\bibrangedash 538}
+      \range{pages}{8}
+    \endentry
+    \entry{Nurdiyanto:2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e7c063c2e21c772c7c371d60637380dc}{%
+           family={Nurdiyanto},
+           familyi={N\bibinitperiod},
+           given={Tito.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1356b3db98345930f573bf884d98332f}{%
+           family={Susanti},
+           familyi={S\bibinitperiod},
+           given={Ely},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cec6ca76344745a06287aa4c04d92b1}
+      \strng{fullhash}{3cec6ca76344745a06287aa4c04d92b1}
+      \strng{bibnamehash}{3cec6ca76344745a06287aa4c04d92b1}
+      \strng{authorbibnamehash}{3cec6ca76344745a06287aa4c04d92b1}
+      \strng{authornamehash}{3cec6ca76344745a06287aa4c04d92b1}
+      \strng{authorfullhash}{3cec6ca76344745a06287aa4c04d92b1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Edukasi dan Sains Matematika (JES-MAT)}
+      \field{title}{Efisiensi Penggunaan Matriks \textit{In-Degree} Untuk Mengkontruksi \textit{Spanning-Tree} Pada Graf Berarah}
+      \field{volume}{5(1)}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+    \endentry
+    \entry{Piotrowski:2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f7490cea4519e49cc349deaa53cfdb43}{%
+           family={Piotrowski},
+           familyi={P\bibinitperiod},
+           given={Adam\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=91db4ea9326ac5619e16e4db8989a714}{%
+           family={Napiorkowski.},
+           familyi={N\bibinitperiod},
+           given={Jaroslaw\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=12fbcda9444b15c7731ec98cb7f7d89c}{%
+           family={Piotrowska},
+           familyi={P\bibinitperiod},
+           given={Agnieszka\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{54e4b1ddd0cf2686352a5a8a27e4eb9c}
+      \strng{fullhash}{94eecac8f5e9bc81e3ff0b55d75d950f}
+      \strng{bibnamehash}{94eecac8f5e9bc81e3ff0b55d75d950f}
+      \strng{authorbibnamehash}{94eecac8f5e9bc81e3ff0b55d75d950f}
+      \strng{authornamehash}{54e4b1ddd0cf2686352a5a8a27e4eb9c}
+      \strng{authorfullhash}{94eecac8f5e9bc81e3ff0b55d75d950f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Swarm and Evolutionary Computation}
+      \field{title}{\textit{Population Size in Particle Swarm Optimization}}
+      \field{volume}{58}
+      \field{year}{2020}
+      \field{pages}{100718}
+      \range{pages}{1}
+    \endentry
+    \entry{Pratama:2022}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f6529d9ad1bb612f2009cfaee927afff}{%
+           family={Pratama},
+           familyi={P\bibinitperiod},
+           given={Viery\bibnamedelima Lovega.},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=501738afa314ce725bf70b13380091a2}{%
+           family={Darmawan},
+           familyi={D\bibinitperiod},
+           given={Dodik\bibnamedelima Arwin},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{11f1a1876235fc8eeee4f84525f5be51}
+      \strng{fullhash}{11f1a1876235fc8eeee4f84525f5be51}
+      \strng{bibnamehash}{11f1a1876235fc8eeee4f84525f5be51}
+      \strng{authorbibnamehash}{11f1a1876235fc8eeee4f84525f5be51}
+      \strng{authornamehash}{11f1a1876235fc8eeee4f84525f5be51}
+      \strng{authorfullhash}{11f1a1876235fc8eeee4f84525f5be51}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Informatics and Computer Science (JINACS)}
+      \field{title}{Sistem Informasi Geografis Pencarian Rute Terdekat Bengkel Motor Di Kota Surabaya Menggunakan Algoritma \textit{Bellman-Ford}}
+      \field{volume}{3(4)}
+      \field{year}{2022}
+      \field{pages}{580\bibrangedash 599}
+      \range{pages}{20}
+    \endentry
+    \entry{Qin:2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8a4e07df1ebdc4cf813e1b4b8a27779e}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Hu.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1fd5b9720e6d2ea38e9dc4d3afcd656d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zizhen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9d1c12d36d8d55b2b4b33677f631b709}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5628c242828509532c7445a4e058507c}{%
+           family={Liang.},
+           familyi={L\bibinitperiod},
+           given={Xiaocong},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b69c5a099e57f0c4757d82976d814f2}
+      \strng{fullhash}{be17ed9109de858fc0144ff1d757c231}
+      \strng{bibnamehash}{be17ed9109de858fc0144ff1d757c231}
+      \strng{authorbibnamehash}{be17ed9109de858fc0144ff1d757c231}
+      \strng{authornamehash}{0b69c5a099e57f0c4757d82976d814f2}
+      \strng{authorfullhash}{be17ed9109de858fc0144ff1d757c231}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{title}{\textit{An Enhanced Branch-and-Bound Algorithm for The Talent Schedulling Problem}}
+      \field{volume}{250(2)}
+      \field{year}{2016}
+      \field{pages}{412\bibrangedash 426}
+      \range{pages}{15}
+    \endentry
+    \entry{Rahayuningsih:2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a3cd50083bc017333c7b9bb05471b976}{%
+           family={Rahayuningsih},
+           familyi={R\bibinitperiod},
+           given={Sri},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universitas Wisnuwardhana Press Malang (Unidha Press)}%
+      }
+      \strng{namehash}{a3cd50083bc017333c7b9bb05471b976}
+      \strng{fullhash}{a3cd50083bc017333c7b9bb05471b976}
+      \strng{bibnamehash}{a3cd50083bc017333c7b9bb05471b976}
+      \strng{authorbibnamehash}{a3cd50083bc017333c7b9bb05471b976}
+      \strng{authornamehash}{a3cd50083bc017333c7b9bb05471b976}
+      \strng{authorfullhash}{a3cd50083bc017333c7b9bb05471b976}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Teori Graph Dan Penerapannya}
+      \field{year}{2018}
+    \endentry
+    \entry{Rahimi:2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=3d97db93b6f7a3ce5e61d82a3079cf0c}{%
+           family={Rahimi},
+           familyi={R\bibinitperiod},
+           given={Andira.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=59b4fc7d2cb1e3f7561c2f95b4ce3347}{%
+           family={Arthur},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f6337565dace803e83a41bbb1e5099d4}{%
+           family={Nurfadillah},
+           familyi={N\bibinitperiod}}}%
+        {{hash=0ed01d17c37fa26d7023b9cb6fb62196}{%
+           family={Amijaya},
+           familyi={A\bibinitperiod},
+           given={Fidia\bibnamedelimb Deny\bibnamedelima Tisna},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9aaddd690242445fcdd387d35d538795}{%
+           family={Putri.},
+           familyi={P\bibinitperiod},
+           given={Desi\bibnamedelima Febriani},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9290ad4322e1eab19cc7fe7f783e202c}
+      \strng{fullhash}{854473d90a5e64eb0babd28a4b9ef710}
+      \strng{bibnamehash}{854473d90a5e64eb0babd28a4b9ef710}
+      \strng{authorbibnamehash}{854473d90a5e64eb0babd28a4b9ef710}
+      \strng{authornamehash}{9290ad4322e1eab19cc7fe7f783e202c}
+      \strng{authorfullhash}{854473d90a5e64eb0babd28a4b9ef710}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Prosiding Seminar Nasional Matematika, Statistika, dan Aplikasinya (SNMSA)}
+      \field{title}{Implementasi Algoritma Genetika Dalam Penentuan Rute Terbaik Pendistribusian BBM Pada SPBU Yang Ada Di Samarinda}
+      \field{volume}{3(1)}
+      \field{year}{2023}
+      \field{pages}{196\bibrangedash 207}
+      \range{pages}{12}
+    \endentry
+    \entry{Ramadhan:2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cee2af1123efe1f16c5c49f890b3bcff}{%
+           family={Ramadhan},
+           familyi={R\bibinitperiod},
+           given={Muhammad\bibnamedelima Raihan.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a25116d53ce83f5089a52ee471aa2f67}{%
+           family={Setianingsih.},
+           familyi={S\bibinitperiod},
+           given={Casi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=23141b76ea5eefa572b5c7102739cf65}{%
+           family={Dirgantoro.},
+           familyi={D\bibinitperiod},
+           given={Burhanuddin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8840c88301ceadccb1be9e8f3a2b813}
+      \strng{fullhash}{ec3f11c9abc21d6d65324af204440cd3}
+      \strng{bibnamehash}{ec3f11c9abc21d6d65324af204440cd3}
+      \strng{authorbibnamehash}{ec3f11c9abc21d6d65324af204440cd3}
+      \strng{authornamehash}{f8840c88301ceadccb1be9e8f3a2b813}
+      \strng{authorfullhash}{ec3f11c9abc21d6d65324af204440cd3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{eProceedings of Engineering}
+      \field{title}{Sistem Penjadwalan Perangkat Listrik dengan Metode Algoritma \textit{Particle Swarm Optimization} Berbasis \textit{Website}}
+      \field{volume}{10(1)}
+      \field{year}{2023}
+      \field{pages}{865\bibrangedash 872}
+      \range{pages}{8}
+    \endentry
+    \entry{Sari:2024}{article}{}
+      \name{author}{4}{}{%
+        {{hash=35418616858aa8465b13a93b18254090}{%
+           family={Sari},
+           familyi={S\bibinitperiod},
+           given={Fitri\bibnamedelima Fitriana.},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d7861be43f4daec9171b605dd753ca7c}{%
+           family={Pujiarti.},
+           familyi={P\bibinitperiod},
+           given={Titi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2f564cc3c35c1429f94e41a8f155db4c}{%
+           family={Hidayat.},
+           familyi={H\bibinitperiod}}}%
+        {{hash=48b834fb04d9bf5226a2910535160a4c}{%
+           family={Anjosa},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae58a5f8c4165da4f6ecf624c80bc41e}
+      \strng{fullhash}{d2ee9ea584327dd33408efcf7e75d3ef}
+      \strng{bibnamehash}{d2ee9ea584327dd33408efcf7e75d3ef}
+      \strng{authorbibnamehash}{d2ee9ea584327dd33408efcf7e75d3ef}
+      \strng{authornamehash}{ae58a5f8c4165da4f6ecf624c80bc41e}
+      \strng{authorfullhash}{d2ee9ea584327dd33408efcf7e75d3ef}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Kajian Pendidikan dan Sosial (DIKSI)}
+      \field{title}{Pembelajaran Matematika Diskrit Mengacu Pada Teori Beban Kognitif (\textit{Cognitive Load Theory})}
+      \field{volume}{5(1)}
+      \field{year}{2024}
+      \field{pages}{10\bibrangedash 17}
+      \range{pages}{8}
+    \endentry
+    \entry{Saud:2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6f810a038cd94c38feb13c14d3b23f7d}{%
+           family={Saud},
+           familyi={S\bibinitperiod},
+           given={Suhair.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d68f8e609c7e5fb7315618a1eb485500}{%
+           family={Kodaz.},
+           familyi={K\bibinitperiod},
+           given={Halife},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ef9552d0d05e75039284188317498e42}{%
+           family={Babao$\breve{g}$lu},
+           familyi={B\bibinitperiod},
+           given={Ismail},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{015d9ecff055712a0cacfdcbe4d08d4a}
+      \strng{fullhash}{88c3389c293dbbc2cbbdc2be57ed9376}
+      \strng{bibnamehash}{88c3389c293dbbc2cbbdc2be57ed9376}
+      \strng{authorbibnamehash}{88c3389c293dbbc2cbbdc2be57ed9376}
+      \strng{authornamehash}{015d9ecff055712a0cacfdcbe4d08d4a}
+      \strng{authorfullhash}{88c3389c293dbbc2cbbdc2be57ed9376}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{KnE Social Sciences}
+      \field{title}{\textit{Solving Traveling Salesman Problem Using Optimization Algorithms}}
+      \field{volume}{3(1)}
+      \field{year}{2018}
+      \field{pages}{17\bibrangedash 32}
+      \range{pages}{16}
+    \endentry
+    \entry{Setiawati:2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e1f49573b55a861b8ee4cbde5162c7f9}{%
+           family={Setiawati},
+           familyi={S\bibinitperiod},
+           given={Juli.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4309de2a262ab3c81fd8434903ba1edb}{%
+           family={Febrilian},
+           familyi={F\bibinitperiod},
+           given={Meryta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9ef48a0774c68189e77e3c9a11173038}{%
+           family={Ekawati},
+           familyi={E\bibinitperiod},
+           given={Darma},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{5058eaa24cf82092614123dfba7c3fba}
+      \strng{fullhash}{6253c6d74fa6657c95a3ad3ed9ccbde7}
+      \strng{bibnamehash}{6253c6d74fa6657c95a3ad3ed9ccbde7}
+      \strng{authorbibnamehash}{6253c6d74fa6657c95a3ad3ed9ccbde7}
+      \strng{authornamehash}{5058eaa24cf82092614123dfba7c3fba}
+      \strng{authorfullhash}{6253c6d74fa6657c95a3ad3ed9ccbde7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Penelitian Matematika dan Pendidikan Matematika (PROXIMAL)}
+      \field{title}{Pelabelan Total Tak Reguler Sisi Pada Graf \textit{Direction}, Graf \textit{Direction Right}, Dan Graf \textit{Heart}}
+      \field{volume}{6(2)}
+      \field{year}{2023}
+      \field{pages}{64\bibrangedash 72}
+      \range{pages}{9}
+    \endentry
+    \entry{Sinaga:2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ce7750fddf38aef47e43082992099f5a}{%
+           family={Sinaga},
+           familyi={S\bibinitperiod},
+           given={Rizki\bibnamedelima Putra.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=5bff3864ffc14961d27c6c1c8a75e6f2}{%
+           family={Marpaung},
+           familyi={M\bibinitperiod},
+           given={Faridawaty},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \strng{fullhash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \strng{bibnamehash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \strng{authorbibnamehash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \strng{authornamehash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \strng{authorfullhash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Riset Rumpun Matematika dan Ilmu Pengetahuan Alam (JURRIMIPA)}
+      \field{title}{Perbandingan Algoritma \textit{Cheapest Insertion Heuristic} dan \textit{Nearest Neighbor} Dalam Menyelesaikan \textit{Traveling Salesman Problem}}
+      \field{volume}{2(2)}
+      \field{year}{2023}
+      \field{pages}{238\bibrangedash 247}
+      \range{pages}{10}
+    \endentry
+    \entry{Wang:2022}{article}{}
+      \name{author}{7}{}{%
+        {{hash=de3d9f565fe0c0f1c2f35a38163db114}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zongshan.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=1fbb2c7f16cf3fbacb82c8c1b801dc7b}{%
+           family={Ding.},
+           familyi={D\bibinitperiod},
+           given={Hongwei},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fcd6114a30fda9801eef65b9d374f56b}{%
+           family={Wang.},
+           familyi={W\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=daf26b5b717cc5037f90344463b1debb}{%
+           family={Hou.},
+           familyi={H\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ccbe315c3ab9d490290d48ba3921ee1c}{%
+           family={Li.},
+           familyi={L\bibinitperiod},
+           given={Aishan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a84576ed9661ee6716ea41565b75a4b5}{%
+           family={Yang.},
+           familyi={Y\bibinitperiod},
+           given={Zhijun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d909b8c0fbc8d7a8bab3afa3b0718e34}{%
+           family={Hu.},
+           familyi={H\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcb8577378202401c4c313e902e997a2}
+      \strng{fullhash}{36cae7d7077043f3d367e0ce6bb136cc}
+      \strng{bibnamehash}{36cae7d7077043f3d367e0ce6bb136cc}
+      \strng{authorbibnamehash}{36cae7d7077043f3d367e0ce6bb136cc}
+      \strng{authornamehash}{fcb8577378202401c4c313e902e997a2}
+      \strng{authorfullhash}{36cae7d7077043f3d367e0ce6bb136cc}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computational Design and Engineering (CDE), Oxford}
+      \field{title}{\textit{Adaptive Guided Salp Swarm Algorithm with Velocity Clamping Mechanism for Solving Optimization Problems}}
+      \field{volume}{9(6)}
+      \field{year}{2022}
+      \field{pages}{2196\bibrangedash 2234}
+      \range{pages}{39}
+    \endentry
+    \entry{Yurinanda:2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d6500f5d5bc6e6475248fcefee606deb}{%
+           family={Yurinanda},
+           familyi={Y\bibinitperiod},
+           given={Sherli.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1a2bb39e0a3b9a63b6ab09fccbd2323d}{%
+           family={Rozi},
+           familyi={R\bibinitperiod},
+           given={Syamsyida},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \strng{fullhash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \strng{bibnamehash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \strng{authorbibnamehash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \strng{authornamehash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \strng{authorfullhash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Pendidikan Matematika dan Matematika (ABSIS)}
+      \field{title}{Penerapan Pembelajaran Berbasis Proyek Pada Mata Kuliah Matematika Diskrit Untuk Meningkatkan Keterampilan Mahasiswa Dalam Memanfaatkan Struktur Diskrit Dalam Menyelesaikan Masalah}
+      \field{volume}{5(2)}
+      \field{year}{2023}
+      \field{pages}{666\bibrangedash 679}
+      \range{pages}{14}
+    \endentry
+    \entry{Zahro:2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d5b3f4a679beffcddcd32e15202698d0}{%
+           family={Zahro},
+           familyi={Z\bibinitperiod},
+           given={Hani\bibnamedelima Zulfia.},
+           giveni={H\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=a7dd5f604546a037c5f1ae50918aea51}{%
+           family={Wahyuni},
+           familyi={W\bibinitperiod},
+           given={Febriana\bibnamedelima Santi},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \strng{fullhash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \strng{bibnamehash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \strng{authorbibnamehash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \strng{authornamehash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \strng{authorfullhash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal MNEMONIC}
+      \field{title}{Optimasi \textit{Particle Swarm Optimization} (PSO) Untuk Penentuan \textit{Base Transceiver System} (BTS)}
+      \field{volume}{3(1)}
+      \field{year}{2020}
+      \field{pages}{7\bibrangedash 10}
+      \range{pages}{4}
+    \endentry
+    \entry{Zdiri:2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=893e45625b86d43bb952ddd82e8011ab}{%
+           family={Zdiri},
+           familyi={Z\bibinitperiod},
+           given={Sami.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=916fc662506b1c2a7845d8dc4171ad77}{%
+           family={Chrouta.},
+           familyi={C\bibinitperiod},
+           given={Jaouher},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b13aff14d74259682187a4446d3b6d17}{%
+           family={Zaafouri.},
+           familyi={Z\bibinitperiod},
+           given={Abderrahmen},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9b21fe6c6ceefed089577175fc0da2e}
+      \strng{fullhash}{58a3ef21af7e6dd665fa371297d64a74}
+      \strng{bibnamehash}{58a3ef21af7e6dd665fa371297d64a74}
+      \strng{authorbibnamehash}{58a3ef21af7e6dd665fa371297d64a74}
+      \strng{authornamehash}{d9b21fe6c6ceefed089577175fc0da2e}
+      \strng{authorfullhash}{58a3ef21af7e6dd665fa371297d64a74}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Problems in Engineering, Hindawi}
+      \field{title}{\textit{An Expanded Heterogeneous Particle Swarm Optimization Based on Adaptive Inertia Weight}}
+      \field{volume}{2021(1)}
+      \field{year}{2021}
+      \field{pages}{4194263}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{Akhirina:2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=37a8dd156132ca2b8353cd151be39be9}{%
+           family={Akhirina},
+           familyi={A\bibinitperiod},
+           given={Tri\bibnamedelima Yani},
+           giveni={T\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=af354147003882a260f6c4a440d223c3}{%
+           family={Afrizal},
+           familyi={A\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \strng{fullhash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \strng{bibnamehash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \strng{authorbibnamehash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \strng{authornamehash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \strng{authorfullhash}{fdbc91b5546581ff63c9ec4482dce9f1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Satuan Tulisan Riset dan Inovasi Teknologi}
+      \field{title}{{Pendekatan Matriks Ketetanggaan Berbobot Untuk Solusi \textit{Minimum Spanning Tree} (MST)}}
+      \field{volume}{4(3)}
+      \field{year}{2020}
+      \field{pages}{280\bibrangedash 287}
+      \range{pages}{8}
+    \endentry
+    \entry{Akpudo:2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6631afbcc7bf5e387a199c41486602a5}{%
+           family={Akpudo},
+           familyi={A\bibinitperiod},
+           given={Ugochukwu\bibnamedelima Ejike},
+           giveni={U\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=5b6ddd54ceee960e13810ce507ac5175}{%
+           family={{Jang-Wook}},
+           familyi={J\bibinitperiod},
+           given={Hur},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e502dfe463e4d4099c154c62485987a}
+      \strng{fullhash}{5e502dfe463e4d4099c154c62485987a}
+      \strng{bibnamehash}{5e502dfe463e4d4099c154c62485987a}
+      \strng{authorbibnamehash}{5e502dfe463e4d4099c154c62485987a}
+      \strng{authornamehash}{5e502dfe463e4d4099c154c62485987a}
+      \strng{authorfullhash}{5e502dfe463e4d4099c154c62485987a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{{A Multi-Domain Diagnotics Approach for Solenoid Pumps Based on Discriminative Features}}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{175020\bibrangedash 175034}
+      \range{pages}{15}
+    \endentry
+    \entry{Amin:2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=767218542879ec25a56fa3b372daaada}{%
+           family={Amin},
+           familyi={A\bibinitperiod},
+           given={Nur\bibnamedelima Fadilah.},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=323dfe6589b587e0c631153c5b47797f}{%
+           family={Garancang.},
+           familyi={G\bibinitperiod},
+           given={Sabaruddin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=687d2bc4b1c0c434fcb75f14528ff786}{%
+           family={Abunawas},
+           familyi={A\bibinitperiod},
+           given={Kamaluddin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{86a3d3032cf11703c7fcd37f03c9ab51}
+      \strng{fullhash}{080ed174036579dee87f513f1b5efc1f}
+      \strng{bibnamehash}{080ed174036579dee87f513f1b5efc1f}
+      \strng{authorbibnamehash}{080ed174036579dee87f513f1b5efc1f}
+      \strng{authornamehash}{86a3d3032cf11703c7fcd37f03c9ab51}
+      \strng{authorfullhash}{080ed174036579dee87f513f1b5efc1f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Kajian Islam Kontemporer (Jurnal PILAR)}
+      \field{title}{Konsep Umum Populasi dan Sampel Dalam Penelitian}
+      \field{volume}{14(1)}
+      \field{year}{2023}
+      \field{pages}{15\bibrangedash 31}
+      \range{pages}{17}
+    \endentry
+    \entry{Anwar:2024}{book}{}
+      \name{author}{10}{}{%
+        {{hash=3bd2e23bec3eab2299b9d4930339bd69}{%
+           family={Anwar},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=380805b52a24de142f8e69638549b9a5}{%
+           family={Pratamaningtyas.},
+           familyi={P\bibinitperiod},
+           given={Susanti},
+           giveni={S\bibinitperiod}}}%
+        {{hash=264910e59a637e223062fca1f10fc79d}{%
+           family={Rosita.},
+           familyi={R\bibinitperiod}}}%
+        {{hash=6dfa0a282f0b65f6f4b85f6959580beb}{%
+           family={Deni.},
+           familyi={D\bibinitperiod},
+           given={Asep},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dca933e57ce0386e4e5861fa34fb098e}{%
+           family={Lusono.},
+           familyi={L\bibinitperiod},
+           given={Akhir},
+           giveni={A\bibinitperiod}}}%
+        {{hash=367816d68d5b047a923102324d147a82}{%
+           family={Hermayanti.},
+           familyi={H\bibinitperiod}}}%
+        {{hash=2819cc1d596e3a002341d126764ed5fd}{%
+           family={Ulfa.},
+           familyi={U\bibinitperiod},
+           given={Adilla\bibnamedelima Kustya},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=0c66f8d32b28a5ba866c6804af91dbf5}{%
+           family={Wibowo.},
+           familyi={W\bibinitperiod},
+           given={Mochammad\bibnamedelimb Eric\bibnamedelima Suryakencana},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=1e3576ac52153aa6e373da484baabe5f}{%
+           family={Fatmawati.},
+           familyi={F\bibinitperiod},
+           given={Elia\bibnamedelima Resha},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=41a247096e89e009d32bd7ffb77982f9}{%
+           family={Chasanah},
+           familyi={C\bibinitperiod},
+           given={Amalia\bibnamedelima Nur},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Yayasan Cendikia Mulia Mandiri}%
+      }
+      \strng{namehash}{038059690d8d94f535cc5445de669fad}
+      \strng{fullhash}{1c451382cb2c08718cad14c81cda0f29}
+      \strng{bibnamehash}{1c451382cb2c08718cad14c81cda0f29}
+      \strng{authorbibnamehash}{1c451382cb2c08718cad14c81cda0f29}
+      \strng{authornamehash}{038059690d8d94f535cc5445de669fad}
+      \strng{authorfullhash}{1c451382cb2c08718cad14c81cda0f29}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pengambilan Keputusan}
+      \field{year}{2024}
+    \endentry
+    \entry{Atiqoh:2020}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8c0db18f70f925abf77bd954724a1844}{%
+           family={Atiqoh},
+           familyi={A\bibinitperiod},
+           given={Ayu\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {UIN Sunan Ampel Surabaya}%
+      }
+      \strng{namehash}{8c0db18f70f925abf77bd954724a1844}
+      \strng{fullhash}{8c0db18f70f925abf77bd954724a1844}
+      \strng{bibnamehash}{8c0db18f70f925abf77bd954724a1844}
+      \strng{authorbibnamehash}{8c0db18f70f925abf77bd954724a1844}
+      \strng{authornamehash}{8c0db18f70f925abf77bd954724a1844}
+      \strng{authorfullhash}{8c0db18f70f925abf77bd954724a1844}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analisis Inertia Weight Pada Algoritma Particle Swarm Optimization (PSO) Untuk Optimalisasi dan Pemodelan Sistem Terhadap Persoalan Vehicle Routing Problem With Time Window (VRPTW) (Skripsi)}
+      \field{year}{2020}
+    \endentry
+    \entry{Azhari:2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4a60b11c4d2eae2b0c46a0e99c6399a3}{%
+           family={Azhari},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi Khusnul.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=5bb11aca0a0e22359bdcd12a86049f85}{%
+           family={Cholissodin},
+           familyi={C\bibinitperiod},
+           given={Imam},
+           giveni={I\bibinitperiod}}}%
+        {{hash=33ce89c3175441b45bf903fda3db7a8d}{%
+           family={Bachtiar.},
+           familyi={B\bibinitperiod},
+           given={Fitra\bibnamedelima Abdurrachman},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{391ec7c5a0611ae967fd4f7715455c57}
+      \strng{fullhash}{e6ceaa95d267357c5c385bbb02d5cc26}
+      \strng{bibnamehash}{e6ceaa95d267357c5c385bbb02d5cc26}
+      \strng{authorbibnamehash}{e6ceaa95d267357c5c385bbb02d5cc26}
+      \strng{authornamehash}{391ec7c5a0611ae967fd4f7715455c57}
+      \strng{authorfullhash}{e6ceaa95d267357c5c385bbb02d5cc26}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer}
+      \field{title}{Optimasi \textit{Travel Salesman Problem} Pada Angkutan Sekolah Dengan Algoritma \textit{Particle Swarm Optimization}}
+      \field{volume}{2(11)}
+      \field{year}{2018}
+      \field{pages}{5691\bibrangedash 5699}
+      \range{pages}{9}
+    \endentry
+    \entry{Chafi:2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1db0e642f6985f78c282878a3e3ffe26}{%
+           family={Chafi},
+           familyi={C\bibinitperiod},
+           given={Zahra\bibnamedelima Shafiel.},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9627485e4ed2bc60cb1ec747885c84a7}{%
+           family={Afrakhte.},
+           familyi={A\bibinitperiod},
+           given={Hossein},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \strng{fullhash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \strng{bibnamehash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \strng{authorbibnamehash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \strng{authornamehash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \strng{authorfullhash}{8c760dbcbbd7394b8a08a44c517e21ea}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Problems in Engineering}
+      \field{title}{\textit{Short-Term Load Forecasting Using Neutral Network and Particle Swarm Optimization} (PSO) \textit{Algorithm}}
+      \field{volume}{2021(1)}
+      \field{year}{2021}
+      \field{pages}{5598267}
+      \range{pages}{1}
+    \endentry
+    \entry{Chen:2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fa3e6d3e56e160717c55aea3b3fe4412}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fenxiao.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0a4a5ca7f89aa3ce0e33225fd89ff98b}{%
+           family={Wang.},
+           familyi={W\bibinitperiod},
+           given={Yun-Cheng},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=dc58cd6a24a023ce7177d8f199d47875}{%
+           family={Wang.},
+           familyi={W\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a268d8a3418cee783d92a85798bcfae9}{%
+           family={{C.-C. Jay Kuo}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dd21fbdcead33613a76e69007ce7b18}
+      \strng{fullhash}{02963a249ca6d980c3a6c8bcc9b33e13}
+      \strng{bibnamehash}{02963a249ca6d980c3a6c8bcc9b33e13}
+      \strng{authorbibnamehash}{02963a249ca6d980c3a6c8bcc9b33e13}
+      \strng{authornamehash}{8dd21fbdcead33613a76e69007ce7b18}
+      \strng{authorfullhash}{02963a249ca6d980c3a6c8bcc9b33e13}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{APSIPA Transactions on Signal and Information Processing}
+      \field{title}{\textit{Graph Representation Learning: a Survey}}
+      \field{volume}{9(e15)}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 21}
+      \range{pages}{21}
+    \endentry
+    \entry{Dalyono:2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0f7877059bf21813b25fa2f07aad78f5}{%
+           family={Dalyono},
+           familyi={D\bibinitperiod},
+           given={Yodie\bibnamedelima P.},
+           giveni={Y\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=9ae52cc2d6228a8eb0efb3d9a16c75e1}{%
+           family={Herdiani},
+           familyi={H\bibinitperiod},
+           given={Anisa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=de317b94a0a132bd14673af924c0e8d8}{%
+           family={Rohmawati.},
+           familyi={R\bibinitperiod},
+           given={Aniq\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e9220f209cbb4bc2e5fe2ef390effb7}
+      \strng{fullhash}{ba9a5746170afd5e4933975fa9d8356e}
+      \strng{bibnamehash}{ba9a5746170afd5e4933975fa9d8356e}
+      \strng{authorbibnamehash}{ba9a5746170afd5e4933975fa9d8356e}
+      \strng{authornamehash}{3e9220f209cbb4bc2e5fe2ef390effb7}
+      \strng{authorfullhash}{ba9a5746170afd5e4933975fa9d8356e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{eProcidings of Engineering}
+      \field{title}{Penentuan Rute Pariwisata Kota Bandung Menggunakan Algoritma \textit{Particle Swarm Optimization}}
+      \field{volume}{4(3)}
+      \field{year}{2017}
+      \field{pages}{4811\bibrangedash 4817}
+      \range{pages}{7}
+    \endentry
+    \entry{Darmawan:2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f42e844ec60e521612a8854d8ab3581c}{%
+           family={Darmawan},
+           familyi={D\bibinitperiod},
+           given={Rizqi.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2b3275f929db5d542ce30e27a413242e}{%
+           family={Indra.},
+           familyi={I\bibinitperiod}}}%
+        {{hash=5c2ef776ffed5456de7e3bbc10f8adcd}{%
+           family={Surahmat},
+           familyi={S\bibinitperiod},
+           given={Asep},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c1a124c81bb5a1c433ec2f869bc841e}
+      \strng{fullhash}{a7a297b205cf0d1509f5d36723fc9638}
+      \strng{bibnamehash}{a7a297b205cf0d1509f5d36723fc9638}
+      \strng{authorbibnamehash}{a7a297b205cf0d1509f5d36723fc9638}
+      \strng{authornamehash}{4c1a124c81bb5a1c433ec2f869bc841e}
+      \strng{authorfullhash}{a7a297b205cf0d1509f5d36723fc9638}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Kajian Ilmiah}
+      \field{title}{Optimalisasi \textit{Support Vector Machine} (SVM) Berbasis \textit{Particle Swarm Optimization} (PSO) Pada Analisis Sentimen Terhadap \textit{Official Account} Ruang Guru di Twitter}
+      \field{volume}{22(2)}
+      \field{year}{2022}
+      \field{pages}{143\bibrangedash 152s}
+      \range{pages}{-1}
+    \endentry
+    \entry{Riri:2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a4aa0bec266ab3aa6b975fced65d513a}{%
+           family={Devita},
+           familyi={D\bibinitperiod},
+           given={Riri\bibnamedelima Nada.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=ff09fc77a056a7d0920b955671c2d290}{%
+           family={Wibawa},
+           familyi={W\bibinitperiod},
+           given={Aji\bibnamedelima Prasetya},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \strng{fullhash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \strng{bibnamehash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \strng{authorbibnamehash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \strng{authornamehash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \strng{authorfullhash}{f15855fb5e5e72f8d443894b17f80e9e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sains, Aplikasi, Komputasi dan Teknologi Informasi (SAKTI)}
+      \field{title}{Teknik-teknik Optimasi \textit{Knapsack Problem}}
+      \field{volume}{2(1)}
+      \field{year}{2020}
+      \field{pages}{35\bibrangedash 40}
+      \range{pages}{6}
+    \endentry
+    \entry{Eltamaly:2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d962037fec2163d0c68444e803a6e730}{%
+           family={Eltamaly},
+           familyi={E\bibinitperiod},
+           given={Ali\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d962037fec2163d0c68444e803a6e730}
+      \strng{fullhash}{d962037fec2163d0c68444e803a6e730}
+      \strng{bibnamehash}{d962037fec2163d0c68444e803a6e730}
+      \strng{authorbibnamehash}{d962037fec2163d0c68444e803a6e730}
+      \strng{authornamehash}{d962037fec2163d0c68444e803a6e730}
+      \strng{authorfullhash}{d962037fec2163d0c68444e803a6e730}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{title}{\textit{A Novel Strategy for Optimal PSO Control Parameters Determination for PV Energy Systems}}
+      \field{volume}{13(2)}
+      \field{year}{2021}
+      \field{pages}{1008}
+      \range{pages}{1}
+    \endentry
+    \entry{Gad:2022}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8b8d1cdc53ddb2ef70743c435bc97f12}{%
+           family={Gad},
+           familyi={G\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \strng{fullhash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \strng{bibnamehash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \strng{authorbibnamehash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \strng{authornamehash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \strng{authorfullhash}{8b8d1cdc53ddb2ef70743c435bc97f12}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Achives of Computational Methods in Engineering}
+      \field{title}{\textit{Particle Swarm Optimization Algorithm and Its Applications: A Systematic Review}}
+      \field{volume}{29}
+      \field{year}{2022}
+      \field{pages}{2531\bibrangedash 2561}
+      \range{pages}{31}
+    \endentry
+    \entry{Haren:2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e36d8df181405c5bc715392117b99c53}{%
+           family={Haren},
+           familyi={H\bibinitperiod},
+           given={Salma\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e36d8df181405c5bc715392117b99c53}
+      \strng{fullhash}{e36d8df181405c5bc715392117b99c53}
+      \strng{bibnamehash}{e36d8df181405c5bc715392117b99c53}
+      \strng{authorbibnamehash}{e36d8df181405c5bc715392117b99c53}
+      \strng{authornamehash}{e36d8df181405c5bc715392117b99c53}
+      \strng{authorfullhash}{e36d8df181405c5bc715392117b99c53}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Audiens}
+      \field{title}{Model Manajemen Produksi Film Pendek Cerita Masa Tua}
+      \field{volume}{1(1)}
+      \field{year}{2020}
+      \field{pages}{107\bibrangedash 112}
+      \range{pages}{6}
+    \endentry
+    \entry{Meetu:2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=82512d6d2787d4db681983c223574dd8}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Meetu.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a47d10ecd7caf97024659ca8f1ec081a}{%
+           family={Vibha},
+           familyi={V\bibinitperiod},
+           given={Saihjpal.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=598b05263f999c2b3d37b2b3e3ac6012}{%
+           family={Narinder},
+           familyi={N\bibinitperiod},
+           given={Singh.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=806191dd7e1290d00e108ebfe402679b}{%
+           family={Satya},
+           familyi={S\bibinitperiod},
+           given={Bir\bibnamedelima Singh.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{773bb9d538612820b4078d878bf45933}
+      \strng{fullhash}{ec8034fe4f09042b442f4cce74a8cc43}
+      \strng{bibnamehash}{ec8034fe4f09042b442f4cce74a8cc43}
+      \strng{authorbibnamehash}{ec8034fe4f09042b442f4cce74a8cc43}
+      \strng{authornamehash}{773bb9d538612820b4078d878bf45933}
+      \strng{authorfullhash}{ec8034fe4f09042b442f4cce74a8cc43}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Science}
+      \field{title}{\textit{An Overview of Variants and Advancements of PSO Algorithm}}
+      \field{volume}{12(17)}
+      \field{year}{2022}
+      \field{pages}{8392}
+      \range{pages}{1}
+    \endentry
+    \entry{Jek:2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f197218c0d5acc08b001fb364be438c7}{%
+           family={Jek},
+           familyi={J\bibinitperiod},
+           given={Jong},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f197218c0d5acc08b001fb364be438c7}
+      \strng{fullhash}{f197218c0d5acc08b001fb364be438c7}
+      \strng{bibnamehash}{f197218c0d5acc08b001fb364be438c7}
+      \strng{authorbibnamehash}{f197218c0d5acc08b001fb364be438c7}
+      \strng{authornamehash}{f197218c0d5acc08b001fb364be438c7}
+      \strng{authorfullhash}{f197218c0d5acc08b001fb364be438c7}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Matematika Diskrit dan Aplikasinya Pada Ilmu Komputer}
+      \field{year}{2016}
+    \endentry
+    \entry{Kumar:2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ae1ce0993102cca66d9c4a7dd55fa002}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Rajiv.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9243e87493108be9bf3c7e130c7c2b64}{%
+           family={Memoria},
+           familyi={M\bibinitperiod},
+           given={Minakshi},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \strng{fullhash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \strng{bibnamehash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \strng{authorbibnamehash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \strng{authornamehash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \strng{authorfullhash}{64ef7b1614c154afcb01cafe8f1f157a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal on Emerging Technologies (IJET)}
+      \field{title}{\textit{A Review of Memetic Algorithm and its Application in Traveling Salesman Problem}}
+      \field{volume}{11(2)}
+      \field{year}{2020}
+      \field{pages}{1110\bibrangedash 1115}
+      \range{pages}{6}
+    \endentry
+    \entry{Kusrahman:2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=287b7946ee40e767e6156dc3db05a6d4}{%
+           family={Kusrahman},
+           familyi={K\bibinitperiod},
+           given={Nanda\bibnamedelima Yopan.},
+           giveni={N\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=18b43ac9357940f2ee3ee5274b134902}{%
+           family={Purnamasari.},
+           familyi={P\bibinitperiod},
+           given={Ika},
+           giveni={I\bibinitperiod}}}%
+        {{hash=0ed01d17c37fa26d7023b9cb6fb62196}{%
+           family={Amijaya},
+           familyi={A\bibinitperiod},
+           given={Fidia\bibnamedelimb Deny\bibnamedelima Tisna},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{59dec0fbf5991ea5c63e597473a36669}
+      \strng{fullhash}{1974452a23f766251b3218090efd6bd1}
+      \strng{bibnamehash}{1974452a23f766251b3218090efd6bd1}
+      \strng{authorbibnamehash}{1974452a23f766251b3218090efd6bd1}
+      \strng{authornamehash}{59dec0fbf5991ea5c63e597473a36669}
+      \strng{authorfullhash}{1974452a23f766251b3218090efd6bd1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal EKSPONENSIAL}
+      \field{title}{Optimasi \textit{Self-Organizing Map} Menggunakan \textit{Particle Swarm Optimization} Untuk Mengelompokkan Desa/Kelurahan Tertinggal Di Kabupaten Kutai Kertanegara Provinsi Kalimantan Timur (Studi Kasus: Data Potensi Desa Tahun 2018)}
+      \field{volume}{11(2)}
+      \field{year}{2020}
+      \field{pages}{139\bibrangedash 144}
+      \range{pages}{6}
+    \endentry
+    \entry{Levin:2021}{book}{}
+      \name{author}{1}{}{%
+        {{hash=902f4d627498372858aaaf35c5ce01c4}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{902f4d627498372858aaaf35c5ce01c4}
+      \strng{fullhash}{902f4d627498372858aaaf35c5ce01c4}
+      \strng{bibnamehash}{902f4d627498372858aaaf35c5ce01c4}
+      \strng{authorbibnamehash}{902f4d627498372858aaaf35c5ce01c4}
+      \strng{authornamehash}{902f4d627498372858aaaf35c5ce01c4}
+      \strng{authorfullhash}{902f4d627498372858aaaf35c5ce01c4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Discrete Mathematics: An Open Introduction}
+      \field{year}{2021}
+    \endentry
+    \entry{Muhammad:2023}{book}{}
+      \name{author}{3}{}{%
+        {{hash=0b25313888c462091a67dbacb78d39f3}{%
+           family={Muhammad.},
+           familyi={M\bibinitperiod}}}%
+        {{hash=c562ba7a0d401e53da2d3baa8120895e}{%
+           family={Febrianty.},
+           familyi={F\bibinitperiod}}}%
+        {{hash=a0d9b0b7c0e98851f0c8e1b179e55fbb}{%
+           family={Sentanu},
+           familyi={S\bibinitperiod},
+           given={I\bibnamedelima Gede\bibnamedelimb Eko\bibnamedelimb Putra\bibnamedelima Sri},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Perkumpulan Rumah Cemerlang Indonesia}%
+      }
+      \strng{namehash}{785a1ef533b8f88384f5f33efeefc2b2}
+      \strng{fullhash}{657f636710fd45cc12b01f65d7c1dbef}
+      \strng{bibnamehash}{657f636710fd45cc12b01f65d7c1dbef}
+      \strng{authorbibnamehash}{657f636710fd45cc12b01f65d7c1dbef}
+      \strng{authornamehash}{785a1ef533b8f88384f5f33efeefc2b2}
+      \strng{authorfullhash}{657f636710fd45cc12b01f65d7c1dbef}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Manajemen Pengambilan Keputusan}
+      \field{year}{2023}
+    \endentry
+    \entry{Muhardeny:2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3fa6f5fcdb46b65f1c427a93e89a756e}{%
+           family={Muhardeny},
+           familyi={M\bibinitperiod},
+           given={Muhammad.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8a12a2a6de6191f3f42e4743adca98c8}{%
+           family={Irfani.},
+           familyi={I\bibinitperiod},
+           given={Muhammad\bibnamedelima Haviz},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d6fcf0ecb3604047b734bc41cb0ec105}{%
+           family={Alie},
+           familyi={A\bibinitperiod},
+           given={Juhaini},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c00a6795731ea69dee04d15512d50323}
+      \strng{fullhash}{3cd444561be7ec1981429c108a114b51}
+      \strng{bibnamehash}{3cd444561be7ec1981429c108a114b51}
+      \strng{authorbibnamehash}{3cd444561be7ec1981429c108a114b51}
+      \strng{authornamehash}{c00a6795731ea69dee04d15512d50323}
+      \strng{authorfullhash}{3cd444561be7ec1981429c108a114b51}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal Software Engineering and Computational Intelligence (JSECI)}
+      \field{title}{Penjadwalan Mata Pelajaran Menggunakan Algoritma \textit{Particle Swarm Optimization} (PSO) Pada SMPIT Mufidatul Ilmi}
+      \field{volume}{1(1)}
+      \field{year}{2023}
+      \field{pages}{51\bibrangedash 63}
+      \range{pages}{13}
+    \endentry
+    \entry{Nasir:2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=51b767bd99bc0a4155c0bbd0efe82f3a}{%
+           family={Nasir},
+           familyi={N\bibinitperiod},
+           given={A.\bibnamedelimi Muhajir.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f440eb72ee199663cdf171f579985e4b}{%
+           family={Faisal},
+           familyi={F\bibinitperiod}}}%
+        {{hash=0af6b34286096caf9ccac631cb4fca26}{%
+           family={Setiawan},
+           familyi={S\bibinitperiod},
+           given={Dedy},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{de427b1b6c0e6b4c6180f5e1072399a6}
+      \strng{fullhash}{1dafcb51764495b4a3c4097788969173}
+      \strng{bibnamehash}{1dafcb51764495b4a3c4097788969173}
+      \strng{authorbibnamehash}{1dafcb51764495b4a3c4097788969173}
+      \strng{authornamehash}{de427b1b6c0e6b4c6180f5e1072399a6}
+      \strng{authorfullhash}{1dafcb51764495b4a3c4097788969173}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Penelitian Matematika dan Pendidikan Matematika (PROXIMAL)}
+      \field{title}{Optimalisasi Penjadwalan Mata Kuliah Menggunakan Teori Pewarnaan Graf}
+      \field{volume}{5(1)}
+      \field{year}{2022}
+      \field{pages}{57\bibrangedash 69}
+      \range{pages}{13}
+    \endentry
+    \entry{Natalia:2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a652e14b098387c244df43c081676a60}{%
+           family={Natalia},
+           familyi={N\bibinitperiod},
+           given={Desy.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=481adb8215864315255ab0e8b16317db}{%
+           family={Yundari},
+           familyi={Y\bibinitperiod}}}%
+        {{hash=7118b52b10030e915e742ec7aae9e929}{%
+           family={Yudhi.},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c512427610e465b25b3e0e6bcc4b3c9}
+      \strng{fullhash}{492a1a93e9267c704f85c4964461e7f3}
+      \strng{bibnamehash}{492a1a93e9267c704f85c4964461e7f3}
+      \strng{authorbibnamehash}{492a1a93e9267c704f85c4964461e7f3}
+      \strng{authornamehash}{5c512427610e465b25b3e0e6bcc4b3c9}
+      \strng{authorfullhash}{492a1a93e9267c704f85c4964461e7f3}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Buletin Ilmiah Math, Stat, dan Terapannya (BIMASTER)}
+      \field{title}{Optimasi Jarak Penjemputan Penumpang CV. Eira Saudara Menggunakan Metode \textit{Particle Swarm Optimization}}
+      \field{volume}{8(3)}
+      \field{year}{2019}
+      \field{pages}{531\bibrangedash 538}
+      \range{pages}{8}
+    \endentry
+    \entry{Nurdiyanto:2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e7c063c2e21c772c7c371d60637380dc}{%
+           family={Nurdiyanto},
+           familyi={N\bibinitperiod},
+           given={Tito.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1356b3db98345930f573bf884d98332f}{%
+           family={Susanti},
+           familyi={S\bibinitperiod},
+           given={Ely},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cec6ca76344745a06287aa4c04d92b1}
+      \strng{fullhash}{3cec6ca76344745a06287aa4c04d92b1}
+      \strng{bibnamehash}{3cec6ca76344745a06287aa4c04d92b1}
+      \strng{authorbibnamehash}{3cec6ca76344745a06287aa4c04d92b1}
+      \strng{authornamehash}{3cec6ca76344745a06287aa4c04d92b1}
+      \strng{authorfullhash}{3cec6ca76344745a06287aa4c04d92b1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Edukasi dan Sains Matematika (JES-MAT)}
+      \field{title}{Efisiensi Penggunaan Matriks \textit{In-Degree} Untuk Mengkontruksi \textit{Spanning-Tree} Pada Graf Berarah}
+      \field{volume}{5(1)}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+    \endentry
+    \entry{Piotrowski:2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f7490cea4519e49cc349deaa53cfdb43}{%
+           family={Piotrowski},
+           familyi={P\bibinitperiod},
+           given={Adam\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=91db4ea9326ac5619e16e4db8989a714}{%
+           family={Napiorkowski.},
+           familyi={N\bibinitperiod},
+           given={Jaroslaw\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=12fbcda9444b15c7731ec98cb7f7d89c}{%
+           family={Piotrowska},
+           familyi={P\bibinitperiod},
+           given={Agnieszka\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{54e4b1ddd0cf2686352a5a8a27e4eb9c}
+      \strng{fullhash}{94eecac8f5e9bc81e3ff0b55d75d950f}
+      \strng{bibnamehash}{94eecac8f5e9bc81e3ff0b55d75d950f}
+      \strng{authorbibnamehash}{94eecac8f5e9bc81e3ff0b55d75d950f}
+      \strng{authornamehash}{54e4b1ddd0cf2686352a5a8a27e4eb9c}
+      \strng{authorfullhash}{94eecac8f5e9bc81e3ff0b55d75d950f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Swarm and Evolutionary Computation}
+      \field{title}{\textit{Population Size in Particle Swarm Optimization}}
+      \field{volume}{58}
+      \field{year}{2020}
+      \field{pages}{100718}
+      \range{pages}{1}
+    \endentry
+    \entry{Pratama:2022}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f6529d9ad1bb612f2009cfaee927afff}{%
+           family={Pratama},
+           familyi={P\bibinitperiod},
+           given={Viery\bibnamedelima Lovega.},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=501738afa314ce725bf70b13380091a2}{%
+           family={Darmawan},
+           familyi={D\bibinitperiod},
+           given={Dodik\bibnamedelima Arwin},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{11f1a1876235fc8eeee4f84525f5be51}
+      \strng{fullhash}{11f1a1876235fc8eeee4f84525f5be51}
+      \strng{bibnamehash}{11f1a1876235fc8eeee4f84525f5be51}
+      \strng{authorbibnamehash}{11f1a1876235fc8eeee4f84525f5be51}
+      \strng{authornamehash}{11f1a1876235fc8eeee4f84525f5be51}
+      \strng{authorfullhash}{11f1a1876235fc8eeee4f84525f5be51}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Informatics and Computer Science (JINACS)}
+      \field{title}{Sistem Informasi Geografis Pencarian Rute Terdekat Bengkel Motor Di Kota Surabaya Menggunakan Algoritma \textit{Bellman-Ford}}
+      \field{volume}{3(4)}
+      \field{year}{2022}
+      \field{pages}{580\bibrangedash 599}
+      \range{pages}{20}
+    \endentry
+    \entry{Qin:2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8a4e07df1ebdc4cf813e1b4b8a27779e}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Hu.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1fd5b9720e6d2ea38e9dc4d3afcd656d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zizhen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9d1c12d36d8d55b2b4b33677f631b709}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5628c242828509532c7445a4e058507c}{%
+           family={Liang.},
+           familyi={L\bibinitperiod},
+           given={Xiaocong},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b69c5a099e57f0c4757d82976d814f2}
+      \strng{fullhash}{be17ed9109de858fc0144ff1d757c231}
+      \strng{bibnamehash}{be17ed9109de858fc0144ff1d757c231}
+      \strng{authorbibnamehash}{be17ed9109de858fc0144ff1d757c231}
+      \strng{authornamehash}{0b69c5a099e57f0c4757d82976d814f2}
+      \strng{authorfullhash}{be17ed9109de858fc0144ff1d757c231}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{title}{\textit{An Enhanced Branch-and-Bound Algorithm for The Talent Schedulling Problem}}
+      \field{volume}{250(2)}
+      \field{year}{2016}
+      \field{pages}{412\bibrangedash 426}
+      \range{pages}{15}
+    \endentry
+    \entry{Rahayuningsih:2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a3cd50083bc017333c7b9bb05471b976}{%
+           family={Rahayuningsih},
+           familyi={R\bibinitperiod},
+           given={Sri},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universitas Wisnuwardhana Press Malang (Unidha Press)}%
+      }
+      \strng{namehash}{a3cd50083bc017333c7b9bb05471b976}
+      \strng{fullhash}{a3cd50083bc017333c7b9bb05471b976}
+      \strng{bibnamehash}{a3cd50083bc017333c7b9bb05471b976}
+      \strng{authorbibnamehash}{a3cd50083bc017333c7b9bb05471b976}
+      \strng{authornamehash}{a3cd50083bc017333c7b9bb05471b976}
+      \strng{authorfullhash}{a3cd50083bc017333c7b9bb05471b976}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Teori Graph Dan Penerapannya}
+      \field{year}{2018}
+    \endentry
+    \entry{Rahimi:2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=3d97db93b6f7a3ce5e61d82a3079cf0c}{%
+           family={Rahimi},
+           familyi={R\bibinitperiod},
+           given={Andira.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=59b4fc7d2cb1e3f7561c2f95b4ce3347}{%
+           family={Arthur},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f6337565dace803e83a41bbb1e5099d4}{%
+           family={Nurfadillah},
+           familyi={N\bibinitperiod}}}%
+        {{hash=0ed01d17c37fa26d7023b9cb6fb62196}{%
+           family={Amijaya},
+           familyi={A\bibinitperiod},
+           given={Fidia\bibnamedelimb Deny\bibnamedelima Tisna},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9aaddd690242445fcdd387d35d538795}{%
+           family={Putri.},
+           familyi={P\bibinitperiod},
+           given={Desi\bibnamedelima Febriani},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9290ad4322e1eab19cc7fe7f783e202c}
+      \strng{fullhash}{854473d90a5e64eb0babd28a4b9ef710}
+      \strng{bibnamehash}{854473d90a5e64eb0babd28a4b9ef710}
+      \strng{authorbibnamehash}{854473d90a5e64eb0babd28a4b9ef710}
+      \strng{authornamehash}{9290ad4322e1eab19cc7fe7f783e202c}
+      \strng{authorfullhash}{854473d90a5e64eb0babd28a4b9ef710}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Prosiding Seminar Nasional Matematika, Statistika, dan Aplikasinya (SNMSA)}
+      \field{title}{Implementasi Algoritma Genetika Dalam Penentuan Rute Terbaik Pendistribusian BBM Pada SPBU Yang Ada Di Samarinda}
+      \field{volume}{3(1)}
+      \field{year}{2023}
+      \field{pages}{196\bibrangedash 207}
+      \range{pages}{12}
+    \endentry
+    \entry{Ramadhan:2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cee2af1123efe1f16c5c49f890b3bcff}{%
+           family={Ramadhan},
+           familyi={R\bibinitperiod},
+           given={Muhammad\bibnamedelima Raihan.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a25116d53ce83f5089a52ee471aa2f67}{%
+           family={Setianingsih.},
+           familyi={S\bibinitperiod},
+           given={Casi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=23141b76ea5eefa572b5c7102739cf65}{%
+           family={Dirgantoro.},
+           familyi={D\bibinitperiod},
+           given={Burhanuddin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8840c88301ceadccb1be9e8f3a2b813}
+      \strng{fullhash}{ec3f11c9abc21d6d65324af204440cd3}
+      \strng{bibnamehash}{ec3f11c9abc21d6d65324af204440cd3}
+      \strng{authorbibnamehash}{ec3f11c9abc21d6d65324af204440cd3}
+      \strng{authornamehash}{f8840c88301ceadccb1be9e8f3a2b813}
+      \strng{authorfullhash}{ec3f11c9abc21d6d65324af204440cd3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{eProceedings of Engineering}
+      \field{title}{Sistem Penjadwalan Perangkat Listrik dengan Metode Algoritma \textit{Particle Swarm Optimization} Berbasis \textit{Website}}
+      \field{volume}{10(1)}
+      \field{year}{2023}
+      \field{pages}{865\bibrangedash 872}
+      \range{pages}{8}
+    \endentry
+    \entry{Sari:2024}{article}{}
+      \name{author}{4}{}{%
+        {{hash=35418616858aa8465b13a93b18254090}{%
+           family={Sari},
+           familyi={S\bibinitperiod},
+           given={Fitri\bibnamedelima Fitriana.},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d7861be43f4daec9171b605dd753ca7c}{%
+           family={Pujiarti.},
+           familyi={P\bibinitperiod},
+           given={Titi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2f564cc3c35c1429f94e41a8f155db4c}{%
+           family={Hidayat.},
+           familyi={H\bibinitperiod}}}%
+        {{hash=48b834fb04d9bf5226a2910535160a4c}{%
+           family={Anjosa},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae58a5f8c4165da4f6ecf624c80bc41e}
+      \strng{fullhash}{d2ee9ea584327dd33408efcf7e75d3ef}
+      \strng{bibnamehash}{d2ee9ea584327dd33408efcf7e75d3ef}
+      \strng{authorbibnamehash}{d2ee9ea584327dd33408efcf7e75d3ef}
+      \strng{authornamehash}{ae58a5f8c4165da4f6ecf624c80bc41e}
+      \strng{authorfullhash}{d2ee9ea584327dd33408efcf7e75d3ef}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Kajian Pendidikan dan Sosial (DIKSI)}
+      \field{title}{Pembelajaran Matematika Diskrit Mengacu Pada Teori Beban Kognitif (\textit{Cognitive Load Theory})}
+      \field{volume}{5(1)}
+      \field{year}{2024}
+      \field{pages}{10\bibrangedash 17}
+      \range{pages}{8}
+    \endentry
+    \entry{Saud:2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6f810a038cd94c38feb13c14d3b23f7d}{%
+           family={Saud},
+           familyi={S\bibinitperiod},
+           given={Suhair.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d68f8e609c7e5fb7315618a1eb485500}{%
+           family={Kodaz.},
+           familyi={K\bibinitperiod},
+           given={Halife},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ef9552d0d05e75039284188317498e42}{%
+           family={Babao$\breve{g}$lu},
+           familyi={B\bibinitperiod},
+           given={Ismail},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{015d9ecff055712a0cacfdcbe4d08d4a}
+      \strng{fullhash}{88c3389c293dbbc2cbbdc2be57ed9376}
+      \strng{bibnamehash}{88c3389c293dbbc2cbbdc2be57ed9376}
+      \strng{authorbibnamehash}{88c3389c293dbbc2cbbdc2be57ed9376}
+      \strng{authornamehash}{015d9ecff055712a0cacfdcbe4d08d4a}
+      \strng{authorfullhash}{88c3389c293dbbc2cbbdc2be57ed9376}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{KnE Social Sciences}
+      \field{title}{\textit{Solving Traveling Salesman Problem Using Optimization Algorithms}}
+      \field{volume}{3(1)}
+      \field{year}{2018}
+      \field{pages}{17\bibrangedash 32}
+      \range{pages}{16}
+    \endentry
+    \entry{Setiawati:2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e1f49573b55a861b8ee4cbde5162c7f9}{%
+           family={Setiawati},
+           familyi={S\bibinitperiod},
+           given={Juli.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4309de2a262ab3c81fd8434903ba1edb}{%
+           family={Febrilian},
+           familyi={F\bibinitperiod},
+           given={Meryta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9ef48a0774c68189e77e3c9a11173038}{%
+           family={Ekawati},
+           familyi={E\bibinitperiod},
+           given={Darma},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{5058eaa24cf82092614123dfba7c3fba}
+      \strng{fullhash}{6253c6d74fa6657c95a3ad3ed9ccbde7}
+      \strng{bibnamehash}{6253c6d74fa6657c95a3ad3ed9ccbde7}
+      \strng{authorbibnamehash}{6253c6d74fa6657c95a3ad3ed9ccbde7}
+      \strng{authornamehash}{5058eaa24cf82092614123dfba7c3fba}
+      \strng{authorfullhash}{6253c6d74fa6657c95a3ad3ed9ccbde7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Penelitian Matematika dan Pendidikan Matematika (PROXIMAL)}
+      \field{title}{Pelabelan Total Tak Reguler Sisi Pada Graf \textit{Direction}, Graf \textit{Direction Right}, Dan Graf \textit{Heart}}
+      \field{volume}{6(2)}
+      \field{year}{2023}
+      \field{pages}{64\bibrangedash 72}
+      \range{pages}{9}
+    \endentry
+    \entry{Sinaga:2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ce7750fddf38aef47e43082992099f5a}{%
+           family={Sinaga},
+           familyi={S\bibinitperiod},
+           given={Rizki\bibnamedelima Putra.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=5bff3864ffc14961d27c6c1c8a75e6f2}{%
+           family={Marpaung},
+           familyi={M\bibinitperiod},
+           given={Faridawaty},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \strng{fullhash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \strng{bibnamehash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \strng{authorbibnamehash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \strng{authornamehash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \strng{authorfullhash}{8ec8b9a7b98f05b0a506c8a8e9fc7db8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Riset Rumpun Matematika dan Ilmu Pengetahuan Alam (JURRIMIPA)}
+      \field{title}{Perbandingan Algoritma \textit{Cheapest Insertion Heuristic} dan \textit{Nearest Neighbor} Dalam Menyelesaikan \textit{Traveling Salesman Problem}}
+      \field{volume}{2(2)}
+      \field{year}{2023}
+      \field{pages}{238\bibrangedash 247}
+      \range{pages}{10}
+    \endentry
+    \entry{Wang:2022}{article}{}
+      \name{author}{7}{}{%
+        {{hash=de3d9f565fe0c0f1c2f35a38163db114}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zongshan.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=1fbb2c7f16cf3fbacb82c8c1b801dc7b}{%
+           family={Ding.},
+           familyi={D\bibinitperiod},
+           given={Hongwei},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fcd6114a30fda9801eef65b9d374f56b}{%
+           family={Wang.},
+           familyi={W\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=daf26b5b717cc5037f90344463b1debb}{%
+           family={Hou.},
+           familyi={H\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ccbe315c3ab9d490290d48ba3921ee1c}{%
+           family={Li.},
+           familyi={L\bibinitperiod},
+           given={Aishan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a84576ed9661ee6716ea41565b75a4b5}{%
+           family={Yang.},
+           familyi={Y\bibinitperiod},
+           given={Zhijun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d909b8c0fbc8d7a8bab3afa3b0718e34}{%
+           family={Hu.},
+           familyi={H\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcb8577378202401c4c313e902e997a2}
+      \strng{fullhash}{36cae7d7077043f3d367e0ce6bb136cc}
+      \strng{bibnamehash}{36cae7d7077043f3d367e0ce6bb136cc}
+      \strng{authorbibnamehash}{36cae7d7077043f3d367e0ce6bb136cc}
+      \strng{authornamehash}{fcb8577378202401c4c313e902e997a2}
+      \strng{authorfullhash}{36cae7d7077043f3d367e0ce6bb136cc}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computational Design and Engineering (CDE), Oxford}
+      \field{title}{\textit{Adaptive Guided Salp Swarm Algorithm with Velocity Clamping Mechanism for Solving Optimization Problems}}
+      \field{volume}{9(6)}
+      \field{year}{2022}
+      \field{pages}{2196\bibrangedash 2234}
+      \range{pages}{39}
+    \endentry
+    \entry{Yurinanda:2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d6500f5d5bc6e6475248fcefee606deb}{%
+           family={Yurinanda},
+           familyi={Y\bibinitperiod},
+           given={Sherli.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1a2bb39e0a3b9a63b6ab09fccbd2323d}{%
+           family={Rozi},
+           familyi={R\bibinitperiod},
+           given={Syamsyida},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \strng{fullhash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \strng{bibnamehash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \strng{authorbibnamehash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \strng{authornamehash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \strng{authorfullhash}{dec0b4bb311b4d4b1051a5cc759458b0}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Pendidikan Matematika dan Matematika (ABSIS)}
+      \field{title}{Penerapan Pembelajaran Berbasis Proyek Pada Mata Kuliah Matematika Diskrit Untuk Meningkatkan Keterampilan Mahasiswa Dalam Memanfaatkan Struktur Diskrit Dalam Menyelesaikan Masalah}
+      \field{volume}{5(2)}
+      \field{year}{2023}
+      \field{pages}{666\bibrangedash 679}
+      \range{pages}{14}
+    \endentry
+    \entry{Zahro:2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d5b3f4a679beffcddcd32e15202698d0}{%
+           family={Zahro},
+           familyi={Z\bibinitperiod},
+           given={Hani\bibnamedelima Zulfia.},
+           giveni={H\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=a7dd5f604546a037c5f1ae50918aea51}{%
+           family={Wahyuni},
+           familyi={W\bibinitperiod},
+           given={Febriana\bibnamedelima Santi},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \strng{fullhash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \strng{bibnamehash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \strng{authorbibnamehash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \strng{authornamehash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \strng{authorfullhash}{ed1e13f36c04f7921b07ec1b71e9b109}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal MNEMONIC}
+      \field{title}{Optimasi \textit{Particle Swarm Optimization} (PSO) Untuk Penentuan \textit{Base Transceiver System} (BTS)}
+      \field{volume}{3(1)}
+      \field{year}{2020}
+      \field{pages}{7\bibrangedash 10}
+      \range{pages}{4}
+    \endentry
+    \entry{Zdiri:2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=893e45625b86d43bb952ddd82e8011ab}{%
+           family={Zdiri},
+           familyi={Z\bibinitperiod},
+           given={Sami.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=916fc662506b1c2a7845d8dc4171ad77}{%
+           family={Chrouta.},
+           familyi={C\bibinitperiod},
+           given={Jaouher},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b13aff14d74259682187a4446d3b6d17}{%
+           family={Zaafouri.},
+           familyi={Z\bibinitperiod},
+           given={Abderrahmen},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9b21fe6c6ceefed089577175fc0da2e}
+      \strng{fullhash}{58a3ef21af7e6dd665fa371297d64a74}
+      \strng{bibnamehash}{58a3ef21af7e6dd665fa371297d64a74}
+      \strng{authorbibnamehash}{58a3ef21af7e6dd665fa371297d64a74}
+      \strng{authornamehash}{d9b21fe6c6ceefed089577175fc0da2e}
+      \strng{authorfullhash}{58a3ef21af7e6dd665fa371297d64a74}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Problems in Engineering, Hindawi}
+      \field{title}{\textit{An Expanded Heterogeneous Particle Swarm Optimization Based on Adaptive Inertia Weight}}
+      \field{volume}{2021(1)}
+      \field{year}{2021}
+      \field{pages}{4194263}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
