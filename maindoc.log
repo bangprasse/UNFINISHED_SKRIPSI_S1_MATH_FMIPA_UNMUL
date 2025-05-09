@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.22)  13 MAR 2025 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.22)  9 MAY 2025 16:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1696,7 +1696,7 @@ Overfull \hbox (0.48314pt too wide) in paragraph at lines 32--37
 []\OT1/ptm/m/n/12 Teori graf meru-pakan ka-jian matem-atika dalam lingkup matem-atika diskrit yang
  []
 
-<gambar/Graf Konigsberg.png, id=431, 1505.625pt x 1064.47687pt>
+<gambar/Graf Konigsberg.png, id=440, 1505.625pt x 1064.47687pt>
 File: gambar/Graf Konigsberg.png Graphic file (type png)
 <use gambar/Graf Konigsberg.png>
 Package pdftex.def Info: gambar/Graf Konigsberg.png  used on input line 40.
@@ -1752,16 +1752,21 @@ Overfull \hbox (5.153pt too wide) in paragraph at lines 85--87
 
 [26] [27]) (badan_skripsi/04_Bab_4.tex [28]
 BAB 4.
-) [29
+[29
 
-] (badan_skripsi/05_Bab_5.tex) (perangkat_skripsi/09_Daftar_Pustaka.tex [30
+]
+Overfull \hbox (4.34784pt too wide) in paragraph at lines 92--93
+[]\OT1/ptm/m/n/12 Berdasarkan Tabel []4.2[], se-lan-jut-nya di-hi-tung to-tal bi-aya \OT1/ptm/m/it/12 tal-ent \OT1/ptm/m/n/12 dalam se-tiap \OT1/ptm/m/it/12 scene\OT1/ptm/m/n/12 . 
+ []
+
+) [30] (badan_skripsi/05_Bab_5.tex) (perangkat_skripsi/09_Daftar_Pustaka.tex [31
 
 ]
 Overfull \hbox (14.05345pt too wide) in paragraph at lines 6--6
 \OT1/ptm/m/n/12 gelom-pokkan de-sa/kelu-ra-han tert-ing-gal di kabu-paten ku-tai ker-tane-gara provinsi
  []
 
-[31]
+[32]
 Overfull \hbox (11.64053pt too wide) in paragraph at lines 6--6
 \OT1/ptm/m/n/12 perangkat listrik de-ngan metode al-go-ritma \OT1/ptm/m/it/12 Par-ti-cle Swarm Op-ti-miza-tion \OT1/ptm/m/n/12 berba-
  []
@@ -1771,29 +1776,29 @@ Overfull \hbox (0.59425pt too wide) in paragraph at lines 6--6
 [][]\OT1/ptm/m/n/12 Sari, F. F., Pu-jiarti., T., Hi-dayat., & An-josa. (2024). Pem-be-la-jaran matem-atika diskrit
  []
 
-[32]) [33] (lampiran/01_lampiran.tex [34]) (perangkat_skripsi/10_Riwayat_Hidup.tex) [35] (maindoc.aux)
+[33]) [34] (lampiran/01_lampiran.tex [35]) (perangkat_skripsi/10_Riwayat_Hidup.tex) [36] (maindoc.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
  ***********
 Package rerunfilecheck Info: File `maindoc.out' has not changed.
-(rerunfilecheck)             Checksum: 0D3FC285B95D33628A28DECA8AFA1EB0;8798.
+(rerunfilecheck)             Checksum: D3D27DBFD88357AD85F2D413DD51ADE2;9155.
 Package logreq Info: Writing requests to 'maindoc.run.xml'.
 \openout1 = `maindoc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54297 strings out of 474824
- 1211687 string characters out of 5757048
- 2280320 words of memory out of 5000000
- 75029 multiletter control sequences out of 15000+600000
+ 54303 strings out of 474824
+ 1211783 string characters out of 5757048
+ 2280639 words of memory out of 5000000
+ 75032 multiletter control sequences out of 15000+600000
  581854 words of font info for 91 fonts, out of 8000000 for 9000
  1196 hyphenation exceptions out of 8191
  102i,15n,131p,748b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on maindoc.pdf (44 pages, 2394093 bytes).
+Output written on maindoc.pdf (45 pages, 2402048 bytes).
 PDF statistics:
- 830 PDF objects out of 1000 (max. 8388607)
- 255 named destinations out of 1000 (max. 500000)
+ 847 PDF objects out of 1000 (max. 8388607)
+ 258 named destinations out of 1000 (max. 500000)
  399 words of extra memory for PDF output out of 10000 (max. 10000000)
 

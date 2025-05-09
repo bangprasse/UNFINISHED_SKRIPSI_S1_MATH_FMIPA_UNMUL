@@ -754,6 +754,6 @@
 
 % Setup caption enviroment
 \captionsetup[figure]{font = normalsize, labelfont = bf}
-\captionsetup[table]{font = normalsize, labelfont = bf}
+\captionsetup[table]{font = normalsize, labelfont = bf, justification = centering}
 
 \allowdisplaybreaks

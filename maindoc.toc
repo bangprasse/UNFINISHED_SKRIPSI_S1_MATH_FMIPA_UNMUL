@@ -43,7 +43,7 @@
 \contentsline {section}{\numberline {3.6}Teknik Analisis Data}{26}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Kerangka Penelitian}{28}{section.3.7}%
 \contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}}{29}{section.4.1}%
-\contentsline {chapter}{\textbf {DAFTAR PUSTAKA}}{30}{section*.14}%
-\contentsline {chapter}{\textbf {LAMPIRAN}}{34}{section*.16}%
+\contentsline {section}{\numberline {4.1}Model Graf \textit {Scene} Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}{29}{section.4.1}%
+\contentsline {chapter}{\textbf {DAFTAR PUSTAKA}}{31}{section*.16}%
+\contentsline {chapter}{\textbf {LAMPIRAN}}{35}{section*.18}%
 \contentsfinish 

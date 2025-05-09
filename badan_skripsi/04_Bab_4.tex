@@ -6,13 +6,93 @@
 
 % Penjelasan umum mengenai isi bab
 {\frenchspacing
-    Pada bab ini membahas tentang hasil penelitian yang telah dilakukan yaitu menentukan
+    Pada bab 4 akan dibahas tentang hasil penelitian yang telah dilakukan yaitu menentukan
     urutan syuting \textit{scene} film menggunakan algoritma \textit{particle swarm optimization}
     pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
-    Adapun yang akan dibahas yaitu deksripsi data, proses algortima \textit{particle swarm optimization},
+    Hasil penelitian dibahas ke dalam beberapa bagian pembahasan.
+    Adapun hasil penelitian yang dibahas yaitu model graf \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang",
+    penerapan algoritma \textit{Particle Swarm Optimization} (PSO) untuk optimalisasi pemilihan urutan syuting
+    \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang", dan hasil optimalisasi pemilihan urutan
+    syuting \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" menggunakan algoritma \textit{particle swarm optimization} (PSO)
 }
 
 % SubBab
-\section{}
+\section{Model Graf \textit{Scene} Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
+\vspace{-4mm}
+{\frenchspacing
+    Model graf \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dibuat dengan melihat data penelitian.
+    Data yang digunakan dalam penelitian ini adalah data \textit{scene} dan data biaya syuting tiap \textit{scene}
+    film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+    Data \textit{scene} pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dapat dilihat pada Tabel \ref{tab: data scene}.
+
+    \begin{table}
+        \centering
+        \caption{Data \textit{scene} pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
+        \label{tab: data scene}
+        \begin{tabular}{|c|c|l|c|}
+            \hline
+            \textbf{No} & \textbf{\textit{Scene}} & \textbf{Lokasi}                    & \textbf{Variabel} \\\hline
+            1           & 1C                      & Masjid Waduk Panji Tenggarong      & $v_{1}$           \\\hline
+            2           & 1D                      & Hutan Bambu Desa   Kedang Ipil     & $v_{2}$           \\\hline
+            3           & 1E                      & Air Terjun Desa Kedang Ipil        & $v_{3}$           \\\hline
+            4           & 2A                      & Rumah Warga Desa Kedang Ipil       & $v_{4}$           \\\hline
+            5           & 2B                      & Rumah Warga Desa Kedang Ipil       & $v_{5}$           \\\hline
+            6           & 3                       & Kebun Bunga Waduk Panji Tenggarong & $v_{6}$           \\\hline
+            7           & 4                       & Kebun Bunga Waduk Panji Tenggarong & $v_{7}$           \\\hline
+            \dots       & \dots                   & \dots                              & \dots             \\\hline
+            59          & 37                      & Kebun Bunga Waduk Panji Tenggarong & $v_{59}$          \\\hline
+        \end{tabular}
+    \end{table}
+
+    \vspace{-8mm}
+    \begin{flushright}
+        Sumber: Lampiran 1
+    \end{flushright}
+
+    Berdasarkan Tabel \ref{tab: data scene}, dapat dilihat bahwa terdapat 59 \textit{scene}.
+    Tiap \textit{scene} dalam proses syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dianalogikan sebagai
+    suatu \textit{vertex} dalam graf.
+    Sedangkan \textit{edge} di dalam graf tersebut merepresentasikan bobot biaya syuting antar tiap \textit{scene} film "Ketika
+    Adzan Sudah Tidak Lagi Berkumandang".
+    Graf yang dapat dibuat untuk memodelkan masalah ini sebagai masalah \textit{travelling salesman problem} dapat dilihat
+    dapat dilihat pada Gambar .
+
+    Data biaya syuting tiap \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dibagi menjadi dua,
+    yaitu data biaya \textit{talent} dan data biaya transportasi.
+    Data biaya \textit{talent} adalah data biaya yang harus dikeluarkan untuk menyewa pemain (\textit{talent}) yang bermain dalam satu \textit{scene}.
+    Daftar total biaya \textit{talent} yang dapat dilihat pada \textbf{Lampiran 2}, kemudian dibagi jumlah \textit{scene} dari \textit{talent} tersebut bermain sehingga
+    diperoleh data biaya \textit{talent} dalam satu \textit{scene}.
+    Adapun data biaya tiap \textit{talent} dalam suatu \textit{scene} dapat dilihat pada Tabel \ref{tab: data biaya talent}.
+
+    \begin{table}
+        \centering
+        \caption{Data Biaya Talent dalam Satu Scene pada Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
+        \label{tab: data biaya talent}
+        \begin{tabular}{|c|l|l|c|}
+            \hline
+            \textbf{No} & \multicolumn{1}{c|}{\textit{\textbf{Talent}}} & \textbf{Nama Karakter} & \textbf{Biaya Talent / \textit{Scene} (Rp)} \\ \hline
+            1           & Daniel Imran                                  & Wawan                  & 13333.333333                                \\ \hline
+            2           & A. Muslih Navis                               & Manto                  & 17647.058824                                \\ \hline
+            3           & KimKim                                        & Usman                  & 24000.000000                                \\ \hline
+            4           & Emilda Sohaya                                 & Rita                   & 37500.000000                                \\ \hline
+            5           & Aqila Yumi                                    & Nina                   & 40000.000000                                \\ \hline
+            6           & Dedi Nala Arung                               & Ustadz Udas            & 35294.117647                                \\ \hline
+            7           & Ika Puspita                                   & Irah                   & 66666.666667                                \\ \hline
+            8           & Nanda Fajar Amrullah                          & Mali                   & 50000.000000                                \\ \hline
+            9           & Muhtadin                                      & Ismail                 & 54545.454545                                \\ \hline
+            10          & Muhammad Syabir                               & Kakek Tua              & 200000.000000                               \\ \hline
+        \end{tabular}
+    \end{table}
+
+    \vspace{-8mm}
+    \begin{flushright}
+        Sumber: Lampiran 2
+    \end{flushright}
+
+    Berdasarkan Tabel \ref{tab: data biaya talent}, selanjutnya dihitung total biaya \textit{talent} dalam setiap \textit{scene}.
+
+
+
+}
 
 \pagebreak
