@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.22)  9 MAY 2025 16:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.22)  9 MAY 2025 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1754,12 +1754,7 @@ Overfull \hbox (5.153pt too wide) in paragraph at lines 85--87
 BAB 4.
 [29
 
-]
-Overfull \hbox (4.34784pt too wide) in paragraph at lines 92--93
-[]\OT1/ptm/m/n/12 Berdasarkan Tabel []4.2[], se-lan-jut-nya di-hi-tung to-tal bi-aya \OT1/ptm/m/it/12 tal-ent \OT1/ptm/m/n/12 dalam se-tiap \OT1/ptm/m/it/12 scene\OT1/ptm/m/n/12 . 
- []
-
-) [30] (badan_skripsi/05_Bab_5.tex) (perangkat_skripsi/09_Daftar_Pustaka.tex [31
+]) [30] (badan_skripsi/05_Bab_5.tex) (perangkat_skripsi/09_Daftar_Pustaka.tex [31
 
 ]
 Overfull \hbox (14.05345pt too wide) in paragraph at lines 6--6
@@ -1796,7 +1791,7 @@ Here is how much of TeX's memory you used:
  1196 hyphenation exceptions out of 8191
  102i,15n,131p,748b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on maindoc.pdf (45 pages, 2402048 bytes).
+Output written on maindoc.pdf (45 pages, 2402199 bytes).
 PDF statistics:
  847 PDF objects out of 1000 (max. 8388607)
  258 named destinations out of 1000 (max. 500000)
