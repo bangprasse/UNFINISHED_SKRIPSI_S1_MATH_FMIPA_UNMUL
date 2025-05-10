@@ -585,7 +585,6 @@
   \vspace{-5mm}
 }
 
-
 \DeclareCiteCommand{\textcite}
   {\boolfalse{cbx:parens}}
   {\usebibmacro{citeindex}%

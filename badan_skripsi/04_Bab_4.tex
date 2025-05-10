@@ -57,6 +57,10 @@
     Graf yang dapat dibuat untuk memodelkan masalah ini sebagai masalah \textit{travelling salesman problem} dapat dilihat
     dapat dilihat pada Gambar .
 
+    \begin{center}
+        GAMBAR GRAF
+    \end{center}
+
     Data biaya syuting tiap \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dibagi menjadi dua,
     yaitu data biaya \textit{talent} dan data biaya transportasi.
     Data biaya \textit{talent} adalah data biaya yang harus dikeluarkan untuk menyewa pemain (\textit{talent}) yang bermain dalam satu \textit{scene}.
@@ -70,17 +74,17 @@
         \label{tab: data biaya talent}
         \begin{tabular}{|c|l|l|c|}
             \hline
-            \textbf{No} & \multicolumn{1}{c|}{\textit{\textbf{Talent}}} & \textbf{Nama Karakter} & \textbf{Biaya Talent / \textit{Scene} (Rp)} \\ \hline
-            1           & Daniel Imran                                  & Wawan                  & 13333.333333                                \\ \hline
-            2           & A. Muslih Navis                               & Manto                  & 17647.058824                                \\ \hline
-            3           & KimKim                                        & Usman                  & 24000.000000                                \\ \hline
-            4           & Emilda Sohaya                                 & Rita                   & 37500.000000                                \\ \hline
-            5           & Aqila Yumi                                    & Nina                   & 40000.000000                                \\ \hline
-            6           & Dedi Nala Arung                               & Ustadz Udas            & 35294.117647                                \\ \hline
-            7           & Ika Puspita                                   & Irah                   & 66666.666667                                \\ \hline
-            8           & Nanda Fajar Amrullah                          & Mali                   & 50000.000000                                \\ \hline
-            9           & Muhtadin                                      & Ismail                 & 54545.454545                                \\ \hline
-            10          & Muhammad Syabir                               & Kakek Tua              & 200000.000000                               \\ \hline
+            \textbf{No} & \multicolumn{1}{c|}{\textit{\textbf{Talent}}} & \textbf{Peran} & \textbf{Biaya Talent tiap \textit{Scene} (Rp)} \\ \hline
+            1           & Daniel Imran                                  & Wawan          & 13333.333333                                   \\ \hline
+            2           & A. Muslih Navis                               & Manto          & 17647.058824                                   \\ \hline
+            3           & KimKim                                        & Usman          & 24000.000000                                   \\ \hline
+            4           & Emilda Sohaya                                 & Rita           & 37500.000000                                   \\ \hline
+            5           & Aqila Yumi                                    & Nina           & 40000.000000                                   \\ \hline
+            6           & Dedi Nala Arung                               & Ustadz Udas    & 35294.117647                                   \\ \hline
+            7           & Ika Puspita                                   & Irah           & 66666.666667                                   \\ \hline
+            8           & Nanda Fajar Amrullah                          & Mali           & 50000.000000                                   \\ \hline
+            9           & Muhtadin                                      & Ismail         & 54545.454545                                   \\ \hline
+            10          & Muhammad Syabir                               & Kakek Tua      & 200000.000000                                  \\ \hline
         \end{tabular}
     \end{table}
 
@@ -89,12 +93,43 @@
         Sumber: Lampiran 2
     \end{flushright}
 
-    Berdasarkan Tabel \ref{tab: data biaya talent} dan data talent yang bermain di setiap \textit{scene} pada \textbf{Lampiran 1}, selanjutnya dihitung total biaya seluruh \textit{talent} yang bermain dalam setiap \textit{scene}.
+    Berdasarkan data biaya \textit{talent} pada Tabel \ref{tab: data biaya talent} dan data talent yang bermain di setiap \textit{scene} pada \textbf{Lampiran 1},
+    selanjutnya dihitung total biaya \textit{talent} yang bermain dalam setiap \textit{scene}.
+    Proses perhitungan total biaya \textit{talent} dapat dijelaskan sebagai berikut.
+
+    \noindent
+    Pada \textit{scene} 1C, peran \textit{talent} yang digunakan adalah "Irah, Manto, Wawan" sehingga total biaya \textit{talent}
+    pada \textit{scene} 1C = biaya \textit{talent} Irah + biaya \textit{talent} Manto + biaya \textit{talent} Wawan = Rp$66.666,666667$ + Rp$17.647,333333$ + Rp$13.333,333333$ = Rp$97.647,058824$.
+
+    \noindent
+    Perhitungan total biaya \textit{talent} di tiap-tiap \textit{scene} dapat dilihat pada Tabel \ref{tab: biaya talent tiap scene}.
+
+    \begin{table}
+        \centering
+        \caption{Data Total Biaya Talent tiap Scene pada Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
+        \label{tab: biaya talent tiap scene}
+        \begin{tabular}{|c|c|l|c|}
+            \hline
+            \textbf{No} & \textit{\textbf{Scene}}    & \textbf{Peran yang Bermain}                                                              & \textbf{Total Biaya Talent (Rp)} \\ \hline
+            1           & 1C                         & Irah, Manto, Wawan                                                                       & 97.647,058824                    \\ \hline
+            2           & 1D                         &                                                                                          & 0                                \\ \hline
+            3           & 1E                         &                                                                                          & 0                                \\ \hline
+            4           & 2A                         & Irah, Manto, Wawan                                                                       & 97.647,058824                    \\ \hline
+            5           & 2B                         & \begin{tabular}[c]{@{}l@{}}Irah, Manto, Wawan, \\ Ustadz Udas, Ismail, Mali\end{tabular} & 237.486,631016                   \\ \hline
+            6           & 3                          & Irah, Manto, Wawan                                                                       & 97.647,058824                    \\ \hline
+            7           & 4                          & Irah, Manto, Wawan                                                                       & 97.647,058824                    \\ \hline
+            8           & 5                          & Wawan, Manto, Ustadz Udas                                                                & 66.274,509804                    \\ \hline
+            \dots       & \multicolumn{1}{l|}{\dots} & \dots                                                                                    & \dots                            \\ \hline
+            59          & \multicolumn{1}{l|}{37}    & Ustadz Udas                                                                              & 35.294,117647                    \\ \hline
+        \end{tabular}
+    \end{table}
+
+    \vspace{-8mm}
+    \begin{flushright}
+        Sumber: Lampiran 1 dan Lampiran 2
+    \end{flushright}
+
     
-    
-
-
-
 }
 
 \pagebreak
