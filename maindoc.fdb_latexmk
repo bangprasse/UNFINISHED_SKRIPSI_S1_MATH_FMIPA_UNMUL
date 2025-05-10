@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber maindoc"] 0 "maindoc.bcf" "maindoc.bbl" "maindoc" 1746873386 -1
+["biber maindoc"] 0 "maindoc.bcf" "maindoc.bbl" "maindoc" 1746875611 -1
   "./daftar_pustaka/daftar_pustaka.bib" 1746737018 20916 d8acfe4ad5910820eb28c785ec568d2f ""
-  "maindoc.bcf" 1746873385 136043 dff4495d4ba4a5796ed4b4acddcf8ead "pdflatex"
+  "maindoc.bcf" 1746875610 136043 dff4495d4ba4a5796ed4b4acddcf8ead "pdflatex"
   (generated)
   "maindoc.bbl"
   "maindoc.blg"
   (rewritten before read)
-["pdflatex"] 1746873378 "d:/projek mamas/Langgeng Template Skripsi/maindoc.tex" "maindoc.pdf" "maindoc" 1746873386 0
+["pdflatex"] 1746875602 "d:/projek mamas/Langgeng Template Skripsi/maindoc.tex" "maindoc.pdf" "maindoc" 1746875611 0
   "C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699210738 124505 43f981751cf21cc11001becb440d4b52 ""
   "C:/Users/HP/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1697956165 24169113 80ba73f4c747c6fb9e668109e819846a ""
   "D:/Program Files (Mamas)/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -331,7 +331,7 @@
   "badan_skripsi/01_Bab_1.tex" 1746737018 11753 6d32610171bec0974b50623283977064 ""
   "badan_skripsi/02_Bab_2.tex" 1746737018 47501 a96a713906797de3e86d612cbf5ef95c ""
   "badan_skripsi/03_Bab_3.tex" 1746737018 8504 156cdcde6c8ba905f716a0e0b4f8e4dd ""
-  "badan_skripsi/04_Bab_4.tex" 1746873378 9857 5b670acb13b59648e9374854aff60eb5 ""
+  "badan_skripsi/04_Bab_4.tex" 1746875601 10782 b52f9a72d369b0a03bacad13335fc633 ""
   "badan_skripsi/05_Bab_5.tex" 1746737018 0 d41d8cd98f00b204e9800998ecf8427e ""
   "d:/projek mamas/Langgeng Template Skripsi/maindoc.tex" 1746737018 4259 ee047ae49c7d4fe6d8ab2340cb4b3bff ""
   "gambar/Graf Konigsberg.png" 1746737018 1517686 1d3d8854d528b083da956f14523c939a ""
@@ -340,14 +340,14 @@
   "konfigurasi/MathFmipaUnmul.cls" 1746796138 22383 0ae49316146d55f2ae2c83ab5f79a1d6 ""
   "konfigurasi/properti_dokumen.tex" 1746737018 3223 919691e8530f82ee940489cad9c4f8b5 ""
   "lampiran/01_lampiran.tex" 1746737018 328 5dc5752355946df14070fe3626f7c635 ""
-  "maindoc.aux" 1746873385 25810 c84d48b25c608bff0cce5075c407a37a "pdflatex"
+  "maindoc.aux" 1746875610 25810 c84d48b25c608bff0cce5075c407a37a "pdflatex"
   "maindoc.bbl" 1746737126 121713 297af7dcf0cfe3876e82d5d08b0b86f4 "biber maindoc"
-  "maindoc.lof" 1746873385 758 c0463cfb31633d80fe84a5c1e99e9326 "pdflatex"
-  "maindoc.lot" 1746873385 749 ea794630ae5f35d21cda7db616a0e333 "pdflatex"
-  "maindoc.out" 1746873385 9155 fcde86feba341ef3fc02ff9d1135576e "pdflatex"
-  "maindoc.run.xml" 1746873385 2467 10b091b2543cb39239f7de070e527d41 "pdflatex"
+  "maindoc.lof" 1746875610 758 c0463cfb31633d80fe84a5c1e99e9326 "pdflatex"
+  "maindoc.lot" 1746875610 749 ea794630ae5f35d21cda7db616a0e333 "pdflatex"
+  "maindoc.out" 1746875610 9155 fcde86feba341ef3fc02ff9d1135576e "pdflatex"
+  "maindoc.run.xml" 1746875610 2467 10b091b2543cb39239f7de070e527d41 "pdflatex"
   "maindoc.tex" 1746737018 4259 ee047ae49c7d4fe6d8ab2340cb4b3bff ""
-  "maindoc.toc" 1746873385 4157 07363b17a97c7b7810a4d9becfd834e8 "pdflatex"
+  "maindoc.toc" 1746875610 4157 07363b17a97c7b7810a4d9becfd834e8 "pdflatex"
   "perangkat_skripsi/01_Sampul_Luar.tex" 1746737018 721 5a20dbee937743b9e832cae777d7cb97 ""
   "perangkat_skripsi/02_Sampul_Dalam.tex" 1746737018 737 d2f3c8863bca3c837bf125cf3ca9629a ""
   "perangkat_skripsi/04_Hal_Pengesahan.tex" 1746737018 202 e5f4001f5e80db483423b846f7e82b3c ""
