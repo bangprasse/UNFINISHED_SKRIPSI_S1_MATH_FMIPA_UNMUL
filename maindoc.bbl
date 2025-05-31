@@ -85,6 +85,44 @@
       \field{pages}{175020\bibrangedash 175034}
       \range{pages}{15}
     \endentry
+    \entry{Ambarwari:2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bd1044127eb26b2b15898ec45b59cc01}{%
+           family={Ambarwari},
+           familyi={A\bibinitperiod},
+           given={Agus.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ce1709b6217923d467f14f67c1712590}{%
+           family={Adrian},
+           familyi={A\bibinitperiod},
+           given={Qadhli\bibnamedelima Jafar.},
+           giveni={Q\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5415a0529be033802b3d26336fc48773}{%
+           family={Herdiyani},
+           familyi={H\bibinitperiod},
+           given={Yeni},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{7611ab41941213c2659299a99739ff2f}
+      \strng{fullhash}{bb7b28c84f8e14cfd46d19e86adaefc7}
+      \strng{bibnamehash}{bb7b28c84f8e14cfd46d19e86adaefc7}
+      \strng{authorbibnamehash}{bb7b28c84f8e14cfd46d19e86adaefc7}
+      \strng{authornamehash}{7611ab41941213c2659299a99739ff2f}
+      \strng{authorfullhash}{bb7b28c84f8e14cfd46d19e86adaefc7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JURNAL RESTI: Jurnal Rekayasa Sistem dan Teknologi Informasi}
+      \field{title}{Analisis Pengaruh Data \textit{Scaling} Terhadap Performa Algoritme \textit{Machine Learning} untuk Identifikasi Tanaman}
+      \field{volume}{4(1)}
+      \field{year}{2019}
+      \field{pages}{117\bibrangedash 122}
+      \range{pages}{6}
+    \endentry
     \entry{Amin:2023}{article}{}
       \name{author}{3}{}{%
         {{hash=767218542879ec25a56fa3b372daaada}{%
@@ -255,6 +293,39 @@
       \field{year}{2018}
       \field{pages}{5691\bibrangedash 5699}
       \range{pages}{9}
+    \endentry
+    \entry{Bisma:2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f651500ed75998b3cfe5e0e5bda5fbd1}{%
+           family={Bisma},
+           familyi={B\bibinitperiod},
+           given={Muhammad\bibnamedelima Ardhya.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bb36c80d3c6004008c8a066b9b8e11ff}{%
+           family={Sanggala},
+           familyi={S\bibinitperiod},
+           given={Ekra},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \strng{fullhash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \strng{bibnamehash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \strng{authorbibnamehash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \strng{authornamehash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \strng{authorfullhash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SAINTEKS: Jurnal Sain dan Teknik}
+      \field{title}{\textit{Genetic Algorithm} untuk Memperbaiki Rute \textit{Travelling Salesman Problem} yang Dihasilkan dari \textit{Saving Algorithm}}
+      \field{volume}{5(1)}
+      \field{year}{2023}
+      \field{pages}{102\bibrangedash 111}
+      \range{pages}{10}
     \endentry
     \entry{Chafi:2021}{article}{}
       \name{author}{2}{}{%
@@ -587,39 +658,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Matematika Diskrit dan Aplikasinya Pada Ilmu Komputer}
       \field{year}{2016}
-    \endentry
-    \entry{Kumar:2020}{article}{}
-      \name{author}{2}{}{%
-        {{hash=ae1ce0993102cca66d9c4a7dd55fa002}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Rajiv.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=9243e87493108be9bf3c7e130c7c2b64}{%
-           family={Memoria},
-           familyi={M\bibinitperiod},
-           given={Minakshi},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \strng{fullhash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \strng{bibnamehash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \strng{authorbibnamehash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \strng{authornamehash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \strng{authorfullhash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal on Emerging Technologies (IJET)}
-      \field{title}{\textit{A Review of Memetic Algorithm and its Application in Traveling Salesman Problem}}
-      \field{volume}{11(2)}
-      \field{year}{2020}
-      \field{pages}{1110\bibrangedash 1115}
-      \range{pages}{6}
     \endentry
     \entry{Kusrahman:2020}{article}{}
       \name{author}{3}{}{%
@@ -1460,6 +1498,44 @@
       \field{pages}{175020\bibrangedash 175034}
       \range{pages}{15}
     \endentry
+    \entry{Ambarwari:2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bd1044127eb26b2b15898ec45b59cc01}{%
+           family={Ambarwari},
+           familyi={A\bibinitperiod},
+           given={Agus.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ce1709b6217923d467f14f67c1712590}{%
+           family={Adrian},
+           familyi={A\bibinitperiod},
+           given={Qadhli\bibnamedelima Jafar.},
+           giveni={Q\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5415a0529be033802b3d26336fc48773}{%
+           family={Herdiyani},
+           familyi={H\bibinitperiod},
+           given={Yeni},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{7611ab41941213c2659299a99739ff2f}
+      \strng{fullhash}{bb7b28c84f8e14cfd46d19e86adaefc7}
+      \strng{bibnamehash}{bb7b28c84f8e14cfd46d19e86adaefc7}
+      \strng{authorbibnamehash}{bb7b28c84f8e14cfd46d19e86adaefc7}
+      \strng{authornamehash}{7611ab41941213c2659299a99739ff2f}
+      \strng{authorfullhash}{bb7b28c84f8e14cfd46d19e86adaefc7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JURNAL RESTI: Jurnal Rekayasa Sistem dan Teknologi Informasi}
+      \field{title}{Analisis Pengaruh Data \textit{Scaling} Terhadap Performa Algoritme \textit{Machine Learning} untuk Identifikasi Tanaman}
+      \field{volume}{4(1)}
+      \field{year}{2019}
+      \field{pages}{117\bibrangedash 122}
+      \range{pages}{6}
+    \endentry
     \entry{Amin:2023}{article}{}
       \name{author}{3}{}{%
         {{hash=767218542879ec25a56fa3b372daaada}{%
@@ -1630,6 +1706,39 @@
       \field{year}{2018}
       \field{pages}{5691\bibrangedash 5699}
       \range{pages}{9}
+    \endentry
+    \entry{Bisma:2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f651500ed75998b3cfe5e0e5bda5fbd1}{%
+           family={Bisma},
+           familyi={B\bibinitperiod},
+           given={Muhammad\bibnamedelima Ardhya.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bb36c80d3c6004008c8a066b9b8e11ff}{%
+           family={Sanggala},
+           familyi={S\bibinitperiod},
+           given={Ekra},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \strng{fullhash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \strng{bibnamehash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \strng{authorbibnamehash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \strng{authornamehash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \strng{authorfullhash}{1f524fcd384e66c95efc0e46fddf6a6b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SAINTEKS: Jurnal Sain dan Teknik}
+      \field{title}{\textit{Genetic Algorithm} untuk Memperbaiki Rute \textit{Travelling Salesman Problem} yang Dihasilkan dari \textit{Saving Algorithm}}
+      \field{volume}{5(1)}
+      \field{year}{2023}
+      \field{pages}{102\bibrangedash 111}
+      \range{pages}{10}
     \endentry
     \entry{Chafi:2021}{article}{}
       \name{author}{2}{}{%
@@ -1962,39 +2071,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Matematika Diskrit dan Aplikasinya Pada Ilmu Komputer}
       \field{year}{2016}
-    \endentry
-    \entry{Kumar:2020}{article}{}
-      \name{author}{2}{}{%
-        {{hash=ae1ce0993102cca66d9c4a7dd55fa002}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Rajiv.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=9243e87493108be9bf3c7e130c7c2b64}{%
-           family={Memoria},
-           familyi={M\bibinitperiod},
-           given={Minakshi},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \strng{fullhash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \strng{bibnamehash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \strng{authorbibnamehash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \strng{authornamehash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \strng{authorfullhash}{64ef7b1614c154afcb01cafe8f1f157a}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal on Emerging Technologies (IJET)}
-      \field{title}{\textit{A Review of Memetic Algorithm and its Application in Traveling Salesman Problem}}
-      \field{volume}{11(2)}
-      \field{year}{2020}
-      \field{pages}{1110\bibrangedash 1115}
-      \range{pages}{6}
     \endentry
     \entry{Kusrahman:2020}{article}{}
       \name{author}{3}{}{%

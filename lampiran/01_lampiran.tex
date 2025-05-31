@@ -1,3 +1,6 @@
+\newcounter{lampiran}
+\renewcommand{\thelampiran}{\arabic{lampiran}}
+
 \addChapter{LAMPIRAN}
 \thispagestyle{empty}
 $~$
@@ -12,8 +15,165 @@ $~$
 \pagebreak
 
 \begin{flushleft}
-    \addcontentsline{app}{appendices}{\textbf{Lampiran 1} Contoh lampiran }
-    \label{app:lamp1}
-    \textbf{Lampiran 1} Contoh
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Contoh lampiran }
+    \label{app: data seluruh scene}
+    \textbf{Lampiran \thelampiran} \text{Scenes\_Data} df
 
 \end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Daftar Total Biaya \textit{Talent} }
+    \label{app: data talent}
+    \textbf{Lampiran \thelampiran} Daftar Total Biaya \textit{Talent}
+
+    \begin{tabularx}{\textwidth}{|l|l|c|c|c|}
+        \hline
+        \multicolumn{1}{|c|}{\textbf{Peran}} & \multicolumn{1}{c|}{\textit{\textbf{Talent}}} & \textbf{Total Biaya (Rp)} & \textbf{Total \textit{Scene}} \\ \hline
+        \endfirsthead
+        %
+        \multicolumn{4}{c}%
+        {{\bfseries Table \thetable\ continued from previous page}}                                                                                      \\
+        \hline
+        \multicolumn{1}{|c|}{\textbf{Peran}} & \multicolumn{1}{c|}{\textit{\textbf{Talent}}} & \textbf{Total Biaya (Rp)} & \textbf{Total \textit{Scene}} \\ \hline
+        \endhead
+        %
+        Wawan                                & Daniel Imran                                  & 1250000                   & 45                            \\ \hline
+        Manto                                & A. Muslih Navis                               & 900000                    & 34                            \\ \hline
+        Usman                                & KimKim                                        & 900000                    & 25                            \\ \hline
+        Rita                                 & Emilda Sohaya                                 & 400000                    & 16                            \\ \hline
+        Nina                                 & Aqila Yumi                                    & 650000                    & 15                            \\ \hline
+        Ustadz Udas                          & Dedi Nala Arung                               & 400000                    & 17                            \\ \hline
+        Irah                                 & Ika Puspita                                   & 400000                    & 9                             \\ \hline
+        Mali                                 & Nanda Fajar Amrullah                          & 400000                    & 12                            \\ \hline
+        Ismail                               & Muhtadin                                      & 400000                    & 11                            \\ \hline
+        Kakek Tua                            & Muhammad Syabir                               & 300000                    & 3                             \\ \hline\end{tabularx}
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Contoh lampiran }
+    \label{app: total biaya talent}
+    \textbf{Lampiran \thelampiran} Contoh
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Contoh lampiran }
+    \label{app: jarak lokasi}
+    \textbf{Lampiran \thelampiran} Contoh
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Contoh lampiran }
+    \label{app: biaya transportasi}
+    \textbf{Lampiran \thelampiran} Contoh
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Kecepatan Awal }
+    \label{app: kecepatan awal}
+    \textbf{Lampiran \thelampiran} Kecepatan Awal
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Posisi Awal }
+    \label{app: posisi awal}
+    \textbf{Lampiran \thelampiran} Posisi Awal
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Rute Awal }
+    \label{app: rute awal}
+    \textbf{Lampiran \thelampiran} Rute Awal
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Total Biaya Syuting dan Nilai \textit{Fitness} tiap Partikel }
+    \label{app: total biaya syuting dan nilai fitness awal}
+    \textbf{Lampiran \thelampiran} Total Biaya Syuting dan Nilai \textit{Fitness} tiap Partikel
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} \textit{Velocity} Partikel Iterasi $i=1$}
+    \label{app: kecepatan iterasi 1}
+    \textbf{Lampiran \thelampiran} \textit{Velocity} Partikel Iterasi $i=1$
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Posisi Partikel Iterasi $i=1$}
+    \label{app: posisi iterasi 1}
+    \textbf{Lampiran \thelampiran} Posisi Partikel Iterasi $i=1$
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Rute pada Partikel Iterasi $i=1$}
+    \label{app: rute iterasi 1}
+    \textbf{Lampiran \thelampiran} Rute pada Partikel Iterasi $i=1$
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} Total Biaya Syuting dan Nilai \textit{Fitness} Iterasi $i=1$}
+    \label{app: total biaya syuting dan nilai fitness iterasi 1}
+    \textbf{Lampiran \thelampiran} Total Biaya Syuting dan Nilai \textit{Fitness} Iterasi $i=1$
+
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+    \refstepcounter{lampiran}
+    \addcontentsline{app}{appendices}{\textbf{Lampiran \thelampiran} $P_{best}$ Iterasi $i=1$}
+    \label{app: pbest iterasi 1}
+    \textbf{Lampiran \thelampiran} $P_{best}$ Iterasi $i=1$
+
+\end{flushleft}
+
+\pagebreak
+
+\pagebreak

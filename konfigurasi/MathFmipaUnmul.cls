@@ -123,6 +123,9 @@
 
 % For creating high-quality table
 \RequirePackage{booktabs}
+\RequirePackage{longtable}
+\RequirePackage{ltablex}
+\keepXColumns
 
 % For text effect like highlight, underline, etc
 \RequirePackage{soul}
@@ -296,10 +299,10 @@
 
 % Title setup of section
 \titleformat{\section}
-[block]
+[hang]
 {\bfseries}
 {\bfseries\thesection}{1ex}{\bfseries}
-\titlespacing{\section}{0cm}{3ex}{-0.5cm}
+\titlespacing{\section}{0cm}{3ex plus 1ex minus .2ex}{0.5\baselineskip}
 
 % Title setup of subsection
 \titleformat{\subsection}
@@ -363,12 +366,12 @@
 }
 
 % Setup for section in TOC
-\renewcommand\section{
-    \@startsection{section}{1}{\z@}
-    {-3.5ex \@plus -1ex \@minus -.2ex}
-    {2.3ex \@plus .2ex}
-    {\noindent\bfseries\thesection}
-}
+% \renewcommand\section{
+%     \@startsection{section}{1}{\z@}
+%     {-3.5ex \@plus -1ex \@minus -.2ex}
+%     {2.3ex \@plus .2ex}
+%     {\@hangfrom{\bfseries\thesection}}
+% }
 \makeatother
 
 % Setup for subsection in TOC
@@ -752,7 +755,7 @@
 \newcommand{\equ}{Persamaan}
 
 % Setup caption enviroment
-\captionsetup[figure]{font = normalsize, labelfont = bf}
+\captionsetup[figure]{font = normalsize, labelfont = bf, justification = centering}
 \captionsetup[table]{font = normalsize, labelfont = bf, justification = centering}
 
 \allowdisplaybreaks

@@ -1,5 +1,5 @@
 % Memberikan label pada bab ini
-\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thechapter}{\Roman{chapter}}
 \chapter{HASIL DAN PEMBAHASAN}\label{babEmpat}
 \renewcommand{\thechapter}{\arabic{chapter}}
 \vspace{8mm}
@@ -17,127 +17,1500 @@
 }
 
 % SubBab
-\section{Model Graf \textit{Scene} Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
+\section
+ [Model Graf \textit{Scene} Film "Ketika Adzan Sudah Tidak Lagi\newline Berkumandang"]
+ {Model Graf \textit{Scene} Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
 \vspace{-4mm}
 {\frenchspacing
-    Model graf \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dibuat dengan melihat data penelitian.
-    Data yang digunakan dalam penelitian ini adalah data \textit{scene} dan data biaya syuting tiap \textit{scene}
-    film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
-    Data \textit{scene} pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dapat dilihat pada Tabel \ref{tab: data scene}.
+Model graf \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dibuat dengan melihat data penelitian.
+Data yang digunakan dalam penelitian ini adalah data \textit{scene} dan data biaya syuting tiap \textit{scene}
+film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+Data ini diperoleh dari data pada \textit{Master Breakdown}, \textit{Call Sheet} dan Keuangan dalam proses produksi film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+Informasi yang diperoleh dari sumber data tersebut meliputi daftar \textit{scene}, urutan syuting \textit{scene}, lokasi syuting setiap \textit{scene}, \textit{talent} (pemain) yang bermain di setiap \textit{scene}, biaya \textit{talent}, dan jumlah kendaraan.
 
-    \begin{table}
-        \centering
-        \caption{Data \textit{scene} pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
-        \label{tab: data scene}
-        \begin{tabular}{|c|c|l|c|}
+Data \textit{scene} pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang" terdiri atas 60 \textit{scene}.
+Untuk setiap \textit{scene} memiliki lokasi kegiatan syuting yang berbeda-beda.
+Data \textit{scene} pada film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dapat ditampilkan pada Tabel \ref{tab: data scene} berikut.
+
+\vspace{-2mm}
+\begin{tabularx}{\textwidth}{|c|c|l|c|}
+    \caption{Data \textit{Scene} }
+    \label{tab: data scene}                                                                              \\
+    \hline
+    \textbf{Indeks} & \textit{\textbf{Scene}} & \multicolumn{1}{c|}{\textbf{Lokasi}} & \textbf{Variabel} \\ \hline
+    \endfirsthead
+    \multicolumn{4}{c}{\textbf{Tabel \thetable} Data \textit{Scene} (Lanjutan)}                          \\ \hline
+    \textbf{Indeks} & \textit{\textbf{Scene}} & \multicolumn{1}{c|}{\textbf{Lokasi}} & \textbf{Variabel} \\ \hline
+    \endhead
+
+    0               & 4                       & Kebun Bunga Waduk   Panji Tenggarong & $v_{0}$           \\ \hline
+    1               & 1C                      & Masjid Waduk Panji Tenggarong        & $v_{1}$           \\ \hline
+    2               & 1D                      & Hutan Bambu Desa Kedang Ipil         & $v_{2}$           \\ \hline
+    3               & 1E                      & Air Terjun Desa Kedang Ipil          & $v_{3}$           \\ \hline
+    4               & 2A                      & Rumah Warga Desa Kedang Ipil         & $v_{4}$           \\ \hline
+    5               & 2B                      & Rumah Warga Desa Kedang Ipil         & $v_{5}$           \\ \hline
+    6               & 3                       & Kebun Bunga Waduk Panji Tenggarong   & $v_{6}$           \\ \hline
+    $\cdots$        & $\cdots$                & $\cdots$                             & $\cdots$          \\ \hline
+    53              & 33B                     & Hutan Bambu Desa Kedang Ipil         & $v_{53}$          \\ \hline
+    54              & 34                      & Kebun Bunga Waduk Panji Tenggarong   & $v_{54}$          \\ \hline
+    55              & 34B                     & Hutan Bambu Desa Kedang Ipil         & $v_{55}$          \\ \hline
+    56              & 35A                     & Kebun Bunga Waduk Panji Tenggarong   & $v_{56}$          \\ \hline
+    57              & 35B                     & Kebun Bunga Waduk Panji Tenggarong   & $v_{57}$          \\ \hline
+    58              & 36                      & Masjid Waduk Panji Tenggarong        & $v_{58}$          \\ \hline
+    59              & 37                      & Kebun Bunga Waduk Panji Tenggarong   & $v_{59}$          \\ \hline
+    \multicolumn{4}{l}{Sumber : Lampiran \ref{app: data seluruh scene}}
+\end{tabularx}
+
+Berdasarkan Tabel \ref{tab: data scene}, dapat dilihat bahwa terdapat 60 \textit{scene} dan lokasinya.
+Proses syuting dalam film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dilakukan pada lokasi yang berbeda-beda secara keseluruhan.
+Rute dari lokasi geografis untuk setiap \textit{scene} diperoleh dengan \textit{software} Google Earth.
+Lokasi geografis dari setiap \textit{scene} pada Tabel \ref{tab: data scene} dapat ditampilkan pada Gambar \ref{gam: Lokasi Geografis} berikut.
+
+\begin{figure}
+    \centering
+    \framebox{\includegraphics[width=0.8\textwidth]{gambar/peta geografis lokasi syuting.png}}
+    \vspace{2mm}
+    \caption{Peta Lokasi Syuting \textit{Scene} Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
+    \label{gam: Lokasi Geografis}
+\end{figure}
+
+Berdasarkan Gambar \ref{gam: Lokasi Geografis}, terlihat bahwa jarak antara setiap lokasi syuting \textit{scene} saling terhubung sehingga dapat direpresentasikan ke dalam bentuk graf lengkap.
+Tiap \textit{scene} dalam proses syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dianalogikan sebagai
+suatu \textit{vertex} dalam graf.
+Sedangkan \textit{edge} di dalam graf tersebut merepresentasikan bobot biaya syuting antar tiap \textit{scene} film "Ketika
+Adzan Sudah Tidak Lagi Berkumandang".
+Bobot biaya syuting antar setiap \textit{scene} diperoleh dari hasil perhitungan pada data biaya syuting tiap \textit{scene}.
+
+Data biaya syuting tiap \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dibagi menjadi dua, yaitu data biaya \textit{talent} dan data biaya transportasi.
+Data biaya \textit{talent} merupakan data biaya yang harus dikeluarkan untuk menyewa \textit{talent} yang bermain dalam satu \textit{scene}.
+Daftar total biaya \textit{talent} yang dapat dilihat pada Lampiran \ref{app: data talent}, kemudian dibagi jumlah \textit{scene} dari \textit{talent} tersebut bermain sehingga
+diperoleh data biaya tiap \textit{talent} dalam satu \textit{scene}.
+Adapun data biaya tiap \textit{talent} dalam satu \textit{scene} dapat dilihat pada Tabel \ref{tab: data biaya talent}.
+
+\begin{tabularx}{\textwidth}{|c|l|l|c|}
+    \caption{Data Biaya \textit{Talent} dalam Satu \textit{Scene}}
+    \label{tab: data biaya talent}                                                                                                                              \\
+    \hline
+    \textbf{No} & \multicolumn{1}{c|}{\textbf{\textit{Talent}}} & \multicolumn{1}{c|}{\textbf{Peran}} & \textbf{Biaya \textit{Talent} tiap \textit{Scene} (Rp)} \\ \hline
+    \endfirsthead
+    %
+    \multicolumn{4}{c}%
+    {\normalsize {\bfseries Table \thetable\ } Data Biaya \textit{Talent} dalam Satu \textit{Scene} (Lanjutan)}                                                 \\
+    \hline
+    \textbf{No} & \multicolumn{1}{c|}{\textbf{\textit{Talent}}} & \multicolumn{1}{c|}{\textbf{Peran}} & \textbf{Biaya \textit{Talent} tiap \textit{Scene} (Rp)} \\ \hline
+    \endhead
+    %
+    1           & Daniel Imran                                  & Wawan                               & 27.777,77778                                            \\ \hline
+    2           & A. Muslih Navis                               & Manto                               & 26.470,58824                                            \\ \hline
+    3           & KimKim                                        & Usman                               & 36.000                                                  \\ \hline
+    4           & Emilda Sohaya                                 & Rita                                & 25.000                                                  \\ \hline
+    5           & Aqila Yumi                                    & Nina                                & 43.333,33333                                            \\ \hline
+    6           & Dedi Nala Arung                               & Ustadz Udas                         & 23.529,41176                                            \\ \hline
+    7           & Ika Puspita                                   & Irah                                & 44.444,44444                                            \\ \hline
+    8           & Nanda Fajar Amrullah                          & Mali                                & 33.333,33333                                            \\ \hline
+    9           & Muhtadin                                      & Ismail                              & 36.363,63636                                            \\ \hline
+    10          & Muhammad Syabir                               & Kakek Tua                           & 100.000                                                 \\ \hline
+    \multicolumn{4}{l}{Sumber: Lampiran \ref{app: data talent}}
+\end{tabularx}
+
+Berdasarkan data biaya \textit{talent} pada Tabel \ref{tab: data biaya talent} dan data talent yang bermain di setiap \textit{scene} pada Lampiran \ref{app: data seluruh scene},
+selanjutnya dihitung total biaya \textit{talent} yang bermain dalam setiap \textit{scene}.
+Proses perhitungan total biaya \textit{talent} dapat dijelaskan sebagai berikut.
+
+\noindent
+Pada \textit{scene} 1C, peran \textit{talent} yang digunakan adalah "Irah, Manto, Wawan" sehingga total biaya \textit{talent}
+pada \textit{scene} 1C = biaya \textit{talent} Irah + biaya \textit{talent} Manto + biaya \textit{talent} Wawan = Rp$44.444,44444$ + Rp$26.470,58824 $ + Rp$27.777,77778$ = Rp$98.692,81$.
+
+\begin{tabularx}{\textwidth}{|c|l|>{\centering\arraybackslash}p{2.3cm}|}
+    \caption{Data Total Biaya \textit{Talent} tiap \textit{Scene}}
+    \label{tab: biaya talent tiap scene}                                                                                                                     \\
+
+    \hline
+    \multirow{2}{*}{\textbf{\textit{Scene}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Peran yang Bermain}}} & \textbf{Total Biaya \textit{Talent} (Rp)} \\ \hline
+    \endfirsthead
+    %
+    \multicolumn{3}{c}%
+    {{\bfseries Tabel \thetable} Data Total Biaya \textit{Talent} tiap \textit{Scene} (Lanjutan)}                                                            \\
+    \hline
+    \multirow{2}{*}{\textbf{\textit{Scene}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Peran yang Bermain}}} & \textbf{Total Biaya \textit{Talent} (Rp)} \\ \hline
+    \endhead
+    %
+    4                                        & Irah, Manto, Wawan                                                & 98.692,81                                 \\ \hline
+    1C                                       & Irah, Manto, Wawan                                                & 98.692,81                                 \\ \hline
+    1D                                       & -                                                                 & 0                                         \\ \hline
+    1E                                       & -                                                                 & 0                                         \\ \hline
+    2A                                       & Irah, Manto, Wawan                                                & 98.692,81                                 \\ \hline
+    2B                                       & Irah, Manto, Wawan, Ustadz Udas, Ismail,   Mali                   & 191.919,2                                 \\ \hline
+    3                                        & Irah, Manto, Wawan                                                & 98.692,81                                 \\ \hline
+    $\vdots$                                 & $\vdots$                                                          & $\vdots$                                  \\ \hline
+    33B                                      & Wawan, Usman                                                      & 63.777,78                                 \\ \hline
+    34                                       & Usman, Wawan, Irah                                                & 108.222,2                                 \\ \hline
+    34B                                      & Wawan, Usman                                                      & 63.777,78                                 \\ \hline
+    35A                                      & Usman, Wawan                                                      & 63.777,78                                 \\ \hline
+    35B                                      & Usman, Wawan, Rita, Manto, Nina, Mali                             & 191.915                                   \\ \hline
+    36                                       & Usman, Wawan, Ustadz Udas, Mali, Ismail                           & 157.004,2                                 \\ \hline
+    37                                       & Ustadz Udas                                                       & 23.529,41                                 \\ \hline
+    \multicolumn{3}{l}{Sumber: Lampiran \ref{app: data seluruh scene} dan Lampiran \ref{app: data talent}}
+\end{tabularx}
+
+Data biaya transportasi adalah data biaya konsumsi bahan bakar minyak yang dikeluarkan untuk berpindah dari satu \textit{scene} ke \textit{scene} lainnya.
+Proses syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" menggunakan 3 buah mobil untuk berpindah lokasi.
+Mobil yang digunakan terdiri atas 2 mobil Innova dan 1 mobil \textit{pick up} Grand Max.
+Dalam penelitian ini diasumsikan bahwa konsumsi bahan bakar setiap mobil yang digunakan adalah sama per kilometernya.
+Bahan bakar minyak berjenis Pertalite digunakan oleh ketiga mobil dengan harga sebesar Rp10.0000 per liter.
+Biaya konsumsi bahan bakar minyak untuk 3 mobil tersebut per kilometer dapat dijelaskan sebagai berikut.
+
+\noindent
+Biaya konsumsi bahan bakar minyak untuk 3 mobil per kilometer $=$ jumlah mobil $\times$ (biaya Pertalite per liter $:$ jarak tempuh mobil per liter) $=$ 3 $\times$ (Rp10.000/liter $:$ 8 km/liter) $=$ 3 $\times$ (Rp1.250/km) $=$ Rp3.750/km.
+
+\noindent
+Jarak lokasi antar \textit{scene} dalam pembuatan film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dapat ditampilkan pada Tabel \ref{tab: data jarak scene}.
+
+{\footnotesize
+\begin{tabularx}{\textwidth}{|c|c|c|c|c|c|c|c|c|c|c|}
+    \caption{Jarak Antar Lokasi tiap Scene dalam Satuan Meter}
+    \label{tab: data jarak scene}                                                                                                                                               \\
+    \hline
+    \textit{\textbf{Scene}} & \textbf{4} & \textbf{1C} & \textbf{1D} & \textbf{1E} & \textbf{2A} & \textbf{$\cdots$} & \textbf{34B} & \textbf{35A} & \textbf{35B} & \textbf{37} \\ \hline
+    \endfirsthead
+    %
+    \multicolumn{11}{c}%
+    {{\bfseries Table \thetable} Jarak Antar Lokasi tiap Scene dalam Satuan Meter (Lanjutan)}                                                                                   \\
+    \hline
+    \textit{\textbf{Scene}} & \textbf{4} & \textbf{1C} & \textbf{1D} & \textbf{1E} & \textbf{2A} & \textbf{$\cdots$} & \textbf{34B} & \textbf{35A} & \textbf{35B} & \textbf{37} \\ \hline
+    \endhead
+    %
+    \textbf{4}              & 0          & 428         & 69524       & 72648       & 70684       & $\cdots$          & 69524        & 0            & 0            & 0           \\ \hline
+    \textbf{1C}             & 428        & 0           & 71828       & 72781       & 71757       & $\cdots$          & 71828        & 428          & 428          & 428         \\ \hline
+    \textbf{1D}             & 69524      & 71828       & 0           & 1235        & 650         & $\cdots$          & 0            & 69524        & 69524        & 69524       \\ \hline
+    \textbf{1E}             & 72648      & 72781       & 1235        & 0           & 1642        & $\cdots$          & 1235         & 72648        & 72648        & 72648       \\ \hline
+    \textbf{2A}             & 70684      & 71757       & 650         & 1642        & 0           & $\cdots$          & 650          & 70684        & 70684        & 70684       \\ \hline
+    \textbf{2B}             & 70684      & 71757       & 650         & 1642        & 0           & $\cdots$          & 650          & 70684        & 70684        & 70684       \\ \hline
+    \textbf{3}              & 0          & 428         & 69524       & 72648       & 70684       & $\cdots$          & 69524        & 0            & 0            & 0           \\ \hline
+    \textbf{5}              & 428        & 0           & 71828       & 72781       & 71757       & $\cdots$          & 71828        & 428          & 428          & 428         \\ \hline
+    \textbf{6A}             & 0          & 428         & 69524       & 72648       & 70684       & $\cdots$          & 69524        & 0            & 0            & 0           \\ \hline
+    \textbf{$\vdots$}       & $\vdots$   & $\vdots$    & $\vdots$    & $\vdots$    & $\vdots$    & $\cdots$          & $\vdots$     & $\vdots$     & $\vdots$     & $\vdots$    \\ \hline
+    \textbf{35A}            & 0          & 428         & 69524       & 72648       & 70684       & $\cdots$          & 69524        & 0            & 0            & 0           \\ \hline
+    \textbf{35B}            & 0          & 428         & 69524       & 72648       & 70684       & $\cdots$          & 69524        & 0            & 0            & 0           \\ \hline
+    \textbf{36}             & 428        & 0           & 71828       & 72781       & 71757       & $\cdots$          & 71828        & 428          & 428          & 428         \\ \hline
+    \textbf{37}             & 0          & 428         & 69524       & 72648       & 70684       & $\cdots$          & 69524        & 0            & 0            & 0           \\ \hline
+    \multicolumn{11}{l}{{\normalsize Sumber: Lampiran \ref{app: data seluruh scene} dan Google Earth}}
+\end{tabularx}
+}
+
+Berdasarkan Tabel \ref{tab: data jarak scene}, dapat dihitung data biaya transportasi dalam pembuatan film "Ketika Adzan Sudah Tidak Lagi Berkumandang"
+dengan cara mengalikan biaya konsumsi bahan bakar minyak untuk 3 mobil per kilometer dan jarak antar lokasi \textit{scene}.
+Proses perhitungan biaya transportasi antar \textit{scene} dapat dijelaskan sebagai berikut.
+
+\noindent
+Biaya transportasi dari \textit{scene} 4 ke \textit{scene} 1C = biaya konsumsi bahan bakar minyak untuk 3 mobil per kilometer $\times$ jarak antara lokasi \textit{scene} 4 dan \textit{scene} 1C $=$ Rp$3,75 \times 428$ m $=$ Rp$1.605$.
+
+\noindent
+Data biaya transportasi antar \textit{scene} dalam pembuatan film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dapat dilihat pada Tabel \ref{tab: data biaya transportasi}.
+
+\vspace{1mm}
+{\scriptsize
+    \begin{tabularx}{\textwidth}{|c|c|c|c|c|c|c|c|c|c|}
+        \caption{Data Biaya Transportasi Antar \textit{Scene} dalam Rupiah}
+        \label{tab: data biaya transportasi}                                                                                                                        \\
+        \hline
+        \textit{\textbf{Scene}} & \textbf{4} & \textbf{1C} & \textbf{1D} & \textbf{1E} & \textbf{2A} & \textbf{$\cdots$} & \textbf{35B} & \textbf{36} & \textbf{37} \\ \hline
+        \endfirsthead
+        %
+        \multicolumn{10}{c}%
+        {{\bfseries Table \thetable} Data Biaya Transportasi Antar \textit{Scene} dalam Rupiah (Lanjutan)}                                                          \\
+        \hline
+        \textit{\textbf{Scene}} & \textbf{4} & \textbf{1C} & \textbf{1D} & \textbf{1E} & \textbf{2A} & \textbf{$\cdots$} & \textbf{35B} & \textbf{36} & \textbf{37} \\ \hline
+        \endhead
+        %
+        \textbf{4}              & 0          & 1.605       & 260.715     & 272.430     & 265.065     & $\cdots$          & 0            & 1.605       & 0           \\ \hline
+        \textbf{1C}             & 1.605      & 0           & 269.355     & 272.928,8   & 269.088,8   & $\cdots$          & 1.605        & 0           & 1.605       \\ \hline
+        \textbf{1D}             & 260.715    & 269.355     & 0           & 4.631,25    & 2.437,5     & $\cdots$          & 260.715      & 269.355     & 260.715     \\ \hline
+        \textbf{1E}             & 272.430    & 272.928,8   & 4.631,25    & 0           & 6.157,5     & $\cdots$          & 272.430      & 272.928,8   & 272.430     \\ \hline
+        \textbf{2A}             & 265.065    & 269.088,8   & 2.437,5     & 6.157,5     & 0           & $\cdots$          & 265.065      & 269.088,8   & 265.065     \\ \hline
+        \textbf{2B}             & 265.065    & 269.088,8   & 2.437,5     & 6.157,5     & 0           & $\cdots$          & 265.065      & 269.088,8   & 265.065     \\ \hline
+        \textbf{3}              & 0          & 1.605       & 260.715     & 272.430     & 265.065     & $\cdots$          & 0            & 1.605       & 0           \\ \hline
+        \textbf{5}              & 1.605      & 0           & 269.355     & 272.928,8   & 269.088,8   & $\cdots$          & 1.605        & 0           & 1.605       \\ \hline
+        \textbf{6A}             & 0          & 1.605       & 260.715     & 272.430     & 265065      & $\cdots$          & 0            & 1.605       & 0           \\ \hline
+        \textbf{$\vdots$}       & $\vdots$   & $\vdots$    & $\vdots$    & $\vdots$    & $\vdots$    & $\cdots$          & $\vdots$     & $\vdots$    & $\vdots$    \\ \hline
+        \textbf{34B}            & 260.715    & 269.355     & 0           & 4.631,25    & 2.437,5     & $\cdots$          & 260.715      & 269.355     & 260.715     \\ \hline
+        \textbf{35A}            & 0          & 1.605       & 260.715     & 272.430     & 265.065     & $\cdots$          & 0            & 1.605       & 0           \\ \hline
+        \textbf{35B}            & 0          & 1.605       & 260.715     & 272.430     & 265.065     & $\cdots$          & 0            & 1.605       & 0           \\ \hline
+        \textbf{36}             & 1.605      & 0           & 269.355     & 272.928,8   & 269.088,8   & $\cdots$          & 1.605        & 0           & 1.605       \\ \hline
+        \textbf{37}             & 0          & 1.605       & 260.715     & 272.430     & 265.065     & $\cdots$          & 0            & 1.605       & 0           \\ \hline
+    \end{tabularx}
+}
+
+Berdasarkan data total biaya \textit{talent} tiap \textit{scene} pada Tabel \ref{tab: biaya talent tiap scene} dan data biaya transportasi antar \textit{scene} pada Tabel \ref{tab: data biaya transportasi},
+selanjutnya dihitung data biaya antar \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+Data biaya antar \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" merupakan hasil penjumlahan antara biaya transportasi dari \textit{scene} ke \textit{scene} lain dan total biaya \textit{talent} pada \textit{scene} tujuan.
+Proses perhitungan biaya antar \textit{scene} dapat dijelaskan sebagai berikut.
+
+\noindent
+Biaya antara \textit{scene} 4 ke \textit{scene} 1D $=$ biaya transportasi dari \textit{scene} 4 ke \textit{scene} 1D $ + $ total biaya \textit{talent} yang bermain pada \textit{scene} 1D $ = $ Rp$260.715 + $ Rp$0 = $ Rp$260.715$.
+
+\noindent
+Data biaya antar \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dapat dilihat pada Tabel \ref{tab: data biaya antar scene}.
+
+{\scriptsize
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{6mm}|c|c|c|c|c|c|c|c|c|}
+    \caption{Data Biaya Antar \textit{Scene} dalam Rupiah}
+    \label{tab: data biaya antar scene}                                                                                                                         \\
+    \hline
+    \textit{\textbf{Scene}} & \textbf{4} & \textbf{1C} & \textbf{1D} & \textbf{1E} & \textbf{2A} & \textbf{$\cdots$} & \textbf{35B} & \textbf{36} & \textbf{37} \\ \hline
+    \endfirsthead
+    %
+    \multicolumn{10}{c}%
+    {\normalsize {\bfseries Table \thetable} Data Biaya Antar \textit{Scene} dalam Rupiah (Lanjutan)}                                                           \\
+    \hline
+    \textit{\textbf{Scene}} & \textbf{4} & \textbf{1C} & \textbf{1D} & \textbf{1E} & \textbf{2A} & \textbf{$\cdots$} & \textbf{35B} & \textbf{36} & \textbf{37} \\ \hline
+    \endhead
+    %
+    \textbf{4}              & 0          & 100.297,8   & 260.715     & 272.430     & 363.757,8   & $\cdots$          & 191.915      & 158.609,2   & 23.529,41   \\ \hline
+    \textbf{1C}             & 100.297,8  & 0           & 269.355     & 272.928,8   & 367.781,6   & $\cdots$          & 193.520      & 157.004,2   & 25.134,41   \\ \hline
+    \textbf{1D}             & 359.407,8  & 368.047,8   & 0           & 4.631,25    & 101.130,3   & $\cdots$          & 452.630      & 426.359,2   & 284.244,4   \\ \hline
+    \textbf{1E}             & 371.122,8  & 371.621,6   & 4.631,25    & 0           & 104.850,3   & $\cdots$          & 464.345      & 429.932,9   & 295.959,4   \\ \hline
+    \textbf{2A}             & 363.757,8  & 367.781,6   & 2.437,5     & 6.157,5     & 0           & $\cdots$          & 456.980      & 426.092,9   & 288.594,4   \\ \hline
+    \textbf{2B}             & 363.757,8  & 367.781,6   & 2.437,5     & 6.157,5     & 98.692,81   & $\cdots$          & 456.980      & 426.092,9   & 288.594,4   \\ \hline
+    \textbf{3}              & 98.692,81  & 100.297,8   & 260.715     & 272.430     & 363.757,8   & $\cdots$          & 191.915      & 158.609,2   & 23.529,41   \\ \hline
+    \textbf{5}              & 100.297,8  & 98.692,81   & 269.355     & 272.928,8   & 367.781,6   & $\cdots$          & 193.520      & 157.004,2   & 25.134,41   \\ \hline
+    \textbf{6A}             & 98.692,81  & 100.297,8   & 260.715     & 272.430     & 363.757,8   & $\cdots$          & 191.915      & 158.609,2   & 23.529,41   \\ \hline
+    \textbf{$\vdots$}       & $\vdots$   & $\vdots$    & $\vdots$    & $\vdots$    & $\vdots$    & $\cdots$          & $\vdots$     & $\vdots$    & $\vdots$    \\ \hline
+    \textbf{34B}            & 359.407,8  & 368.047,8   & 0           & 4.631,25    & 101.130,3   & $\cdots$          & 452.630      & 426.359,2   & 284.244,4   \\ \hline
+    \textbf{35A}            & 98.692,81  & 100.297,8   & 260.715     & 272.430     & 363.757,8   & $\cdots$          & 191.915      & 158.609,2   & 23.529,41   \\ \hline
+    \textbf{35B}            & 98.692,81  & 100.297,8   & 260.715     & 272.430     & 363.757,8   & $\cdots$          & 0            & 158.609,2   & 23.529,41   \\ \hline
+    \textbf{36}             & 100.297,8  & 98.692,81   & 269.355     & 272.928,8   & 367.781,6   & $\cdots$          & 193.520      & 0           & 25.134,41   \\ \hline
+    \textbf{37}             & 98.692,81  & 100.297,8   & 260.715     & 272.430     & 363.757,8   & $\cdots$          & 191.915      & 158.609,2   & 0           \\ \hline
+\end{tabularx}
+}
+
+Berdasarkan data \textit{scene} pada Tabel \ref{tab: data scene} dan data biaya syuting antar \textit{scene} pada Tabel \ref{tab: data biaya antar scene},
+dapat direpresentasikan ke dalam bentuk graf lengkap.
+Tiap \textit{scene} dalam data \textit{scene} dianalogikan sebagai suatu \textit{vertex} dalam graf.
+Sedangkan data biaya syuting antar \textit{scene} sebagai \textit{edge} di dalam graf tersebut.
+Graf yang dapat dibuat untuk memodelkan masalah ini sebagai masalah \textit{travelling salesman problem} dapat dilihat
+dapat dilihat pada Gambar \ref{gam: Graf Model}.
+
+\begin{figure}
+    \centering
+    \begin{tikzpicture}[scale=3, ]
+        \foreach \i in {0,...,59}{
+                \pgfmathsetmacro{\p}{\i * (360/59)}
+                \draw[fill = black] (\p:2.05) circle(0.035);
+                \node at (\p:2.2) {$v_{\i}$};
+            }
+        \foreach \j in {0,...,59}{
+                \pgfmathsetmacro{\l}{\j * (360/59)}
+                \foreach \k in {\j,...,59}{
+
+                        \pgfmathsetmacro{\m}{\k * (360/59)}
+                        \draw[black,thin] (\l:2.05)--(\m:2.05);
+                    }
+                % \path (\l:2.1) node[right = 1mm] {$v_{\j}$};
+            }
+
+    \end{tikzpicture}
+    \vspace{3mm}
+    \caption{Graf Lengkap Representasi Permasalahan}
+    \label{gam: Graf Model}
+\end{figure}
+
+Urutan \textit{scene} pada proses syuting akan menentukan total biaya yang dikeluarkan untuk proses syuting tersebut.
+Konsep \textit{Travel Salesman Problem} berperan dalam menginterpretasikan perhitungan total biaya yang dikeluarkan untuk proses syuting antar \textit{scene} yang telah direpresentasikan ke dalam bentuk graf.
+Kemudian, algoritma \textit{Particle Swarm Optimization} diterapkan ke dalam konsep \textit{Traveling Salesman Problem} untuk mempermudah perhitungan dalam menari solusi urutan syuting \textit{scene} optimum.
+}
+\vspace{-3mm}
+
+% SubBab
+\section
+ [Model Matematika Konsep \textit{Traveling Salesman Problem} untuk Pemilihan \\Urutan Syuting \textit{Scene}]
+ {Model Matematika Konsep \textit{Traveling Salesman Problem} untuk Pemilihan \newline Urutan Syuting \textit{Scene}}
+\vspace{-4mm}
+{\frenchspacing
+Model matematika dari konsep \textit{Traveling Salesman Problem} untuk pemilihan urutan syuting \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang"
+diperoleh berdasarkan representasi model graf pada Gambar \ref{gam: Graf Model} dan matriks biaya antar \textit{scene} pada Tabel \ref{tab: data biaya antar scene}.
+Representasi model graf dan matriks biaya antar \textit{scene} dibentuk ke dalam model matematika melalui bentuk \textit{integer programming} pada Persamaan \ref{pers: model persamaan tsp}.
+Model matematika konsep \textit{Traveling Salesman Problem} untuk pemilihan urutan syuting \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dapat dituliskan pada Persamaan \ref{pers: model matematika penelitian} berikut.
+
+\noindent
+Fungsi tujuan
+\begin{equation}
+    \label{pers: model matematika penelitian}
+    \operatorname{min} (Z) = \sum^{59}_{i=0} \sum^{59}_{j=0} a_{ij}(v_{i}v_{j})
+\end{equation}
+
+\noindent
+Fungsi kendala
+\begin{equation*}
+    \begin{aligned}
+         & \sum^{59}_{j=0} a_{ij} = 1,    & i = 0,1,\dots,59 \\
+         & \sum^{59}_{i=0} a_{ij} = 1,    & j = 0,1,\dots,59 \\
+         & a_{ij} \in \left\{0,1\right\}, & i \neq j
+    \end{aligned}
+\end{equation*}
+
+\noindent
+Dimana $v_{i}v_{j}$ merupakan matriks biaya antar \textit{scene} dari \textit{scene} ke-$i$ menuju \textit{scene} ke-$j$ sesuai Tabel \ref{tab: data biaya antar scene} dan
+
+\begin{equation*}
+    a_{i,j} =
+    \begin{cases}
+        0, & \text{ jika tidak terjadi perpindahan}                           \\
+        1, & \text{ jika terjadi perpindahan dari \textit{scene} $i$ ke $j$.}
+    \end{cases}
+\end{equation*}
+
+Matriks $[a_{i,j}]$ berisi calon solusi dari konsep \textit{Traveling Salesman Problem}.
+Solusi optimum dari konsep \textit{Traveling Salesman Problem} adalah matriks $[a_{ij}]$ yang menghasilkan solusi paling minimum dari Persamaan \ref{pers: model matematika penelitian}.
+Contoh matriks $[a_{ij}]$ dapat ditampilkan pada Tabel \ref{tab: contoh matriks aij}
+
+{\small
+    \begin{tabularx}{\textwidth}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+        \caption{Contoh Matriks $[a_{ij}]$}
+        \label{tab: contoh matriks aij}                                                                                                                                                                         \\
+        \hline
+        \textbf{$a$}      & \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{$\cdots$} & \textbf{54} & \textbf{55} & \textbf{56} & \textbf{57} & \textbf{58} & \textbf{59} \\ \hline
+        \endfirsthead
+        %
+        \multicolumn{14}{c}%
+        {\normalsize{\bfseries Table \thetable }Contoh Matriks $[a_{ij}]$ (Lanjutan)}                                                                                                                           \\
+        \hline
+        \textbf{$a$}      & \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{$\cdots$} & \textbf{54} & \textbf{55} & \textbf{56} & \textbf{57} & \textbf{58} & \textbf{59} \\ \hline
+        \endhead
+        %
+        \textbf{0}        & 0          & 0          & 0          & 0          & 0          & 0          & $\cdots$          & 0           & 0           & 0           & 0           & 0           & 0           \\ \hline
+        \textbf{1}        & 0          & 0          & 0          & 0          & 0          & 0          & $\cdots$          & 0           & 0           & 0           & 0           & 0           & 0           \\ \hline
+        \textbf{2}        & 0          & 0          & 0          & 0          & 0          & 0          & $\cdots$          & 0           & 0           & 0           & 0           & 0           & 0           \\ \hline
+        \textbf{3}        & 0          & 0          & 0          & 0          & 0          & 0          & $\cdots$          & 0           & 0           & 0           & 0           & 0           & 0           \\ \hline
+        \textbf{4}        & 0          & 0          & 0          & 0          & 0          & 1          & $\cdots$          & 0           & 0           & 0           & 0           & 0           & 0           \\ \hline
+        \textbf{5}        & 0          & 0          & 0          & 0          & 0          & 0          & $\cdots$          & 0           & 0           & 0           & 0           & 0           & 0           \\ \hline
+        \textbf{$\cdots$} & $\cdots$   & $\cdots$   & $\cdots$   & $\cdots$   & $\cdots$   & $\cdots$   & $\cdots$          & $\cdots$    & $\cdots$    & $\cdots$    & $\cdots$    & $\cdots$    & $\cdots$    \\ \hline
+        \textbf{54}       & 0          & 0          & 0          & 0          & 0          & 0          & $\cdots$          & 0           & 0           & 0           & 0           & 0           & 0           \\ \hline
+        \textbf{55}       & 0          & 0          & 0          & 0          & 1          & 0          & $\cdots$          & 0           & 0           & 0           & 0           & 0           & 0           \\ \hline
+        \textbf{56}       & 0          & 0          & 0          & 0          & 0          & 0          & $\cdots$          & 0           & 0           & 0           & 1           & 0           & 0           \\ \hline
+        \textbf{57}       & 0          & 0          & 0          & 0          & 0          & 0          & $\cdots$          & 1           & 0           & 0           & 0           & 0           & 0           \\ \hline
+        \textbf{58}       & 0          & 0          & 0          & 0          & 0          & 0          & $\cdots$          & 0           & 0           & 0           & 0           & 0           & 0           \\ \hline
+        \textbf{59}       & 0          & 0          & 0          & 0          & 0          & 0          & $\cdots$          & 0           & 0           & 1           & 0           & 0           & 0           \\ \hline
+    \end{tabularx}
+}
+
+Contoh matriks $[a_{ij}]$ pada Tabel \ref{tab: contoh matriks aij} merepresentasikan urutan indeks syuting \textit{scene} yaitu 0-6-8-9-59-56-57-54-32-33-20-21-7-1-34-58-12-13-14-28-46-47-48-22-27-15-31-40-42-23-24-25-26-45-39-41-43-10-11-17-18-50-51-44-35-29-30-2-36-37-38-49-52-53-55-4-5-19-3-16-0
+dengan total biaya antar \textit{scene} ternormalisasi sebesar $11,17056$.
+Urutan syuting \textit{scene} pada Tabel \ref{tab: contoh matriks aij} dapat dibaca dengan langkah berikut:
+
+\noindent
+pertama, urutan syuting \textit{scene} awal dimulai dari \textit{scene} 4 dengan indeks 0.
+Selanjutnya, perhatikan baris dengan indeks 0.
+Kemudian, diperiksa kolom-kolom pada baris tersebut yang memiliki nilai 1.
+Indeks pada nama kolom merupakan urutan selanjutnya setelah indeks 0 misal 6 seperti pada Tabel \ref{tab: contoh matriks aij}.
+Proses selanjutnya, perhatikan baris dengan indeks nama kolom tersebut dan diperiksa kolom-kolom pada baris yang bernilai 1.
+Langkah-langkah diulangi hingga kembali mendapat indeks awal saat dimulai.
+
+\noindent
+Dengan langkah yang telah dijelaskan, didapatkan urutan syuting \textit{scene} yang menghubungkan simpul-simpul dengan nilai 1 dalam matriks $[a_{ij}]$.
+Untuk mendapatkan urutan syuting \textit{scene} yang optimal dicari menggunakan algoritma \textit{Particle Swarm Optimization}.
+}
+\vspace{-3mm}
+
+% SubBab
+\section{Penerapan Algoritma \textit{Particle Swarm Optimization} (PSO) untuk Optimalisasi Pemilihan Urutan \textit{Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
+\vspace{-4mm}
+{\frenchspacing
+Algoritma \textit{Particle Swarm Optimization} (PSO) diterapkan ke dalam konsep \textit{Traveling Salesman Problem} (TSP) untuk optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+Penerapan algoritma PSO dalam penelitian ini dimulai dengan proses normalisasi data biaya antar \textit{scene} pada Tabel \ref{tab: data biaya antar scene}.
+Proses normalisasi data ini dilakukan untuk memudahkan interpretasi solusi dalam perhitungan nilai \textit{fitness}.
+Metode normalisasi data yang digunakan adalah metode \textit{Min-Max Normalization} menggunakan Persamaan \ref{pers: normalisasi minmax} kemudian nama \textit{scene} disesuaikan mengikuti indeks yang dapat dilihat pada Tabel \ref{tab: data scene}.
+Proses perhitungan \textit{Min-Max Normalization} dapat dijelaskan sebagai berikut:
+
+{\small
+\begin{equation*}
+    \begin{aligned}
+        \text{Normalisasi biaya \textit{scene} 4 ke \textit{scene} 1D} & = \frac{\text{biaya \textit{scene} 4 ke \textit{scene} 1D} - \operatorname{min}(\text{biaya \textit{scene}})}{\operatorname{max}(\text{biaya \textit{scene}}) - \operatorname{min}(\text{biaya \textit{scene}})} \\
+                                                                       & = \frac{100.297,8-0}{628.799,5-0}                                                                                                                                                                                \\
+                                                                       & = 0,159507
+    \end{aligned}
+\end{equation*}
+}
+
+\noindent
+Hasil proses normalisasi data biaya antar \textit{scene} dapat ditampilkan pada Tabel \ref{tab: Norm biaya scene} berikut.
+
+    {\scriptsize
+        \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{6mm}|c|c|c|c|c|c|c|c|c|}
+            \caption{Hasil Perhitungan Normalisasi Biaya Antar \textit{Scene}}
+            \label{tab: Norm biaya scene}                                                                                                                          \\
             \hline
-            \textbf{No} & \textbf{\textit{Scene}} & \textbf{Lokasi}                    & \textbf{Variabel} \\\hline
-            1           & 1C                      & Masjid Waduk Panji Tenggarong      & $v_{1}$           \\\hline
-            2           & 1D                      & Hutan Bambu Desa   Kedang Ipil     & $v_{2}$           \\\hline
-            3           & 1E                      & Air Terjun Desa Kedang Ipil        & $v_{3}$           \\\hline
-            4           & 2A                      & Rumah Warga Desa Kedang Ipil       & $v_{4}$           \\\hline
-            5           & 2B                      & Rumah Warga Desa Kedang Ipil       & $v_{5}$           \\\hline
-            6           & 3                       & Kebun Bunga Waduk Panji Tenggarong & $v_{6}$           \\\hline
-            7           & 4                       & Kebun Bunga Waduk Panji Tenggarong & $v_{7}$           \\\hline
-            \dots       & \dots                   & \dots                              & \dots             \\\hline
-            59          & 37                      & Kebun Bunga Waduk Panji Tenggarong & $v_{59}$          \\\hline
-        \end{tabular}
-    \end{table}
-
-    \vspace{-8mm}
-    \begin{flushright}
-        Sumber: Lampiran 1
-    \end{flushright}
-
-    Berdasarkan Tabel \ref{tab: data scene}, dapat dilihat bahwa terdapat 59 \textit{scene}.
-    Tiap \textit{scene} dalam proses syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dianalogikan sebagai
-    suatu \textit{vertex} dalam graf.
-    Sedangkan \textit{edge} di dalam graf tersebut merepresentasikan bobot biaya syuting antar tiap \textit{scene} film "Ketika
-    Adzan Sudah Tidak Lagi Berkumandang".
-    Graf yang dapat dibuat untuk memodelkan masalah ini sebagai masalah \textit{travelling salesman problem} dapat dilihat
-    dapat dilihat pada Gambar .
-
-    \begin{center}
-        GAMBAR GRAF
-    \end{center}
-
-    Data biaya syuting tiap \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dibagi menjadi dua,
-    yaitu data biaya \textit{talent} dan data biaya transportasi.
-    Data biaya \textit{talent} adalah data biaya yang harus dikeluarkan untuk menyewa pemain (\textit{talent}) yang bermain dalam satu \textit{scene}.
-    Daftar total biaya \textit{talent} yang dapat dilihat pada \textbf{Lampiran 2}, kemudian dibagi jumlah \textit{scene} dari \textit{talent} tersebut bermain sehingga
-    diperoleh data biaya \textit{talent} dalam satu \textit{scene}.
-    Adapun data biaya tiap \textit{talent} dalam suatu \textit{scene} dapat dilihat pada Tabel \ref{tab: data biaya talent}.
-
-    \begin{table}
-        \centering
-        \caption{Data Biaya Talent dalam Satu Scene pada Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
-        \label{tab: data biaya talent}
-        \begin{tabular}{|c|l|l|c|}
+            \textit{\textbf{Scene}} & \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{$\cdots$} & \textbf{57} & \textbf{58} & \textbf{59} \\ \hline
+            \endfirsthead
+            %
+            \multicolumn{10}{c}%
+            {\normalsize{\bfseries Table \thetable\ } Hasil Perhitungan Normalisasi Biaya Antar \textit{Scene} (Lanjutan)}                                         \\
             \hline
-            \textbf{No} & \multicolumn{1}{c|}{\textit{\textbf{Talent}}} & \textbf{Peran} & \textbf{Biaya Talent tiap \textit{Scene} (Rp)} \\ \hline
-            1           & Daniel Imran                                  & Wawan          & 13333.333333                                   \\ \hline
-            2           & A. Muslih Navis                               & Manto          & 17647.058824                                   \\ \hline
-            3           & KimKim                                        & Usman          & 24000.000000                                   \\ \hline
-            4           & Emilda Sohaya                                 & Rita           & 37500.000000                                   \\ \hline
-            5           & Aqila Yumi                                    & Nina           & 40000.000000                                   \\ \hline
-            6           & Dedi Nala Arung                               & Ustadz Udas    & 35294.117647                                   \\ \hline
-            7           & Ika Puspita                                   & Irah           & 66666.666667                                   \\ \hline
-            8           & Nanda Fajar Amrullah                          & Mali           & 50000.000000                                   \\ \hline
-            9           & Muhtadin                                      & Ismail         & 54545.454545                                   \\ \hline
-            10          & Muhammad Syabir                               & Kakek Tua      & 200000.000000                                  \\ \hline
-        \end{tabular}
-    \end{table}
+            \textit{\textbf{Scene}} & \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{$\cdots$} & \textbf{57} & \textbf{58} & \textbf{59} \\ \hline
+            \endhead
+            %
+            \textbf{0}              & 0          & 0.159507   & 0.414623   & 0.433254   & 0.578496   & $\cdots$          & 0.305209    & 0.252241    & 0.03742     \\ \hline
+            \textbf{1}              & 0.159507   & 0          & 0.428364   & 0.434047   & 0.584895   & $\cdots$          & 0.307761    & 0.249689    & 0.039972    \\ \hline
+            \textbf{2}              & 0.571578   & 0.585318   & 0          & 0.007365   & 0.160831   & $\cdots$          & 0.719832    & 0.678053    & 0.452043    \\ \hline
+            \textbf{3}              & 0.590209   & 0.591002   & 0.007365   & 0          & 0.166747   & $\cdots$          & 0.738463    & 0.683736    & 0.470674    \\ \hline
+            \textbf{4}              & 0.578496   & 0.584895   & 0.003876   & 0.009792   &            & $\cdots$          & 0.72675     & 0.677629    & 0.458961    \\ \hline
+            \textbf{5}              & 0.578496   & 0.584895   & 0.003876   & 0.009792   & 0.156954   & $\cdots$          & 0.72675     & 0.677629    & 0.458961    \\ \hline
+            \textbf{6}              & 0.156954   & 0.159507   & 0.414623   & 0.433254   & 0.578496   & $\cdots$          & 0.305209    & 0.252241    & 0.03742     \\ \hline
+            \textbf{7}              & 0.159507   & 0.156954   & 0.428364   & 0.434047   & 0.584895   & $\cdots$          & 0.307761    & 0.249689    & 0.039972    \\ \hline
+            \textbf{8}              & 0.156954   & 0.159507   & 0.414623   & 0.433254   & 0.578496   & $\cdots$          & 0.305209    & 0.252241    & 0.03742     \\ \hline
+            \textbf{$\vdots$}       & $\vdots$   & $\vdots$   & $\vdots$   & $\vdots$   & $\vdots$   & $\cdots$          & $\vdots$    & $\vdots$    & $\vdots$    \\ \hline
+            \textbf{55}             & 0.571578   & 0.585318   & 0          & 0.007365   & 0.160831   & $\cdots$          & 0.719832    & 0.678053    & 0.452043    \\ \hline
+            \textbf{56}             & 0.156954   & 0.159507   & 0.414623   & 0.433254   & 0.578496   & $\cdots$          & 0.305209    & 0.252241    & 0.03742     \\ \hline
+            \textbf{57}             & 0.156954   & 0.159507   & 0.414623   & 0.433254   & 0.578496   & $\cdots$          & 0           & 0.252241    & 0.03742     \\ \hline
+            \textbf{58}             & 0.159507   & 0.156954   & 0.428364   & 0.434047   & 0.584895   & $\cdots$          & 0.307761    & 0           & 0.039972    \\ \hline
+            \textbf{59}             & 0.156954   & 0.159507   & 0.414623   & 0.433254   & 0.578496   & $\cdots$          & 0.305209    & 0.252241    & 0           \\ \hline
+        \end{tabularx}
+    }
 
-    \vspace{-8mm}
-    \begin{flushright}
-        Sumber: Lampiran 2
-    \end{flushright}
+Data biaya antar \textit{scene} yang telah dinormalisasi ini yang digunakan sebagai data masukan dalam proses optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" menggunakan algoritma PSO.
+Proses perhitungan algoritma PSO untuk optimalisasi urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dapat dijelaskan sebagai berikut:
 
-    Berdasarkan data biaya \textit{talent} pada Tabel \ref{tab: data biaya talent} dan data talent yang bermain di setiap \textit{scene} pada \textbf{Lampiran 1},
-    selanjutnya dihitung total biaya \textit{talent} yang bermain dalam setiap \textit{scene}.
-    Proses perhitungan total biaya \textit{talent} dapat dijelaskan sebagai berikut.
+\begin{enumerate}[label = \arabic*., align = left, left = 0cm, nolistsep]
+    \item Inisialisasi nilai parameter PSO, kecepatan (\textit{velocity}) awal $(V_{j}^{0})$ dan posisi awal $(X_{j}^{0})$ sehingga diperoleh rute awal. \par \nobreak
+          \begin{enumerate}[label = (\alph*), align = left, left = 0cm, nolistsep]
+              \item Inisialisasi nilai parameter PSO yang akan digunakan. \par \nobreak
+                    Ukuran \textit{swarm}: $N = 50$ \newline
+                    Iterasi maksimum: $n = 100$ \newline
+                    \textit{Learning rates}: $c_{1} = c_{2} = 2$ \newline
+                    \textit{Inertia Weight}: $\omega^{0} = 0$
+
+                    Dimensi sebesar jumlah seluruh \textit{scene} yang ada dikurangi 1 bertujuan untuk mengeluarkan \textit{scene} keberangkatan dari perhitungan.
+                    \textit{Scene} awal yang digunakan adalah \textit{scene} 4 dengan indeks 0, sehingga dimensi dari setiap partikel sebesar 59.
+                    Ukuran \textit{swarm} sebesar 50 berdasarkan interval ukuran \textit{swarm} pada algoritma PSO klasik \mycite{Piotrowski:2020}.
+                    Nilai \textit{learning rates}  yang terdiri dari $c_{1}$ dan $c_{2}$ sebesar 2 agar arah pergerakan partikel condong ke arah rata-rata $P_{best}$ dan $G_{best}$ \mycite{Meetu:2022}.
+                    Strategi \textit{Random Inertia Weight} diterapkan ke dalam proses perhitungan, sehingga untuk kondisi awal nilai \textit{inertia weight}
+                    dimisalkan $\omega^{0} = 0$.
+
+              \item Kecepatan (\textit{velocity}) awal dan posisi awal dibangkitkan secara acak dengan penerapan strategi pembatasan (\textit{Clamping}). \par \nobreak
+                    Jumlah baris yang dibangkitkan sama dengan ukuran \textit{swarm} dan jumlah kolom sama dengan ukuran dimensi.
+                    Posisi awal dibangkitkan menggunakan Persamaan \ref{pers: bangkitkan posisi awal} dengan \textit{clamping} minimum $X_{min} = -10$ dan posisi maksimum $X_{max} = 10$.
+                    Kecepatan awal dibangkitkan menggunakan Persamaan \ref{pers: bangkitkan velocity awal} dengan \textit{velocity clamping} pada Persamaan \ref{pers: velocity clamping}.
+
+                    Misal $\varepsilon = 0.2$, maka  \newline
+                    $V_{max} = \varepsilon(X_{max}-X_{min})$ \newline
+                    $V_{max} = 0.2(10-(-10))$ \newline
+                    $V_{max} = 4$
+
+                    Sehingga diperoleh \textit{velocity} maksimum sebesar 4, sedangkan untuk \textit{velocity} minimum $V_{min} = -V_{max} = -4$.
+                    \textit{Velocity} awal dapat ditampilkan pada Tabel \ref{tab: kecepatan awal} dan Lampiran \ref{app: kecepatan awal},
+                    sedangkan posisi awal dapat ditampilkan pada Tabel \ref{tab: posisi awal} dan Lampiran \ref{app: posisi awal}.
+
+                    {
+                    \setlength{\tabcolsep}{3pt}
+                    \renewcommand{\arraystretch}{0.9}
+                    \footnotesize
+                    \begin{tabularx}{\textwidth}{|c|c|c|c|c|c|c|c|c|c|}
+                        \caption{\textit{Velocity} Awal}
+                        \label{tab: kecepatan awal}                                                                                     \\
+                        \hline
+                        $V_{j}^{0}$  & 1        & 2        & 3        & 4        & 5        & $\cdots$ & 57       & 58       & 59       \\ \hline
+                        \endfirsthead
+                        %
+                        \multicolumn{10}{c}%
+                        {\normalsize{\bfseries Table \thetable\ } \textit{Velocity} Awal (Lanjutan)}                                    \\
+                        \hline
+                        $V_{j}^{0}$  & 1        & 2        & 3        & 4        & 5        & $\cdots$ & 57       & 58       & 59       \\ \hline
+                        \endhead
+                        %
+                        $V_{1}^{0}$  & 3,77856  & -0,64489 & -0,46761 & 3,48305  & 2,46991  & $\cdots$ & 1,15675  & -2,62473 & 3,0509   \\ \hline
+                        $V_{2}^{0}$  & -2,37293 & 0,59164  & -3,22001 & 3,37347  & -3,13394 & $\cdots$ & -0,83408 & 2,47141  & 3,53876  \\ \hline
+                        $V_{3}^{0}$  & -1,61013 & -3,02847 & 3,79836  & 0,12092  & -0,54694 & $\cdots$ & 2,13799  & -0,02635 & -0,84738 \\ \hline
+                        $V_{4}^{0}$  & 3,37047  & -1,59616 & -3,9053  & -1,02375 & 0,53447  & $\cdots$ & -3,21478 & -0,21715 & 1,1754   \\ \hline
+                        $V_{5}^{0}$  & 3,10001  & -1,26659 & -3,34865 & 0,67728  & -0,86324 & $\cdots$ & -2,05414 & -1,93322 & -3,82199 \\ \hline
+                        $V_{6}^{0}$  & 0,16961  & 2,94487  & -0,99513 & -2,80333 & -1,0389  & $\cdots$ & -0,21045 & -0,26025 & 3,24149  \\ \hline
+                        $V_{7}^{0}$  & 0,53162  & 0,46895  & 3,27744  & 0,27422  & -0,42016 & $\cdots$ & -2,79211 & 1,83128  & -1,19289 \\ \hline
+                        $V_{8}^{0}$  & 1,79001  & -1,15706 & 1,12959  & -0,13587 & 3,41131  & $\cdots$ & -2,01515 & -1,85653 & 2,84771  \\ \hline
+                        $V_{9}^{0}$  & 3,49436  & 3,89443  & -3,35689 & 1,36308  & -3,68947 & $\cdots$ & 1,95887  & 3,2545   & 2,77767  \\ \hline
+                        $V_{10}^{0}$ & -3,14503 & 3,39825  & -1,52385 & -1,08799 & -1,85053 & $\cdots$ & 4,39831  & 3,4613   & 6,64702  \\ \hline
+                        $\cdots$     & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ \\ \hline
+                        $V_{46}^{0}$ & -1,79276 & 2,96862  & -3,70871 & 1,73355  & -3,55365 & $\cdots$ & -1,29545 & 1,1414   & 3,47661  \\ \hline
+                        $V_{47}^{0}$ & 1,76585  & -0,94989 & -2,33622 & 2,102    & -0,89744 & $\cdots$ & -2,24799 & -1,47988 & 1,14731  \\ \hline
+                        $V_{48}^{0}$ & -2,33636 & 1,69045  & -2,27788 & 1,07227  & -0,03685 & $\cdots$ & 1,5463   & 0,49224  & 0,29     \\ \hline
+                        $V_{49}^{0}$ & 1,63901  & -2,12097 & 2,81776  & 2,57131  & -1,5297  & $\cdots$ & -2,85665 & -0,86254 & 3,43382  \\ \hline
+                        $V_{50}^{0}$ & -2,11161 & 2,55355  & -1,98017 & 2,08624  & -0,48043 & $\cdots$ & -0,02442 & -3,3075  & 2,91568  \\ \hline
+                    \end{tabularx}
+                    }
+
+                    {
+                    \setlength{\tabcolsep}{3pt}
+                    \renewcommand{\arraystretch}{0.9}
+                    \footnotesize
+                    \begin{tabularx}{\textwidth}{|c|c|c|c|c|c|c|c|c|c|}
+                        \caption{Posisi Awal}
+                        \label{tab: posisi awal}                                                                                        \\
+                        \hline
+                        $X_{j}^{0}$  & 1        & 2        & 3        & 4        & 5        & $\cdots$ & 57       & 58       & 59       \\ \hline
+                        \endfirsthead
+                        %
+                        \multicolumn{10}{c}%
+                        {\normalsize{\bfseries Tabel \thetable} Posisi Awal (Lanjutan)}                                                 \\
+                        \hline
+                        $X_{j}^{0}$  & 1        & 2        & 3        & 4        & 5        & $\cdots$ & 57       & 58       & 59       \\ \hline
+                        \endhead
+                        %
+                        $X_{1}^{0}$  & 9,49657  & 6,38931  & -9,24977 & -0,86746 & 8,11417  & $\cdots$ & 9,22629  & -4,83472 & -1,25263 \\ \hline
+                        $X_{2}^{0}$  & 1,96213  & 8,02417  & -0,20912 & 7,38502  & 1,59352  & $\cdots$ & 9,53735  & -5,78962 & 6,03164  \\ \hline
+                        $X_{3}^{0}$  & 0,27497  & -1,10897 & 5,9744   & 9,64621  & 6,46431  & $\cdots$ & -4,4764  & -3,06733 & -7,61005 \\ \hline
+                        $X_{4}^{0}$  & -6,21295 & -6,81094 & -8,03218 & 6,46373  & 7,82328  & $\cdots$ & -1,57004 & -5,10405 & -5,98921 \\ \hline
+                        $X_{5}^{0}$  & -9,48349 & -2,55129 & -4,78811 & 6,96384  & -3,58455 & $\cdots$ & 0,49076  & 4,08753  & -2,5163  \\ \hline
+                        $X_{6}^{0}$  & -2,77705 & -0,41845 & -1,56102 & -4,83364 & -0,43962 & $\cdots$ & 6,71648  & -7,6854  & -4,04416 \\ \hline
+                        $X_{7}^{0}$  & 0,90394  & 8,03889  & 6,04993  & 3,5855   & -8,74507 & $\cdots$ & -3,10213 & -4,86407 & -4,65589 \\ \hline
+                        $X_{8}^{0}$  & -5,19075 & -3,12175 & -1,54159 & 6,67369  & 5,37251  & $\cdots$ & -3,82919 & -2,35685 & -1,71389 \\ \hline
+                        $X_{9}^{0}$  & 1,31639  & 2,04607  & 4,50057  & -4,11122 & -1,71218 & $\cdots$ & 7,97633  & -4,12198 & -3,37293 \\ \hline
+                        $X_{10}^{0}$ & -4,20664 & 5,94528  & -9,95615 & 5,68854  & 3,88729  & $\cdots$ & 4,39831  & 3,4613   & 6,64702  \\ \hline
+                        $\cdots$     & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ \\ \hline
+                        $X_{46}^{0}$ & -9,01749 & 3,05757  & 4,34691  & -1,34207 & 9,05902  & $\cdots$ & -9,46772 & 4,62617  & -3,95606 \\ \hline
+                        $X_{47}^{0}$ & 8,19479  & 9,16772  & -2,31561 & 3,42778  & -0,09894 & $\cdots$ & -7,86276 & -0,99604 & 0,62484  \\ \hline
+                        $X_{48}^{0}$ & -9,14554 & 5,3417   & -8,45398 & 0,22204  & 0,32364  & $\cdots$ & 1,87102  & 6,87175  & 0,43499  \\ \hline
+                        $X_{49}^{0}$ & 8,95262  & 5,51931  & 2,638    & 4,86612  & -0,32707 & $\cdots$ & -0,66366 & -4,8518  & -3,47986 \\ \hline
+                        $X_{50}^{0}$ & 3,69491  & -8,74439 & 5,10989  & 0,89197  & 8,47693  & $\cdots$ & -5,87536 & 6,21345  & -3,57332 \\ \hline
+                    \end{tabularx}
+                    }
+
+                    Strategi \textit{clamping} pada posisi digunakan untuk membatasi posisi agar tidak keluar dari area pencarian.
+                    Sedangkan strategi \textit{clamping} pada \textit{velocity} digunakan untuk membatasi \textit{velocity} agar partikel tidak bergerak terlalu cepat atau terlalu lambat.
+
+              \item Posisi awal dari setiap partikel diberikan indeks sesuai kolom dan diurutkan berdasarkan nilai posisi terkecil sehingga diperoleh urutan indeks \textit{scene} syuting awal yang ditampilkan pada Tabel \ref{tab: rute awal} dan Lampiran \ref{app: rute awal}. \par \nobreak
+
+                    {
+                        \scriptsize
+                        \begin{tabularx}{\textwidth}{|c|p{11cm}|}
+                            \caption{Rute Awal}
+                            \label{tab: rute awal}                                                                                                                                                                     \\
+                            \hline
+                            $X_{j}^{0}$  & \multicolumn{1}{c|}{Rute}                                                                                                                                                   \\ \hline
+                            \endfirsthead
+                            %
+                            \multicolumn{2}{c}%
+                            {\normalsize{ \bfseries Tabel \thetable} Rute Awal (Lanjutan)}                                                                                                                             \\
+                            \hline
+                            $X_{j}^{0}$  & \multicolumn{1}{c|}{Rute}                                                                                                                                                   \\ \hline
+                            \endhead
+                            %
+                            $X_{1}^{0}$  & 0-11-18-3-37-38-49-40-42-30-23-8-34-22-32-46-41-58-12-44-7-36-24-47-21-6-14-59-20-4-15-50-9-55-25-17-27-31-13-45-53-16-51-39-35-56-52-28-2-10-19-29-5-54-26-43-33-57-1-48-0 \\ \hline
+                            $X_{2}^{0}$  & 0-42-29-15-53-44-38-37-40-49-25-51-58-6-26-30-55-21-46-41-47-43-22-27-36-8-50-39-10-24-32-3-9-18-54-11-20-7-48-5-56-1-33-23-34-35-19-31-12-59-17-4-28-13-2-45-52-16-57-14-0 \\ \hline
+                            $X_{3}^{0}$  & 0-56-8-37-19-47-44-39-42-40-59-55-38-46-36-57-29-15-48-58-52-23-20-13-54-30-18-2-53-26-1-16-51-7-11-6-50-41-31-24-33-21-14-28-43-17-12-3-25-5-32-45-49-35-27-34-22-10-9-4-0 \\ \hline
+                            $X_{4}^{0}$  & 0-37-31-33-45-3-18-11-22-38-2-1-59-36-46-34-58-48-23-52-25-8-47-57-13-55-19-54-35-49-24-21-29-6-15-16-9-50-53-39-56-27-26-40-41-20-14-4-17-12-51-32-5-42-10-7-28-43-30-44-0 \\ \hline
+                            $X_{5}^{0}$  & 0-28-1-13-10-45-31-37-24-55-32-53-3-17-52-33-5-47-15-2-59-39-14-42-35-57-41-6-43-22-49-21-29-56-51-12-50-18-34-20-58-40-8-23-48-26-16-46-54-4-44-27-11-7-30-19-9-38-36-25-0 \\ \hline
+                            $X_{6}^{0}$  & 0-6-38-26-16-55-36-58-53-7-24-8-27-42-11-4-51-54-10-18-23-17-30-59-25-15-1-44-14-9-29-3-31-50-5-2-47-21-43-39-40-45-52-35-34-49-28-19-57-46-41-20-32-33-48-22-37-13-56-12-0 \\ \hline
+                            $X_{7}^{0}$  & 0-13-24-5-25-17-29-33-12-6-15-58-45-59-26-44-51-9-52-57-19-27-46-39-14-21-56-43-37-7-47-35-38-10-1-36-30-8-54-42-23-34-20-4-55-49-50-40-11-41-16-18-48-32-3-28-2-22-31-53-0 \\ \hline
+                            $X_{8}^{0}$  & 0-23-35-55-53-22-12-49-17-26-11-1-16-43-37-46-30-57-20-24-2-56-47-58-48-51-29-18-59-3-44-10-19-8-21-31-28-14-45-41-40-54-42-33-15-50-52-9-39-6-5-27-38-25-13-4-36-7-32-34-0 \\ \hline
+                            $X_{9}^{0}$  & 0-50-47-52-27-14-24-8-44-21-13-30-11-16-40-37-31-29-6-58-4-25-54-59-33-26-34-19-43-5-32-42-1-35-12-2-53-28-23-22-20-55-17-3-38-48-49-51-36-41-39-46-18-45-57-9-15-7-56-10-0 \\ \hline
+                            $X_{10}^{0}$ & 0-3-34-51-33-19-50-14-10-20-42-39-12-13-25-8-16-41-40-1-48-52-38-17-35-24-11-15-30-32-31-29-7-22-27-43-18-46-9-55-44-26-58-56-5-21-57-28-4-2-45-59-49-37-36-47-6-53-23-54-0 \\ \hline
+                            $\cdots$     & $\cdots$                                                                                                                                                                    \\ \hline
+                            $X_{46}^{0}$ & 0-57-1-39-34-6-18-53-15-20-26-51-45-8-30-21-59-27-52-24-11-4-28-41-19-10-29-56-14-9-55-13-35-2-25-48-12-49-40-22-33-47-3-31-42-58-17-16-23-37-54-50-43-38-32-36-5-44-46-7-0 \\ \hline
+                            $X_{47}^{0}$ & 0-51-49-34-21-12-30-57-28-10-38-9-40-45-6-22-42-24-43-8-44-20-39-3-32-15-58-54-14-53-23-46-11-5-59-56-18-29-50-27-26-47-25-4-52-13-19-31-55-41-48-7-16-35-36-1-17-33-2-37-0 \\ \hline
+                            $X_{48}^{0}$ & 0-1-44-3-39-55-52-33-46-51-43-9-38-16-56-18-47-42-40-35-29-36-21-25-37-24-19-54-7-28-20-6-26-4-5-59-34-14-31-57-11-49-17-32-10-27-8-53-2-23-41-15-45-58-48-22-30-13-12-50-0 \\ \hline
+                            $X_{49}^{0}$ & 0-50-44-41-11-56-31-36-38-18-35-6-28-58-48-23-26-47-24-19-59-21-39-32-55-14-57-20-53-8-5-42-51-17-43-13-54-22-30-40-49-3-52-27-10-45-4-15-34-46-9-2-16-7-25-37-29-12-1-33-0 \\ \hline
+                            $X_{50}^{0}$ & 0-7-27-9-2-17-16-11-29-38-15-36-22-57-14-30-56-35-25-59-6-18-20-52-53-24-41-50-33-39-19-12-4-44-32-45-40-47-1-26-43-21-3-37-58-51-54-46-13-23-10-49-42-28-55-34-5-8-48-31-0 \\ \hline
+                        \end{tabularx}
+                    }
+
+          \end{enumerate}
+
+    \item Mengevaluasi nilai fungsi \textit{fitness} dari hasil rute setiap partikel. \par \nobreak
+          Nilai fungsi \textit{fitness} didapatkan setelah menghitung total biaya syuting dari hasil rute setiap partikel.
+          Proses perhitungan total biaya syuting untuk partikel pertama $(X_{1}^{0})$ dapat dijelaskan sebagai berikut. \newline
+          Hasil rute dari partikel $X_{1}^{0}$ pada Tabel \ref{tab: rute awal}, yaitu
+
+
+              {%\small
+                  \begin{equation*}
+                      \begin{aligned}
+                          \text{Rute $X_{1}^{0}$} = & [ 0-11-18-3-37-38-49-40-42-30-23-8-34- \\
+                                                    & 22-32-46-41-58-12-44-7-36-24-47-21-6-  \\
+                                                    & 14-59-20-4-15-50-9-55-25-17-27-31-13-  \\
+                                                    & 45-53-16-51-39-35-56-52-28-2-10-19-29- \\
+                                                    & 5-54-26-43-33-57-1-48-0]
+                      \end{aligned}
+                  \end{equation*}
+              }
+
+          Kemudian, dihitung total biaya syuting antar \textit{scene} yang dilalui oleh partikel $X_{1}^{0}$ menggunakan biaya antar \textit{scene} yang telah dinormalisasi pada Tabel \ref{tab: Norm biaya scene}.
+
+          {\footnotesize
+          \begin{equation*}
+              \begin{aligned}
+                  f(X_{1}^{0})  = & 0,32664 + 0,48512 + 0,52233 + 0,29915 + 0,3607 + 0,12603 + 0,5866      \\
+                                  & + 0,10143 + 0,48517 + 0,62958 + 0,20048 + 0,00255 + 0,32943 + 0,47946  \\
+                                  & + 0,11699 + 0,24602 + 0,32692 + 0,07723 + 0,00458 + 0,20361 + 0,72015  \\
+                                  & + 0,51857 + 0,12603 + 0,36902 + 0,15951 + 0,391 + 0,1142 + 0,14184     \\
+                                  & + 0,58489 + 0,68458 + 0,13553 + 0,3773 + 0,51605 + 0,58748 + 0,32609   \\
+                                  & + 0,15097 + 0,10601 + 0,04876 + 0,0 + 0,57582 + 0,25267 + 0,71727      \\
+                                  & + 0,31072 + 0,07723 + 0,10398  + 0,51605 + 0,72659 + 0,47439 + 0,76401 \\
+                                  & + 0,61368 + 0,10143 + 0,30909 + 0,59365 + 0,17821 + 0,24602 + 0,47946  \\
+                                  & + 0,30776 + 0,15951 + 0,07723 + 0,23374                                \\
+                  =               & 19,78651
+              \end{aligned}
+          \end{equation*}
+          }
+
+          dari total biaya syuting \textit{scene} partikel $X_{1}^{0}$, dihitung nilai \textit{fitness} menggunakan Persamaan \ref{pers: nilai fungsi fitness}.
+
+          \begin{equation*}
+              F(X_{1}^{0}) = \frac{1}{f(X_{1}^{0})} = \frac{1}{19,78651} = 0,05054
+          \end{equation*}
+
+          Proses evaluasi total biaya syuting untuk partikel lainnya dihitung menggunakan bahasa pemrograman Python seperti yang ditampilkan pada Tabel \ref{tab: total biaya syuting dan nilai fitness awal} dan Lampiran \ref{app: total biaya syuting dan nilai fitness awal}.
+
+          %   \vspace{-3mm}
+          {
+          \setlength{\tabcolsep}{3pt}
+          \renewcommand{\arraystretch}{0.9}
+          \footnotesize
+          \begin{tabularx}{\textwidth}{|c|cccccc|c|c|}
+              \caption{Total Biaya Syuting dan Nilai \textit{Fitness} tiap Partikel}
+              \label{tab: total biaya syuting dan nilai fitness awal}                                                                                                                                                                         \\
+              \hline
+              $X_{j}^{0}$  & \multicolumn{6}{c|}{Biaya Antar \textit{Scene}} & Total Biaya                   & \textit{Fitness}                                                                                                               \\ \hline
+              \endfirsthead
+              %
+              \multicolumn{9}{c}%
+              {\normalsize{\bfseries Table \thetable\ } Total Biaya Syuting dan Nilai \textit{Fitness} tiap Partikel (Lanjutan)}                                                                                                              \\
+              \hline
+              $X_{j}^{0}$  & \multicolumn{6}{c|}{Biaya Antar \textit{Scene}} & Total Biaya                   & \textit{Fitness}                                                                                                               \\ \hline
+              \endhead
+              %
+              $X_{1}^{0}$  & \multicolumn{1}{c|}{0,326642}                   & \multicolumn{1}{c|}{0,48512}  & \multicolumn{1}{c|}{0,522329} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,077231} & 0,233738 & 19,78651 & 0,05054  \\ \hline
+              $X_{2}^{0}$  & \multicolumn{1}{c|}{0,181909}                   & \multicolumn{1}{c|}{0,586602} & \multicolumn{1}{c|}{0,730481} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,391004} & 0,233738 & 22,4467  & 0,04455  \\ \hline
+              $X_{3}^{0}$  & \multicolumn{1}{c|}{0,101428}                   & \multicolumn{1}{c|}{0,123692} & \multicolumn{1}{c|}{0,706409} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,578496} & 0,578496 & 22,31346 & 0,04482  \\ \hline
+              $X_{4}^{0}$  & \multicolumn{1}{c|}{0,706409}                   & \multicolumn{1}{c|}{0,586602} & \multicolumn{1}{c|}{0,482146} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,485175} & 0,237435 & 23,46449 & 0,04262  \\ \hline
+              $X_{5}^{0}$  & \multicolumn{1}{c|}{0,328981}                   & \multicolumn{1}{c|}{0,234185} & \multicolumn{1}{c|}{0,121406} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,587482} & 0,233738 & 22,14848 & 0,04515  \\ \hline
+              $X_{6}^{0}$  & \multicolumn{1}{c|}{0,156954}                   & \multicolumn{1}{c|}{0,775324} & \multicolumn{1}{c|}{0,57582}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,076783} & 0,233738 & 21,36752 & 0,0468   \\ \hline
+              $X_{7}^{0}$  & \multicolumn{1}{c|}{0,120959}                   & \multicolumn{1}{c|}{0,044176} & \multicolumn{1}{c|}{0,735583} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,586602} & 0,571578 & 22,28659 & 0,04487  \\ \hline
+              $X_{8}^{0}$  & \multicolumn{1}{c|}{0,231971}                   & \multicolumn{1}{c|}{0,077231} & \multicolumn{1}{c|}{0,529792} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0}        & 0,159507 & 23,19431 & 0,04311  \\ \hline
+              $X_{9}^{0}$  & \multicolumn{1}{c|}{0,21371}                    & \multicolumn{1}{c|}{0,13348}  & \multicolumn{1}{c|}{0,57582}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,3664}   & 0,233738 & 23,61101 & 0,04235  \\ \hline
+              $X_{10}^{0}$ & \multicolumn{1}{c|}{0,433254}                   & \multicolumn{1}{c|}{0,434047} & \multicolumn{1}{c|}{0,282535} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,248892} & 0,156954 & 21,37886 & 0,04678  \\ \hline
+              $\cdots$     & \multicolumn{1}{c|}{$\cdots$}                   & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{$\cdots$} & $\cdots$ & $\cdots$ & $\cdots$ \\ \hline
+              $X_{46}^{0}$ & \multicolumn{1}{c|}{0,305209}                   & \multicolumn{1}{c|}{0,159507} & \multicolumn{1}{c|}{0,380502} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,200923} & 0,159507 & 24,23547 & 0,04126  \\ \hline
+              $X_{47}^{0}$ & \multicolumn{1}{c|}{0,282625}                   & \multicolumn{1}{c|}{0,629139} & \multicolumn{1}{c|}{0,428364} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,291786} & 0,571578 & 23,2478  & 0,04301  \\ \hline
+              $X_{48}^{0}$ & \multicolumn{1}{c|}{0,159507}                   & \multicolumn{1}{c|}{0,07992}  & \multicolumn{1}{c|}{0,505034} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,13348}  & 0,244633 & 20,62249 & 0,04849  \\ \hline
+              $X_{49}^{0}$ & \multicolumn{1}{c|}{0,21371}                    & \multicolumn{1}{c|}{0,0095}   & \multicolumn{1}{c|}{0,2506}   & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,402226} & 0,159507 & 20,49007 & 0,0488   \\ \hline
+              $X_{50}^{0}$ & \multicolumn{1}{c|}{0,126245}                   & \multicolumn{1}{c|}{0,220755} & \multicolumn{1}{c|}{0,3664}   & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,106008} & 0,237435 & 22,69284 & 0,04407  \\ \hline
+          \end{tabularx}
+          }
+          %   \vspace{-6mm}
+
+    \item Menentukan $P_{best}$ dan $G_{best}$ awal. \par \nobreak
+
+          \begin{enumerate}[label = (\alph*), align = left, left = 0cm, nolistsep]
+              \item $P_{best}$ merupakan posisi dengan nilai \textit{fitness} terbaik yang pernah dicapai oleh setiap partikel.
+                    Pada iterasi pertama, setiap partikel hanya pernah bergerak satu kali yaitu pada posisi awal yang telah ditentukan.
+                    Sehingga posisi awal tersebut menjadi posisi dengan nilai \textit{fitness} terbaik yang pernah dicapai oleh partikel tersebut.
+                    Akibatnya, $P_{best}$ awal untuk setiap partikel sama dengan posisi awal dari setiap partikel.
+                    $P_{best}$ dari setiap partikel dapat dilihat pada Tabel \ref{tab: pbest iterasi awal}.
+
+                    {
+                    \setlength{\tabcolsep}{3pt}
+                    \renewcommand{\arraystretch}{0.9}
+                    \footnotesize
+                    \begin{tabularx}{\textwidth}{|c|c|c|c|c|c|c|c|}
+                        \caption{$P_{best}$ Iterasi ke-0}
+                        \label{tab: pbest iterasi awal}                                                                                      \\
+                        \hline
+                        \textbf{$P_{best,j}^{0}$} & 1        & 2        & 3        & $\cdots$ & 58       & 59       & \textit{Fitness Value} \\ \hline
+                        \endfirsthead
+                        %
+                        \multicolumn{8}{c}%
+                        {\normalsize {\bfseries Tabel \thetable\ } $P_{best}$ Iterasi ke-0 (Lanjutan)}                                       \\
+                        \hline
+                        \textbf{$P_{best,j}^{0}$} & 1        & 2        & 3        & $\cdots$ & 58       & 59       & \textit{Fitness Value} \\ \hline
+                        \endhead
+                        %
+                        $P_{best,1}^{0}$          & 9,49657  & 6,38931  & -9,24977 & $\cdots$ & -4,83472 & -1,25263 & 0,05054                \\ \hline
+                        $P_{best,2}^{0}$          & 1,96213  & 8,02417  & -0,20912 & $\cdots$ & -5,78962 & 6,03164  & 0,04455                \\ \hline
+                        $P_{best,3}^{0}$          & 0,27497  & -1,10897 & 5,9744   & $\cdots$ & -3,06733 & -7,61005 & 0,04482                \\ \hline
+                        $P_{best,4}^{0}$          & -6,21295 & -6,81094 & -8,03218 & $\cdots$ & -5,10405 & -5,98921 & 0,04262                \\ \hline
+                        $P_{best,5}^{0}$          & -9,48349 & -2,55129 & -4,78811 & $\cdots$ & 4,08753  & -2,5163  & 0,04515                \\ \hline
+                        $P_{best,6}^{0}$          & -2,77705 & -0,41845 & -1,56102 & $\cdots$ & -7,6854  & -4,04416 & 0,0468                 \\ \hline
+                        $P_{best,7}^{0}$          & 0,90394  & 8,03889  & 6,04993  & $\cdots$ & -4,86407 & -4,65589 & 0,04487                \\ \hline
+                        $P_{best,8}^{0}$          & -5,19075 & -3,12175 & -1,54159 & $\cdots$ & -2,35685 & -1,71389 & 0,04311                \\ \hline
+                        $P_{best,9}^{0}$          & 1,31639  & 2,04607  & 4,50057  & $\cdots$ & -4,12198 & -3,37293 & 0,04235                \\ \hline
+                        $P_{best,10}^{0}$         & -4,20664 & 5,94528  & -9,95615 & $\cdots$ & 3,4613   & 6,64702  & 0,04678                \\ \hline
+                        $\cdots$                  & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$               \\ \hline
+                        $P_{best,46}^{0}$         & -9,01749 & 3,05757  & 4,34691  & $\cdots$ & 4,62617  & -3,95606 & 0,04126                \\ \hline
+                        $P_{best,47}^{0}$         & 8,19479  & 9,16772  & -2,31561 & $\cdots$ & -0,99604 & 0,62484  & 0,04301                \\ \hline
+                        $P_{best,48}^{0}$         & -9,14554 & 5,3417   & -8,45398 & $\cdots$ & 6,87175  & 0,43499  & 0,04849                \\ \hline
+                        $P_{best,49}^{0}$         & 8,95262  & 5,51931  & 2,638    & $\cdots$ & -4,8518  & -3,47986 & 0,0488                 \\ \hline
+                        $P_{best,50}^{0}$         & 3,69491  & -8,74439 & 5,10989  & $\cdots$ & 6,21345  & -3,57332 & 0,04407                \\ \hline
+                    \end{tabularx}
+                    }
+
+              \item $G_{best}$ merupakan posisi dengan nilai \textit{fitness} paling terbaik yang pernah dicapai di antara seluruh partikel pada semua iterasi.
+                    Pada iterasi pertama, semua partikel hanya bergerak satu kali yaitu pada posisi awal.
+                    Sehingga $P_{best}$ dari seluruh partikel merupakan posisi awal setiap partikel.
+                    Akibatnya $G_{best}$ awal ditentukan dari $P_{best}$ dengan nilai \textit{fitness} paling terbaik di antara semua partikel pada iterasi pertama.
+                    Pada Tabel \ref{tab: pbest iterasi awal} dapat dilihat bahwa nilai \textit{fitness} paling terbaik di antara semua partikel
+                    adalah sebesar $0,05409$ yang dimiliki oleh $P_{best,24}^{0}$. Posisi dari partikel $P_{best,24}^{0}$ dipilih menjadi $G_{best}$ awal yaitu
+
+                    \begin{equation*}
+                        \begin{aligned}
+                            G_{best}^{0} = & [8.84482\hspace{0.5em} -2.56533\hspace{0.5em} 0.70519\hspace{0.5em}  \dots\hspace{0.5em}  -7.53487\hspace{0.5em} -9.10133]
+                        \end{aligned}
+                    \end{equation*}
+
+                    Kemudian $G_{best}$ dapat ditampilkan dalam Tabel \ref{tab: gbest iterasi awal} berikut.
+
+                        {
+                            \setlength{\tabcolsep}{3pt}
+                            \renewcommand{\arraystretch}{0.9}
+                            \footnotesize
+                            \begin{tabularx}{\textwidth}{|c|c|c|c|c|c|c|c|c|}
+                                \caption{$G_{best}$ Iterasi ke-0}
+                                \label{tab: gbest iterasi awal}                                                                                      \\
+                                \hline
+                                $G_{best}^{i}$ & 1       & 2        & 3       & $\cdots$ & 58       & 59       & Total Biaya Syuting & Fitness Value \\ \hline
+                                \endfirsthead
+                                %
+                                \multicolumn{9}{c}%
+                                {\normalsize{\bfseries Tabel \thetable\ } $G_{best}$ Iterasi ke-0}                                                   \\
+                                \hline
+                                $G_{best}^{i}$ & 1       & 2        & 3       & $\cdots$ & 58       & 59       & Total Biaya Syuting & Fitness Value \\ \hline
+                                \endhead
+                                %
+                                $G_{best}^{0}$ & 8,84482 & -2,56533 & 0,70519 & $\cdots$ & -7,53487 & -9,10133 & 18,48771            & 0,05409       \\ \hline
+                            \end{tabularx}
+                        }
+
+                    $G_{best}$ merupakan solusi optimal yang diperoleh menggunakan algoritma PSO.
+                    Agar dapat melihat solusi berupa total biaya syuting yang optimal dari $G_{best}$,
+                    yaitu dengan mencari rute yang dihasilkan dari posisi pada $G_{best}$ dan menghitung total biaya syuting menggunakan rute tersebut.
+                    Sedangkan untuk melihat solusi berupa urutan \textit{scene} syuting yang optimal dari $G_{best}$,
+                    yaitu dengan mencari rute yang dihasilkan dari posisi pada $G_{best}$ dan mengubah indeks rute menjadi nama \textit{scene} menggunakan indeks \textit{scene} pada Tabel \ref{tab: data scene}.
+                    Sebagai contoh, rute optimal pada iterasi awal adalah sebagai berikut.
+
+                    \begin{equation*}
+                        \begin{aligned}
+                            \text{Rute } G_{best}^{0} = & [ 0-44-35-59-12-5-11-48-27-58-16-40 \\
+                                                        & -24-37-51-32-14-42-18-46-8-56-2-    \\
+                                                        & 38-29-43-57-21-9-34-4-20-41-3-52-   \\
+                                                        & 28-33-31-45-17-13-55-30-19-36-53-   \\
+                                                        & 23-39-54-7-6-47-10-50-26-22-25-15   \\
+                                                        & -1-49-0]
+                        \end{aligned}
+                    \end{equation*}
+
+                    Selanjutnya, dihitung total biaya syuting dari rute $G_{best}$ menggunakan biaya antar \textit{scene} yang telah dinormalisasi pada Tabel \ref{tab: Norm biaya scene}.
+
+                    {\footnotesize
+                    \begin{equation*}
+                        \begin{aligned}
+                            f(G_{best}^{0})  = & 0,08048 + 0,07992 + 0,03997 + 0,07678 + 0,73558 + 0,68023 + 0,0   \\
+                                               & + 0,14352 + 0,32692 + 0,67935 + 0,60646 + 0,04876 + 0,76618       \\
+                                               & + 0,69805 + 0,48982 + 0,39145 + 0,10601 + 0,48717 + 0,04721       \\
+                                               & + 0,20048 + 0,10143 + 0,41462 + 0,3607 + 0,10143 + 0,72041        \\
+                                               & + 0,38199 + 0,29434 + 0,29217 + 0,00255 + 0,58489 + 0,56722       \\
+                                               & + 0,32325 + 0,49149 + 0,10879 + 0,72659 + 0,47946 + 0,18135       \\
+                                               & + 0,00458 + 0,32609 + 0,05162 + 0,57582 + 0,0 + 0,13928 + 0,29179 \\
+                                               & + 0,10143 + 0,62958 + 0,30327 + 0,24889 + 0,12624 + 0,15951       \\
+                                               & + 0,20281 + 0,28962 + 0,13348 + 0,10888 + 0,2522 + 0,11309        \\
+                                               & + 0,24989 + 0,23687 + 0,5544 + 0,57158                            \\
+                            =                  & 18,48794
+                        \end{aligned}
+                    \end{equation*}
+                    }
+
+                    Total biaya syuting rute $G_{best}$ masih dalam bentuk yang telah dinormalisasi.
+                    Agar dapat diperoleh total biaya syuting rute $G_{best}$ dalam Rupiah digunakan Persamaan \ref{pers: normalisasi minmax}.
+
+                    {\footnotesize
+                    \begin{equation*}
+                        \begin{aligned}
+                            \text{biaya syuting} & = f(G_{best}^{0}) \cdot (\operatorname{max}(\text{biaya \textit{scene}}) - \operatorname{min}(\text{biaya \textit{scene}})) + \operatorname{min}(\text{biaya \textit{scene}}) \\
+                                                 & = 18,48794 (\text{Rp}628.799,5-\text{Rp}0) + \text{Rp}0                                                                                                                       \\
+                                                 & = \text{Rp} 11.625.207,42803
+                        \end{aligned}
+                    \end{equation*}
+                    }
+
+                    Kemudian, diubah indeks \textit{scene} pada rute $G_{best}$ agar didapatkan urutan \textit{scene} syuting yaitu 4-29A-22B-37-8-2B-7B-30C-17-36-11-25-16B-23A- \newline
+                    32B-21A-9B-27-12B-30A-6A -35A
+                    -1D-23B-19-28-35B-14B-6B-22A-2A
+                    -14A-26-1E-33A-18-21B-20-29B-12A-9A-34B-
+                    19B-13-22C-33B-16A-24
+                    -34-5-3-30B-7A-32A-16D-15-16C-10-1C-31-4.
+
+
+
+
+          \end{enumerate}
+
+          Karena tahap inisialisasi termasuk ke dalam iterasi $i = 0$ dan iterasi kurang dari iterasi maksimum sehingga iterasi dilanjutkan.
+
+          \textbf{Iterasi ke-1} $(i = 1)$
+          \vspace{-1mm}
+
+    \item Membangkitkan nilai \textit{inertia weight} berdasarkan strategi \textit{random inertia weight} dengan menggunakan Persamaan \ref{pers: random inertia weight}. \par\nobreak
+          Misal $r = U(0,1) = 0,07070$, maka
+
+          \begin{equation*}
+              \begin{aligned}
+                  \omega^{1} & = 0,5 + \frac{r}{2}       \\
+                             & = 0,5 + \frac{0,07070}{2} \\
+                             & = 0,53535
+              \end{aligned}
+          \end{equation*}
+
+          Sehingga diperoleh nilai \textit{inertia weight} untuk iterasi ke-$1$ sebesar $0,53535$.
+          Nilai \textit{inertia weight} selalu dibangkitkan di setiap iterasi menggunakan nilai $r$ acak berdistribusi \textit{uniform} $U(0,1)$.
+
+    \item Memperbarui \textit{velocity} setiap partikel menggunakan Persamaan \ref{pers: velocity update} dengan menerapkan strategi \textit{clamping} yang telah ditetapkan pada langkah inisialisasi. \par \nobreak
+          Nilai dari $r_{1}$ dan $r_{2}$ dibangkitkan secara acak berdistribusi \textit{uniform} $U(0,1)$. \newline
+          Misal $r_{1} = 0,32606$ dan $r_{2} = 0,01610$, maka
+
+              {%\small
+                  \begin{equation}
+                      \label{pers: velocity update iterasi 1}
+                      \begin{aligned}[b]
+                          V_{j}^{i}  = & \omega^{i}V_{j}^{i-1} + c_{1}r_{1}^{i}\left(P_{best,j}^{i-1}-X_{j}^{i-1}\right) + c_{2}r_{2}^{i}\left(G_{best}-X_{j}^{i-1}\right) & \\
+                          V_{j}^{1}  = & \omega^{1}V_{j}^{0} + c_{1}r_{1}^{1}\left(P_{best,j}^{0}-X_{j}^{0}\right) + c_{2}r_{2}\left(G_{best}-X_{j}^{0}\right)             & \\
+                          V_{j}^{1}  = & (0,53535)V_{j}^{0} + (2)(0,35606)\left(P_{best,j}^{0}-X_{j}^{0}\right)                                                            & \\
+                                       & + (2)(0,01610)\left(G_{best}-X_{j}^{0}\right)                                                                                     & \\
+                          V_{j}^{1}  = & (0,53535)V_{j}^{0} + (0,65212)\left(P_{best,j}^{0}-X_{j}^{0}\right) + (0,03220)\left(G_{best}-X_{j}^{0}\right)                    &
+                      \end{aligned}
+                  \end{equation}
+              }
+
+          Kemudian, pembaruan \textit{velocity} untuk semua partikel pada iterasi 1 dilakukan menggunakan Persamaan \ref{pers: velocity update iterasi 1}.
+          Proses pembaruan \textit{velocity} untuk partikel pertama dapat dituliskan sebagai berikut.
+
+              {
+                  %   \renewcommand{\arraystretch}{0.9}
+                  \begin{equation*}
+                      \begin{aligned}
+                          V_{1}^{1}  = & (0,53535)V_{j}^{0} + (0,65212)\left(P_{best,j}^{0}-X_{j}^{0}\right) + (0,03220)\left(G_{best}-X_{j}^{0}\right) \\
+                          =            & (0,53535)[3,77856\hspace{2mm} -0,64489\hspace{2mm} -0,46761\hspace{2mm} \dots\hspace{2mm}   3,0509]            \\
+                                       & + (0,65212)([9,49657\hspace{2mm} 6,38931\hspace{2mm} -9,24977\hspace{2mm} \dots\hspace{2mm} -1,25263]          \\
+                                       & - [9,49657\hspace{2mm} 6,38931\hspace{2mm} -9,24977\hspace{2mm} \dots\hspace{2mm} -1,25263])                   \\
+                                       & + (0,03220)([8,84482\hspace{2mm} -2,56533\hspace{2mm} 0,70519\hspace{2mm} \dots \hspace{2mm} -9,10133]         \\
+                                       & - [9,49657\hspace{2mm} 6,38931\hspace{2mm} -9,24977\hspace{2mm} \dots\hspace{2mm} -1,25263])                   \\
+                          =            & [2,00187\hspace{2mm} -0,63358\hspace{2mm} 0,07021\hspace{2mm} \dots \hspace{2mm} 1,28057]
+                      \end{aligned}
+                  \end{equation*}
+              }
+
+          Strategi \textit{clamping} pada Persamaan \ref{pers: penyesuaian velocity} diterapkan ke dalam hasil pembaruan \textit{velocity} setiap partikel.
+          Hasil pembaruan \textit{velocity} untuk partikel pertama pada iterasi 1 tidak terdapat nilai yang melebihi \textit{clamping}.
+          Pembaruan \textit{velocity} untuk keseluruhan partikel dapat dilihat pada Tabel \ref{tab: kecepatan iterasi 1} dan Lampiran \ref{app: kecepatan iterasi 1}.
+
+          {
+          \setlength{\tabcolsep}{3pt}
+          \renewcommand{\arraystretch}{0.9}
+          \footnotesize
+          \begin{tabularx}{\textwidth}{|c|c|c|c|c|c|c|c|c|c|}
+              \caption{\textit{Velocity} pada Iterasi ke-1}
+              \label{tab: kecepatan iterasi 1}                                                                                \\
+              \hline
+              $V_{j}^{1}$  & 1        & 2        & 3        & 4        & 5        & $\cdots$ & 57       & 58       & 59       \\ \hline
+              \endfirsthead
+              %
+              \multicolumn{10}{c}%
+              {\normalsize{\bfseries Tabel \thetable\ }\textit{Velocity} pada Iterasi ke-1}                                   \\
+              \hline
+              $V_{j}^{1}$  & 1        & 2        & 3        & 4        & 5        & $\cdots$ & 57       & 58       & 59       \\ \hline
+              \endhead
+              %
+              $V_{1}^{1}$  & 2,00187  & -0,63358 & 0,07021  & 1,89762  & 0,8061   & $\cdots$ & 0,2773   & -1,49209 & 1,38057  \\ \hline
+              $V_{2}^{1}$  & -1,04873 & -0,02425 & -1,69439 & 1,57323  & -1,98396 & $\cdots$ & -0,79851 & 1,26687  & 1,40719  \\ \hline
+              $V_{3}^{1}$  & -0,58603 & -1,66819 & 1,86378  & -0,24083 & -0,75585 & $\cdots$ & 1,24383  & -0,15796 & -0,50166 \\ \hline
+              $V_{4}^{1}$  & 2,28924  & -0,7178  & -1,80936 & -0,75116 & -0,22068 & $\cdots$ & -1,71536 & -0,19452 & 0,52904  \\ \hline
+              $V_{5}^{1}$  & 2,24976  & -0,67852 & -1,61582 & 0,14339  & -0,60161 & $\cdots$ & -1,16037 & -1,40919 & -2,25814 \\ \hline
+              $V_{6}^{1}$  & 0,46502  & 1,50741  & -0,45977 & -1,34008 & -0,79691 & $\cdots$ & -0,37382 & -0,13448 & 1,57249  \\ \hline
+              $V_{7}^{1}$  & 0,5403   & -0,0904  & 1,58248  & 0,03639  & -0,19824 & $\cdots$ & -1,43975 & 0,89438  & -0,78176 \\ \hline
+              $V_{8}^{1}$  & 1,41023  & -0,60152 & 0,67707  & -0,28259 & 1,39836  & $\cdots$ & -1,0004  & -1,16063 & 1,28665  \\ \hline
+              $V_{9}^{1}$  & 2,11312  & 1,9364   & -1,91932 & 0,86715  & -2,17492 & $\cdots$ & 0,74696  & 1,6324   & 1,30257  \\ \hline
+              $V_{10}^{1}$ & -1,26343 & 1,54521  & -0,4725  & -0,76059 & -1,37075 & $\cdots$ & 0,83992  & -1,19585 & -0,10455 \\ \hline
+              $\cdots$     & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ \\ \hline
+              $V_{46}^{1}$ & -0,38459 & 1,40819  & -2,10272 & 0,97631  & -2,44904 & $\cdots$ & -0,43354 & 0,21946  & 1,69553  \\ \hline
+              $V_{47}^{1}$ & 0,96628  & -0,88633 & -1,15343 & 1,01997  & -0,73215 & $\cdots$ & -0,99517 & -1,0028  & 0,30103  \\ \hline
+              $V_{48}^{1}$ & -0,67148 & 0,65038  & -0,92454 & 0,57193  & -0,28504 & $\cdots$ & 0,72268  & -0,20037 & -0,15182 \\ \hline
+              $V_{49}^{1}$ & 0,87397  & -1,39579 & 1,44625  & 1,2249   & -1,06329 & $\cdots$ & -1,55282 & -0,54816 & 1,65728  \\ \hline
+              $V_{50}^{1}$ & -0,96462 & 1,56601  & -1,20192 & 1,09319  & -0,78505 & $\cdots$ & 0,13123  & -2,21337 & 1,38291  \\ \hline
+          \end{tabularx}
+          }
+
+    \item Memperbarui posisi setiap partikel menggunakan Persamaan \ref{pers: position update} dengan   menerapkan strategi \textit{clamping}  yang telah ditetapkan pada langkah inisialisasi. \par \nobreak
+          Persamaan untuk memperbarui posisi partikel pertama sampai dengan terakhir pada iterasi ke-1 dapat dituliskan sebagai Persamaan \ref{pers: position update iterasi 1}.
+
+          \begin{equation}
+              \label{pers: position update iterasi 1}
+              \begin{aligned}
+                  X_{j}^{i} & = X_{j}^{i-1} + V_{j}^{i} \\
+                  X_{j}^{1} & = X_{j}^{0} + V_{j}^{1}
+              \end{aligned}
+          \end{equation}
+
+          Kemudian, pembaruan posisi untuk semua partikel pada iterasi ke-1 dilakukan menggunakan Persamaan \ref{pers: position update iterasi 1}
+          Proses pembaruan posisi partikel pertama pada iterasi ke-1 dapat ditampilkan sebagai berikut.
+
+
+              {%\small
+                  %   \renewcommand{\arraystretch}{0.9}
+                  \begin{equation*}
+                      \begin{aligned}
+                          X_{j}^{1}  = & X_{j}^{0}+V_{j}^{1}                                                                         \\
+                          X_{1}^{1}  = & [9,49657\hspace{2mm} 6,38931\hspace{2mm} -9,24977\hspace{2mm} \dots\hspace{2mm} -1,25263]   \\
+                                       & + [2,00187\hspace{2mm} -0,63358\hspace{2mm} 0,07021\hspace{2mm} \dots \hspace{2mm} 1,28057] \\
+                          =            & [11,49844\hspace{2mm} 5,75573\hspace{2mm} -9,17956\hspace{2mm} \dots \hspace{2mm} 0,02794]
+                      \end{aligned}
+                  \end{equation*}
+              }
+
+          Hasil pembaruan posisi untuk partikel pertama pada iterasi ke-1 terdapat nilai yang melebihi \textit{clamping} sehingga diterapkan Persamaan \ref{pers: penyesuaian posisi} pada nilai tersebut.
+
+          \begin{equation*}
+              X_{1}^{1} = [10\hspace{2mm} 5,75573\hspace{2mm} -9,17956\hspace{2mm} \dots \hspace{2mm} 0,02794]
+          \end{equation*}
+
+          Pembaruan posisi untuk keseluruhan partikel pada iterasi ke-1 dapat dilihat pada Tabel \ref{tab: posisi iterasi 1} dan Lampiran \ref{app: posisi iterasi 1}.
+
+          {
+          \setlength{\tabcolsep}{3pt}
+          \renewcommand{\arraystretch}{0.9}
+          \footnotesize
+          \begin{tabularx}{\textwidth}{|c|c|c|c|c|c|c|c|c|c|}
+              \caption{Posisi pada Iterasi ke-1}
+              \label{tab: posisi iterasi 1}                                                                                   \\
+              \hline
+              $X_{j}^{1}$  & 1        & 2        & 3        & 4        & 5        & $\cdots$ & 57       & 58       & 59       \\ \hline
+              \endfirsthead
+              %
+              \multicolumn{10}{c}%
+              {\normalsize{\bfseries Tabel \thetable\ } Posisi pada Iterasi ke-1}                                             \\
+              \hline
+              $X_{j}^{1}$  & 1        & 2        & 3        & 4        & 5        & $\cdots$ & 57       & 58       & 59       \\ \hline
+              \endhead
+              $X_{1}^{1}$  & 10,0     & 5,75573  & -9,17956 & 1,03016  & 8,92027  & $\cdots$ & 9,50359  & -6,32681 & 0,12794  \\ \hline
+              $X_{2}^{1}$  & 0,9134   & 7,99992  & -1,90351 & 8,95825  & -0,39044 & $\cdots$ & 8,73884  & -4,52275 & 7,43883  \\ \hline
+              $X_{3}^{1}$  & -0,31106 & -2,77716 & 7,83818  & 9,40538  & 5,70846  & $\cdots$ & -3,23257 & -3,22529 & -8,11171 \\ \hline
+              $X_{4}^{1}$  & -3,92371 & -7,52874 & -9,84154 & 5,71257  & 7,6026   & $\cdots$ & -3,2854  & -5,29857 & -5,46017 \\ \hline
+              $X_{5}^{1}$  & -7,23373 & -3,22981 & -6,40393 & 7,10723  & -4,18616 & $\cdots$ & -0,66961 & 2,67834  & -4,77444 \\ \hline
+              $X_{6}^{1}$  & -2,31203 & 1,08896  & -2,02079 & -6,17372 & -1,23653 & $\cdots$ & 6,34266  & -7,81988 & -2,47167 \\ \hline
+              $X_{7}^{1}$  & 1,44424  & 7,94849  & 7,63241  & 3,62189  & -8,94331 & $\cdots$ & -4,54188 & -3,96969 & -5,43765 \\ \hline
+              $X_{8}^{1}$  & -3,78052 & -3,72327 & -0,86452 & 6,3911   & 6,77087  & $\cdots$ & -4,82959 & -3,51748 & -0,42724 \\ \hline
+              $X_{9}^{1}$  & 3,42951  & 3,98247  & 2,58125  & -3,24407 & -3,8871  & $\cdots$ & 8,72329  & -2,48958 & -2,07036 \\ \hline
+              $X_{10}^{1}$ & -5,47007 & 7,49049  & -10,0    & 4,92795  & 2,51654  & $\cdots$ & 5,23823  & 2,26545  & 6,54247  \\ \hline
+              $\cdots$     & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ \\ \hline
+              $X_{46}^{1}$ & -9,40208 & 4,46576  & 2,24419  & -0,36576 & 6,60998  & $\cdots$ & -9,90126 & 4,84563  & -2,26053 \\ \hline
+              $X_{47}^{1}$ & 9,16107  & 8,28139  & -3,46904 & 4,44775  & -0,83109 & $\cdots$ & -8,85793 & -1,99884 & 0,92587  \\ \hline
+              $X_{48}^{1}$ & -9,81702 & 5,99208  & -9,37852 & 0,79397  & 0,0386   & $\cdots$ & 2,5937   & 6,67138  & 0,28317  \\ \hline
+              $X_{49}^{1}$ & 9,82659  & 4,12352  & 4,08425  & 6,09102  & -1,39036 & $\cdots$ & -2,21648 & -5,39996 & -1,82258 \\ \hline
+              $X_{50}^{1}$ & 2,73029  & -7,17838 & 3,90797  & 1,98516  & 7,69188  & $\cdots$ & -5,74413 & 4,00008  & -2,19041 \\ \hline
+          \end{tabularx}
+          }
+
+    \item  Mengevaluasi hasil rute setiap partikel. \par \nobreak
+          Posisi terbaru setiap partikel yang diperoleh dari langkah sebelumnya, kemudian dievaluasi hasil rute yang terbentuk seperti pada langkah ke-1 bagian (c).
+          Posisi dari setiap partikel yang telah diperbarui diberikan indeks sesuai kolom.
+          Kemudian posisi dari setiap partikel diurutkan berdasarkan nilai terkecil menurut baris sehingga diperoleh urutan indeks \textit{scene} syuting pada iterasi ke-1
+          yang ditampilkan pada Tabel \ref{tab: rute iterasi 1} dan Lampiran \ref{app: rute iterasi 1}.
+
+          {
+          \scriptsize
+          \begin{tabularx}{\textwidth}{|c|p{11cm}|}
+              \caption{Rute pada Iterasi ke-1}
+              \label{tab: rute iterasi 1}                                                                                                                                                                \\
+              \hline
+              $X_{j}^{0}$  & \multicolumn{1}{c|}{Rute}                                                                                                                                                   \\ \hline
+              \endfirsthead
+              %
+              \multicolumn{2}{c}%
+              {\normalsize{ \bfseries Tabel \thetable} Rute pada Iterasi ke-1 (Lanjutan)}                                                                                                                \\
+              \hline
+              $X_{j}^{0}$  & \multicolumn{1}{c|}{Rute}                                                                                                                                                   \\ \hline
+              \endhead
+              %
+              $X_{1}^{1}$  & 0-18-11-3-8-37-32-38-46-23-40-42-49-30-58-34-22-12-36-24-21-41-14-44-47-20-6-15-7-17-59-9-4-45-25-50-31-27-55-39-16-13-53-51-2-29-28-56-35-10-52-48-19-5-57-54-26-1-33-43-0 \\ \hline
+              $X_{2}^{1}$  & 0-15-44-29-40-51-37-42-25-53-38-26-49-6-43-58-41-46-30-27-55-36-22-32-3-11-39-18-9-47-21-7-8-5-10-50-24-1-54-20-34-48-33-56-23-31-19-35-28-17-12-16-52-59-13-2-57-4-45-14-0 \\ \hline
+              $X_{3}^{1}$  & 0-56-39-19-8-42-59-44-37-38-40-47-55-29-46-48-20-36-15-57-58-2-52-30-54-16-23-7-13-1-50-26-6-11-18-53-51-41-43-12-31-24-28-17-33-5-49-21-14-25-9-3-34-32-45-35-4-10-22-27-0 \\ \hline
+              $X_{4}^{1}$  & 0-31-3-37-33-38-36-2-34-11-46-45-18-22-59-58-48-23-52-1-25-57-47-21-24-19-8-49-35-54-55-29-13-6-16-9-15-27-39-41-50-53-40-14-32-4-26-20-56-42-5-12-30-7-17-51-28-10-43-44-0 \\ \hline
+              $X_{5}^{1}$  & 0-28-45-37-10-24-13-32-31-1-53-3-17-52-55-59-5-2-47-33-15-39-57-14-42-6-35-22-41-43-21-34-51-58-48-23-56-29-8-20-49-40-18-12-46-44-11-50-26-54-16-27-4-9-19-36-30-7-25-38-0 \\ \hline
+              $X_{6}^{1}$  & 0-6-38-26-36-58-27-53-11-16-7-55-4-24-42-51-8-54-10-18-23-30-15-59-14-1-29-17-3-43-5-25-44-9-31-2-39-50-21-47-40-34-45-52-35-28-41-32-19-57-56-22-48-49-20-33-46-13-12-37-0 \\ \hline
+              $X_{7}^{1}$  & 0-17-5-29-25-24-13-6-15-45-59-12-33-26-57-44-51-58-46-21-19-9-27-52-39-56-35-14-54-8-7-43-1-50-47-37-38-49-40-34-10-55-36-4-30-42-20-41-23-11-18-16-48-28-32-3-2-53-22-31-0 \\ \hline
+              $X_{8}^{1}$  & 0-35-55-53-12-23-43-49-16-37-17-24-22-57-46-11-26-1-2-18-58-20-56-29-19-8-30-10-51-47-3-31-48-28-59-45-40-41-44-14-21-33-15-52-42-50-54-9-39-38-13-6-4-5-32-27-25-7-36-34-0 \\ \hline
+              $X_{9}^{1}$  & 0-52-14-47-24-11-50-27-44-8-13-40-37-6-16-21-30-34-5-26-31-43-29-19-4-58-32-59-42-25-54-33-53-17-3-55-12-1-35-20-2-36-22-46-51-28-38-23-48-18-39-7-45-49-56-41-10-57-15-9-0 \\ \hline
+              $X_{10}^{1}$ & 0-3-34-19-42-20-51-50-10-12-33-8-14-13-16-1-48-17-25-41-39-40-52-35-32-38-15-7-24-30-43-22-9-31-11-44-29-27-55-21-18-58-46-5-26-45-4-49-37-56-57-28-6-36-59-47-2-53-23-54-0 \\ \hline
+              $\cdots$     & $\cdots$                                                                                                                                                                    \\ \hline
+              $X_{46}^{1}$ & 0-57-1-6-15-51-34-53-30-39-26-18-45-20-21-8-24-52-59-27-11-19-4-56-28-10-29-9-13-41-55-3-48-49-22-14-17-25-31-23-35-2-54-58-42-37-12-33-47-40-16-50-5-43-38-32-36-46-7-44-0 \\ \hline
+              $X_{47}^{1}$ & 0-21-49-30-28-57-51-12-40-10-34-8-38-24-22-45-44-9-39-6-42-43-3-14-15-58-20-54-5-32-46-53-29-23-47-59-50-11-27-18-56-13-19-31-52-26-48-25-4-7-41-16-55-37-17-2-36-35-1-33-0 \\ \hline
+              $X_{48}^{1}$ & 0-1-44-3-33-55-9-46-38-56-51-39-52-47-35-43-40-18-29-19-16-21-24-42-28-36-20-37-54-14-25-7-34-26-5-59-6-31-4-32-11-57-49-53-17-8-15-23-10-41-27-2-45-58-30-48-22-12-13-50-0 \\ \hline
+              $X_{49}^{1}$ & 0-44-50-41-56-18-31-11-48-23-6-36-26-38-47-58-28-35-55-14-39-21-19-57-24-59-5-32-8-20-53-43-40-22-51-13-54-52-42-27-10-17-30-3-46-2-49-7-16-45-9-15-4-12-37-34-25-29-1-33-0 \\ \hline
+              $X_{50}^{1}$ & 0-9-27-15-22-2-7-38-11-16-35-17-29-57-36-30-6-56-18-25-14-41-59-53-24-12-52-50-19-20-33-39-32-44-45-4-26-1-21-47-37-3-58-43-40-13-55-23-51-10-42-28-54-5-46-8-34-49-48-31-0 \\ \hline\end{tabularx}
+          }
+
+    \item Mengevaluasi nilai fungsi \textit{fitness} dari hasil rute setiap partikel. \par \nobreak
+          Hasil rute setiap partikel yang diperoleh dari langkah sebelumnya, selanjutnya dievaluasi nilai fungsi \textit{fitness} seperti pada langkah ke-2.
+          Nilai fungsi \textit{fitness} didapatkan setelah menghitung total biaya syuting dari hasil rute setiap partikel.
+          Proses perhitungan total biaya syuting untuk partikel pertama pada iterasi ke-1 $(X_{1}^{1})$ dapat dijelaskan sebagai berikut. \newline
+          Hasil rute dari partikel $X_{1}^{1}$ pada Tabel \ref{tab: rute iterasi 1}, yaitu
+
+              {%\small
+                  \begin{equation*}
+                      \begin{aligned}
+                          \text{Rute $X_{1}^{1}$} = & [ 0-18-11-3-8-37-32-38-46-23-40-42-49- \\
+                                                    & 30-58-34-22-12-36-24-21-41-14-44-47-   \\
+                                                    & 20-6-15-7-17-59-9-4-45-25-50-31-27-    \\
+                                                    & 55-39-16-13-53-51-2-29-28-56-35-10-    \\
+                                                    & 52-48-19-5-57-54-26-1-33-43-0
+                      \end{aligned}
+                  \end{equation*}
+              }
+
+          Kemudian, dihitung total biaya syuting antar \textit{scene} yang dilalui oleh partikel $X_{1}^{1}$ menggunakan biaya antar \textit{scene} yang telah dinormalisasi pada Tabel \ref{tab: Norm biaya scene}.
+
+          {\footnotesize
+          \begin{equation*}
+              \begin{aligned}
+                  f(X_{1}^{1})  = & 0,56535 + 0,25731 + 0,49149 + 0,55695 + 0,70641 + 0,83059 + 0,78906     \\
+                                  & + 0,51415 + 0,15519 + 0,10601 + 0,10143 + 0,61121 + 0,0 + 0,67805 + 0,0 \\
+                                  & + 0,32943 + 0,0 + 0,76618 + 0,51857 + 0,36902 + 0,32325 + 0,31422       \\
+                                  & + 0,00458 + 0,13061 + 0,21651 + 0,15951 + 0,32579 + 0,20361 + 0,40623   \\
+                                  & + 0,1251 + 0,28962 + 0,5785 + 0,43037 + 0,11309 + 0,13348 + 0,11093     \\
+                                  & + 0,14811 + 0,57582 + 0,77766 + 0,7368 + 0,53567 + 0,57582 + 0,69805    \\
+                                  & + 0,50311 + 0,10143 + 0,72659 + 0,17821 + 0,00255 + 0,36685 + 0,57582   \\
+                                  & + 0,47439 + 0,61368 + 0,30909 + 0,72675 + 0,17211 + 0,17821 + 0,23418   \\
+                                  & + 0,40223 + 0,32325 + 0,23374                                           \\
+                  =               & 22,38188
+              \end{aligned}
+          \end{equation*}
+          }
+
+          dari total biaya syuting \textit{scene} partikel $X_{1}^{1}$, dihitung nilai \textit{fitness} menggunakan Persamaan \ref{pers: nilai fungsi fitness}.
+
+          \begin{equation*}
+              F(X_{1}^{1}) = \frac{1}{f(X_{1}^{1})} = \frac{1}{22,383188} = 0,04468
+          \end{equation*}
+
+          Proses evaluasi total biaya syuting untuk partikel lainnya dihitung menggunakan bahasa pemrograman Python seperti yang ditampilkan pada Tabel \ref{tab: total biaya syuting dan nilai fitness iterasi 1} dan Lampiran \ref{app: total biaya syuting dan nilai fitness iterasi 1}.
+
+          %   \vspace{-3mm}
+          {
+          \setlength{\tabcolsep}{3pt}
+          \renewcommand{\arraystretch}{0.9}
+          \footnotesize
+          \begin{tabularx}{\textwidth}{|c|cccccc|c|c|}
+              \caption{Total Biaya Syuting dan Nilai \textit{Fitness} tiap Partikel}
+              \label{tab: total biaya syuting dan nilai fitness iterasi 1}                                                                                                                                                                    \\
+              \hline
+              $X_{j}^{1}$  & \multicolumn{6}{c|}{Biaya Antar \textit{Scene}} & Total Biaya                   & \textit{Fitness}                                                                                                               \\ \hline
+              \endfirsthead
+              %
+              \multicolumn{9}{c}%
+              {\normalsize{\bfseries Tabel \thetable\ } Total Biaya Syuting dan Nilai \textit{Fitness} tiap Partikel (Lanjutan)}                                                                                                              \\
+              \hline
+              $X_{j}^{1}$  & \multicolumn{6}{c|}{Biaya Antar \textit{Scene}} & Total Biaya                   & \textit{Fitness}                                                                                                               \\ \hline
+              \endhead
+              %
+              $X_{1}^{1}$  & \multicolumn{1}{c|}{0.56535}                    & \multicolumn{1}{c|}{0.257308} & \multicolumn{1}{c|}{0.49149}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.32325}  & 0.23374  & 22.38188 & 0.04468  \\ \hline
+              $X_{2}^{1}$  & \multicolumn{1}{c|}{0.325787}                   & \multicolumn{1}{c|}{0}        & \multicolumn{1}{c|}{0.586602} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.314221} & 0.233738 & 22.29509 & 0.04485  \\ \hline
+              $X_{3}^{1}$  & \multicolumn{1}{c|}{0.101428}                   & \multicolumn{1}{c|}{0.380055} & \multicolumn{1}{c|}{0.613676} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.143525} & 0.233738 & 20.56881 & 0.04862  \\ \hline
+              $X_{4}^{1}$  & \multicolumn{1}{c|}{0.181909}                   & \multicolumn{1}{c|}{0.505034} & \multicolumn{1}{c|}{0.299151} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.00458}  & 0.237435 & 21.13488 & 0.04732  \\ \hline
+              $X_{5}^{1}$  & \multicolumn{1}{c|}{0.328981}                   & \multicolumn{1}{c|}{0}        & \multicolumn{1}{c|}{0.766178} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.835092} & 0.571578 & 20.39348 & 0.04904  \\ \hline
+              $X_{6}^{1}$  & \multicolumn{1}{c|}{0.156954}                   & \multicolumn{1}{c|}{0.775324} & \multicolumn{1}{c|}{0.57582}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.766178} & 0.571578 & 24.12422 & 0.04145  \\ \hline
+              $X_{7}^{1}$  & \multicolumn{1}{c|}{0.406317}                   & \multicolumn{1}{c|}{0.752287} & \multicolumn{1}{c|}{0.105304} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.106008} & 0.237435 & 18.60588 & 0.05375  \\ \hline
+              $X_{8}^{1}$  & \multicolumn{1}{c|}{0.002552}                   & \multicolumn{1}{c|}{0.529792} & \multicolumn{1}{c|}{0.101428} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.428364} & 0.159507 & 20.27347 & 0.04933  \\ \hline
+              $X_{9}^{1}$  & \multicolumn{1}{c|}{0.516051}                   & \multicolumn{1}{c|}{0.788613} & \multicolumn{1}{c|}{0.126031} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.370098} & 0.156954 & 20.90658 & 0.04783  \\ \hline
+              $X_{10}^{1}$ & \multicolumn{1}{c|}{0.433254}                   & \multicolumn{1}{c|}{0.434047} & \multicolumn{1}{c|}{0.567648} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.248892} & 0.156954 & 22.16321 & 0.04512  \\ \hline
+              $\cdots$     & \multicolumn{1}{c|}{$\cdots$}                   & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{$\cdots$} & $\cdots$ & $\cdots$ & $\cdots$ \\ \hline
+              $X_{46}^{1}$ & \multicolumn{1}{c|}{0.305209}                   & \multicolumn{1}{c|}{0.159507} & \multicolumn{1}{c|}{0.159507} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.07992}  & 0.237435 & 22.20008 & 0.04504  \\ \hline
+              $X_{47}^{1}$ & \multicolumn{1}{c|}{0.294338}                   & \multicolumn{1}{c|}{0.554395} & \multicolumn{1}{c|}{0}        & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.402226} & 0.159507 & 20.47854 & 0.04883  \\ \hline
+              $X_{48}^{1}$ & \multicolumn{1}{c|}{0.159507}                   & \multicolumn{1}{c|}{0.07992}  & \multicolumn{1}{c|}{0.505034} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.13348}  & 0.244633 & 22.13835 & 0.04517  \\ \hline
+              $X_{49}^{1}$ & \multicolumn{1}{c|}{0.080481}                   & \multicolumn{1}{c|}{0.135531} & \multicolumn{1}{c|}{0.253468} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.402226} & 0.159507 & 22.93092 & 0.04361  \\ \hline
+              $X_{50}^{1}$ & \multicolumn{1}{c|}{0.289617}                   & \multicolumn{1}{c|}{0.220308} & \multicolumn{1}{c|}{0.249886} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.106008} & 0.237435 & 22.86616 & 0.04373  \\ \hline
+          \end{tabularx}
+          }
+
+    \item Menentukan $P_{best}$ setiap partikel dan $G_{best}$. \par \nobreak
+
+          \begin{enumerate}[label = (\alph*), align = left, left = 0cm, nolistsep]
+              \item $P_{best}$ dari setiap partikel selalu diperbarui pada setiap iterasi dengan menggunakan Persamaan \ref{pers: penentuan pbest}. \par \nobreak
+                    Penentuan $P_{best}$ untuk partikel pertama sampai dengan terakhir pada iterasi ke-1 dapat dituliskan sebagai Persamaan \ref{pers: penentuan pbest iterasi 1}.
+
+                    \begin{equation}
+                        \label{pers: penentuan pbest iterasi 1}
+                        P_{best,j}^{1} = \begin{cases} X_{j}^{(1)} & , F(X_{j}^{(1)}) \geq F(P_{best,j}^{(0)}) \\ P_{best,j}^{(0)} &, F(X_{j}^{(1)}) < F(P_{best,j}^{(0)}) \end{cases}
+                    \end{equation}
+
+                    Proses penentuan $P_{best}$ untuk partikel pertama pada iterasi ke-1 $(X_{1}^{1})$ menggunakan Persamaan \ref{pers: penentuan pbest iterasi 1} dapat dijelaskan sebagai berikut.
+
+                    Nilai fungsi \textit{fitness} untuk partikel pertama pada iterasi ke-1 $(X_{1}^{1})$ pada Tabel \ref{tab: total biaya syuting dan nilai fitness iterasi 1} sebesar $0,04468$.
+                    Sedangkan nilai fungsi \textit{fitness} untuk $P_{best}$ partikel pertama pada iterasi ke-0 $(P_{best,1}^{0})$ pada Tabel \ref{tab: total biaya syuting dan nilai fitness iterasi 1} sebesar $0,05054$.
+                    Terlihat bahwa nilai fungsi \textit{fitness} $X_{1}^{1}$ lebih kecil daripada nilai fungsi \textit{fitness} $P_{best,1}^{1}$,
+                    sehingga penentuan $P_{best}$ untuk partikel pertama pada iterasi ke-1 menggunakan Persamaan \ref{pers: penentuan pbest iterasi 1} adalah sebagai berikut.
+
+                    \begin{equation*}
+                        P_{best,1}^{1} = [9,49657\hspace{2mm} 6,38931\hspace{2mm} -9,24977\hspace{2mm} \dots\hspace{2mm} -1,25263]
+                    \end{equation*}
+
+                    Penentuan $P_{best}$ untuk seluruh partikel pada iterasi ke-1 dapat ditampilkan pada Tabel \ref{tab: pbest iterasi 1} dan Lampiran \ref{app: pbest iterasi 1}.
+
+                    {
+                    \setlength{\tabcolsep}{3pt}
+                    \renewcommand{\arraystretch}{0.9}
+                    \footnotesize
+                    \begin{tabularx}{\textwidth}{|c|c|c|c|c|c|c|c|c|c|}
+                        \caption{$P_{best}$ Iterasi ke-1}
+                        \label{tab: pbest iterasi 1}                                                                                         \\
+                        \hline
+                        $P_{best,j}^{1}$  & 1        & 2        & 3        & 4        & 5        & $\cdots$ & 57       & 58       & 59       \\ \hline
+                        \endfirsthead
+                        %
+                        \multicolumn{10}{c}%
+                        {\normalsize {\bfseries Tabel \thetable } $P_{best}$ Iterasi ke-1 (Lanjutan)}                                        \\
+                        \hline
+                        $P_{best,j}^{1}$  & 1        & 2        & 3        & 4        & 5        & $\cdots$ & 57       & 58       & 59       \\ \hline
+                        \endhead
+                        %
+                        $P_{best,1}^{1}$  & 9,49657  & 6,38931  & -9,24977 & -0,86746 & 8,11417  & $\cdots$ & 9,22629  & -4,83472 & -1,25263 \\ \hline
+                        $P_{best,2}^{1}$  & 0,9134   & 7,99992  & -1,90351 & 8,95825  & -0,39044 & $\cdots$ & 8,73884  & -4,52275 & 7,43883  \\ \hline
+                        $P_{best,3}^{1}$  & -0,31106 & -2,77716 & 7,83818  & 9,40538  & 5,70846  & $\cdots$ & -3,23257 & -3,22529 & -8,11171 \\ \hline
+                        $P_{best,4}^{1}$  & -3,92371 & -7,52874 & -9,84154 & 5,71257  & 7,6026   & $\cdots$ & -3,2854  & -5,29857 & -5,46017 \\ \hline
+                        $P_{best,5}^{1}$  & -7,23373 & -3,22981 & -6,40393 & 7,10723  & -4,18616 & $\cdots$ & -0,66961 & 2,67834  & -4,77444 \\ \hline
+                        $P_{best,6}^{1}$  & -2,77705 & -0,41845 & -1,56102 & -4,83364 & -0,43962 & $\cdots$ & 6,71648  & -7,6854  & -4,04416 \\ \hline
+                        $P_{best,7}^{1}$  & 1,44424  & 7,94849  & 7,63241  & 3,62189  & -8,94331 & $\cdots$ & -4,54188 & -3,96969 & -5,43765 \\ \hline
+                        $P_{best,8}^{1}$  & -3,78052 & -3,72327 & -0,86452 & 6,3911   & 6,77087  & $\cdots$ & -4,82959 & -3,51748 & -0,42724 \\ \hline
+                        $P_{best,9}^{1}$  & 3,42951  & 3,98247  & 2,58125  & -3,24407 & -3,8871  & $\cdots$ & 8,72329  & -2,48958 & -2,07036 \\ \hline
+                        $P_{best,10}^{1}$ & -4,20664 & 5,94528  & -9,95615 & 5,68854  & 3,88729  & $\cdots$ & 4,39831  & 3,4613   & 6,64702  \\ \hline
+                        $\cdots$          & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ \\ \hline
+                        $P_{best,46}^{1}$ & -9,40208 & 4,46576  & 2,24419  & -0,36576 & 6,60998  & $\cdots$ & -9,90126 & 4,84563  & -2,26053 \\ \hline
+                        $P_{best,47}^{1}$ & 9,16107  & 8,28139  & -3,46904 & 4,44775  & -0,83109 & $\cdots$ & -8,85793 & -1,99884 & 0,92587  \\ \hline
+                        $P_{best,48}^{1}$ & -9,14554 & 5,3417   & -8,45398 & 0,22204  & 0,32364  & $\cdots$ & 1,87102  & 6,87175  & 0,43499  \\ \hline
+                        $P_{best,49}^{1}$ & 8,95262  & 5,51931  & 2,638    & 4,86612  & -0,32707 & $\cdots$ & -0,66366 & -4,8518  & -3,47986 \\ \hline
+                        $P_{best,50}^{1}$ & 3,69491  & -8,74439 & 5,10989  & 0,89197  & 8,47693  & $\cdots$ & -5,87536 & 6,21345  & -3,57332 \\ \hline
+                    \end{tabularx}
+                    }
+
+              \item $G_{best}$ selalu diperbarui pada setiap iterasi berdasarkan posisi dengan nilai fungsi \textit{fitness} paling terbaik yang pernah dicapai di antara seluruh partikel pada semua iterasi.
+                    Pada setiap iterasi, posisi terbaik dari setiap partikel disimpan sebagai $P_{best}$.
+                    Penentuan $G_{best}$ di setiap iterasi mudah dilakukan dengan membandingkan nilai fungsi \textit{fitness} $P_{best}$ partikel terbaik pada iterasi ke-$i$ dan nilai fungsi \textit{fitness} $G_{best}$ iterasi sebelumnya.
+                    Proses penentuan $G_{best}$ pada iterasi ke-1 dapat dijelaskan sebagai berikut.
+
+                    Pada Tabel \ref{tab: pbest iterasi 1}, didapatkan $P_{best}$ terbaik pada iterasi ke-1 adalah $P_{best,24}^{1}$ dengan nilai fungsi \textit{fitness} sebesar $0,05409$.
+                    Sedangkan pada Tabel \ref{tab: gbest iterasi awal}, didapatkan $G_{best}$ pada iterasi ke-0 dengan nilai fungsi \textit{fitness} sebesar $0,05409$.
+                    Terlihat bahwa nilai fungsi \textit{fitness} $P_{best,j}^{1}$ sama dengan nilai fungsi \textit{fitness} $G_{best}$,
+                    sehingga dapat ditentukan bahwa $G_{best}$ untuk iterasi ke-1 diperbarui sama dengan $P_{best,24}^{1}$ adalah sebagai berikut.
+
+                    \begin{equation*}
+                        G_{best}^{1} = [8,84482\hspace{2mm} -2,56533\hspace{2mm} 0,70519\hspace{2mm} \dots\hspace{2mm} -7]
+                    \end{equation*}
+
+                    Kemudian $G_{best}$ dapat ditampilkan dalam Tabel \ref{tab: gbest iterasi 1}
+
+                    {
+                        \setlength{\tabcolsep}{3pt}
+                        \renewcommand{\arraystretch}{0.9}
+                        \footnotesize
+                        \begin{tabularx}{\textwidth}{|c|cccccc|c|c|}
+                            \caption{$G_{best}$ Iterasi Terbaru $(i=0)$}
+                            \label{tab: gbest iterasi 1}                                                                                                                                                                                                 \\
+                            \hline
+                            $X_{j}^{0}$ & \multicolumn{6}{c|}{Biaya Antar \textit{Scene}} & Total Biaya                  & \textit{Fitness}                                                                                                              \\ \hline
+                            \endfirsthead
+                            %
+                            \multicolumn{9}{c}%
+                            {\normalsize{\bfseries Table \thetable\ } Total Biaya Syuting dan Nilai \textit{Fitness} tiap Partikel (Lanjutan)}                                                                                                           \\
+                            \hline
+                            $X_{j}^{0}$ & \multicolumn{6}{c|}{Biaya Antar \textit{Scene}} & Total Biaya                  & \textit{Fitness}                                                                                                              \\ \hline
+                            \endhead
+                            %
+                            $X_{1}^{0}$ & \multicolumn{1}{c|}{0,326642}                   & \multicolumn{1}{c|}{0,48512} & \multicolumn{1}{c|}{0,522329} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,077231} & 0,233738 & 19,78651 & 0,05054 \\ \hline
+                        \end{tabularx}
+                    }
+
+                    $G_{best}$ merupakan solusi optimal yang diperoleh menggunakan algoritma PSO.
+                    Hasil solusi optimal dari $G_{best}$ berupa total biaya syuting yang optimal serta rute yang dihasilkan.
+                    $G_{best}$ yang telah diperoleh harus dicari rute yang dihasilkan terlebih dahulu kemudian dapat dihitung total biaya syuting yang optimal seperti pada langkah 3 bagian (b).
+                    Proses pencarian hasil solusi optimal dari $G_{best}$ pada iterasi ke-1 dapat dijelaskan sebagai berikut. \newline
+
+                    Pada Tabel \ref{tab: gbest iterasi 1} diperoleh posisi dari $G_{best}^{1]}$.
+
+                    \begin{equation*}
+                        G_{best}^{1} =
+                    \end{equation*}
+
+                    Hasil rute dari $G_{best}$ didapatkan dengan melakukan proses pencarian rute seperti pada langkah 7.
+                    Rute yang dihasilkan dari posisi pada $G_{best}^{1}$ adalah sebagai berikut.
+
+                    \begin{equation*}
+                        \text{Rute } G_{best}^{1} =
+                    \end{equation*}
+
+                    Kemudian, dihitung total biaya syuting antar \textit{scene} yang dilalui oleh $G_{best}^{1}$ menggunakan biaya antar \textit{scene} yang telah dinormalisasi pada Tabel \ref{tab: Norm biaya scene}.
+
+                    \begin{equation*}
+                        \begin{aligned}
+                            f(G_{best}^{1}) & =
+                        \end{aligned}
+                    \end{equation*}
+
+                    Total biaya syuting rute $G_{best}^{1}$ masih dalam bentuk yang telah dinormalisasi.
+                    Agar dapat diperoleh total biaya syuting rute $G_{best}$ dalam Rupiah digunakan Persamaan \ref{pers: normalisasi minmax}.
+
+                    \begin{equation*}
+                        \begin{aligned}
+                            \text{biaya syuting } =
+                        \end{aligned}
+                    \end{equation*}
+
+                    Setelah diubah indeks \textit{scene} pada rute $G_{best}^{1}$ agar didapatkan urutan \textit{scene} syuting yaitu:
+
+          \end{enumerate}
+
+    \item Mengevaluasi kriteria pemberhentian \par \nobreak
+          Setelah pencarian $G_{best}$ sebagai solusi optimal pada setiap iterasi, dilakukan evaluasi kriteria pemberhentian.
+          Pada parameter awal yang telah diinisialisasi pada langkah 1 bagian (a), ditentukan iterasi maksimal sebesar 100.
+          Iterasi saat ini yaitu iterasi ke-1 dan kurang dari iterasi maksimal, sehingga iterasi berlanjut dan mengulangi perhitungan dari langkah 4.
+\end{enumerate}
+
+Proses perhitungan algoritma PSO untuk optimalisasi urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" yang telah dijelaskan dilakukan berulang sampai kriteria pemberhentian terpenuhi.
+Perhitungan algoritma PSO dapat dibantu dengan bahasa pemrograman Python untuk perhitungan dengan maksimal iterasi, ukuran \textit{swarm}, dan dimensi yang besar.
+Dimensi dari konsep TSP pada optimalisasi urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" berukuran besar, sehingga proses perhitungan algoritma PSO dibantu dengan bahasa pemrograman Python.
+
+}
+\vspace{-3mm}
+
+% SubBab
+\section{Analisis Hasil Pengujian Modifikasi Nilai Parameter Algoritma \textit{Particle Swarm Optimization} (PSO) untuk Optimalisasi Pemilihan Urutan \textit{Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
+\vspace{-4mm}
+{
+    \frenchspacing
+
+    Proses perhitungan algoritma \textit{Particle Swarm Optimization} (PSO) diterapkan ke dalam konsep \textit{Traveling Salesman Problem} untuk  optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+    Pada proses perhitungan algoritma PSO untuk menentukan solusi yang optimal, maka dilakukan uji coba terlebih dahulu terhadap modifikasi nilai paramater-parameter PSO.
+    Hasil dari uji coba dianalisis agar diperoleh bagaimana pengaruh parameter-parameter tersebut terhadap solusi optimal dari perhitungan algoritma PSO.
+    Setelah didapatkan modifikasi nilai parameter yang terbaik, kemudian perhitungan algoritma PSO dilakukan menggunakan nilai parameter tersebut.
+
+    Terdapat 3 modifikasi nilai parameter algoritma PSO yang digunakan yaitu nilai $N$ pada parameter ukuran \textit{swarm}, nilai $n$ pada parameter iterasi maksimum, dan nilai $\varepsilon$ pada faktor \textit{clamping} parameter \textit{velocity} maksimum.
+    Untuk setiap pengujian diulang sebanyak 10 kali untuk mendapatkan rata-rata nilai fungsi \textit{fitness} yang dihasilkan $G_{best}$.
+    Dalam setiap pengujian modifikasi nilai parameter, digunakan parameter awal seperti berikut.
+    \begin{enumerate}[align = left, left = 0cm, nolistsep]
+        \item Ukuran \textit{swarm}: $N = 50$
+        \item Iterasi maksimum: $n = 100$
+        \item Faktor \textit{clamping} pada \textit{velocity} maksimum: $\varepsilon = 0.2$
+        \item \textit{Inertia Weight}: Strategi \textit{Random Inertia Weight}
+    \end{enumerate}
+
+    %sub sub bab
+    \vspace{-5mm}
+    \subsection{Hasil Pengujian Ukuran \textit{Swarm}}
+    {\frenchspacing
+        Pengujian nilai parameter ukuran \textit{swarm} dilakukan menggunakan beberapa nilai parameter.
+        Nilai parameter ukuran \textit{swarm} yang diujikan yaitu $50$, $100$, $150$, $200$, $250$, $300$, $350$, $400$, $450$, dan $500$.
+        Pengujian dari setiap nilai parameter ukuran \textit{swarm} diulang sebanyak 10 kali.
+        Hasil pengujian nilai parameter ukuran \textit{swarm} dapat ditampilkan dalam grafik pada Gambar \ref{gam: grafik uji ukuran swarm} berikut.
+
+        \begin{figure}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                        xlabel={Ukuran \textit{Swarm} $(N)$},
+                        ylabel={Rata-rata Nilai \textit{Fitness}},
+                        ylabel style={yshift=9pt},
+                        title={Hasil Pengujian Ukuran \textit{Swarm} $(N)$},
+                        grid=major,
+                        ymin=0.064, ymax=0.072,
+                        % ytick={0.06495, 0.06767, 0.06926, 0.06844, 0.07017, 0.06937, 0.06082, 0.07007, 0.07123, 0.06993},
+                        xtick={50,100,150,200,250,300,350,400,450,500,600},
+                        x tick label style={rotate=45, anchor=east},
+                        width=12cm,
+                        height=6cm,
+                        mark size=3pt,
+                        yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=5},
+                        scaled y ticks=false,
+                    ]
+
+                    \addplot[
+                        color=blue,
+                        mark=*,
+                        thick
+                    ]
+                    coordinates {
+                            (50,0.06495)
+                            (100,0.06767)
+                            (150,0.06926)
+                            (200,0.06844)
+                            (250,0.07017)
+                            (300,0.06937)
+                            (350,0.06982)
+                            (400,0.07007)
+                            (450,0.07123)
+                            (500,0.06993)
+                        };
+
+                \end{axis}
+            \end{tikzpicture}
+            \caption{Grafik Hasil Pengujian Ukuran \textit{Swarm} $(N)$}
+            \label{gam: grafik uji ukuran swarm}
+        \end{figure}
+
+        Berdasarkan grafik pada Gambar \ref{gam: grafik uji ukuran swarm} menunjukkan bahwa semakin besar nilai parameter ukuran \textit{swarm} maka semakin bagus nilai fungsi \textit{fitness} yang dihasilkan.
+        Pengujian parameter ukuran \textit{swarm} pada penelitian ini, nilai fungsi \textit{fitness} terbaik dicapai pada ukuran \textit{swarm} sebesar 450 partikel dengan rata-rata nilai fungsi \textit{fitness} sebesar $0,07123$.
+        Nilai parameter ukuran \textit{swarm} tersebut dipilih sebagai parameter awal pada proses perhitungan algoritma PSO untuk optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+    }
+
+    % SubSubBab
+    \vspace{-5mm}
+    \subsection{Hasil Pengujian Iterasi Maksimum}
+    {\frenchspacing
+        Pengujian nilai parameter iterasi maksimum dilakukan menggunakan beberapa nilai parameter.
+        Nilai parameter iterasi maksimum yang diujikan yaitu $100$, $200$, $300$, $400$, $500$, $600$, $700$, $800$, $900$, dan $1000$.
+        Pengujian dari setiap nilai parameter iterasi maksimum diulang sebanyak 10 kali.
+        Hasil pengujian parameter iterasi maksimum dapat ditampilkan dalam grafik pada Gambar \ref{gam: grafik uji iterasi maksimum}.
+
+        \begin{figure}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                        xlabel={Iterasi Maksimum $(n)$},
+                        ylabel={Rata-rata Nilai \textit{Fitness}},
+                        ylabel style={yshift=9pt},
+                        title={Hasil Pengujian Iterasi Maksimum $(n)$},
+                        grid=major,
+                        ymin=0.06400, ymax=0.07400,
+                        xtick={100,200,300,400,500,600,700,800,900,1000},
+                        x tick label style={rotate=45, anchor=east},
+                        width=12cm,
+                        height=6cm,
+                        mark size=3pt,
+                        yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=5},
+                        scaled y ticks=false,
+                    ]
+
+                    \addplot[
+                        color=blue,
+                        mark=*,
+                        thick
+                    ]
+                    coordinates {
+                            (100,0.06468)
+                            (200,0.06872)
+                            (300,0.06766)
+                            (400,0.07018)
+                            (500,0.06903)
+                            (600,0.06856)
+                            (700,0.06979)
+                            (800,0.07036)
+                            (900,0.07116)
+                            (1000,0.07185)
+                        };
+
+                \end{axis}
+            \end{tikzpicture}
+            \caption{Grafik Hasil Pengujian Iterasi Maksimum $(n)$}
+            \label{gam: grafik uji iterasi maksimum}
+        \end{figure}
+
+        Berdasarkan grafik pada Gambar \ref{gam: grafik uji iterasi maksimum} menunjukkan bahwa semakin besar nilai parameter iterasi maksimum maka semakin bagus nilai fungsi \textit{fitness} yang dihasilkan.
+        Pengujian parameter iterasi maksimum pada penelitian ini, nilai fungsi \textit{fitness} terbaik dicapai pada iterasi maksimum sebesar $1000$ dengan rata-rata nilai fungsi \textit{fitness} sebesar $0,07185$.
+        Nilai parameter iterasi maksimum tersebut dipilih sebagai parameter awal pada proses perhitungan algoritma PSO untuk optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+    }
+
+    % Subsubbab
+    \vspace{-5mm}
+    \subsection{Hasil Pengujian Faktor \textit{Clamping} pada \textit{Velocity} Maksimum}
+    {\frenchspacing
+        Pengujian nilai parameter faktor \textit{clamping} pada \textit{velocity} maksimum dilakukan menggunakan beberapa nilai parameter.
+        Nilai parameter faktor \textit{clamping} yang diujikan yaitu $0,1$, $0,2$, dan $0,3$.
+        Pengujian dari setiap nilai parameter iterasi maksimum diulang sebanyak 10 kali.
+        Hasil pengujian parameter faktor \textit{clamping} pada \textit{velocity} maksimum dapat ditampilkan dalam grafik pada Gambar \ref{gam: grafik uji faktor clamping}.
+
+        \begin{figure}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                        xlabel={Faktor \textit{Clamping} $(\varepsilon)$},
+                        ylabel={Rata-rata Nilai \textit{Fitness}},
+                        ylabel style={yshift=9pt},
+                        title={Hasil Pengujian Faktor \textit{Clamping} $(\varepsilon)$},
+                        grid=major,
+                        ymin=0.06200, ymax=0.068,
+                        xtick={0.1, 0.2, 0.3},
+                        width=12cm,
+                        height=6cm,
+                        mark size=3pt,
+                        yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=5},
+                        scaled y ticks=false,
+                    ]
+
+                    \addplot[
+                        color=blue,
+                        mark=*,
+                        thick
+                    ]
+                    coordinates {
+                            (0.1, 0.06382)
+                            (0.2, 0.06313)
+                            (0.3, 0.06681)
+                        };
+
+                \end{axis}
+            \end{tikzpicture}
+            \caption{Grafik Hasil Pengujian Iterasi Maksimum $(n)$}
+            \label{gam: grafik uji faktor clamping}
+        \end{figure}
+
+        Berdasarkan grafik pada Gambar \ref{gam: grafik uji faktor clamping} menunjukkan bahwa semakin besar nilai parameter faktor \textit{clamping} pada \textit{velocity} maksimum maka semakin bagus nilai fungsi \textit{fitness} yang dihasilkan.
+        Pengujian parameter faktor \textit{clamping} pada penelitian ini, nilai fungsi \textit{fitness} terbaik dicapai pada faktor \textit{clamping} sebesar $0.3$ dengan rata-rata nilai fungsi \textit{fitness} sebesar $0,06681$.
+        Nilai parameter faktor \textit{clamping} pada \textit{velocity} maksimum tersebut dipilih sebagai parameter awal pada proses perhitungan algoritma PSO untuk optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
+    }
+
+    Dari ketiga hasil pengujian modifikasi nilai parameter yang telah dilakukan, selanjutnya dilakukan proses perhitungan algoritma PSO menggunakan nilai-nilai parameter terbaik yang telah diujikan.
+}
+\vspace{-3mm}
+
+% SubBab
+\section{Hasil Optimalisasi Pemilihan Urutan \textit{Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang" menggunakan Algoritma \textit{Particle Swarm Optimization} (PSO)}
+\vspace{-4mm}
+{\frenchspacing
+    Hasil optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" diperoleh melalui proses perhitungan algoritma \textit{Particle Swarm Optimization} (PSO).
+    Proses perhitungan algoritma PSO dilakukan dengan langkah yang telah dijelaskan sebelumnya.
+    Parameter terbaik dari hasil pengujian modifikasi parameter digunakan dalam proses perhitungan algoritma untuk mendapatkan hasil optimal.
+    Parameter awal tersebut ditetapkan pada langkah inisialisasi pada proses perhitungan algoritma PSO.
+    Penetapan parameter awal pada langkah inisialisasi dalam proses perhitungan algoritma PSO untuk hasil optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dapat dijelaskan sebagai berikut.
+
+    \begin{enumerate}[align = left, left = 0cm, nolistsep]
+        \item Iterasi maksimum: $n = 1000$
+        \item Ukuran \textit{swarm}: $N = 450$
+        \item Batas posisi: $X_{min} = -10$ dan $X_{max} = 10$
+        \item Faktor \textit{clamping} pada \textit{velocity} maksimum: $\varepsilon = 0,3$
+        \item Batas \textit{velocity} maksimum: $V_{max} = \varepsilon (X_{max}-X_{min}) = 0,3(10-(-10)) = 6$
+        \item Batas \textit{velocity} minimum: $V_{min} = -V_{min} = -6$
+        \item \textit{Inertia Weight}: Strategi \textit{Random Inertia Weight}
+    \end{enumerate}
+
+    Proses perhitungan algoritma PSO dilakukan dengan menggunakan bantuan bahasa pemrograman Python.
+    Langkah-langkah perhitungan algoritma PSO ditulis ke dalam bahasa pemrograman Python, kemudian dijalan proses perhitungan dengan menggunakan parameter awal yang telah ditetapkan.
+    Setelah proses perhitungan dilakukan didapatkan nilai $G_{best}$ pada iterasi awal sampai dengan maksimum iterasi yang dapat ditampilkan pada Tabel \ref{tab: gbest seluruh iterasi}.
+
+    % Tabel GBEST
+
+    $G_{best}$ yang diperoleh dapat menjadi solusi dari proses optimalisasi, yaitu dengan mencari rute yang dihasilkan dari posisi pada $G_{best}$.
+    Pencarian rute pada $G_{best}$ dilakukan seperti yang telah dijelaskan pada proses perhitungan algoritma PSO.
+    Hasil pencarian rute pada $G_{best}$ dapat ditampilkan pada Tabel \ref{tab: rute seluruh gbest}.
+
+    % Tabel rute gbest
+
+    Kemudian, dari rute yang telah diperoleh tersebut dihitung total biaya syuting dari masing-masing $G_{best}$ menggunakan biaya antar \textit{scene} yang telah dinormalisasi pada Tabel \ref{tab: Norm biaya scene}.
+    Total biaya syuting dari masing-masing $G_{best}$ dapat ditampilkan pada Tabel \ref{tab: total biaya syuting gbest seluruh}.
+
+    % Tabel total biaya syuting gbest
+
+    Total biaya syuting yang diperoleh masih dalam bentuk yang telah dinormalisasi dan rute yang diperoleh sebelumnya masih dalam bentuk indeks \textit{scene}.
+    Sehingga total biaya syuting dari setiap rute $G_{best}$ diubah dalam Rupiah menggunakan Persamaan \ref{pers: normalisasi minmax} dan mengubah indeks \textit{scene} menjadi nama \textit{scene} sesuai pada Tabel \ref{tab: data scene}.
+    Total biaya syuting dalam Rupiah dan urutan \textit{scene} syuting dari setiap rute $G_{best}$ dapat ditampilkan dalam Tabel \ref{tab: urutan scene dan total biaya gbest}.
+
+    % Tabel total biaya RP dan urutan scene
+
+    Proses perhitungan algoritma PSO untuk optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" menggunakan bantuan bahasa pemrograman Python diperoleh hasil yang dapat ditampilkan
+    dalam grafik pada Gambar \ref{gam: grafik perhitungan akhir}.
 
     \noindent
-    Pada \textit{scene} 1C, peran \textit{talent} yang digunakan adalah "Irah, Manto, Wawan" sehingga total biaya \textit{talent}
-    pada \textit{scene} 1C = biaya \textit{talent} Irah + biaya \textit{talent} Manto + biaya \textit{talent} Wawan = Rp$66.666,666667$ + Rp$17.647,333333$ + Rp$13.333,333333$ = Rp$97.647,058824$.
-
-    \noindent
-    Perhitungan total biaya \textit{talent} di tiap-tiap \textit{scene} dapat dilihat pada Tabel \ref{tab: biaya talent tiap scene}.
-
-    \begin{table}
-        \centering
-        \caption{Data Total Biaya Talent tiap Scene pada Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}
-        \label{tab: biaya talent tiap scene}
-        \begin{tabular}{|c|c|l|c|}
-            \hline
-            \textbf{No} & \textit{\textbf{Scene}}    & \textbf{Peran yang Bermain}                                                              & \textbf{Total Biaya \textit{Talent} (Rp)} \\ \hline
-            1           & 1C                         & Irah, Manto, Wawan                                                                       & 97.647,058824                             \\ \hline
-            2           & 1D                         &                                                                                          & 0                                         \\ \hline
-            3           & 1E                         &                                                                                          & 0                                         \\ \hline
-            4           & 2A                         & Irah, Manto, Wawan                                                                       & 97.647,058824                             \\ \hline
-            5           & 2B                         & \begin{tabular}[c]{@{}l@{}}Irah, Manto, Wawan, \\ Ustadz Udas, Ismail, Mali\end{tabular} & 237.486,631016                            \\ \hline
-            6           & 3                          & Irah, Manto, Wawan                                                                       & 97.647,058824                             \\ \hline
-            7           & 4                          & Irah, Manto, Wawan                                                                       & 97.647,058824                             \\ \hline
-            8           & 5                          & Wawan, Manto, Ustadz Udas                                                                & 66.274,509804                             \\ \hline
-            \dots       & \multicolumn{1}{l|}{\dots} & \dots                                                                                    & \dots                                     \\ \hline
-            59          & \multicolumn{1}{l|}{37}    & Ustadz Udas                                                                              & 35.294,117647                             \\ \hline
-        \end{tabular}
-    \end{table}
-
-    \vspace{-8mm}
-    \begin{flushright}
-        Sumber: Lampiran 1 dan Lampiran 2
-    \end{flushright}
-
-    Data biaya transportasi adalah data biaya konsumsi bahan bakar minyak yang dikeluarkan untuk berpindah dari satu \textit{scene} ke \textit{scene} lainnya.
-    Dalam penelitian ini diasumsikan bahwa mobil yang digunakan untuk berpindah adalah 2 mobil Innova dan 1 mobil \textit{pick up} Grand Max dengan konsumsi bahan bakar yang sama per meternya.
-    Bahan bakar minyak berjenis Pertalite digunakan oleh ketiga mobil dengan harga sebesar Rp10.0000 per liter.
-    Biaya konsumsi bahan bakar minyak untuk 3 mobil tersebut per meter dapat dijelaskan sebagai berikut.
-
-    \noindent
-    Biaya konsumsi bahan bakar minyak untuk 3 mobil per meter $=$ jumlah mobil $\times$ (biaya Pertalite per liter $:$ jarak tempuh mobil per liter) $=$ 3 $\times$ (Rp10.000/liter $:$ 8000 m/liter) $=$ 3 $\times$ (Rp1,25/m) $=$ Rp3,75/m
-
-
+    Berdasarkan
 }
 
 \pagebreak

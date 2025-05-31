@@ -3084,7 +3084,7 @@
     <bcf:citekey order="23" intorder="1">Atiqoh:2020</bcf:citekey>
     <bcf:citekey order="24" intorder="1">Riri:2020</bcf:citekey>
     <bcf:citekey order="25" intorder="1">Sinaga:2023</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">Kumar:2020</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">Bisma:2023</bcf:citekey>
     <bcf:citekey order="27" intorder="1">Saud:2018</bcf:citekey>
     <bcf:citekey order="28" intorder="1">Anwar:2024</bcf:citekey>
     <bcf:citekey order="29" intorder="1">Muhammad:2023</bcf:citekey>
@@ -3105,7 +3105,10 @@
     <bcf:citekey order="44" intorder="1">Piotrowski:2020</bcf:citekey>
     <bcf:citekey order="45" intorder="1">Meetu:2022</bcf:citekey>
     <bcf:citekey order="46" intorder="1">Eltamaly:2021</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">Amin:2023</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">Ambarwari:2019</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">Amin:2023</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">Piotrowski:2020</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">Meetu:2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

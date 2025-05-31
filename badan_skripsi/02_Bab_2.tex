@@ -292,14 +292,45 @@
     Meskipun konsep TSP terlihat sederhana, namun tingkat kesulitan akan meningkat seiring
     eksponensial jumlah kemungkinan jalur saat jumlah simpul meningkat \mycite{Sinaga:2023}.
 
-    Pembentukan pertama kajian matematika terhadap permasalahan TSP oleh seorang matematikawan Irlandia W.R. Hamilton pada abad ke-19.
-    Penyelesaian permasalahan TSP diperoleh melalui pendekatan-pendekatan tertentu.
-    Penyelesaian TSP melalui pendekatan matematis pertama oleh Merril Flood pada tahun 1930.
-    Kemudian permasalahan tersebut dikenal dengan nama \textit{Traveling Salesman Problem} yang diciptakan oleh Hassler Whitney dari Universitas Princeton.
-    Permasalahan TSP termasuk ke dalam permasalahan \textit{nondeterministic polynomial time-hard}(\textit{NP-Hard}) yang berarti tidak ada algoritma yang efisien untuk setiap permasalahan TSP \mycite{Kumar:2020}.
+    % Pembentukan pertama kajian matematika terhadap permasalahan TSP oleh seorang matematikawan Irlandia W.R. Hamilton pada abad ke-19.
+    % Penyelesaian permasalahan TSP diperoleh melalui pendekatan-pendekatan tertentu.
+    % Penyelesaian TSP melalui pendekatan matematis pertama oleh Merril Flood pada tahun 1930.
+    % Kemudian permasalahan tersebut dikenal dengan nama \textit{Traveling Salesman Problem} yang diciptakan oleh Hassler Whitney dari Universitas Princeton.
+    % Permasalahan TSP termasuk ke dalam permasalahan \textit{nondeterministic polynomial time-hard}(\textit{NP-Hard}) yang berarti tidak ada algoritma yang efisien untuk setiap permasalahan TSP \mycite{Kumar:2020}.
 
     Konsep TSP memiliki banyak penerapan praktis untuk memecahkan permasalahan optimasi yang melibatkan
-    penentuan rute terpendek sehingga setiap simpul dapat dikunjungi dengan biaya atau waktu minimal.
+    penentuan rute terpendek sehingga setiap simpul dapat dikunjungi dengan biaya atau waktu minimal \mycite{Bisma:2023}.
+    Setiap simpul yang dilewati dalam konsep TSP hanya dilewati tepat satu kali.
+    Sehingga fungsi tujuan dari solusi adalah meminimumkan biaya yang diperlukan untuk melewati simpul-simpul tersebut.
+    Konsep TSP dapat dimodelkan melalui \textit{integer programming} seperti pada persamaan \ref{pers: model persamaan tsp} berikut.
+
+    \noindent
+    Fungsi tujuan
+    \begin{equation}
+        \label{pers: model persamaan tsp}
+        \operatorname{min} (Z) = \sum^{n}_{i=1} \sum^{n}_{j=1} a_{ij}(v_{i}v_{j})
+    \end{equation}
+
+    \noindent
+    Fungsi kendala
+    \begin{equation*}
+        \begin{aligned}
+             & \sum^{n}_{j=1} a_{ij} = 1,     & i = 1,2,\dots,n \\
+             & \sum^{n}_{i=1} a_{ij} = 1,     & j = 1,2,\dots,n \\
+             & a_{ij} \in \left\{0,1\right\}, & i \neq j
+        \end{aligned}
+    \end{equation*}
+
+    \noindent
+    dengan
+    \begin{table}
+        \begin{tabular}{lcp{11cm}}
+            $v_{i}v_{j}$ & $ = $ & biaya dari simpul $i$ menuju simpul $j$, dan                                                                             \\
+            $a_{ij}$     & $=$   & perpindahan dari simpul $i$ menuju simpul $j$. Bernilai 0 jika tidak terjadi perpindahan dan 1 jika terjadi perpindahan.
+        \end{tabular}
+    \end{table}
+    \vspace{-5mm}
+
     Pemecahan solusi optimal untuk permasalahan TSP dengan jumlah simpul yang besar akan menjadi cukup sulit.
     Pendekatan dengan berbagai metode banyak dilakukan agar dapat memperoleh solusi yang optimal,
     salah satunya adalah metode pendekatan secara heuristik \mycite{Saud:2018}.
@@ -493,7 +524,7 @@ Kecepatan maksimum ditentukan menggunakan persamaan berikut:
     \label{pers: velocity clamping}
 \end{equation}
 
-\hspace{-0.675cm}dengan nilai $\varepsilon$ adalah interval nilai acak $\varepsilon \in [0,1]$ dan $X_{max},X_{min}$ adalah batas atas dan bawah dari inisialisasi posisi $(X)$ \mycite{Wang:2022}.
+\hspace{-0.675cm}dengan $\varepsilon$ adalah faktor \textit{clamping} untuk \textit{velocity}. Nilai $\varepsilon$ berada pada interval nilai acak $\varepsilon \in [0,1]$ dan $X_{max},X_{min}$ adalah batas atas dan bawah dari inisialisasi posisi $(X)$ \mycite{Wang:2022}.
 }
 
 % Sub-SubBab
@@ -629,14 +660,13 @@ dengan $r_{1}^{(i)},r_{2}^{(i)}$ adalah bilangan acak berdistribusi \textit{unif
         \item Menentukan $P_{best,j}^{(i)}$ setiap partikel dan $G_{best}^{(i)}$. Untuk setiap partikel, $P_{best,j}^{(i)}$ ditentukan dengan menggunakan persamaan berikut:
 
               \begin{equation}
+                  \label{pers: penentuan pbest}
                   P_{best,j}^{(i)} = \begin{cases} X_{j}^{(i)} & , F(X_{j}^{(i)}) \geq F(P_{best,j}^{(i-1)}) \\ P_{best,j}^{(i-1)} &, F(X_{j}^{(i)}) < F(P_{best,j}^{(i-1)}) \end{cases}
               \end{equation}
 
-              dan untuk $G_{best}^{(i)}$ ditentukan menggunakan persamaan berikut:
-
-              \begin{equation}
-                  G_{best}^{(i)} = \begin{cases} X_{j}^{(i)} & , F(X_{j}^{(i)}) \geq F(G_{best}^{(i-1)}) \\ G_{best}^{(i-1)} &, F(X_{j}^{(i)}) < F(G_{best}^{(i-1)}) \end{cases}
-              \end{equation}
+              dan untuk $G_{best}^{(i)}$ berdasarkan posisi dengan nilai fungsi \textit{fitness} paling terbaik yang pernah dicapai di antara seluruh partikel pada semua iterasi.
+              Posisi terbaik dari setiap partikel di setiap iterasi disimpan ke dalam $P_{best}$.
+              Sehingga $G_{best}$ pada iterasi ke-$i$ dapat ditentukan dengan membandingkan nilai fungsi \textit{fitness} dari $P_{best}$ terbaik pada iterasi ke-$i$ dan nilai fungsi \textit{fitness} dari $G_{best}$ pada iterasi sebelumnya.
 
         \item Mengevaluasi kriteria pemberhentian terhadap solusi terbaru yang diperoleh. Jika solusi terbaru telah memenuhi kriteria pemberhentian maka iterasi berhenti, jika tidak memenuhi maka iterasi diperbarui dan kembali ke langkah 4.
     \end{enumerate}
@@ -664,6 +694,23 @@ dengan $r_{1}^{(i)},r_{2}^{(i)}$ adalah bilangan acak berdistribusi \textit{unif
 
     \noindent
     Kriteria pemberhentian akan mencegah sumber daya tidak terpakai secara sia-sia \mycite{Eltamaly:2021}.
+}
+\vspace{-3mm}
+
+% SubBab
+\section{Metode \textit{Min-Max Normalization}}
+\vspace{-4mm}
+{\frenchspacing
+    Metode \textit{Min-Max Normalization} merupakan salah satu metode normalisasi data dengan mengubah ukuran dari rentang data asli ke dalam rentang 0 sampai 1 \mycite{Ambarwari:2019}.
+    Normalisasi data dapat mempercepat proses perhitungan data dari suatu analisis.
+    Proses normalisasi data dilakukan tanpa mengubah distorsi dari rentang data asli.
+    Normalisasi data dengan metode \textit{Min-Max Normalization} dilakukan menggunakan persamaan berikut.
+
+    \begin{equation}
+        \label{pers: normalisasi minmax}
+        x_{norm} = \frac{x - x_{min}}{x_{max} - x_{min}}
+    \end{equation}
+
 }
 \vspace{-3mm}
 
