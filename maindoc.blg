@@ -1,0 +1,21 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'maindoc.blg'
+[294] biber-MSWIN64:340> INFO - === 
+[396] Biber.pm:419> INFO - Reading 'maindoc.bcf'
+[731] Biber.pm:979> INFO - Found 39 citekeys in bib section 0
+[828] Biber.pm:4419> INFO - Processing section 0
+[913] Biber.pm:4610> INFO - Looking for bibtex file 'daftar_pustaka/daftar_pustaka.bib' for section 0
+[1307] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1552] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar_pustaka/daftar_pustaka.bib'
+[2527] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2527] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2528] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[2528] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[2709] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2709] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2709] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[2710] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[2794] bbl.pm:660> INFO - Writing 'maindoc.bbl' with encoding 'UTF-8'
+[2884] bbl.pm:763> INFO - Output to maindoc.bbl
+[2884] Biber.pm:131> WARN - Duplicate entry key: 'Natalia:2019' in file 'daftar_pustaka/daftar_pustaka.bib', skipping ...
+[2885] Biber.pm:133> INFO - WARNINGS: 1

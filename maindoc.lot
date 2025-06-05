@@ -8,10 +8,10 @@
 \contentsline {table}{\numberline {4.1}{\ignorespaces Data \textit {Scene} }}{30}{table.4.1}%
 \contentsline {table}{\numberline {4.2}{\ignorespaces Data Biaya \textit {Talent} dalam Satu \textit {Scene}}}{32}{table.4.2}%
 \contentsline {table}{\numberline {4.3}{\ignorespaces Data Total Biaya \textit {Talent} tiap \textit {Scene}}}{33}{table.4.3}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Jarak Antar Lokasi tiap Scene dalam Satuan Meter}}{35}{table.4.4}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Data Biaya Transportasi Antar \textit {Scene} dalam Rupiah}}{35}{table.4.5}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Data Biaya Antar \textit {Scene} dalam Rupiah}}{36}{table.4.6}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Contoh Matriks $[a_{ij}]$}}{40}{table.4.7}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Jarak Antar Lokasi tiap Scene dalam Satuan Kilometer}}{35}{table.4.4}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Data Biaya Transportasi Antar \textit {Scene} dalam Rupiah}}{36}{table.4.5}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces \normalsize Data Biaya Antar \textit {Scene} dalam Rupiah}}{36}{table.4.6}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Contoh Matriks $[a_{j,k}]$}}{40}{table.4.7}%
 \contentsline {table}{\numberline {4.8}{\ignorespaces Hasil Perhitungan Normalisasi Biaya Antar \textit {Scene}}}{41}{table.4.8}%
 \contentsline {table}{\numberline {4.9}{\ignorespaces \textit {Velocity} Awal}}{43}{table.4.9}%
 \contentsline {table}{\numberline {4.10}{\ignorespaces Posisi Awal}}{43}{table.4.10}%
@@ -21,8 +21,12 @@
 \contentsline {table}{\numberline {4.14}{\ignorespaces $G_{best}$ Iterasi ke-0}}{48}{table.4.14}%
 \contentsline {table}{\numberline {4.15}{\ignorespaces \textit {Velocity} pada Iterasi ke-1}}{51}{table.4.15}%
 \contentsline {table}{\numberline {4.16}{\ignorespaces Posisi pada Iterasi ke-1}}{52}{table.4.16}%
-\contentsline {table}{\numberline {4.17}{\ignorespaces Rute pada Iterasi ke-1}}{52}{table.4.17}%
+\contentsline {table}{\numberline {4.17}{\ignorespaces Rute pada Iterasi ke-1}}{53}{table.4.17}%
 \contentsline {table}{\numberline {4.18}{\ignorespaces Total Biaya Syuting dan Nilai \textit {Fitness} tiap Partikel}}{54}{table.4.18}%
 \contentsline {table}{\numberline {4.19}{\ignorespaces $P_{best}$ Iterasi ke-1}}{56}{table.4.19}%
-\contentsline {table}{\numberline {4.20}{\ignorespaces $G_{best}$ Iterasi Terbaru $(i=0)$}}{57}{table.4.20}%
+\contentsline {table}{\numberline {4.20}{\ignorespaces $G_{best}$ Iterasi ke-1}}{57}{table.4.20}%
+\contentsline {table}{\numberline {4.21}{\ignorespaces $G_{best}$ pada Setiap Iterasi}}{62}{table.4.21}%
+\contentsline {table}{\numberline {4.22}{\ignorespaces Rute $G_{best}$ pada Setiap Iterasi}}{63}{table.4.22}%
+\contentsline {table}{\numberline {4.23}{\ignorespaces Total Biaya Syuting $G_{best}$ pada Setiap Iterasi}}{64}{table.4.23}%
+\contentsline {table}{\numberline {4.24}{\ignorespaces Urutan \textit {Scene} Syuting $G_{best}$ pada Setiap Iterasi}}{65}{table.4.24}%
 \contentsfinish 

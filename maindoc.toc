@@ -49,9 +49,9 @@
 \contentsline {section}{\numberline {4.3}Penerapan Algoritma \textit {Particle Swarm Optimization} (PSO) untuk Optimalisasi Pemilihan Urutan \textit {Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}{41}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Analisis Hasil Pengujian Modifikasi Nilai Parameter Algoritma \textit {Particle Swarm Optimization} (PSO) untuk Optimalisasi Pemilihan Urutan \textit {Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}{58}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Hasil Pengujian Ukuran \textit {Swarm}}{59}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Hasil Pengujian Iterasi Maksimum}{59}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Hasil Pengujian Iterasi Maksimum}{60}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Hasil Pengujian Faktor \textit {Clamping} pada \textit {Velocity} Maksimum}{60}{subsection.4.4.3}%
 \contentsline {section}{\numberline {4.5}Hasil Optimalisasi Pemilihan Urutan \textit {Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang" menggunakan Algoritma \textit {Particle Swarm Optimization} (PSO)}{61}{section.4.5}%
-\contentsline {chapter}{\textbf {DAFTAR PUSTAKA}}{64}{section*.20}%
-\contentsline {chapter}{\textbf {LAMPIRAN}}{68}{section*.22}%
+\contentsline {chapter}{\textbf {DAFTAR PUSTAKA}}{68}{section*.22}%
+\contentsline {chapter}{\textbf {LAMPIRAN}}{72}{section*.24}%
 \contentsfinish 
