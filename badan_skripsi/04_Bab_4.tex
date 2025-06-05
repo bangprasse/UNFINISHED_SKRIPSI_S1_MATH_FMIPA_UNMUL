@@ -1059,16 +1059,16 @@ Proses perhitungan algoritma PSO untuk optimalisasi urutan \textit{scene} syutin
           {\footnotesize
           \begin{equation*}
               \begin{aligned}
-                  f(X_{1}^{1})  = & 0,56535 + 0,25731 + 0,49149 + 0,55695 + 0,70641 + 0,83059 + 0,78906     \\
-                                  & + 0,51415 + 0,15519 + 0,10601 + 0,10143 + 0,61121 + 0,0 + 0,67805 + 0,0 \\
-                                  & + 0,32943 + 0,0 + 0,76618 + 0,51857 + 0,36902 + 0,32325 + 0,31422       \\
-                                  & + 0,00458 + 0,13061 + 0,21651 + 0,15951 + 0,32579 + 0,20361 + 0,40623   \\
-                                  & + 0,1251 + 0,28962 + 0,5785 + 0,43037 + 0,11309 + 0,13348 + 0,11093     \\
-                                  & + 0,14811 + 0,57582 + 0,77766 + 0,7368 + 0,53567 + 0,57582 + 0,69805    \\
-                                  & + 0,50311 + 0,10143 + 0,72659 + 0,17821 + 0,00255 + 0,36685 + 0,57582   \\
-                                  & + 0,47439 + 0,61368 + 0,30909 + 0,72675 + 0,17211 + 0,17821 + 0,23418   \\
-                                  & + 0,40223 + 0,32325 + 0,23374                                           \\
-                  =               & 22,38188
+                  f(X_{1}^{1})  = & 0,35316 + 0,00323 + 0,27337 + 0,26667 + 0,11317 + 0,47383 + 0,64138   \\
+                                  & + 0,31822 + 0,19656 + 0,40119 + 0,18655 + 0,17207 + 0,3574 + 0,35468  \\
+                                  & + 0,35487 + 0,78106 + 0,68773 + 0,47642 + 0,15097 + 0,31628 + 0,46802 \\
+                                  & + 0,00323 + 0,08404 + 0,85511 + 0,10994 + 0,50788 + 0,12654 + 0,60269 \\
+                                  & + 0,27882 + 0,9124 + 0,20662 + 0,13661 + 0,19592 + 0,61473 + 0,53101  \\
+                                  & + 0,57408 + 0,17207 + 0,11188 + 0,46414 + 0,19656 + 0,1588 + 0,04788  \\
+                                  & + 0,35637 + 0,80596 + 0,73145 + 0,31393 + 0,10994 + 0,32873 + 0,4168  \\
+                                  & + 0,23357 + 0,05887 + 0,34059 + 0,46478 + 0,633 + 0,22005 + 0,08598   \\
+                                  & + 0,21811 + 0,15097 + 0,57408 + 0,6362                                \\
+                  =               & 20,91715
               \end{aligned}
           \end{equation*}
           }
@@ -1076,7 +1076,7 @@ Proses perhitungan algoritma PSO untuk optimalisasi urutan \textit{scene} syutin
           dari total biaya syuting \textit{scene} partikel $X_{1}^{1}$, dihitung nilai \textit{fitness} menggunakan Persamaan \ref{pers: nilai fungsi fitness}.
 
           \begin{equation*}
-              F(X_{1}^{1}) = \frac{1}{f(X_{1}^{1})} = \frac{1}{22,383188} = 0,04468
+              F(X_{1}^{1}) = \frac{1}{f(X_{1}^{1})} = \frac{1}{20,91715} = 0,04781
           \end{equation*}
 
           Proses evaluasi total biaya syuting untuk partikel lainnya dihitung menggunakan bahasa pemrograman Python seperti yang ditampilkan pada Tabel \ref{tab: total biaya syuting dan nilai fitness iterasi 1} dan Lampiran \ref{app: total biaya syuting dan nilai fitness iterasi 1}.
@@ -1099,22 +1099,22 @@ Proses perhitungan algoritma PSO untuk optimalisasi urutan \textit{scene} syutin
               $X_{j}^{1}$  & \multicolumn{6}{c|}{Biaya Antar \textit{Scene}} & Total Biaya                   & \textit{Fitness}                                                                                                               \\ \hline
               \endhead
               %
-              $X_{1}^{1}$  & \multicolumn{1}{c|}{0.56535}                    & \multicolumn{1}{c|}{0.257308} & \multicolumn{1}{c|}{0.49149}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.32325}  & 0.23374  & 22.38188 & 0.04468  \\ \hline
-              $X_{2}^{1}$  & \multicolumn{1}{c|}{0.325787}                   & \multicolumn{1}{c|}{0}        & \multicolumn{1}{c|}{0.586602} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.314221} & 0.233738 & 22.29509 & 0.04485  \\ \hline
-              $X_{3}^{1}$  & \multicolumn{1}{c|}{0.101428}                   & \multicolumn{1}{c|}{0.380055} & \multicolumn{1}{c|}{0.613676} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.143525} & 0.233738 & 20.56881 & 0.04862  \\ \hline
-              $X_{4}^{1}$  & \multicolumn{1}{c|}{0.181909}                   & \multicolumn{1}{c|}{0.505034} & \multicolumn{1}{c|}{0.299151} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.00458}  & 0.237435 & 21.13488 & 0.04732  \\ \hline
-              $X_{5}^{1}$  & \multicolumn{1}{c|}{0.328981}                   & \multicolumn{1}{c|}{0}        & \multicolumn{1}{c|}{0.766178} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.835092} & 0.571578 & 20.39348 & 0.04904  \\ \hline
-              $X_{6}^{1}$  & \multicolumn{1}{c|}{0.156954}                   & \multicolumn{1}{c|}{0.775324} & \multicolumn{1}{c|}{0.57582}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.766178} & 0.571578 & 24.12422 & 0.04145  \\ \hline
-              $X_{7}^{1}$  & \multicolumn{1}{c|}{0.406317}                   & \multicolumn{1}{c|}{0.752287} & \multicolumn{1}{c|}{0.105304} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.106008} & 0.237435 & 18.60588 & 0.05375  \\ \hline
-              $X_{8}^{1}$  & \multicolumn{1}{c|}{0.002552}                   & \multicolumn{1}{c|}{0.529792} & \multicolumn{1}{c|}{0.101428} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.428364} & 0.159507 & 20.27347 & 0.04933  \\ \hline
-              $X_{9}^{1}$  & \multicolumn{1}{c|}{0.516051}                   & \multicolumn{1}{c|}{0.788613} & \multicolumn{1}{c|}{0.126031} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.370098} & 0.156954 & 20.90658 & 0.04783  \\ \hline
-              $X_{10}^{1}$ & \multicolumn{1}{c|}{0.433254}                   & \multicolumn{1}{c|}{0.434047} & \multicolumn{1}{c|}{0.567648} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.248892} & 0.156954 & 22.16321 & 0.04512  \\ \hline
+              $X_{1}^{1}$  & \multicolumn{1}{c|}{0,35316}                    & \multicolumn{1}{c|}{0,00323}  & \multicolumn{1}{c|}{0,27337}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,57408}  & 0,6362   & 20,91715 & 0,04781  \\ \hline
+              $X_{2}^{1}$  & \multicolumn{1}{c|}{0,43792}                    & \multicolumn{1}{c|}{0,78041}  & \multicolumn{1}{c|}{0,10994}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,27083}  & 0,2561   & 19,73353 & 0,05068  \\ \hline
+              $X_{3}^{1}$  & \multicolumn{1}{c|}{0,43792}                    & \multicolumn{1}{c|}{0,25225}  & \multicolumn{1}{c|}{0,0431}   & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,58737}  & 0,2561   & 24,2023  & 0,04132  \\ \hline
+              $X_{4}^{1}$  & \multicolumn{1}{c|}{0,60269}                    & \multicolumn{1}{c|}{0,57796}  & \multicolumn{1}{c|}{0,2699}   & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,27337}  & 0,2561   & 26,57017 & 0,03764  \\ \hline
+              $X_{5}^{1}$  & \multicolumn{1}{c|}{0,57602}                    & \multicolumn{1}{c|}{0,31628}  & \multicolumn{1}{c|}{0,13661}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,57472}  & 0,6362   & 23,35936 & 0,04281  \\ \hline
+              $X_{6}^{1}$  & \multicolumn{1}{c|}{0,08598}                    & \multicolumn{1}{c|}{0,11317}  & \multicolumn{1}{c|}{0,2659}   & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,42657}  & 0,2561   & 23,58173 & 0,04241  \\ \hline
+              $X_{7}^{1}$  & \multicolumn{1}{c|}{0,60269}                    & \multicolumn{1}{c|}{0,63426}  & \multicolumn{1}{c|}{0,74231}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,34059}  & 0,2561   & 23,44856 & 0,04265  \\ \hline
+              $X_{8}^{1}$  & \multicolumn{1}{c|}{0,17207}                    & \multicolumn{1}{c|}{0,78041}  & \multicolumn{1}{c|}{0,10994}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,12258}  & 0,2561   & 22,57653 & 0,04429  \\ \hline
+              $X_{9}^{1}$  & \multicolumn{1}{c|}{0,08598}                    & \multicolumn{1}{c|}{0,11317}  & \multicolumn{1}{c|}{0,57796}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,57472}  & 0,6362   & 22,93853 & 0,04359  \\ \hline
+              $X_{10}^{1}$ & \multicolumn{1}{c|}{0,19721}                    & \multicolumn{1}{c|}{0,52261}  & \multicolumn{1}{c|}{0,57408}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,57472}  & 0,6362   & 23,69098 & 0,04221  \\ \hline
               $\cdots$     & \multicolumn{1}{c|}{$\cdots$}                   & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{$\cdots$} & $\cdots$ & $\cdots$ & $\cdots$ \\ \hline
-              $X_{46}^{1}$ & \multicolumn{1}{c|}{0.305209}                   & \multicolumn{1}{c|}{0.159507} & \multicolumn{1}{c|}{0.159507} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.07992}  & 0.237435 & 22.20008 & 0.04504  \\ \hline
-              $X_{47}^{1}$ & \multicolumn{1}{c|}{0.294338}                   & \multicolumn{1}{c|}{0.554395} & \multicolumn{1}{c|}{0}        & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.402226} & 0.159507 & 20.47854 & 0.04883  \\ \hline
-              $X_{48}^{1}$ & \multicolumn{1}{c|}{0.159507}                   & \multicolumn{1}{c|}{0.07992}  & \multicolumn{1}{c|}{0.505034} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.13348}  & 0.244633 & 22.13835 & 0.04517  \\ \hline
-              $X_{49}^{1}$ & \multicolumn{1}{c|}{0.080481}                   & \multicolumn{1}{c|}{0.135531} & \multicolumn{1}{c|}{0.253468} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.402226} & 0.159507 & 22.93092 & 0.04361  \\ \hline
-              $X_{50}^{1}$ & \multicolumn{1}{c|}{0.289617}                   & \multicolumn{1}{c|}{0.220308} & \multicolumn{1}{c|}{0.249886} & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0.106008} & 0.237435 & 22.86616 & 0.04373  \\ \hline
+              $X_{46}^{1}$ & \multicolumn{1}{c|}{0,60269}                    & \multicolumn{1}{c|}{0,31628}  & \multicolumn{1}{c|}{0,63426}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,12258}  & 0,2561   & 21,49505 & 0,04652  \\ \hline
+              $X_{47}^{1}$ & \multicolumn{1}{c|}{0,35316}                    & \multicolumn{1}{c|}{0,60462}  & \multicolumn{1}{c|}{0,57796}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,27337}  & 0,2561   & 21,76526 & 0,04594  \\ \hline
+              $X_{48}^{1}$ & \multicolumn{1}{c|}{0,35316}                    & \multicolumn{1}{c|}{0,10994}  & \multicolumn{1}{c|}{0,10994}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,62035}  & 0,2561   & 21,07423 & 0,04745  \\ \hline
+              $X_{49}^{1}$ & \multicolumn{1}{c|}{0,78235}                    & \multicolumn{1}{c|}{0,10994}  & \multicolumn{1}{c|}{0,73391}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,27083}  & 0,2561   & 24,5462  & 0,04074  \\ \hline
+              $X_{50}^{1}$ & \multicolumn{1}{c|}{0,19721}                    & \multicolumn{1}{c|}{0,10994}  & \multicolumn{1}{c|}{0,00323}  & \multicolumn{1}{c|}{$\cdots$} & \multicolumn{1}{c|}{0,3574}   & 0,2561   & 23,27209 & 0,04297  \\ \hline
           \end{tabularx}
           }
 
@@ -1131,13 +1131,13 @@ Proses perhitungan algoritma PSO untuk optimalisasi urutan \textit{scene} syutin
 
                     Proses penentuan $P_{best}$ untuk partikel pertama pada iterasi ke-1 $(X_{1}^{1})$ menggunakan Persamaan \ref{pers: penentuan pbest iterasi 1} dapat dijelaskan sebagai berikut.
 
-                    Nilai fungsi \textit{fitness} untuk partikel pertama pada iterasi ke-1 $(X_{1}^{1})$ pada Tabel \ref{tab: total biaya syuting dan nilai fitness iterasi 1} sebesar $0,04468$.
-                    Sedangkan nilai fungsi \textit{fitness} untuk $P_{best}$ partikel pertama pada iterasi ke-0 $(P_{best,1}^{0})$ pada Tabel \ref{tab: total biaya syuting dan nilai fitness iterasi 1} sebesar $0,05054$.
-                    Terlihat bahwa nilai fungsi \textit{fitness} $X_{1}^{1}$ lebih kecil daripada nilai fungsi \textit{fitness} $P_{best,1}^{1}$,
+                    Nilai fungsi \textit{fitness} untuk partikel pertama pada iterasi ke-1 $(X_{1}^{1})$ pada Tabel \ref{tab: total biaya syuting dan nilai fitness iterasi 1} sebesar $0,04781$.
+                    Sedangkan nilai fungsi \textit{fitness} untuk $P_{best}$ partikel pertama pada iterasi ke-0 $(P_{best,1}^{0})$ pada Tabel \ref{tab: total biaya syuting dan nilai fitness iterasi 1} sebesar $0,04475$.
+                    Terlihat bahwa nilai fungsi \textit{fitness} $X_{1}^{1}$ lebih besar daripada nilai fungsi \textit{fitness} $P_{best,1}^{1}$,
                     sehingga penentuan $P_{best}$ untuk partikel pertama pada iterasi ke-1 menggunakan Persamaan \ref{pers: penentuan pbest iterasi 1} adalah sebagai berikut.
 
                     \begin{equation*}
-                        P_{best,1}^{1} = [9,49657\hspace{2mm} 6,38931\hspace{2mm} -9,24977\hspace{2mm} \dots\hspace{2mm} -1,25263]
+                        P_{best,1}^{1} = [-3,94601\hspace{2mm} 4,84622\hspace{2mm} -5,53092\hspace{2mm} \dots \hspace{2mm} 10\hspace{2mm} \dots\hspace{2mm} -1,45129]
                     \end{equation*}
 
                     Penentuan $P_{best}$ untuk seluruh partikel pada iterasi ke-1 dapat ditampilkan pada Tabel \ref{tab: pbest iterasi 1} dan Lampiran \ref{app: pbest iterasi 1}.
@@ -1159,22 +1159,22 @@ Proses perhitungan algoritma PSO untuk optimalisasi urutan \textit{scene} syutin
                         $P_{best,j}^{1}$  & 1        & 2        & 3        & $\cdots$ & 58       & 59       & \textit{Fitness Value} \\ \hline
                         \endhead
                         %
-                        $P_{best,1}^{1}$  & 9,49657  & 6,38931  & -9,24977 & $\cdots$ & -4,83472 & -1,25263 & 0,05054                \\ \hline
-                        $P_{best,2}^{1}$  & 0,9134   & 7,99992  & -1,90351 & $\cdots$ & -4,52275 & 7,43883  & 0,04485                \\ \hline
-                        $P_{best,3}^{1}$  & -0,31106 & -2,77716 & 7,83818  & $\cdots$ & -3,22529 & -8,11171 & 0,04862                \\ \hline
-                        $P_{best,4}^{1}$  & -3,92371 & -7,52874 & -9,84154 & $\cdots$ & -5,29857 & -5,46017 & 0,04732                \\ \hline
-                        $P_{best,5}^{1}$  & -7,23373 & -3,22981 & -6,40393 & $\cdots$ & 2,67834  & -4,77444 & 0,04904                \\ \hline
-                        $P_{best,6}^{1}$  & -2,77705 & -0,41845 & -1,56102 & $\cdots$ & -7,6854  & -4,04416 & 0,0468                 \\ \hline
-                        $P_{best,7}^{1}$  & 1,44424  & 7,94849  & 7,63241  & $\cdots$ & -3,96969 & -5,43765 & 0,05375                \\ \hline
-                        $P_{best,8}^{1}$  & -3,78052 & -3,72327 & -0,86452 & $\cdots$ & -3,51748 & -0,42724 & 0,04933                \\ \hline
-                        $P_{best,9}^{1}$  & 3,42951  & 3,98247  & 2,58125  & $\cdots$ & -2,48958 & -2,07036 & 0,04783                \\ \hline
-                        $P_{best,10}^{1}$ & -4,20664 & 5,94528  & -9,95615 & $\cdots$ & 3,4613   & 6,64702  & 0,04678                \\ \hline
+                        $P_{best,1}^{1}$  & -3,94601 & 4,84622  & -5,53092 & $\cdots$ & -3,5931  & -1,45129 & 0,04781                \\ \hline
+                        $P_{best,2}^{1}$  & -6,96541 & -2,73767 & 1,54813  & $\cdots$ & 1,64302  & -0,29266 & 0,05068                \\ \hline
+                        $P_{best,3}^{1}$  & -9,64862 & -0,97641 & 2,24335  & $\cdots$ & -0,27442 & 6,13968  & 0,04236                \\ \hline
+                        $P_{best,4}^{1}$  & 2,53456  & -6,57045 & 7,78262  & $\cdots$ & 3,0871   & -3,89433 & 0,03914                \\ \hline
+                        $P_{best,5}^{1}$  & 3,90363  & 3,71686  & 1,81943  & $\cdots$ & -3,54684 & -0,50911 & 0,04838                \\ \hline
+                        $P_{best,6}^{1}$  & 1,05232  & 4,08277  & -5,75775 & $\cdots$ & 2,36173  & -5,81629 & 0,04241                \\ \hline
+                        $P_{best,7}^{1}$  & -2,56848 & 3,96685  & -5,91593 & $\cdots$ & 7,05032  & 6,14002  & 0,04346                \\ \hline
+                        $P_{best,8}^{1}$  & -7,25428 & 0,89507  & 4,90235  & $\cdots$ & 0,69543  & -3,09378 & 0,04429                \\ \hline
+                        $P_{best,9}^{1}$  & -8,15918 & -1,86934 & -0,10474 & $\cdots$ & 0,87569  & -0,8173  & 0,05049                \\ \hline
+                        $P_{best,10}^{1}$ & 8,11716  & -3,99829 & 4,98738  & $\cdots$ & 7,21959  & -9,0677  & 0,04235                \\ \hline
                         $\cdots$          & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$ & $\cdots$               \\ \hline
-                        $P_{best,46}^{1}$ & -9,40208 & 4,46576  & 2,24419  & $\cdots$ & 4,84563  & -2,26053 & 0,04504                \\ \hline
-                        $P_{best,47}^{1}$ & 9,16107  & 8,28139  & -3,46904 & $\cdots$ & -1,99884 & 0,92587  & 0,04883                \\ \hline
-                        $P_{best,48}^{1}$ & -9,14554 & 5,3417   & -8,45398 & $\cdots$ & 6,87175  & 0,43499  & 0,04849                \\ \hline
-                        $P_{best,49}^{1}$ & 8,95262  & 5,51931  & 2,638    & $\cdots$ & -4,8518  & -3,47986 & 0,0488                 \\ \hline
-                        $P_{best,50}^{1}$ & 3,69491  & -8,74439 & 5,10989  & $\cdots$ & 6,21345  & -3,57332 & 0,04407                \\ \hline
+                        $P_{best,46}^{1}$ & -7,23156 & -2,23126 & -4,17018 & $\cdots$ & 4,57348  & 0,42796  & 0,04652                \\ \hline
+                        $P_{best,47}^{1}$ & 4,40066  & -3,18732 & -5,67606 & $\cdots$ & 2,91735  & -4,42359 & 0,04594                \\ \hline
+                        $P_{best,48}^{1}$ & -6,48912 & -1,7131  & -2,04942 & $\cdots$ & 1,00921  & 3,37851  & 0,04745                \\ \hline
+                        $P_{best,49}^{1}$ & 3,00152  & 1,15928  & 4,85317  & $\cdots$ & -0,04261 & -2,32739 & 0,04074                \\ \hline
+                        $P_{best,50}^{1}$ & -0,4464  & 5,95634  & 0,98858  & $\cdots$ & 2,16085  & -4,8946  & 0,04297                \\ \hline
                     \end{tabularx}
                     }
 
@@ -1183,13 +1183,13 @@ Proses perhitungan algoritma PSO untuk optimalisasi urutan \textit{scene} syutin
                     Penentuan $G_{best}$ di setiap iterasi mudah dilakukan dengan membandingkan nilai fungsi \textit{fitness} $P_{best}$ partikel terbaik pada iterasi ke-$i$ dan nilai fungsi \textit{fitness} $G_{best}$ iterasi sebelumnya.
                     Proses penentuan $G_{best}$ pada iterasi ke-1 dapat dijelaskan sebagai berikut.
 
-                    Pada Tabel \ref{tab: pbest iterasi 1}, didapatkan $P_{best}$ terbaik pada iterasi ke-1 adalah $P_{best,24}^{1}$ dengan nilai fungsi \textit{fitness} sebesar $0,05409$.
-                    Sedangkan pada Tabel \ref{tab: gbest iterasi awal}, didapatkan $G_{best}$ pada iterasi ke-0 dengan nilai fungsi \textit{fitness} sebesar $0,05409$.
-                    Terlihat bahwa nilai fungsi \textit{fitness} $P_{best,j}^{1}$ sama dengan nilai fungsi \textit{fitness} $G_{best}^{0}$,
-                    sehingga dapat ditentukan bahwa $G_{best}$ untuk iterasi ke-1 diperbarui sama dengan $P_{best,24}^{1}$ adalah sebagai berikut.
+                    Pada Tabel \ref{tab: pbest iterasi 1}, didapatkan $P_{best}$ terbaik pada iterasi ke-1 adalah $P_{best,2}^{1}$ dengan nilai fungsi \textit{fitness} sebesar $0,05068$.
+                    Sedangkan pada Tabel \ref{tab: gbest iterasi awal}, didapatkan $G_{best}$ pada iterasi ke-0 dengan nilai fungsi \textit{fitness} sebesar $0,05049$.
+                    Terlihat bahwa nilai fungsi \textit{fitness} $P_{best,2}^{1}$ lebih besar daripada nilai fungsi \textit{fitness} $G_{best}^{0}$,
+                    sehingga dapat ditentukan bahwa $G_{best}$ untuk iterasi ke-1 diperbarui sama dengan $P_{best,2}^{1}$ adalah sebagai berikut.
 
                     \begin{equation*}
-                        G_{best}^{1} = [8,84482\hspace{2mm} -2,56533\hspace{2mm} 0,70519\hspace{2mm} \dots\hspace{2mm} -9,10133]
+                        G_{best}^{1} = [-6,96541\hspace{2mm}	-2,73767\hspace{2mm}	1,54813\hspace{2mm}  \dots\hspace{2mm} -0,29266                        ]
                     \end{equation*}
 
                     Kemudian $G_{best}$ dapat ditampilkan dalam Tabel \ref{tab: gbest iterasi 1}
@@ -1200,64 +1200,67 @@ Proses perhitungan algoritma PSO untuk optimalisasi urutan \textit{scene} syutin
                         \footnotesize
                         \begin{tabularx}{\textwidth}{|c|c|c|c|c|c|c|c|c|}
                             \caption{$G_{best}$ Iterasi ke-1}
-                            \label{tab: gbest iterasi 1}                                                                                         \\
+                            \label{tab: gbest iterasi 1}                                                                                          \\
                             \hline
-                            $G_{best}^{i}$ & 1       & 2        & 3       & $\cdots$ & 58       & 59       & Total Biaya Syuting & Fitness Value \\ \hline
+                            $G_{best}^{i}$ & 1        & 2        & 3        & $\cdots$ & 58      & 59       & Total Biaya Syuting & Fitness Value \\ \hline
                             \endfirsthead
                             %
                             \multicolumn{9}{c}%
-                            {\normalsize{\bfseries Tabel \thetable\ } $G_{best}$ Iterasi ke-1}                                                   \\
+                            {\normalsize{\bfseries Tabel \thetable\ } $G_{best}$ Iterasi ke-1}                                                    \\
                             \hline
-                            $G_{best}^{i}$ & 1       & 2        & 3       & $\cdots$ & 58       & 59       & Total Biaya Syuting & Fitness Value \\ \hline
+                            $G_{best}^{i}$ & 1        & 2        & 3        & $\cdots$ & 58      & 59       & Total Biaya Syuting & Fitness Value \\ \hline
                             \endhead
                             %
-                            $G_{best}^{0}$ & 8,84482 & -2,56533 & 0,70519 & $\cdots$ & -7,53487 & -9,10133 & 18,48794            & 0,05409       \\ \hline
-                            $G_{best}^{1}$ & 8,84482 & -2,56533 & 0,70519 & $\cdots$ & -7,53487 & -9,10133 & 18,48794            & 0,05409       \\ \hline
+                            $G_{best}^{0}$ & -8,15918 & -1,86934 & -0,10474 & $\cdots$ & 0,87569 & -0,8173  & 19,80464            & 0,05049       \\ \hline
+                            $G_{best}^{1}$ & -6,96541 & -2,73767 & 1,54813  & $\cdots$ & 1,64302 & -0,29266 & 19,73353            & 0,05068       \\ \hline
                         \end{tabularx}
                     }
 
                     $G_{best}$ merupakan solusi optimal yang diperoleh menggunakan algoritma PSO.
                     Hasil solusi optimal dari $G_{best}$ berupa total biaya syuting yang optimal serta rute yang dihasilkan.
                     $G_{best}$ yang telah diperoleh harus dicari rute yang dihasilkan terlebih dahulu kemudian dapat dihitung total biaya syuting yang optimal seperti pada langkah 3 bagian (b).
-                    Proses pencarian hasil solusi optimal dari $G_{best}$ pada iterasi ke-1 dapat dijelaskan sebagai berikut. \newline
+                    Proses pencarian hasil solusi optimal dari $G_{best}$ pada iterasi ke-1 dapat dijelaskan sebagai berikut.
 
                     Pada Tabel \ref{tab: gbest iterasi 1} diperoleh posisi dari $G_{best}^{1]}$.
 
                     \begin{equation*}
-                        G_{best}^{1} = [8,84482\hspace{2mm}	-2,56533\hspace{2mm}	0,70519\hspace{2mm} \cdots\hspace{2mm} -7,53487\hspace{2mm}	-9,10133]
+                        G_{best}^{1} = [-6,96541\hspace{2mm}	-2,73767\hspace{2mm}	1,54813\hspace{2mm}  \dots\hspace{2mm} -0,29266                        ]
                     \end{equation*}
 
                     Hasil rute dari $G_{best}$ didapatkan dengan melakukan proses pencarian rute seperti pada langkah 7.
                     Rute yang dihasilkan dari posisi pada $G_{best}^{1}$ adalah sebagai berikut.
 
                     \begin{equation*}
-                        \text{Rute } G_{best}^{1} = 0-44-59-58-35-27-40-51-11-12- \cdots -25-1-49-0
+                        \text{Rute } G_{best}^{1} = 0-33-36-29-49-51-1-27-40-18- \cdots -14-25-11-0
                     \end{equation*}
 
                     Kemudian, dihitung total biaya syuting antar \textit{scene} yang dilalui oleh $G_{best}^{1}$ menggunakan biaya antar \textit{scene} yang telah dinormalisasi pada Tabel \ref{tab: Norm biaya scene}.
 
                     \begin{equation*}
                         \begin{aligned}
-                            f(G_{best}^{1}) & = 0.08048 + 0.1179 + 0.25224 + 0.0 + \cdots + + 0.5544 + 0.57158 \\
-                                            & = 18,48794
+                            f(G_{best}^{1}) & = 0.43792 + 0.78041 + 0.10994 +  \cdots + 0.27083 + 0.2561 \\
+                                            & = 19,73353
                         \end{aligned}
                     \end{equation*}
 
                     Total biaya syuting rute $G_{best}^{1}$ masih dalam bentuk yang telah dinormalisasi.
                     Agar dapat diperoleh total biaya syuting rute $G_{best}$ dalam Rupiah digunakan Persamaan \ref{pers: normalisasi minmax}.
 
+                    {\footnotesize
                     \begin{equation*}
                         \begin{aligned}
-                            \text{biaya syuting } & = f(G_{best}^{1})\cdot(\operatorname{max}(\text{biaya \textit{scene}})+\operatorname{min}(\text{biaya \textit{scene}})) + \operatorname{max}(\text{biaya \textit{scene}}) \\
-                                                  & = 18,48794\cdot (\text{Rp}628.799,5-\text{Rp}0) + \text{Rp}0                                                                                                              \\
-                                                  & = \text{Rp} 11.625.207,42803
+                            \text{biaya syuting } & = f(G_{best}^{1})\cdot(\operatorname{max}(\text{biaya \textit{scene}})+\operatorname{min}(\text{biaya \textit{scene}})) + \operatorname{min}(\text{biaya \textit{scene}}) \\
+                                                  & = 19.73353\cdot (\text{Rp}580.109,48-\text{Rp}0) + \text{Rp}0                                                                                                             \\
+                                                  & = \text{Rp} 11.447.607,82686
                         \end{aligned}
                     \end{equation*}
+                    }
 
                     Setelah diubah indeks \textit{scene} pada rute $G_{best}^{1}$ agar didapatkan urutan \textit{scene} syuting yaitu:
-                    0-44-59-58-35-27-40-51-11-12-24-32-37-5-48-18-16-8-14-\newline
-                    42-56-2-46-38-43-29-21-4-52-31-57-28-45-13-17-33-41-9-34-30-36-20-3-\newline
-                    55-54-39-19-47-22-23-53-10-26-7-6-15-50-25-1-49-0
+                    4-21B-22C-19-31-32B-1C-17-25-12B-15-16D-7A-26-11-20 \newline
+                    -29B-22B-34-23B-29A-1D-32A-23A-2A-19B-33B-2B-30A-37-9A-27- \newline
+                    35A-33A-13-14B-1E-3-21A-36-30B-6A-12A-35B-5-22A-34B-18-16B-\newline
+                    30C-16A-10-6B-24-28-14A-8-9B-16C-7B-4
 
           \end{enumerate}
 
@@ -1306,50 +1309,14 @@ Dimensi dari konsep TSP pada optimalisasi urutan \textit{scene} syuting film "Ke
 
         \begin{figure}
             \centering
-            \begin{tikzpicture}
-                \begin{axis}[
-                        xlabel={Ukuran \textit{Swarm} $(N)$},
-                        ylabel={Rata-rata Nilai \textit{Fitness}},
-                        ylabel style={yshift=9pt},
-                        title={Hasil Pengujian Ukuran \textit{Swarm} $(N)$},
-                        grid=major,
-                        ymin=0.064, ymax=0.072,
-                        % ytick={0.06495, 0.06767, 0.06926, 0.06844, 0.07017, 0.06937, 0.06082, 0.07007, 0.07123, 0.06993},
-                        xtick={50,100,150,200,250,300,350,400,450,500,600},
-                        x tick label style={rotate=45, anchor=east},
-                        width=12cm,
-                        height=6cm,
-                        mark size=3pt,
-                        yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=5},
-                        scaled y ticks=false,
-                    ]
-
-                    \addplot[
-                        color=blue,
-                        mark=*,
-                        thick
-                    ]
-                    coordinates {
-                            (50,0.06495)
-                            (100,0.06767)
-                            (150,0.06926)
-                            (200,0.06844)
-                            (250,0.07017)
-                            (300,0.06937)
-                            (350,0.06982)
-                            (400,0.07007)
-                            (450,0.07123)
-                            (500,0.06993)
-                        };
-
-                \end{axis}
-            \end{tikzpicture}
+            \includegraphics[width=0.9\linewidth]{gambar/Grafik Pengujian Ukuran Swarm.png}
             \caption{Grafik Hasil Pengujian Ukuran \textit{Swarm} $(N)$}
             \label{gam: grafik uji ukuran swarm}
         \end{figure}
 
         Berdasarkan grafik pada Gambar \ref{gam: grafik uji ukuran swarm} menunjukkan bahwa semakin besar nilai parameter ukuran \textit{swarm} maka semakin bagus nilai fungsi \textit{fitness} yang dihasilkan.
-        Pengujian parameter ukuran \textit{swarm} pada penelitian ini, nilai fungsi \textit{fitness} terbaik dicapai pada ukuran \textit{swarm} sebesar 450 partikel dengan rata-rata nilai fungsi \textit{fitness} sebesar $0,07123$.
+        Namun terlihat bahwa setelah ukuran \textit{swarm} mencapai 250, rata-rata nilai \textit{fitness} yang dihasilkan menurun dan kembali meningkat pada ukuran \textit{swarm} lebih dari 400.
+        Pengujian parameter ukuran \textit{swarm} pada penelitian ini, nilai fungsi \textit{fitness} terbaik dicapai pada ukuran \textit{swarm} sebesar 250 partikel dengan rata-rata nilai fungsi \textit{fitness} sebesar $0,0703$.
         Nilai parameter ukuran \textit{swarm} tersebut dipilih sebagai parameter awal pada proses perhitungan algoritma PSO untuk optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
     }
 
@@ -1364,49 +1331,13 @@ Dimensi dari konsep TSP pada optimalisasi urutan \textit{scene} syuting film "Ke
 
         \begin{figure}
             \centering
-            \begin{tikzpicture}
-                \begin{axis}[
-                        xlabel={Iterasi Maksimum $(n)$},
-                        ylabel={Rata-rata Nilai \textit{Fitness}},
-                        ylabel style={yshift=9pt},
-                        title={Hasil Pengujian Iterasi Maksimum $(n)$},
-                        grid=major,
-                        ymin=0.06400, ymax=0.07400,
-                        xtick={100,200,300,400,500,600,700,800,900,1000},
-                        x tick label style={rotate=45, anchor=east},
-                        width=12cm,
-                        height=6cm,
-                        mark size=3pt,
-                        yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=5},
-                        scaled y ticks=false,
-                    ]
-
-                    \addplot[
-                        color=blue,
-                        mark=*,
-                        thick
-                    ]
-                    coordinates {
-                            (100,0.06468)
-                            (200,0.06872)
-                            (300,0.06766)
-                            (400,0.07018)
-                            (500,0.06903)
-                            (600,0.06856)
-                            (700,0.06979)
-                            (800,0.07036)
-                            (900,0.07116)
-                            (1000,0.07185)
-                        };
-
-                \end{axis}
-            \end{tikzpicture}
+            \includegraphics[width=0.9\linewidth]{gambar/Grafik Pengujian Iterasi Maksimum.png}
             \caption{Grafik Hasil Pengujian Iterasi Maksimum $(n)$}
             \label{gam: grafik uji iterasi maksimum}
         \end{figure}
 
         Berdasarkan grafik pada Gambar \ref{gam: grafik uji iterasi maksimum} menunjukkan bahwa semakin besar nilai parameter iterasi maksimum maka semakin bagus nilai fungsi \textit{fitness} yang dihasilkan.
-        Pengujian parameter iterasi maksimum pada penelitian ini, nilai fungsi \textit{fitness} terbaik dicapai pada iterasi maksimum sebesar $1000$ dengan rata-rata nilai fungsi \textit{fitness} sebesar $0,07185$.
+        Pengujian parameter iterasi maksimum pada penelitian ini, nilai fungsi \textit{fitness} terbaik dicapai pada iterasi maksimum sebesar $900$ dengan rata-rata nilai fungsi \textit{fitness} sebesar $0,06809$.
         Nilai parameter iterasi maksimum tersebut dipilih sebagai parameter awal pada proses perhitungan algoritma PSO untuk optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
     }
 
@@ -1421,41 +1352,13 @@ Dimensi dari konsep TSP pada optimalisasi urutan \textit{scene} syuting film "Ke
 
         \begin{figure}
             \centering
-            \begin{tikzpicture}
-                \begin{axis}[
-                        xlabel={Faktor \textit{Clamping} $(\varepsilon)$},
-                        ylabel={Rata-rata Nilai \textit{Fitness}},
-                        ylabel style={yshift=9pt},
-                        title={Hasil Pengujian Faktor \textit{Clamping} $(\varepsilon)$},
-                        grid=major,
-                        ymin=0.06200, ymax=0.068,
-                        xtick={0.1, 0.2, 0.3},
-                        width=12cm,
-                        height=6cm,
-                        mark size=3pt,
-                        yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=5},
-                        scaled y ticks=false,
-                    ]
-
-                    \addplot[
-                        color=blue,
-                        mark=*,
-                        thick
-                    ]
-                    coordinates {
-                            (0.1, 0.06382)
-                            (0.2, 0.06313)
-                            (0.3, 0.06681)
-                        };
-
-                \end{axis}
-            \end{tikzpicture}
+            \includegraphics[width=0.9\linewidth]{gambar/Grafik Pengujian Faktor Clamping.png}
             \caption{Grafik Hasil Pengujian Iterasi Maksimum $(n)$}
             \label{gam: grafik uji faktor clamping}
         \end{figure}
 
         Berdasarkan grafik pada Gambar \ref{gam: grafik uji faktor clamping} menunjukkan bahwa semakin besar nilai parameter faktor \textit{clamping} pada \textit{velocity} maksimum maka semakin bagus nilai fungsi \textit{fitness} yang dihasilkan.
-        Pengujian parameter faktor \textit{clamping} pada penelitian ini, nilai fungsi \textit{fitness} terbaik dicapai pada faktor \textit{clamping} sebesar $0.3$ dengan rata-rata nilai fungsi \textit{fitness} sebesar $0,06681$.
+        Pengujian parameter faktor \textit{clamping} pada penelitian ini, nilai fungsi \textit{fitness} terbaik dicapai pada faktor \textit{clamping} sebesar $0.3$ dengan rata-rata nilai fungsi \textit{fitness} sebesar $0,06664$.
         Nilai parameter faktor \textit{clamping} pada \textit{velocity} maksimum tersebut dipilih sebagai parameter awal pada proses perhitungan algoritma PSO untuk optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang".
     }
 
@@ -1474,8 +1377,8 @@ Parameter awal tersebut ditetapkan pada langkah inisialisasi pada proses perhitu
 Penetapan parameter awal pada langkah inisialisasi dalam proses perhitungan algoritma PSO untuk hasil optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dapat dijelaskan sebagai berikut.
 
 \begin{enumerate}[align = left, left = 0cm, nolistsep]
-    \item Iterasi maksimum: $n = 1000$
-    \item Ukuran \textit{swarm}: $N = 450$
+    \item Iterasi maksimum: $n = 900$
+    \item Ukuran \textit{swarm}: $N = 250$
     \item Batas posisi: $X_{min} = -10$ dan $X_{max} = 10$
     \item Faktor \textit{clamping} pada \textit{velocity} maksimum: $\varepsilon = 0,3$
     \item Batas \textit{velocity} maksimum: $V_{max} = \varepsilon (X_{max}-X_{min}) = 0,3(10-(-10)) = 6$

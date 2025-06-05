@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.22)  5 JUN 2025 11:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.22)  5 JUN 2025 15:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2016,315 +2016,318 @@ Underfull \hbox (badness 10000) in paragraph at lines 1036--1036
  []
 
 [52] [53] [54] [55]
-Overfull \hbox (1.32126pt too wide) in alignment at lines 1216--1216
+Overfull \hbox (4.65121pt too wide) in alignment at lines 1216--1216
  [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.32126pt too wide) in alignment at lines 1216--1216
+Overfull \hbox (4.65121pt too wide) in alignment at lines 1216--1216
  [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.32126pt too wide) in alignment at lines 1216--1216
+Overfull \hbox (4.65121pt too wide) in alignment at lines 1216--1216
  [] [] [] [] [] [] [] [] [] 
  []
 
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1223
+[56] [57] [58]
+<gambar/Grafik Pengujian Ukuran Swarm.png, id=1161, 722.7pt x 433.62pt>
+File: gambar/Grafik Pengujian Ukuran Swarm.png Graphic file (type png)
+<use gambar/Grafik Pengujian Ukuran Swarm.png>
+Package pdftex.def Info: gambar/Grafik Pengujian Ukuran Swarm.png  used on input line 1312.
+(pdftex.def)             Requested size: 358.50229pt x 215.1024pt.
+ [59 <./gambar/Grafik Pengujian Ukuran Swarm.png>]
+<gambar/Grafik Pengujian Iterasi Maksimum.png, id=1173, 722.7pt x 433.62pt>
+File: gambar/Grafik Pengujian Iterasi Maksimum.png Graphic file (type png)
+<use gambar/Grafik Pengujian Iterasi Maksimum.png>
+Package pdftex.def Info: gambar/Grafik Pengujian Iterasi Maksimum.png  used on input line 1334.
+(pdftex.def)             Requested size: 358.50229pt x 215.1024pt.
+ [60 <./gambar/Grafik Pengujian Iterasi Maksimum.png>]
+<gambar/Grafik Pengujian Faktor Clamping.png, id=1181, 722.7pt x 433.62pt>
+File: gambar/Grafik Pengujian Faktor Clamping.png Graphic file (type png)
+<use gambar/Grafik Pengujian Faktor Clamping.png>
+Package pdftex.def Info: gambar/Grafik Pengujian Faktor Clamping.png  used on input line 1355.
+(pdftex.def)             Requested size: 358.50229pt x 215.1024pt.
 
- []
-
-
-Overfull \hbox (1.90605pt too wide) detected at line 1244
-[][]
- []
-
-
-Overfull \hbox (67.84988pt too wide) detected at line 1255
-[][]
- []
-
-[57] [58] [59] [60]
-Overfull \hbox (8.74617pt too wide) in paragraph at lines 1467--1467
+Overfull \hbox (8.74617pt too wide) in paragraph at lines 1370--1370
 \OT1/ptm/b/n/12 Su-dah Tidak Lagi Berku-man-dang" meng-gu-na-kan Al-go-ritma \OT1/ptm/b/it/12 Par-ti-cle Swarm
  []
 
-[61] [62]
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+[61 <./gambar/Grafik Pengujian Faktor Clamping.png>] [62]
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-52-55-36-50-14-48-27-5-19-38-4-18-35-10-21-31-44-43-45-15-28-32-13-23-57-51-6-46-26-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-52-55-36-50-14-48-27-5-19-38-4-18-35-10-21-31-44-43-45-15-28-32-13-23-57-51-6-46-26-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-52-55-36-50-14-48-27-5-19-38-4-18-35-10-21-31-44-43-45-15-28-32-13-23-57-51-6-46-26-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-10-14-27-48-50-52-55-36-19-5-38-45-18-44-4-32-21-35-6-43-15-23-39-28-13-46-31-51-57-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-10-14-27-48-50-52-55-36-19-5-38-45-18-44-4-32-21-35-6-43-15-23-39-28-13-46-31-51-57-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-10-14-27-48-50-52-55-36-19-5-38-45-18-44-4-32-21-35-6-43-15-23-39-28-13-46-31-51-57-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-10-14-27-48-50-52-55-36-19-5-38-45-18-44-4-32-21-35-6-43-15-23-39-28-13-46-31-51-57-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-18-27-52-36-55-19-4-48-44-5-38-14-32-10-50-43-45-35-21-31-47-15-13-6-51-57-28-23-26-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-19-27-52-55-36-4-44-18-10-48-14-5-38-21-32-50-51-6-45-35-13-43-15-31-47-23-28-26-57-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-19-27-52-55-36-4-44-18-10-48-14-5-38-21-32-50-51-6-45-35-13-43-15-31-47-23-28-26-57-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-19-27-52-55-36-4-44-18-10-48-14-5-38-21-32-50-51-6-45-35-13-43-15-31-47-23-28-26-57-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-57-6-45-47-11-43-23-51-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-57-6-45-47-11-43-23-51-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-57-6-45-47-11-43-23-51-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-57-6-45-47-11-43-23-51-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-57-6-45-47-11-43-23-51-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-57-6-45-47-11-43-23-51-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1567
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-57-6-45-47-11-43-23-51-
  []
 
 [63] [64]
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-52-55-36-50-14-48-27-5-19-38-4-18-35-10-21-31-44-43-45-15-28-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 32-13-23-57-51-6-46-26-47-39-49-2-37-29-11-16-53-59-56-1-20-54-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-52-55-36-50-14-48-27-5-19-38-4-18-35-10-21-31-44-43-45-15-28-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 32-13-23-57-51-6-46-26-47-39-49-2-37-29-11-16-53-59-56-1-20-54-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-52-55-36-50-14-48-27-5-19-38-4-18-35-10-21-31-44-43-45-15-28-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 32-13-23-57-51-6-46-26-47-39-49-2-37-29-11-16-53-59-56-1-20-54-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-10-14-27-48-50-52-55-36-19-5-38-45-18-44-4-32-21-35-6-43-15-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 23-39-28-13-46-31-51-57-47-49-2-29-26-53-20-11-1-56-25-58-54-30-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-10-14-27-48-50-52-55-36-19-5-38-45-18-44-4-32-21-35-6-43-15-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 23-39-28-13-46-31-51-57-47-49-2-29-26-53-20-11-1-56-25-58-54-30-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-10-14-27-48-50-52-55-36-19-5-38-45-18-44-4-32-21-35-6-43-15-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 23-39-28-13-46-31-51-57-47-49-2-29-26-53-20-11-1-56-25-58-54-30-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-10-14-27-48-50-52-55-36-19-5-38-45-18-44-4-32-21-35-6-43-15-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 23-39-28-13-46-31-51-57-47-49-2-29-26-53-20-11-1-56-25-58-54-30-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-18-27-52-36-55-19-4-48-44-5-38-14-32-10-50-43-45-35-21-31-47-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 15-13-6-51-57-28-23-26-39-46-29-53-2-49-37-20-11-1-58-16-30-59-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-19-27-52-55-36-4-44-18-10-48-14-5-38-21-32-50-51-6-45-35-13-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 43-15-31-47-23-28-26-57-29-53-39-11-20-46-58-16-37-49-2-30-3-24-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-19-27-52-55-36-4-44-18-10-48-14-5-38-21-32-50-51-6-45-35-13-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 43-15-31-47-23-28-26-57-29-53-39-11-20-46-58-16-37-49-2-30-3-24-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-19-27-52-55-36-4-44-18-10-48-14-5-38-21-32-50-51-6-45-35-13-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 43-15-31-47-23-28-26-57-29-53-39-11-20-46-58-16-37-49-2-30-3-24-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 57-6-45-47-11-43-23-51-26-46-39-56-53-16-3-29-49-2-30-37-59-20-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 57-6-45-47-11-43-23-51-26-46-39-56-53-16-3-29-49-2-30-37-59-20-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 57-6-45-47-11-43-23-51-26-46-39-56-53-16-3-29-49-2-30-37-59-20-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 57-6-45-47-11-43-23-51-26-46-39-56-53-16-3-29-49-2-30-37-59-20-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 57-6-45-47-11-43-23-51-26-46-39-56-53-16-3-29-49-2-30-37-59-20-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 57-6-45-47-11-43-23-51-26-46-39-56-53-16-3-29-49-2-30-37-59-20-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\OT1/ptm/m/n/8 0-14-27-28-31-32-36-38-52-55-19-5-4-10-13-48-18-50-15-44-35-21-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1650
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \OT1/ptm/m/n/8 57-6-45-47-11-43-23-51-26-46-39-56-53-16-3-29-49-2-30-37-59-20-
  []
 
 [65]
-<gambar/grafik akhir.png, id=1217, 722.7pt x 433.62pt>
+<gambar/grafik akhir.png, id=1223, 722.7pt x 433.62pt>
 File: gambar/grafik akhir.png Graphic file (type png)
 <use gambar/grafik akhir.png>
-Package pdftex.def Info: gambar/grafik akhir.png  used on input line 1658.
+Package pdftex.def Info: gambar/grafik akhir.png  used on input line 1561.
 (pdftex.def)             Requested size: 358.50229pt x 215.1024pt.
  [66]) [67 <./gambar/grafik akhir.png>] (badan_skripsi/05_Bab_5.tex) (perangkat_skripsi/09_Daftar_Pustaka.tex [68
 
@@ -2357,17 +2360,17 @@ Package logreq Info: Writing requests to 'maindoc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55375 strings out of 474824
- 1234710 string characters out of 5757048
- 2418489 words of memory out of 5000000
- 75932 multiletter control sequences out of 15000+600000
+ 55012 strings out of 474824
+ 1224470 string characters out of 5757048
+ 2418493 words of memory out of 5000000
+ 75569 multiletter control sequences out of 15000+600000
  599159 words of font info for 126 fonts, out of 8000000 for 9000
  1197 hyphenation exceptions out of 8191
  102i,15n,131p,1520b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files (Mamas)/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on maindoc.pdf (100 pages, 3644271 bytes).
+Output written on maindoc.pdf (100 pages, 4070052 bytes).
 PDF statistics:
- 1487 PDF objects out of 1728 (max. 8388607)
+ 1493 PDF objects out of 1728 (max. 8388607)
  403 named destinations out of 1000 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 488 words of extra memory for PDF output out of 10000 (max. 10000000)
 
