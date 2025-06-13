@@ -14,6 +14,7 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Grafik Hasil Pengujian Ukuran \textit {Swarm} $(N)$}}{59}{figure.caption.17}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Grafik Hasil Pengujian Iterasi Maksimum $(n)$}}{60}{figure.caption.18}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Grafik Hasil Pengujian Iterasi Maksimum $(n)$}}{61}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Grafik Perubahan Total Biaya Syuting $G_{best}$ pada Setiap Iterasi}}{67}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Rute Optimal Urutan Syuting \textit {Scene} Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}}{67}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Grafik Perubahan Nilai Fungsi \textit {Fitness} $G_{best}$ pada Setiap Iterasi}}{67}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Grafik Perubahan Total Biaya Syuting (Rp) $G_{best}$ pada Setiap Iterasi}}{68}{figure.caption.21}%
+\addvspace {10\p@ }
 \contentsfinish 

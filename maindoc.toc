@@ -44,14 +44,18 @@
 \contentsline {section}{\numberline {3.6}Teknik Analisis Data}{27}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Kerangka Penelitian}{29}{section.3.7}%
 \contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{30}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Model Graf \textit {Scene} Film "Ketika Adzan Sudah Tidak Lagi\newline Berkumandang"}{30}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Model Matematika Konsep \textit {Traveling Salesman Problem} untuk Pemilihan \\Urutan Syuting \textit {Scene}}{39}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Penerapan Algoritma \textit {Particle Swarm Optimization} (PSO) untuk Optimalisasi Pemilihan Urutan \textit {Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}{41}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Analisis Hasil Pengujian Modifikasi Nilai Parameter Algoritma \textit {Particle Swarm Optimization} (PSO) untuk Optimalisasi Pemilihan Urutan \textit {Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}{58}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Hasil Pengujian Ukuran \textit {Swarm}}{59}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Hasil Pengujian Iterasi Maksimum}{60}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Hasil Pengujian Faktor \textit {Clamping} pada \textit {Velocity} Maksimum}{60}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Hasil Optimalisasi Pemilihan Urutan \textit {Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang" menggunakan Algoritma \textit {Particle Swarm Optimization} (PSO)}{61}{section.4.5}%
-\contentsline {chapter}{\textbf {DAFTAR PUSTAKA}}{68}{section*.22}%
-\contentsline {chapter}{\textbf {LAMPIRAN}}{72}{section*.24}%
+\contentsline {section}{\numberline {4.1}Model Graf dan Model Matematika Pemilihan Urutan \textit {Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi\newline Berkumandang"}{30}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Model Graf Pemilihan Urutan \textit {Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}{30}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Model Matematika Konsep \textit {Traveling Salesman Problem} untuk Pemilihan Urutan Syuting \textit {Scene}}{39}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Penerapan Algoritma \textit {Particle Swarm Optimization} (PSO) untuk Optimalisasi Pemilihan Urutan \textit {Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang"}{41}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Proses Normalisasi Data}{41}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Proses Algoritma PSO}{42}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Analisis Hasil Pengujian Modifikasi Nilai Parameter PSO}{58}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Analisis Hasil Perhitungan Algoritma PSO}{61}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Hasil Optimalisasi Pemilihan Urutan \textit {Scene} Syuting Film "Ketika Adzan Sudah Tidak Lagi Berkumandang" menggunakan Algoritma \textit {Particle Swarm Optimization} (PSO)}{68}{section.4.3}%
+\contentsline {chapter}{\numberline {V}PENUTUP}{70}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{70}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{71}{section.5.2}%
+\contentsline {chapter}{\textbf {DAFTAR PUSTAKA}}{72}{section*.22}%
+\contentsline {chapter}{\textbf {LAMPIRAN}}{76}{section*.24}%
 \contentsfinish 

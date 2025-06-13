@@ -1,0 +1,74 @@
+% Memberikan label pada bab ini
+\renewcommand{\thechapter}{\Roman{chapter}}
+\chapter{PENUTUP}\label{babLima}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\vspace{8mm}
+
+% Penjelasan umum mengenai isi bab
+% {\frenchspacing
+%     Berdasarkan rumusan masalah dan hasil perhitungan algoritma \textit{particle swarm optimization} (PSO) untuk optimalisasi pemilihan urutan \textit{scene} syuting film "Ketika Adzan Sudah Tidak Lagi Berkumandang"
+%     dapat diambil kesimpulan sebagai berikut:
+% }
+
+% Sub Bab
+\section{Kesimpulan}
+\vspace{-4mm}
+{\frenchspacing
+    Kesimpulan yang dapat diambil dari hasil penelitian Optimalisasi Pemilihan Urutan Syuting \textit{Scene} Film Menggunakan Algoritma \textit{Particle Swarm Optimization} (PSO) (Studi Kasus: Film "Ketika Adzan Sudah Tidak Lagi Berkumandang") adalah sebagai berikut:
+
+    \begin{enumerate}[align = left, left = 0cm, nolistsep]
+        \item Model graf dari pemilihan urutan syuting \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" merupakan graf lengkap yang dapat dilihat pada Gambar \ref{gam: Graf Model}.
+              Tiap \textit{scene} dalam data \textit{scene} dianalogikan sebagai \textit{vertex} dan bobot biaya syuting antar \textit{scene} sebagai \textit{edge}.
+              Model matematika pada pemilihan urutan syuting \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" dibentuk menggunakan konsep \textit{traveling salesman problem} (TSP) adalah sebagai berikut.
+
+              \noindent
+              Fungsi tujuan
+              \begin{equation}
+                  \label{pers: model matematika penelitian}
+                  \operatorname{min} f(a_{j,k}) = \sum^{59}_{i=0} \sum^{59}_{j=0} a_{j,k}(v_{j}v_{k})
+              \end{equation}
+
+              \noindent
+              Fungsi kendala
+              \begin{equation*}
+                  \begin{aligned}
+                       & \sum^{59}_{j=0} a_{j,k} = 1,    & k = 0,1,\dots,59 \\
+                       & \sum^{59}_{k=0} a_{j,k} = 1,    & j = 0,1,\dots,59 \\
+                       & a_{j,k} \in \left\{0,1\right\}, & j \neq k
+                  \end{aligned}
+              \end{equation*}
+
+              \noindent
+              Dimana $v_{j}v_{k}$ merupakan elemen matriks biaya antar \textit{scene} dari \textit{scene} ke-$j$ menuju \textit{scene} ke-$k$ sesuai Tabel \ref{tab: data biaya antar scene}
+              dan $a_{j,k}$ merupakan elemen matriks biner solusi dari TSP seperti pada Tabel \ref{tab: contoh matriks aij}.
+
+        \item Algoritma \textit{particle swarm optimization} (PSO) untuk optimalisasi pemilihan urutan syuting \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" yang diterapkan meliputi proses normalisasi data biaya antar \textit{scene}, proses algoritma PSO, pengujian modifikasi parameter PSO, dan analisis hasil perhitungan algoritma PSO.
+              Proses perhitungan algoritma PSO menggunakan nilai parameter terbaik yang diperoleh dari hasil pengujian modifikasi nilai parameter PSO.
+              Nilai parameter terbaik yang dipakai yaitu iterasi maksimum $(n)$ sebesar $900$, ukuran \textit{swarm} $(N)$ sebesar $250$, dan faktor \textit{clamping} $(\varepsilon)$ pada \textit{velocity} maksimum sebesar $0.3$.
+              Berdasarkan nilai parameter terbaik diperoleh hasil $G_{best}$ konvergen pada iterasi ke-$226$ sampai dengan iterasi ke-$900$ dengan nilai fungsi \textit{fitness} konvergen yang dicapai sebesar $0,07442$.
+
+        \item Hasil optimalisasi pemilihan urutan syuting \textit{scene} film "Ketika Adzan Sudah Tidak Lagi Berkumandang" menggunakan algoritma (PSO) memperoleh urutan syuting \textit{scene} yang optimal.
+              Urutan syuting \textit{scene} yang diperoleh dimulai dari \textit{scene}
+              4-1C-22B-27-10-12B-32A-23B-22C-2A-34B-23A-33B-33A-19-31-1E-7A-32B-24-16B-22A-3-35B-14B-9A-28-12A-29A-21B-35A-37-6A-25-8-\newline
+              7B-30A-26-16A-11-2B-19B-1D-13-5-34-6B-20-9B-15-17-16D-18-29B-30B-\newline
+              16C-30C-14A-21A-36-4. Total biaya syuting yang diperoleh dengan urutan syuting \textit{scene} tersebut sebesar Rp$7.794.359,48$.
+
+    \end{enumerate}
+
+}
+\vspace{-3mm}
+
+% Sub Bab
+\section{Saran}
+\vspace{-4mm}
+{\frenchspacing
+    Adapun saran pada penelitian ini sebagai berikut.
+
+    \begin{enumerate}[align = left, left = 0cm, nolistsep]
+        \item Penggunaan konsep \textit{traveling salesman problem} (TSP) dapat memberikan hasil lebih akurat jika variabel yang digunakan lebih kompleks atau lebih spesifik, misalnya mempertimbangkan variabel biaya properti tiap \textit{scene}, waktu perjalanan antar lokasi \textit{scene}, durasi syuting, atau batasan lainnya.
+        \item Penggunaan algoritma \textit{particle swarm optimization} (PSO) yang telah dimodifikasi dan terbarukan seperti algoritma \textit{Multi-Objective} PSO dapat memberikan solusi optimal dengan model yang lebih kompleks.
+    \end{enumerate}
+}
+\vspace{-3mm}
+
+\pagebreak

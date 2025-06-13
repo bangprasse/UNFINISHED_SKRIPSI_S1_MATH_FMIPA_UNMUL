@@ -5,7 +5,7 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Variabel Penelitian}}{26}{table.caption.13}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Data \textit {Scene} }}{30}{table.4.1}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Data \textit {Scene} }}{31}{table.4.1}%
 \contentsline {table}{\numberline {4.2}{\ignorespaces Data Biaya \textit {Talent} dalam Satu \textit {Scene}}}{32}{table.4.2}%
 \contentsline {table}{\numberline {4.3}{\ignorespaces Data Total Biaya \textit {Talent} tiap \textit {Scene}}}{33}{table.4.3}%
 \contentsline {table}{\numberline {4.4}{\ignorespaces Jarak Antar Lokasi tiap Scene dalam Satuan Kilometer}}{35}{table.4.4}%
@@ -14,7 +14,7 @@
 \contentsline {table}{\numberline {4.7}{\ignorespaces Contoh Matriks $[a_{j,k}]$}}{40}{table.4.7}%
 \contentsline {table}{\numberline {4.8}{\ignorespaces Hasil Perhitungan Normalisasi Biaya Antar \textit {Scene}}}{41}{table.4.8}%
 \contentsline {table}{\numberline {4.9}{\ignorespaces \textit {Velocity} Awal}}{43}{table.4.9}%
-\contentsline {table}{\numberline {4.10}{\ignorespaces Posisi Awal}}{43}{table.4.10}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Posisi Awal}}{44}{table.4.10}%
 \contentsline {table}{\numberline {4.11}{\ignorespaces Rute Awal}}{44}{table.4.11}%
 \contentsline {table}{\numberline {4.12}{\ignorespaces Total Biaya Syuting dan Nilai \textit {Fitness} tiap Partikel}}{46}{table.4.12}%
 \contentsline {table}{\numberline {4.13}{\ignorespaces $P_{best}$ Iterasi ke-0}}{47}{table.4.13}%
@@ -28,5 +28,6 @@
 \contentsline {table}{\numberline {4.21}{\ignorespaces $G_{best}$ pada Setiap Iterasi}}{62}{table.4.21}%
 \contentsline {table}{\numberline {4.22}{\ignorespaces Rute $G_{best}$ pada Setiap Iterasi}}{63}{table.4.22}%
 \contentsline {table}{\numberline {4.23}{\ignorespaces Total Biaya Syuting $G_{best}$ pada Setiap Iterasi}}{64}{table.4.23}%
-\contentsline {table}{\numberline {4.24}{\ignorespaces Urutan \textit {Scene} Syuting $G_{best}$ pada Setiap Iterasi}}{65}{table.4.24}%
+\contentsline {table}{\numberline {4.24}{\ignorespaces Urutan \textit {Scene} dan Total Biaya $G_{best}$ pada Setiap Iterasi}}{65}{table.4.24}%
+\addvspace {10\p@ }
 \contentsfinish 
