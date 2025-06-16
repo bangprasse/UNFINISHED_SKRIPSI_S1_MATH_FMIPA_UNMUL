@@ -123,44 +123,6 @@
       \field{pages}{117\bibrangedash 122}
       \range{pages}{6}
     \endentry
-    \entry{Amin:2023}{article}{}
-      \name{author}{3}{}{%
-        {{hash=767218542879ec25a56fa3b372daaada}{%
-           family={Amin},
-           familyi={A\bibinitperiod},
-           given={Nur\bibnamedelima Fadilah.},
-           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=323dfe6589b587e0c631153c5b47797f}{%
-           family={Garancang.},
-           familyi={G\bibinitperiod},
-           given={Sabaruddin},
-           giveni={S\bibinitperiod}}}%
-        {{hash=687d2bc4b1c0c434fcb75f14528ff786}{%
-           family={Abunawas},
-           familyi={A\bibinitperiod},
-           given={Kamaluddin},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{86a3d3032cf11703c7fcd37f03c9ab51}
-      \strng{fullhash}{080ed174036579dee87f513f1b5efc1f}
-      \strng{bibnamehash}{080ed174036579dee87f513f1b5efc1f}
-      \strng{authorbibnamehash}{080ed174036579dee87f513f1b5efc1f}
-      \strng{authornamehash}{86a3d3032cf11703c7fcd37f03c9ab51}
-      \strng{authorfullhash}{080ed174036579dee87f513f1b5efc1f}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Jurnal Kajian Islam Kontemporer (Jurnal PILAR)}
-      \field{title}{Konsep Umum Populasi dan Sampel Dalam Penelitian}
-      \field{volume}{14(1)}
-      \field{year}{2023}
-      \field{pages}{15\bibrangedash 31}
-      \range{pages}{17}
-    \endentry
     \entry{Anwar:2024}{book}{}
       \name{author}{10}{}{%
         {{hash=3bd2e23bec3eab2299b9d4930339bd69}{%
@@ -261,17 +223,17 @@
         {{hash=4a60b11c4d2eae2b0c46a0e99c6399a3}{%
            family={Azhari},
            familyi={A\bibinitperiod},
-           given={M.\bibnamedelimi Khusnul.},
+           given={M\bibnamedelima Khusnul.},
            giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
         {{hash=5bb11aca0a0e22359bdcd12a86049f85}{%
            family={Cholissodin},
            familyi={C\bibinitperiod},
-           given={Imam},
+           given={Imam.},
            giveni={I\bibinitperiod}}}%
         {{hash=33ce89c3175441b45bf903fda3db7a8d}{%
-           family={Bachtiar.},
+           family={Bachtiar},
            familyi={B\bibinitperiod},
-           given={Fitra\bibnamedelima Abdurrachman},
+           given={Fitra\bibnamedelima Abdurrachman.},
            giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
       \strng{namehash}{391ec7c5a0611ae967fd4f7715455c57}
@@ -291,8 +253,8 @@
       \field{title}{Optimasi \textit{Travel Salesman Problem} Pada Angkutan Sekolah Dengan Algoritma \textit{Particle Swarm Optimization}}
       \field{volume}{2(11)}
       \field{year}{2018}
-      \field{pages}{5691\bibrangedash 5699}
-      \range{pages}{9}
+      \field{pages}{5691\bibrangedash 5698}
+      \range{pages}{8}
     \endentry
     \entry{Bisma:2023}{article}{}
       \name{author}{2}{}{%
@@ -1391,6 +1353,42 @@
       \field{year}{2020}
       \field{pages}{7\bibrangedash 10}
       \range{pages}{4}
+    \endentry
+    \entry{Zakaria:2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=59f8ffa00aafe4303bf6c64a5814de91}{%
+           family={Zakaria},
+           familyi={Z\bibinitperiod},
+           given={Gumilar.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=37b552a911d11aec822579ad76fa12c2}{%
+           family={Mudian},
+           familyi={M\bibinitperiod},
+           given={Deni.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5fd7faee4fd1ac45088cefaba2734dac}{%
+           family={Riyanto},
+           familyi={R\bibinitperiod},
+           given={Pulung.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7bcf70f375c36fa1a8661ad448a4559}
+      \strng{fullhash}{1de0ae10053aa4a62774c1b07b9ea23c}
+      \strng{bibnamehash}{1de0ae10053aa4a62774c1b07b9ea23c}
+      \strng{authorbibnamehash}{1de0ae10053aa4a62774c1b07b9ea23c}
+      \strng{authornamehash}{b7bcf70f375c36fa1a8661ad448a4559}
+      \strng{authorfullhash}{1de0ae10053aa4a62774c1b07b9ea23c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BIORMATIKA Jurnal Ilmiah Fakultas Keguruan dan Ilmu Pendidikan}
+      \field{title}{Pengaruh Latihan \textit{Plyometrics Jump To Box} Terhadap Peningkatan \textit{Power} Tungkai Siswa Kelas X pada Permainan Bola Voli}
+      \field{volume}{5(11)}
+      \field{year}{2018}
     \endentry
     \entry{Zdiri:2021}{article}{}
       \name{author}{3}{}{%
@@ -1536,44 +1534,6 @@
       \field{pages}{117\bibrangedash 122}
       \range{pages}{6}
     \endentry
-    \entry{Amin:2023}{article}{}
-      \name{author}{3}{}{%
-        {{hash=767218542879ec25a56fa3b372daaada}{%
-           family={Amin},
-           familyi={A\bibinitperiod},
-           given={Nur\bibnamedelima Fadilah.},
-           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=323dfe6589b587e0c631153c5b47797f}{%
-           family={Garancang.},
-           familyi={G\bibinitperiod},
-           given={Sabaruddin},
-           giveni={S\bibinitperiod}}}%
-        {{hash=687d2bc4b1c0c434fcb75f14528ff786}{%
-           family={Abunawas},
-           familyi={A\bibinitperiod},
-           given={Kamaluddin},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{86a3d3032cf11703c7fcd37f03c9ab51}
-      \strng{fullhash}{080ed174036579dee87f513f1b5efc1f}
-      \strng{bibnamehash}{080ed174036579dee87f513f1b5efc1f}
-      \strng{authorbibnamehash}{080ed174036579dee87f513f1b5efc1f}
-      \strng{authornamehash}{86a3d3032cf11703c7fcd37f03c9ab51}
-      \strng{authorfullhash}{080ed174036579dee87f513f1b5efc1f}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Jurnal Kajian Islam Kontemporer (Jurnal PILAR)}
-      \field{title}{Konsep Umum Populasi dan Sampel Dalam Penelitian}
-      \field{volume}{14(1)}
-      \field{year}{2023}
-      \field{pages}{15\bibrangedash 31}
-      \range{pages}{17}
-    \endentry
     \entry{Anwar:2024}{book}{}
       \name{author}{10}{}{%
         {{hash=3bd2e23bec3eab2299b9d4930339bd69}{%
@@ -1674,17 +1634,17 @@
         {{hash=4a60b11c4d2eae2b0c46a0e99c6399a3}{%
            family={Azhari},
            familyi={A\bibinitperiod},
-           given={M.\bibnamedelimi Khusnul.},
+           given={M\bibnamedelima Khusnul.},
            giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
         {{hash=5bb11aca0a0e22359bdcd12a86049f85}{%
            family={Cholissodin},
            familyi={C\bibinitperiod},
-           given={Imam},
+           given={Imam.},
            giveni={I\bibinitperiod}}}%
         {{hash=33ce89c3175441b45bf903fda3db7a8d}{%
-           family={Bachtiar.},
+           family={Bachtiar},
            familyi={B\bibinitperiod},
-           given={Fitra\bibnamedelima Abdurrachman},
+           given={Fitra\bibnamedelima Abdurrachman.},
            giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
       \strng{namehash}{391ec7c5a0611ae967fd4f7715455c57}
@@ -1704,8 +1664,8 @@
       \field{title}{Optimasi \textit{Travel Salesman Problem} Pada Angkutan Sekolah Dengan Algoritma \textit{Particle Swarm Optimization}}
       \field{volume}{2(11)}
       \field{year}{2018}
-      \field{pages}{5691\bibrangedash 5699}
-      \range{pages}{9}
+      \field{pages}{5691\bibrangedash 5698}
+      \range{pages}{8}
     \endentry
     \entry{Bisma:2023}{article}{}
       \name{author}{2}{}{%
@@ -2804,6 +2764,42 @@
       \field{year}{2020}
       \field{pages}{7\bibrangedash 10}
       \range{pages}{4}
+    \endentry
+    \entry{Zakaria:2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=59f8ffa00aafe4303bf6c64a5814de91}{%
+           family={Zakaria},
+           familyi={Z\bibinitperiod},
+           given={Gumilar.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=37b552a911d11aec822579ad76fa12c2}{%
+           family={Mudian},
+           familyi={M\bibinitperiod},
+           given={Deni.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5fd7faee4fd1ac45088cefaba2734dac}{%
+           family={Riyanto},
+           familyi={R\bibinitperiod},
+           given={Pulung.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7bcf70f375c36fa1a8661ad448a4559}
+      \strng{fullhash}{1de0ae10053aa4a62774c1b07b9ea23c}
+      \strng{bibnamehash}{1de0ae10053aa4a62774c1b07b9ea23c}
+      \strng{authorbibnamehash}{1de0ae10053aa4a62774c1b07b9ea23c}
+      \strng{authornamehash}{b7bcf70f375c36fa1a8661ad448a4559}
+      \strng{authorfullhash}{1de0ae10053aa4a62774c1b07b9ea23c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BIORMATIKA Jurnal Ilmiah Fakultas Keguruan dan Ilmu Pendidikan}
+      \field{title}{Pengaruh Latihan \textit{Plyometrics Jump To Box} Terhadap Peningkatan \textit{Power} Tungkai Siswa Kelas X pada Permainan Bola Voli}
+      \field{volume}{5(11)}
+      \field{year}{2018}
     \endentry
     \entry{Zdiri:2021}{article}{}
       \name{author}{3}{}{%

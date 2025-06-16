@@ -31,7 +31,7 @@
 % ========================================================================
 
 % Package use for showing margin line and frames
-\RequirePackage{showframe}
+% \RequirePackage{showframe}
 
 % Write an Algorithm Block
 \RequirePackage{algorithm}
@@ -605,7 +605,7 @@
 \let\oldtextcite\textcite
 \renewcommand{\textcite}[1]{\oldtextcite{#1}\unskip}
 
-\DefineBibliographyStrings{english}{andothers={dkk\adddot}}
+\DefineBibliographyStrings{english}{andothers={dkk\adddot\addcomma\space}}
 
 \DeclareCiteCommand{\mycite}[\mkbibparens]
     {\usebibmacro{prenote}}
