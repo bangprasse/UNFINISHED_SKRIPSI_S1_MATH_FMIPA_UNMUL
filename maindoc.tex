@@ -30,49 +30,63 @@
 
 % Pengaturan format otomatis untuk susunan lembar pernyataan, pengesahan, dll mengikuti value \tahap
 \ifthenelse{\equal{\tahap}{semhas}}{
-  % => Lembar pengesahan
-  \input{perangkat_skripsi/04_Hal_Pengesahan}
+    % => Lembar pernyataan
+    % \input{perangkat_skripsi/03_Hal_Pernyataan}
 
-  % => Abstrak
-  \input{badan_skripsi/00_Abstrak}
+    % % => Lembar pengesahan
+    % \input{perangkat_skripsi/04_Hal_Pengesahan}
 
-  % => Abstract
-  \input{badan_skripsi/00_Abstract}
+    % % => Lembar publikasi
+    % \input{perangkat_skripsi/06_Hal_Publikasi}
 }{
-  \ifthenelse{\equal{\tahap}{pendadaran}}{
-    % => Lembar pengesahan
-    \input{perangkat_skripsi/04_Hal_Pengesahan}
+    \ifthenelse{\equal{\tahap}{pendadaran}}{
+        % => Lembar pengesahan
+        \input{perangkat_skripsi/04_Hal_Pengesahan}
+    }{
+        \ifthenelse{\equal{\tahap}{pengesahan}}{
+            % => Lembar pernyataan
+            \input{perangkat_skripsi/03_Hal_Pernyataan}
 
+            % => Lembar pengesahan
+            \input{perangkat_skripsi/04_Hal_Pengesahan}
+
+            % => Lembar Kelulusan
+            \input{perangkat_skripsi/05_Hal_Kelulusan}
+
+            % => Lembar publikasi
+            \input{perangkat_skripsi/06_Hal_Publikasi}
+        }
+    }
+}
+
+% => Halaman prakata
+\input{perangkat_skripsi/07_Hal_Prakata}
+
+% Pengaturan format otomatis untuk susunan lembar pernyataan, pengesahan, dll mengikuti value \tahap
+\ifthenelse{\equal{\tahap}{semhas}}{
     % => Abstrak
     \input{badan_skripsi/00_Abstrak}
 
     % => Abstract
     \input{badan_skripsi/00_Abstract}
-  }{
-    \ifthenelse{\equal{\tahap}{pengesahan}}{
-      % => Lembar pernyataan
-      \input{perangkat_skripsi/03_Hal_Pernyataan}
+}{
+    \ifthenelse{\equal{\tahap}{pendadaran}}{
+        % => Abstrak
+        \input{badan_skripsi/00_Abstrak}
 
-      % => Lembar pengesahan
-      \input{perangkat_skripsi/04_Hal_Pengesahan}
+        % => Abstract
+        \input{badan_skripsi/00_Abstract}
+    }{
+        \ifthenelse{\equal{\tahap}{pengesahan}}{
+            % => Abstrak
+            \input{badan_skripsi/00_Abstrak}
 
-      % => Lembar Kelulusan
-      \input{perangkat_skripsi/05_Hal_Kelulusan}
-
-      % => Lembar publikasi
-      \input{perangkat_skripsi/06_Hal_Publikasi}
-
-      % => Abstrak
-      \input{badan_skripsi/00_Abstrak}
-
-      % => Abstract
-      \input{badan_skripsi/00_Abstract}
+            % => Abstract
+            \input{badan_skripsi/00_Abstract}
+        }
     }
-  }
 }
 
-% => Halaman prakata
-\input{perangkat_skripsi/07_Hal_Prakata}
 
 % => Daftar isi
 % Memasukkan "DAFTAR ISI" ke dalam daftar isi
@@ -122,11 +136,11 @@
 \ifthenelse{\equal{\tahap}{sempro}}{
 
 }{
-  % => Bab 4
-  \input{badan_skripsi/04_Bab_4}
+    % => Bab 4
+    \input{badan_skripsi/04_Bab_4}
 
-  % => Bab 5
-  \input{badan_skripsi/05_Bab_5}
+    % => Bab 5
+    \input{badan_skripsi/05_Bab_5}
 }
 % ------------------------------------------------------------------------
 
@@ -139,11 +153,11 @@
 \ifthenelse{\equal{\tahap}{sempro}}{
 
 }{
-  % => Lampiran
-  \input{lampiran/01_lampiran}
+    % => Lampiran
+    \input{lampiran/01_lampiran}
 
-  % => Riwayat Hidup
-  \input{perangkat_skripsi/10_Riwayat_Hidup}
+    % => Riwayat Hidup
+    \input{perangkat_skripsi/10_Riwayat_Hidup}
 }
 % -----------------------------------------------------------------------
 

@@ -10,6 +10,24 @@ INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\bk12.clo
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\bk12.clo
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\base\bk12.clo
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\eso-pic\showframe.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\eso-pic\showframe.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\algorithms\algorithm.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\algorithms\algorithm.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\float\float.sty
@@ -62,8 +80,6 @@ INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mathtools\mathtools.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\keyval.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\calc.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\tools\calc.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\mathtools\mhsetup.sty
@@ -83,9 +99,6 @@ INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\trig.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
@@ -112,14 +125,6 @@ INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
@@ -438,8 +443,6 @@ INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\ifmtarg\ifmtarg.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\ifmtarg\ifmtarg.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdfpages\pdfpages.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdfpages\pdfpages.sty
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\eso-pic\eso-pic.sty
-INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\eso-pic\eso-pic.sty
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT D:\Program Files (Mamas)\MiKTeX\tex\latex\pdfpages\pppdftex.def
@@ -593,11 +596,14 @@ INPUT .\perangkat_skripsi\02_Sampul_Dalam.tex
 INPUT perangkat_skripsi\02_Sampul_Dalam.tex
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT .\perangkat_skripsi\04_Hal_Pengesahan.tex
-INPUT .\perangkat_skripsi\04_Hal_Pengesahan.tex
-INPUT .\perangkat_skripsi\04_Hal_Pengesahan.tex
-INPUT .\perangkat_skripsi\04_Hal_Pengesahan.tex
-INPUT perangkat_skripsi\04_Hal_Pengesahan.tex
+INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
+INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
+INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
+INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
+INPUT perangkat_skripsi\07_Hal_Prakata.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\badan_skripsi\00_Abstrak.tex
 INPUT .\badan_skripsi\00_Abstrak.tex
 INPUT .\badan_skripsi\00_Abstrak.tex
@@ -608,14 +614,6 @@ INPUT .\badan_skripsi\00_Abstract.tex
 INPUT .\badan_skripsi\00_Abstract.tex
 INPUT .\badan_skripsi\00_Abstract.tex
 INPUT badan_skripsi\00_Abstract.tex
-INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
-INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
-INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
-INPUT .\perangkat_skripsi\07_Hal_Prakata.tex
-INPUT perangkat_skripsi\07_Hal_Prakata.tex
-INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT D:\Program Files (Mamas)\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\maindoc.toc
 INPUT .\maindoc.toc
 INPUT maindoc.toc
@@ -781,6 +779,10 @@ INPUT .\lampiran\01_lampiran.tex
 INPUT .\lampiran\01_lampiran.tex
 INPUT .\lampiran\01_lampiran.tex
 INPUT lampiran\01_lampiran.tex
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\perangkat_skripsi\10_Riwayat_Hidup.tex
 INPUT .\perangkat_skripsi\10_Riwayat_Hidup.tex
 INPUT .\perangkat_skripsi\10_Riwayat_Hidup.tex
@@ -797,6 +799,8 @@ INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
@@ -805,10 +809,14 @@ INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmmib8.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmmib8.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
@@ -817,6 +825,8 @@ INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
+INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT D:\Program Files (Mamas)\MiKTeX\fonts\type1\urw\times\utmb8a.pfb

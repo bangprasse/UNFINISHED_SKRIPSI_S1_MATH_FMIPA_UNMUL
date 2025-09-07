@@ -31,7 +31,7 @@
 % ========================================================================
 
 % Package use for showing margin line and frames
-% \RequirePackage{showframe}
+\RequirePackage{showframe}
 
 % Write an Algorithm Block
 \RequirePackage{algorithm}
@@ -327,8 +327,8 @@
 \RequirePackage{float}
 
 % Setup floating position of objects
-\floatplacement{figure}{H} % for figure
-\floatplacement{table}{H} % for table
+\floatplacement{figure}{H} % for figures
+\floatplacement{table}{H} % for tables
 \floatplacement{algorithm}{H} % for algorithm block
 \floatplacement{subfig}{H} % for subfig
 \floatplacement{wrapfig}{H} % for wrapfig
@@ -385,7 +385,7 @@
 \setcounter{secnumdepth}{3}
 
 % Setup depth of TOC
-\setcounter{tocdepth}{3}
+\setcounter{tocdepth}{2}
 
 % Format the TOC titles
 \renewcommand{\contentsname}{DAFTAR ISI}
